@@ -1,0 +1,79 @@
+AKASH AA
+Email: akashnandhu004@gmail.com|Phone: +91 7012780426
+GitHub: https://github.com/akashnandhu
+LinkedIn: https://www.linkedin.com/in/akash-aa-892591368
+
+### SUMMARY
+
+Enthusiastic and detail-oriented Data Science student with a strong foundation in Python,
+machine learning, and data analysis. Passionate about extracting insights from data and
+building data-driven solutions. Quick learner with strong problem-solving 
+### SKILLS
+ and a keen
+interest in analytics and predictive modelling. Eager to contribute to a dynamic team and
+grow in a professional data science environment.
+INTERNSHIP /
+### EXPERIENCE
+
+Data Science &AI - Scope India | (Ongoing)
+July 2025–
+ Developed and analysed datasets using Python, Pandas, and NumPy for data
+cleaning, preprocessing, and exploratory data analysis.
+ Built and evaluated machine learning models using algorithms such as Linear
+Regression, Logistic Regression, and Decision Trees.
+ Worked on data visualization using Matplotlib and Seaborn to present insights
+clearly.
+ Implemented end-to-end data science 
+### PROJECTS
+, including data collection,
+feature engineering, model training, and performance evaluation.
+ Collaborated with team members to interpret results and improve model
+accuracy and efficiency
+
+### PROJECTS
+
+Developed an E-Commerce Website for an Online Bus Management System
+Built a dynamic e-commerce–style web application for an online bus management system
+using HTML, CSS, JavaScript, and Bootstrap. Designed a responsive interface to ensure
+seamless access across all devices. Implemented key features such as bus search, route and
+schedule listing, seat availability, ticket booking, fare calculation, and booking 
+### SUMMARY
+.
+Focused on performance, usability, and an intuitive user 
+### EXPERIENCE
+ throughout the
+application.
+Online Food Store Web Application (Ongoing Project)
+Currently developing a responsive and modern online food store web application using
+HTML, CSS, JavaScript, Bootstrap, Python, and MSSQL. The platform focuses on a user-
+friendly interface with smooth navigation to ensure an efficient and seamless ordering
+
+### EXPERIENCE
+ across all devices. functionalities include food item listing, category filtering, cart
+management, order processing, and secure data handling.
+TECH 
+### SKILLS
+
+PROGRAMMING LANGUAGES : Python, Html, Css, JavaScript
+DATA ANALYTICS TOOLS : Pandas, NumPy, Scikit-learn
+DATA SCIENCE : Machine Learning
+PYTHON FRAMEWORKS : Django
+DATABASE : Sql(Mysql, Sqlite)
+DATA VISUALIZATION : Power BI, Tableau, Matplotlib, Seaborn
+
+### EDUCATION
+
+Bachelor of Computer Science (BSC), 2022-2025
+University Institute Of Technology Kuravankonam(Kerala University)
+Higher Secondary School , 2020-2022
+St Joseph Higher Secondary School, Thiruvananthapuram
+Secondary School , 2019
+St joseph Higher Secondary School, Thiruvananthapuram
+LANGUAGES
+- ENGLISH
+- MALAYALAM
+- HINDI
+DECLARATION
+I do hereby declare that all the above information is true to the best of my knowledge
+and belief.
+AKASH AA

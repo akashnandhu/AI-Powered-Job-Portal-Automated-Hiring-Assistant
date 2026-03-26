@@ -7,7 +7,7 @@ def get_logger(name="ai_system"):
     Initializes and returns a logger with rotating file handler and console handler.
     Logs are stored in the 'data/logs' directory.
     """
-    log_dir = "data/logs"
+    log_dir = "logs"
     if not os.path.exists(log_dir):
         os.makedirs(log_dir)
 
@@ -18,7 +18,7 @@ def get_logger(name="ai_system"):
     if not logger.handlers:
         # File handler (rotates after 5MB, keeps 3 backups)
         file_handler = RotatingFileHandler(
-            os.path.join(log_dir, 'ai_activities.log'), 
+            os.path.join(log_dir, 'extraction.log'), 
             maxBytes=5*1024*1024, 
             backupCount=3
         )

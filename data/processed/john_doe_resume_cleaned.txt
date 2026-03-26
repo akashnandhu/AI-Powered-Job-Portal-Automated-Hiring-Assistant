@@ -1,0 +1,16 @@
+John Doe
+john.doe@email.com | 123-456-7890
+
+### SUMMARY
+
+Experienced software engineer with 5 years in backend development.
+
+### EXPERIENCE
+
+Senior Dev at Tech Corp
+- Built scalable APIs using Flask and Python
+- Optimized database performance by 40%
+
+### SKILLS
+
+Python, AWS, Docker, PostgreSQL
