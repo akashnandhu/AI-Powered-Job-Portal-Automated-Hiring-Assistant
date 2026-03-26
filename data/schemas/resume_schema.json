@@ -1,0 +1,83 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "CandidateProfile",
+  "type": "object",
+  "properties": {
+    "candidate_id": { "type": "string", "description": "Unique identifier for the candidate" },
+    "personal_info": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "email": { "type": "string", "format": "email" },
+        "phone": { "type": "string" },
+        "location": { "type": "string" }
+      },
+      "required": ["name", "email"]
+    },
+    "summary": { "type": "string", "description": "Professional summary or objective" },
+    "experience": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/ExperienceObject" }
+    },
+    "education": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "degree": { "type": "string" },
+          "institution": { "type": "string" },
+          "start_date": { "type": "string", "format": "date" },
+          "end_date": { "type": "string", "format": "date" },
+          "gpa": { "type": "number" }
+        },
+        "required": ["degree", "institution"]
+      }
+    },
+    "skills": {
+      "type": "array",
+      "items": { "$ref": "#/definitions/SkillObject" }
+    },
+    "certifications": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": { "type": "string" },
+          "issuer": { "type": "string" },
+          "issue_date": { "type": "string", "format": "date" },
+          "expiry_date": { "type": "string", "format": "date" }
+        },
+        "required": ["name", "issuer"]
+      }
+    }
+  },
+  "required": ["candidate_id", "personal_info", "experience", "education", "skills"],
+  "definitions": {
+    "ExperienceObject": {
+      "type": "object",
+      "properties": {
+        "job_title": { "type": "string" },
+        "company": { "type": "string" },
+        "start_date": { "type": "string", "format": "date" },
+        "end_date": { "type": "string", "format": "date", "description": "Null if currently employed" },
+        "duration_months": { "type": "integer" },
+        "description": { "type": "string" },
+        "achievements": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      },
+      "required": ["job_title", "company", "start_date"]
+    },
+    "SkillObject": {
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "category": { "type": "string", "enum": ["hard", "soft", "technical", "domain"] },
+        "proficiency": { "type": "string", "enum": ["beginner", "intermediate", "advanced", "expert"] },
+        "years_of_experience": { "type": "number" }
+      },
+      "required": ["name", "category"]
+    }
+  }
+}

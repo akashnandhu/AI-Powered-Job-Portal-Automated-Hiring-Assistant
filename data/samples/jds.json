@@ -1,0 +1,86 @@
+[
+  {
+    "job_id": "jd_001",
+    "title": "Senior Data Scientist",
+    "department": "Analytics",
+    "location": "New York, NY",
+    "employment_type": "full-time",
+    "description": "We are seeking a Senior Data Scientist to architect and implement large-scale predictive models for our core product.",
+    "experience_requirements": {
+      "min_years": 4,
+      "max_years": 8,
+      "preferred_industry": "FinTech"
+    },
+    "education_requirements": [
+      {
+        "degree": "Master's or Ph.D. in Computer Science, Statistics, or related field",
+        "field_of_study": "Data Science",
+        "is_mandatory": true
+      }
+    ],
+    "required_skills": [
+      {
+        "name": "Python",
+        "is_mandatory": true,
+        "min_years_experience": 4
+      },
+      {
+        "name": "Machine Learning",
+        "is_mandatory": true,
+        "min_years_experience": 3
+      },
+      {
+        "name": "AWS",
+        "is_mandatory": false,
+        "min_years_experience": 2
+      }
+    ],
+    "roles_and_responsibilities": [
+      "Develop and deploy advanced machine learning models.",
+      "Collaborate with engineering teams to integrate ML solutions into production.",
+      "Analyze massive datasets to uncover actionable behavioral patterns."
+    ]
+  },
+  {
+    "job_id": "jd_002",
+    "title": "React Frontend Developer",
+    "department": "Engineering",
+    "location": "Remote",
+    "employment_type": "full-time",
+    "description": "We are looking for a skilled Frontend Engineer to build interactive client-facing dashboards.",
+    "experience_requirements": {
+      "min_years": 2,
+      "max_years": 5,
+      "preferred_industry": "SaaS"
+    },
+    "education_requirements": [
+      {
+        "degree": "B.S. in Computer Science or equivalent practical experience",
+        "field_of_study": "Computer Science",
+        "is_mandatory": false
+      }
+    ],
+    "required_skills": [
+      {
+        "name": "React.js",
+        "is_mandatory": true,
+        "min_years_experience": 2
+      },
+      {
+        "name": "TypeScript",
+        "is_mandatory": true,
+        "min_years_experience": 1
+      },
+      {
+        "name": "Redux",
+        "is_mandatory": false,
+        "min_years_experience": 1
+      }
+    ],
+    "roles_and_responsibilities": [
+      "Translate UI/UX design wireframes to high-quality code.",
+      "Optimize applications for maximum speed and accessibility.",
+      "Collaborate with back-end developers on API integrations."
+    ]
+  }
+]

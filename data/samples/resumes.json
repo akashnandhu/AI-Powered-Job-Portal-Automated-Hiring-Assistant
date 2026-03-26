@@ -1,0 +1,160 @@
+[
+  {
+    "candidate_id": "c_101",
+    "personal_info": {
+      "name": "Alex Mitchell",
+      "email": "alex.m@example.com",
+      "phone": "555-0100",
+      "location": "New York, NY"
+    },
+    "summary": "Data Scientist with 4 years of experience building predictive models and developing scalable machine learning pipelines.",
+    "experience": [
+      {
+        "job_title": "Data Scientist",
+        "company": "TechNova Analytics",
+        "start_date": "2020-06-01",
+        "end_date": "2024-01-01",
+        "duration_months": 43,
+        "description": "Developed and deployed churn prediction models.",
+        "achievements": [
+          "Increased customer retention rates by 15% through predictive analytics.",
+          "Optimized data preprocessing pipeline reducing latency by 30%."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "B.Sc. in Computer Science",
+        "institution": "Cornell University",
+        "start_date": "2016-09-01",
+        "end_date": "2020-05-30",
+        "gpa": 3.8
+      }
+    ],
+    "skills": [
+      {
+        "name": "Python",
+        "category": "technical",
+        "proficiency": "expert",
+        "years_of_experience": 5
+      },
+      {
+        "name": "Machine Learning",
+        "category": "technical",
+        "proficiency": "advanced",
+        "years_of_experience": 4
+      }
+    ],
+    "certifications": [
+      {
+        "name": "AWS Certified Machine Learning - Specialty",
+        "issuer": "Amazon Web Services",
+        "issue_date": "2022-04-15",
+        "expiry_date": "2025-04-15"
+      }
+    ]
+  },
+  {
+    "candidate_id": "c_102",
+    "personal_info": {
+      "name": "Sarah Jenkins",
+      "email": "sarah.j@example.com",
+      "phone": "555-0200",
+      "location": "San Francisco, CA"
+    },
+    "summary": "Frontend Engineer focused on building responsive and accessible React web applications.",
+    "experience": [
+      {
+        "job_title": "Frontend Developer",
+        "company": "Creative UI Solutions",
+        "start_date": "2021-03-01",
+        "end_date": null,
+        "duration_months": 36,
+        "description": "Lead the development of the client dashboard.",
+        "achievements": [
+          "Migrated legacy jQuery codebase to React.",
+          "Improved accessibility score from 75 to 98."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "B.A. in Graphic Design",
+        "institution": "Rhode Island School of Design",
+        "start_date": "2017-09-01",
+        "end_date": "2021-05-30",
+        "gpa": 3.6
+      }
+    ],
+    "skills": [
+      {
+        "name": "React.js",
+        "category": "technical",
+        "proficiency": "expert",
+        "years_of_experience": 3
+      },
+      {
+        "name": "CSS/SASS",
+        "category": "technical",
+        "proficiency": "advanced",
+        "years_of_experience": 4
+      }
+    ],
+    "certifications": []
+  },
+  {
+    "candidate_id": "c_103",
+    "personal_info": {
+      "name": "Michael Chang",
+      "email": "m.chang@example.com",
+      "phone": "555-0300",
+      "location": "Austin, TX"
+    },
+    "summary": "Product Manager with a proven track record of managing agile teams and launching B2B SaaS products.",
+    "experience": [
+      {
+        "job_title": "Product Manager",
+        "company": "SaaSsy Cloud",
+        "start_date": "2018-08-01",
+        "end_date": "2023-12-01",
+        "duration_months": 64,
+        "description": "Managed product lifecycle from ideation to launch.",
+        "achievements": [
+          "Launched 3 enterprise-grade features generating $2M recurring revenue.",
+          "Spearheaded adoption of Agile methodology."
+        ]
+      }
+    ],
+    "education": [
+      {
+        "degree": "MBA",
+        "institution": "University of Texas",
+        "start_date": "2016-09-01",
+        "end_date": "2018-05-30",
+        "gpa": 3.9
+      }
+    ],
+    "skills": [
+      {
+        "name": "Agile Methodologies",
+        "category": "domain",
+        "proficiency": "expert",
+        "years_of_experience": 6
+      },
+      {
+        "name": "Stakeholder Management",
+        "category": "soft",
+        "proficiency": "advanced",
+        "years_of_experience": 5
+      }
+    ],
+    "certifications": [
+      {
+        "name": "Certified Scrum Product Owner (CSPO)",
+        "issuer": "Scrum Alliance",
+        "issue_date": "2019-01-10",
+        "expiry_date": null
+      }
+    ]
+  }
+]
