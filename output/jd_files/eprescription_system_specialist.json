@@ -1,0 +1,21 @@
+{
+    "job_title": "E-Prescription System Specialist",
+    "category": "Pharmacy",
+    "skills_required": [
+        "implement and maintain electronic prescribing platforms",
+        "ensure secure transmission of prescription data",
+        "integrate e-prescription systems with hospital information systems",
+        "monitor system performance and troubleshoot issues",
+        "train healthcare providers on electronic prescribing tools"
+    ],
+    "education_required": [
+        "b.pharm / pharmd / m.pharm",
+        "knowledge of healthcare it systems and electronic health records"
+    ],
+    "experience_required": "Not specified",
+    "work_environment": [
+        "hospitals and healthcare networks",
+        "health it companies",
+        "pharmacy software development firms"
+    ]
+}

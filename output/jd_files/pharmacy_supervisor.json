@@ -1,0 +1,21 @@
+{
+    "job_title": "Pharmacy Supervisor",
+    "category": "Pharmacy",
+    "skills_required": [
+        "supervise pharmacists, technicians, and assistants",
+        "ensure accurate dispensing of medications",
+        "monitor workflow and staff scheduling",
+        "maintain compliance with pharmacy regulations",
+        "provide training and performance evaluation",
+        "ensure quality control in pharmacy services"
+    ],
+    "education_required": [
+        "b.pharm / pharmd"
+    ],
+    "experience_required": "experience in pharmacy operations",
+    "work_environment": [
+        "large retail pharmacies",
+        "hospital outpatient pharmacies",
+        "pharmacy chains"
+    ]
+}

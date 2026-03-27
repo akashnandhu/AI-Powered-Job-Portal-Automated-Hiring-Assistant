@@ -1,0 +1,21 @@
+{
+    "job_title": "Ambulatory Care Pharmacist",
+    "category": "Clinical/Hospital Pharmacy",
+    "skills_required": [
+        "chronic disease management (diabetes, hypertension, asthma)",
+        "monitor long-term medication therapy",
+        "provide lifestyle and patient counseling",
+        "conduct medication therapy management (mtm)",
+        "monitor lab values and adjust medications"
+    ],
+    "education_required": [
+        "pharmd or m.pharm",
+        "clinical training in outpatient care"
+    ],
+    "experience_required": "Not specified",
+    "work_environment": [
+        "outpatient clinics",
+        "community health centers",
+        "specialty care clinics"
+    ]
+}

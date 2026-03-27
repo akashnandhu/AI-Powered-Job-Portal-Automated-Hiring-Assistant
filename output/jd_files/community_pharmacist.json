@@ -1,0 +1,23 @@
+{
+    "job_title": "Community Pharmacist",
+    "category": "Retail/Community Pharmacy",
+    "skills_required": [
+        "dispense prescription medications accurately",
+        "provide counseling on medication usage and side effects",
+        "advise patients on over-the-counter (otc) medications",
+        "monitor drug interactions and contraindications",
+        "maintain patient medication records",
+        "conduct health screenings (blood pressure, glucose checks)",
+        "promote public health programs such as vaccination and smoking cessation"
+    ],
+    "education_required": [
+        "b.pharm / pharmd",
+        "registration with pharmacy council"
+    ],
+    "experience_required": "Not specified",
+    "work_environment": [
+        "community pharmacies",
+        "local drugstores",
+        "retail pharmacy chains"
+    ]
+}

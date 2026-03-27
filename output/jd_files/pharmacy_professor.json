@@ -1,0 +1,22 @@
+{
+    "job_title": "Pharmacy Professor",
+    "category": "Pharmacy",
+    "skills_required": [
+        "deliver lectures on pharmaceutical subjects",
+        "supervise postgraduate and doctoral research projects",
+        "conduct independent research in pharmaceutical sciences",
+        "publish research papers in scientific journals",
+        "develop academic curriculum and teaching materials",
+        "mentor students and junior faculty members"
+    ],
+    "education_required": [
+        "phd in pharmacy or pharmaceutical sciences",
+        "academic publications"
+    ],
+    "experience_required": "teaching and research experience",
+    "work_environment": [
+        "universities",
+        "pharmacy colleges",
+        "research institutes"
+    ]
+}

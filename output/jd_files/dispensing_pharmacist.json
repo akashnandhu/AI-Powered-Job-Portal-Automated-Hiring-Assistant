@@ -1,0 +1,22 @@
+{
+    "job_title": "Dispensing Pharmacist",
+    "category": "Pharmacy",
+    "skills_required": [
+        "interpret prescriptions from physicians",
+        "dispense correct medications and dosages",
+        "label medicines and provide instructions",
+        "maintain medication records and documentation",
+        "check for drug interactions and allergies",
+        "provide patient counseling"
+    ],
+    "education_required": [
+        "b.pharm / pharmd",
+        "pharmacist registration"
+    ],
+    "experience_required": "Not specified",
+    "work_environment": [
+        "community pharmacies",
+        "hospital pharmacies",
+        "retail drugstores"
+    ]
+}

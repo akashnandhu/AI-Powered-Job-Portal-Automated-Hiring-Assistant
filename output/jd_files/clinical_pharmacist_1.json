@@ -1,0 +1,22 @@
+{
+    "job_title": "Clinical Pharmacist",
+    "category": "Clinical/Hospital Pharmacy",
+    "skills_required": [
+        "medication dispensing prescribed by doctors",
+        "inventory management",
+        "verify prescriptions and medication orders",
+        "monitor pharmacotherapy effectiveness",
+        "provide drug information to healthcare staff",
+        "ensure safe storage of medicines"
+    ],
+    "education_required": [
+        "b.pharm / pharmd",
+        "pharmacy council registration"
+    ],
+    "experience_required": "Not specified",
+    "work_environment": [
+        "government hospitals",
+        "private hospitals",
+        "specialty hospitals"
+    ]
+}

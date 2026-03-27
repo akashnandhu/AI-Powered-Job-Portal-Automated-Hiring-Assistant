@@ -1,0 +1,21 @@
+{
+    "job_title": "Oncology Pharmacist",
+    "category": "Pharmacy",
+    "skills_required": [
+        "prepare and dispense chemotherapy drugs",
+        "monitor cancer treatment regimens",
+        "manage side effects of cancer medications",
+        "ensure safe handling of hazardous drugs",
+        "educate patients about chemotherapy"
+    ],
+    "education_required": [
+        "pharmd / m.pharm in oncology pharmacy",
+        "certification in oncology pharmacy (preferred)"
+    ],
+    "experience_required": "Not specified",
+    "work_environment": [
+        "cancer hospitals",
+        "oncology clinics",
+        "research centers"
+    ]
+}

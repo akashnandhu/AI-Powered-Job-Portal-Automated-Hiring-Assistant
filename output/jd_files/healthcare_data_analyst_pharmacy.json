@@ -1,0 +1,21 @@
+{
+    "job_title": "Healthcare Data Analyst (Pharmacy)",
+    "category": "Clinical/Hospital Pharmacy",
+    "skills_required": [
+        "analyze large datasets related to medication usage",
+        "identify trends in drug prescriptions and patient outcomes",
+        "develop dashboards and data visualization reports",
+        "support healthcare decision-making through data insights",
+        "monitor drug safety and treatment effectiveness"
+    ],
+    "education_required": [
+        "b.pharm / m.pharm / pharmd",
+        "skills in data analytics tools (python, r, sql, power bi)"
+    ],
+    "experience_required": "Not specified",
+    "work_environment": [
+        "healthcare organizations",
+        "pharmaceutical companies",
+        "health analytics firms"
+    ]
+}

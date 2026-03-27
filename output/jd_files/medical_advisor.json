@@ -1,0 +1,20 @@
+{
+    "job_title": "Medical Advisor",
+    "category": "Pharmacy",
+    "skills_required": [
+        "provide scientific advice on pharmaceutical products",
+        "review clinical research and medical literature",
+        "support regulatory submissions and medical communications",
+        "train internal teams on medical information",
+        "ensure ethical and scientific accuracy in promotional materials"
+    ],
+    "education_required": [
+        "pharmd / m.pharm / phd in pharmaceutical sciences"
+    ],
+    "experience_required": "experience in medical affairs or clinical research",
+    "work_environment": [
+        "pharmaceutical companies",
+        "biotechnology firms",
+        "medical advisory departments"
+    ]
+}

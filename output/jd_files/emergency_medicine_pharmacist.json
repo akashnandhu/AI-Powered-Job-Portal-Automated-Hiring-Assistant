@@ -1,0 +1,20 @@
+{
+    "job_title": "Emergency Medicine Pharmacist",
+    "category": "Pharmacy",
+    "skills_required": [
+        "provide drug information during emergencies",
+        "prepare emergency medications",
+        "assist with resuscitation drugs",
+        "monitor high-risk medications",
+        "medication safety in emergency care"
+    ],
+    "education_required": [
+        "pharmd with emergency medicine training"
+    ],
+    "experience_required": "Not specified",
+    "work_environment": [
+        "emergency departments",
+        "trauma centers",
+        "disaster response units"
+    ]
+}

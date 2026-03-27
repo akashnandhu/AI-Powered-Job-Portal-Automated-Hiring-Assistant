@@ -1,0 +1,20 @@
+{
+    "job_title": "Nuclear Pharmacist",
+    "category": "Pharmacy",
+    "skills_required": [
+        "prepare radiopharmaceuticals",
+        "ensure radiation safety protocols",
+        "dispense radioactive medications",
+        "monitor dosage accuracy",
+        "maintain regulatory compliance"
+    ],
+    "education_required": [
+        "pharmd or m.pharm",
+        "certification in nuclear pharmacy"
+    ],
+    "experience_required": "Not specified",
+    "work_environment": [
+        "nuclear medicine departments",
+        "diagnostic imaging centers"
+    ]
+}

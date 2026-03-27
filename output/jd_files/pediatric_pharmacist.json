@@ -1,0 +1,21 @@
+{
+    "job_title": "Pediatric Pharmacist",
+    "category": "Pharmacy",
+    "skills_required": [
+        "adjust drug doses based on age and weight",
+        "prepare pediatric formulations",
+        "monitor drug safety in children",
+        "educate parents about medications",
+        "prevent pediatric medication errors"
+    ],
+    "education_required": [
+        "pharmd / m.pharm",
+        "pediatric pharmacy training"
+    ],
+    "experience_required": "Not specified",
+    "work_environment": [
+        "children's hospitals",
+        "pediatric clinics",
+        "neonatal intensive care units"
+    ]
+}

@@ -1,0 +1,1820 @@
+[
+    {
+        "job_title": "Clinical Pharmacist",
+        "category": "Clinical/Hospital Pharmacy",
+        "skills_required": [
+            "review medication orders for accuracy and safety",
+            "monitor patient pharmacotherapy and outcomes",
+            "provide patient counseling to patients",
+            "prevent adverse drug reactions and drug interactions",
+            "collaborate with healthcare teams to develop treatment plans",
+            "participate in clinical rounds",
+            "adjust medication dosages based on patient conditions"
+        ],
+        "education_required": [
+            "pharmd or m.pharm (clinical pharmacy)",
+            "pharmacy license/registration",
+            "residency training (preferred)"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "hospitals",
+            "specialty clinics",
+            "academic medical centers"
+        ]
+    },
+    {
+        "job_title": "Clinical Pharmacist",
+        "category": "Clinical/Hospital Pharmacy",
+        "skills_required": [
+            "medication dispensing prescribed by doctors",
+            "inventory management",
+            "verify prescriptions and medication orders",
+            "monitor pharmacotherapy effectiveness",
+            "provide drug information to healthcare staff",
+            "ensure safe storage of medicines"
+        ],
+        "education_required": [
+            "b.pharm / pharmd",
+            "pharmacy council registration"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "government hospitals",
+            "private hospitals",
+            "specialty hospitals"
+        ]
+    },
+    {
+        "job_title": "Ambulatory Care Pharmacist",
+        "category": "Clinical/Hospital Pharmacy",
+        "skills_required": [
+            "chronic disease management (diabetes, hypertension, asthma)",
+            "monitor long-term medication therapy",
+            "provide lifestyle and patient counseling",
+            "conduct medication therapy management (mtm)",
+            "monitor lab values and adjust medications"
+        ],
+        "education_required": [
+            "pharmd or m.pharm",
+            "clinical training in outpatient care"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "outpatient clinics",
+            "community health centers",
+            "specialty care clinics"
+        ]
+    },
+    {
+        "job_title": "Critical Care Pharmacist",
+        "category": "Clinical/Hospital Pharmacy",
+        "skills_required": [
+            "manage complex medication regimens for icu patients",
+            "monitor life-support medications",
+            "provide emergency drug dosing recommendations",
+            "medication safety in critical care",
+            "participate in icu clinical rounds"
+        ],
+        "education_required": [
+            "pharmd with critical care residency",
+            "advanced clinical training"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "intensive care units (icu)",
+            "trauma centers",
+            "emergency hospitals"
+        ]
+    },
+    {
+        "job_title": "Oncology Pharmacist",
+        "category": "Pharmacy",
+        "skills_required": [
+            "prepare and dispense chemotherapy drugs",
+            "monitor cancer treatment regimens",
+            "manage side effects of cancer medications",
+            "ensure safe handling of hazardous drugs",
+            "educate patients about chemotherapy"
+        ],
+        "education_required": [
+            "pharmd / m.pharm in oncology pharmacy",
+            "certification in oncology pharmacy (preferred)"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "cancer hospitals",
+            "oncology clinics",
+            "research centers"
+        ]
+    },
+    {
+        "job_title": "Pediatric Pharmacist",
+        "category": "Pharmacy",
+        "skills_required": [
+            "adjust drug doses based on age and weight",
+            "prepare pediatric formulations",
+            "monitor drug safety in children",
+            "educate parents about medications",
+            "prevent pediatric medication errors"
+        ],
+        "education_required": [
+            "pharmd / m.pharm",
+            "pediatric pharmacy training"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "children's hospitals",
+            "pediatric clinics",
+            "neonatal intensive care units"
+        ]
+    },
+    {
+        "job_title": "Emergency Medicine Pharmacist",
+        "category": "Pharmacy",
+        "skills_required": [
+            "provide drug information during emergencies",
+            "prepare emergency medications",
+            "assist with resuscitation drugs",
+            "monitor high-risk medications",
+            "medication safety in emergency care"
+        ],
+        "education_required": [
+            "pharmd with emergency medicine training"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "emergency departments",
+            "trauma centers",
+            "disaster response units"
+        ]
+    },
+    {
+        "job_title": "Infectious Disease Pharmacist",
+        "category": "Pharmacy",
+        "skills_required": [
+            "manage antibiotic therapy programs",
+            "monitor antimicrobial resistance",
+            "optimize antibiotic selection and dosing",
+            "participate in infection control committees",
+            "educate healthcare staff on antimicrobial stewardship"
+        ],
+        "education_required": [
+            "pharmd with infectious disease specialization"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "hospitals",
+            "infectious disease clinics",
+            "public health organizations"
+        ]
+    },
+    {
+        "job_title": "Cardiology Pharmacist",
+        "category": "Pharmacy",
+        "skills_required": [
+            "manage medications for heart diseases",
+            "monitor anticoagulant therapy",
+            "adjust cardiac medication doses",
+            "educate patients about cardiovascular drugs",
+            "monitor blood pressure and cholesterol therapies"
+        ],
+        "education_required": [
+            "pharmd / m.pharm with cardiology training"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "cardiac hospitals",
+            "cardiology clinics",
+            "cardiac care units"
+        ]
+    },
+    {
+        "job_title": "Geriatric Pharmacist",
+        "category": "Pharmacy",
+        "skills_required": [
+            "manage polypharmacy in elderly patients",
+            "adjust medications based on age-related changes",
+            "prevent drug interactions",
+            "educate elderly patients and caregivers",
+            "monitor medication adherence"
+        ],
+        "education_required": [
+            "pharmd / m.pharm with geriatric specialization"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "geriatric hospitals",
+            "nursing homes",
+            "long-term care facilities"
+        ]
+    },
+    {
+        "job_title": "Psychiatric Pharmacist",
+        "category": "Pharmacy",
+        "skills_required": [
+            "manage psychiatric medications",
+            "monitor side effects of antipsychotics and antidepressants",
+            "assist psychiatrists in treatment planning",
+            "counsel patients about medication adherence",
+            "monitor drug interactions with psychiatric drugs"
+        ],
+        "education_required": [
+            "pharmd / m.pharm",
+            "psychiatric pharmacy training"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "mental health hospitals",
+            "psychiatric clinics",
+            "rehabilitation centers"
+        ]
+    },
+    {
+        "job_title": "Transplant Pharmacist",
+        "category": "Pharmacy",
+        "skills_required": [
+            "manage immunosuppressive therapy",
+            "prevent transplant rejection",
+            "monitor drug interactions",
+            "counsel transplant patients",
+            "monitor therapeutic drug levels"
+        ],
+        "education_required": [
+            "pharmd with transplant pharmacy training"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "organ transplant centers",
+            "specialty hospitals"
+        ]
+    },
+    {
+        "job_title": "Nuclear Pharmacist",
+        "category": "Pharmacy",
+        "skills_required": [
+            "prepare radiopharmaceuticals",
+            "ensure radiation safety protocols",
+            "dispense radioactive medications",
+            "monitor dosage accuracy",
+            "maintain regulatory compliance"
+        ],
+        "education_required": [
+            "pharmd or m.pharm",
+            "certification in nuclear pharmacy"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "nuclear medicine departments",
+            "diagnostic imaging centers"
+        ]
+    },
+    {
+        "job_title": "Pain Management Pharmacist",
+        "category": "Pharmacy",
+        "skills_required": [
+            "optimize pain management therapies",
+            "monitor opioid therapy",
+            "prevent drug misuse and dependency",
+            "collaborate with pain specialists",
+            "educate patients on pain medications"
+        ],
+        "education_required": [
+            "pharmd / m.pharm",
+            "pain management training"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "pain clinics",
+            "hospitals",
+            "rehabilitation centers"
+        ]
+    },
+    {
+        "job_title": "Nutrition Support Pharmacist",
+        "category": "Pharmacy",
+        "skills_required": [
+            "prepare total parenteral nutrition (tpn)",
+            "monitor nutritional therapy outcomes",
+            "adjust electrolyte and nutrient levels",
+            "collaborate with dietitians and physicians",
+            "ensure sterile compounding practices"
+        ],
+        "education_required": [
+            "pharmd / m.pharm",
+            "specialized nutrition support training"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "hospitals",
+            "intensive care units",
+            "specialty nutrition clinics"
+        ]
+    },
+    {
+        "job_title": "Community Pharmacist",
+        "category": "Retail/Community Pharmacy",
+        "skills_required": [
+            "dispense prescription medications accurately",
+            "provide counseling on medication usage and side effects",
+            "advise patients on over-the-counter (otc) medications",
+            "monitor drug interactions and contraindications",
+            "maintain patient medication records",
+            "conduct health screenings (blood pressure, glucose checks)",
+            "promote public health programs such as vaccination and smoking cessation"
+        ],
+        "education_required": [
+            "b.pharm / pharmd",
+            "registration with pharmacy council"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "community pharmacies",
+            "local drugstores",
+            "retail pharmacy chains"
+        ]
+    },
+    {
+        "job_title": "Community Pharmacist",
+        "category": "Retail/Community Pharmacy",
+        "skills_required": [
+            "review and fill prescriptions from doctors",
+            "provide patient counseling to customers",
+            "recommend otc products for minor health conditions",
+            "maintain pharmacy inventory and stock levels",
+            "ensure compliance with pharmacy laws and regulations",
+            "supervise pharmacy technicians and staff"
+        ],
+        "education_required": [
+            "b.pharm / pharmd",
+            "licensed pharmacist registration"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "retail pharmacy stores",
+            "supermarket pharmacies",
+            "pharmacy chains"
+        ]
+    },
+    {
+        "job_title": "Pharmacy Manager",
+        "category": "Retail/Community Pharmacy",
+        "skills_required": [
+            "manage pharmacy operations and staff",
+            "maintain medication inventory and ordering",
+            "ensure regulatory compliance and safety standards",
+            "handle financial management and sales performance",
+            "resolve customer issues and complaints",
+            "train and supervise pharmacy employees"
+        ],
+        "education_required": [
+            "b.pharm / pharmd"
+        ],
+        "experience_required": "management experience in pharmacy practice",
+        "work_environment": [
+            "retail pharmacy stores",
+            "pharmacy chains",
+            "hospital outpatient pharmacies"
+        ]
+    },
+    {
+        "job_title": "Pharmacy Manager",
+        "category": "Pharmacy",
+        "skills_required": [
+            "manage operations across several pharmacy stores",
+            "develop operational strategies and policies",
+            "monitor sales, profits, and performance metrics",
+            "ensure regulatory compliance across branches",
+            "recruit and train pharmacy staff",
+            "implement marketing and customer service strategies"
+        ],
+        "education_required": [
+            "b.pharm / pharmd"
+        ],
+        "experience_required": "leadership and management experience",
+        "work_environment": [
+            "national pharmacy chains",
+            "corporate pharmacy organizations"
+        ]
+    },
+    {
+        "job_title": "Pharmacy Owner / Independent Pharmacist",
+        "category": "Pharmacy",
+        "skills_required": [
+            "establish and manage pharmacy business operations",
+            "procure medicines and pharmaceutical products",
+            "provide prescription dispensing and counseling",
+            "manage finances, accounting, and licensing",
+            "ensure compliance with drug laws and regulations",
+            "build relationships with local healthcare providers"
+        ],
+        "education_required": [
+            "b.pharm / pharmd",
+            "pharmacy license and business registration"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "independent community pharmacies",
+            "private drugstores"
+        ]
+    },
+    {
+        "job_title": "Consultant Pharmacist",
+        "category": "Pharmacy",
+        "skills_required": [
+            "review medication therapy for patients",
+            "provide recommendations for optimizing drug treatment",
+            "conduct medication audits and compliance checks",
+            "train healthcare staff on medication safety",
+            "develop pharmacy policies and procedures",
+            "support long-term care facilities with medication management"
+        ],
+        "education_required": [
+            "pharmd / m.pharm"
+        ],
+        "experience_required": "advanced clinical or consulting experience",
+        "work_environment": [
+            "healthcare consulting firms",
+            "nursing homes",
+            "long-term care facilities",
+            "healthcare organizations"
+        ]
+    },
+    {
+        "job_title": "Pharmacy Supervisor",
+        "category": "Pharmacy",
+        "skills_required": [
+            "supervise pharmacists, technicians, and assistants",
+            "ensure accurate dispensing of medications",
+            "monitor workflow and staff scheduling",
+            "maintain compliance with pharmacy regulations",
+            "provide training and performance evaluation",
+            "ensure quality control in pharmacy services"
+        ],
+        "education_required": [
+            "b.pharm / pharmd"
+        ],
+        "experience_required": "experience in pharmacy operations",
+        "work_environment": [
+            "large retail pharmacies",
+            "hospital outpatient pharmacies",
+            "pharmacy chains"
+        ]
+    },
+    {
+        "job_title": "Dispensing Pharmacist",
+        "category": "Pharmacy",
+        "skills_required": [
+            "interpret prescriptions from physicians",
+            "dispense correct medications and dosages",
+            "label medicines and provide instructions",
+            "maintain medication records and documentation",
+            "check for drug interactions and allergies",
+            "provide patient counseling"
+        ],
+        "education_required": [
+            "b.pharm / pharmd",
+            "pharmacist registration"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "community pharmacies",
+            "hospital pharmacies",
+            "retail drugstores"
+        ]
+    },
+    {
+        "job_title": "Industrial Pharmacist",
+        "category": "Industrial/Manufacturing Pharmacy",
+        "skills_required": [
+            "supervise pharmaceutical manufacturing processes",
+            "ensure compliance with good manufacturing practices (gmp)",
+            "monitor production quality and efficiency",
+            "maintain proper documentation of manufacturing activities",
+            "ensure safe handling of pharmaceutical ingredients",
+            "coordinate with production, quality, and regulatory teams"
+        ],
+        "education_required": [
+            "b.pharm / m.pharm",
+            "knowledge of pharmaceutical manufacturing and gmp"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "pharmaceutical manufacturing plants",
+            "drug production companies",
+            "biopharmaceutical industries"
+        ]
+    },
+    {
+        "job_title": "Production Pharmacist",
+        "category": "Industrial/Manufacturing Pharmacy",
+        "skills_required": [
+            "supervise drug production processes",
+            "monitor manufacturing equipment and facilities",
+            "ensure batch production records are accurate",
+            "maintain production schedules and timelines",
+            "ensure compliance with quality standards and gmp",
+            "coordinate with quality control and packaging teams"
+        ],
+        "education_required": [
+            "b.pharm / m.pharm"
+        ],
+        "experience_required": "experience in pharmaceutical production",
+        "work_environment": [
+            "pharmaceutical production units",
+            "manufacturing plants"
+        ]
+    },
+    {
+        "job_title": "Manufacturing Pharmacist",
+        "category": "Industrial/Manufacturing Pharmacy",
+        "skills_required": [
+            "manage manufacturing processes for pharmaceuticals",
+            "monitor equipment calibration and operation",
+            "ensure proper handling of raw materials and active ingredients",
+            "optimize manufacturing processes for efficiency",
+            "maintain documentation and production records"
+        ],
+        "education_required": [
+            "b.pharm / m.pharm",
+            "knowledge of manufacturing technologies"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "pharmaceutical manufacturing facilities",
+            "biotech production plants"
+        ]
+    },
+    {
+        "job_title": "Quality Assurance (Qa) Pharmacist",
+        "category": "Pharmacy",
+        "skills_required": [
+            "develop and implement quality assurance systems",
+            "conduct internal audits and inspections",
+            "ensure compliance with regulatory standards such as gmp",
+            "review manufacturing documentation",
+            "investigate deviations and product complaints",
+            "approve final product release"
+        ],
+        "education_required": [
+            "b.pharm / m.pharm",
+            "knowledge of pharmaceutical quality systems"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "pharmaceutical companies",
+            "quality assurance departments"
+        ]
+    },
+    {
+        "job_title": "Quality Control (Qc) Pharmacist",
+        "category": "Pharmacy",
+        "skills_required": [
+            "conduct chemical and microbiological testing",
+            "analyze raw materials and finished products",
+            "operate laboratory instruments (hplc, gc, etc.)",
+            "maintain laboratory records and reports",
+            "ensure compliance with regulatory standards",
+            "identify product defects or contamination"
+        ],
+        "education_required": [
+            "b.pharm / m.pharm"
+        ],
+        "experience_required": "laboratory testing experience",
+        "work_environment": [
+            "pharmaceutical qc laboratories",
+            "research laboratories"
+        ]
+    },
+    {
+        "job_title": "Formulation Development Scientist",
+        "category": "Research & Development",
+        "skills_required": [
+            "design drug formulations (tablets, capsules, injectables, etc.)",
+            "conduct formulation experiments and testing",
+            "improve stability and bioavailability of drugs",
+            "perform compatibility studies",
+            "collaborate with manufacturing and regulatory teams",
+            "document research findings"
+        ],
+        "education_required": [
+            "m.pharm / phd in pharmaceutics or formulation science"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "pharmaceutical r&d departments",
+            "drug development laboratories"
+        ]
+    },
+    {
+        "job_title": "Pharmaceutical Research Scientist",
+        "category": "Research & Development",
+        "skills_required": [
+            "conduct laboratory research on drug compounds",
+            "study drug interactions and pharmacological effects",
+            "develop innovative pharmaceutical technologies",
+            "analyze experimental data and publish findings",
+            "collaborate with interdisciplinary research teams"
+        ],
+        "education_required": [
+            "m.pharm / phd in pharmaceutical sciences"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "pharmaceutical research institutes",
+            "drug discovery laboratories",
+            "academic research centers"
+        ]
+    },
+    {
+        "job_title": "Process Development Scientist",
+        "category": "Research & Development",
+        "skills_required": [
+            "develop scalable manufacturing processes",
+            "improve production efficiency and product quality",
+            "conduct process validation studies",
+            "troubleshoot production problems",
+            "collaborate with manufacturing and r&d teams"
+        ],
+        "education_required": [
+            "m.pharm / phd in pharmaceutics or chemical engineering"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "pharmaceutical r&d centers",
+            "manufacturing plants"
+        ]
+    },
+    {
+        "job_title": "Validation Pharmacist",
+        "category": "Pharmacy",
+        "skills_required": [
+            "perform equipment and process validation",
+            "prepare validation protocols and reports",
+            "ensure compliance with regulatory standards",
+            "conduct installation, operational, and performance qualification",
+            "monitor validated systems regularly"
+        ],
+        "education_required": [
+            "b.pharm / m.pharm",
+            "knowledge of validation procedures"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "pharmaceutical manufacturing companies",
+            "quality assurance departments"
+        ]
+    },
+    {
+        "job_title": "Technology Transfer Specialist",
+        "category": "Pharmacy",
+        "skills_required": [
+            "coordinate transfer of drug formulations to manufacturing units",
+            "ensure smooth scale-up of production processes",
+            "prepare technology transfer documentation",
+            "train manufacturing staff on new processes",
+            "ensure regulatory compliance during transfer"
+        ],
+        "education_required": [
+            "m.pharm / phd in pharmaceutics or related field"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "pharmaceutical manufacturing companies",
+            "r&d and production departments"
+        ]
+    },
+    {
+        "job_title": "Packaging Development Scientist",
+        "category": "Research & Development",
+        "skills_required": [
+            "develop packaging materials for pharmaceutical products",
+            "conduct stability and compatibility studies",
+            "ensure packaging meets regulatory and safety standards",
+            "improve packaging efficiency and sustainability",
+            "collaborate with production and marketing teams"
+        ],
+        "education_required": [
+            "b.pharm / m.pharm with packaging or formulation knowledge"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "pharmaceutical manufacturing companies",
+            "packaging development laboratories"
+        ]
+    },
+    {
+        "job_title": "Drug Inspector",
+        "category": "Pharmacy",
+        "skills_required": [
+            "inspect pharmaceutical manufacturing units and pharmacies",
+            "ensure compliance with drug laws and regulatory standards",
+            "collect drug samples for laboratory testing",
+            "investigate complaints regarding drug quality or safety",
+            "monitor illegal drug sales and counterfeit medicines",
+            "prepare inspection reports and regulatory documentation"
+        ],
+        "education_required": [
+            "b.pharm / pharmd / pharmaceutical sciences degree",
+            "government recruitment examination (varies by country)"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "drug regulatory authorities",
+            "government health departments",
+            "pharmaceutical inspection divisions"
+        ]
+    },
+    {
+        "job_title": "Drug Control Officer",
+        "category": "Pharmacy",
+        "skills_required": [
+            "oversee enforcement of drug control laws",
+            "supervise drug inspectors and regulatory teams",
+            "monitor pharmaceutical supply chains",
+            "investigate violations of drug regulations",
+            "coordinate regulatory actions against illegal drug distribution"
+        ],
+        "education_required": [
+            "b.pharm / m.pharm",
+            "government regulatory training"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "government drug control departments",
+            "national drug regulatory agencies"
+        ]
+    },
+    {
+        "job_title": "Regulatory Affairs Pharmacist",
+        "category": "Pharmacy",
+        "skills_required": [
+            "prepare regulatory submissions for drug approvals",
+            "maintain compliance with regulatory guidelines",
+            "communicate with regulatory agencies regarding product approval",
+            "monitor changes in pharmaceutical regulations",
+            "prepare documentation for product registration"
+        ],
+        "education_required": [
+            "b.pharm / m.pharm",
+            "knowledge of regulatory affairs and drug approval processes"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "pharmaceutical companies",
+            "regulatory consulting firms",
+            "drug regulatory authorities"
+        ]
+    },
+    {
+        "job_title": "Pharmacovigilance Officer",
+        "category": "Pharmacy",
+        "skills_required": [
+            "collect and analyze adverse drug reaction (adr) reports",
+            "monitor drug safety data from hospitals and clinics",
+            "report safety concerns to regulatory authorities",
+            "evaluate risks associated with pharmaceutical products",
+            "maintain drug safety databases"
+        ],
+        "education_required": [
+            "b.pharm / m.pharm / pharmd",
+            "training in pharmacovigilance and drug safety monitoring"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "pharmaceutical companies",
+            "drug safety monitoring centers",
+            "regulatory agencies"
+        ]
+    },
+    {
+        "job_title": "Drug Safety Associate",
+        "category": "Pharmacy",
+        "skills_required": [
+            "review adverse event reports",
+            "maintain drug safety databases",
+            "analyze patient safety data",
+            "assist in preparing safety reports for regulatory agencies",
+            "ensure compliance with pharmacovigilance regulations"
+        ],
+        "education_required": [
+            "b.pharm / m.pharm / pharmd",
+            "knowledge of drug safety monitoring systems"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "pharmaceutical companies",
+            "contract research organizations (cros)",
+            "drug safety departments"
+        ]
+    },
+    {
+        "job_title": "Government Pharmacist",
+        "category": "Pharmacy",
+        "skills_required": [
+            "medication dispensing in government hospitals and clinics",
+            "manage drug supply and inventory for public health programs",
+            "ensure quality and safety of medicines supplied to patients",
+            "support national health initiatives and vaccination programs",
+            "maintain pharmaceutical records and documentation"
+        ],
+        "education_required": [
+            "b.pharm / pharmd",
+            "government recruitment examination"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "government hospitals",
+            "public health centers",
+            "government medical supply departments"
+        ]
+    },
+    {
+        "job_title": "Public Health Pharmacist",
+        "category": "Pharmacy",
+        "skills_required": [
+            "design and implement public health medication programs",
+            "support disease prevention initiatives",
+            "monitor drug distribution during public health emergencies",
+            "conduct community health education programs",
+            "collaborate with healthcare professionals to improve medication access"
+        ],
+        "education_required": [
+            "b.pharm / m.pharm / pharmd",
+            "additional training in public health (mph preferred)"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "government health departments",
+            "public health organizations",
+            "international health agencies"
+        ]
+    },
+    {
+        "job_title": "Food & Drug Administration Pharmacist",
+        "category": "Pharmacy",
+        "skills_required": [
+            "evaluate pharmaceutical product applications",
+            "review clinical trial data and safety reports",
+            "ensure compliance with national drug regulations",
+            "approve or reject drug marketing applications",
+            "monitor post-marketing drug safety"
+        ],
+        "education_required": [
+            "pharmd / m.pharm / phd in pharmaceutical sciences",
+            "regulatory affairs expertise"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "national drug regulatory agencies",
+            "government health departments"
+        ]
+    },
+    {
+        "job_title": "Pharmacy Professor",
+        "category": "Pharmacy",
+        "skills_required": [
+            "deliver lectures on pharmaceutical subjects",
+            "supervise postgraduate and doctoral research projects",
+            "conduct independent research in pharmaceutical sciences",
+            "publish research papers in scientific journals",
+            "develop academic curriculum and teaching materials",
+            "mentor students and junior faculty members"
+        ],
+        "education_required": [
+            "phd in pharmacy or pharmaceutical sciences",
+            "academic publications"
+        ],
+        "experience_required": "teaching and research experience",
+        "work_environment": [
+            "universities",
+            "pharmacy colleges",
+            "research institutes"
+        ]
+    },
+    {
+        "job_title": "Associate Professor (Pharmacy)",
+        "category": "Pharmacy",
+        "skills_required": [
+            "teach undergraduate and postgraduate pharmacy students",
+            "conduct independent research projects",
+            "publish scientific articles",
+            "guide postgraduate research students",
+            "participate in academic committees and curriculum development"
+        ],
+        "education_required": [
+            "research publications in recognized journals"
+        ],
+        "experience_required": "phd or m.pharm with teaching experience",
+        "work_environment": [
+            "pharmacy colleges",
+            "universities",
+            "research institutions"
+        ]
+    },
+    {
+        "job_title": "Assistant Professor (Pharmacy)",
+        "category": "Pharmacy",
+        "skills_required": [
+            "teach pharmacy subjects to undergraduate students",
+            "conduct laboratory sessions and practical training",
+            "assist in research projects and publications",
+            "mentor students academically",
+            "participate in academic conferences and workshops"
+        ],
+        "education_required": [
+            "m.pharm or phd in pharmacy",
+            "qualification in national eligibility tests (in some countries)"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "pharmacy colleges",
+            "universities",
+            "academic research centers"
+        ]
+    },
+    {
+        "job_title": "Pharmaceutical Research Scientist",
+        "category": "Research & Development",
+        "skills_required": [
+            "design and conduct pharmaceutical research experiments",
+            "study drug mechanisms and pharmacological effects",
+            "analyze research data and prepare reports",
+            "collaborate with multidisciplinary research teams",
+            "publish research findings in scientific journals"
+        ],
+        "education_required": [
+            "m.pharm / phd in pharmaceutical sciences",
+            "strong research and analytical skills"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "pharmaceutical research laboratories",
+            "universities",
+            "drug development companies"
+        ]
+    },
+    {
+        "job_title": "Clinical Research Associate",
+        "category": "Clinical/Hospital Pharmacy",
+        "skills_required": [
+            "monitor clinical trial sites and research activities",
+            "ensure compliance with clinical research regulations",
+            "verify accuracy of clinical trial data",
+            "review trial documentation and reports",
+            "communicate with investigators and sponsors"
+        ],
+        "education_required": [
+            "b.pharm / m.pharm / pharmd",
+            "training in clinical research"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "contract research organizations (cros)",
+            "pharmaceutical companies",
+            "clinical trial management organizations"
+        ]
+    },
+    {
+        "job_title": "Clinical Research Coordinator",
+        "category": "Clinical/Hospital Pharmacy",
+        "skills_required": [
+            "coordinate clinical trial activities",
+            "recruit and screen research participants",
+            "maintain trial documentation and records",
+            "ensure ethical and regulatory compliance",
+            "communicate with investigators and sponsors"
+        ],
+        "education_required": [
+            "b.pharm / m.pharm / pharmd",
+            "clinical research training"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "hospitals",
+            "research institutions",
+            "clinical trial centers"
+        ]
+    },
+    {
+        "job_title": "Principal Investigator (Clinical Trials)",
+        "category": "Clinical/Hospital Pharmacy",
+        "skills_required": [
+            "design and lead clinical trial studies",
+            "ensure ethical conduct of research",
+            "supervise research teams and staff",
+            "analyze clinical trial results",
+            "report study findings to regulatory authorities"
+        ],
+        "education_required": [
+            "extensive knowledge of clinical trial regulations"
+        ],
+        "experience_required": "pharmd / phd / md with clinical research experience",
+        "work_environment": [
+            "research hospitals",
+            "universities",
+            "pharmaceutical research organizations"
+        ]
+    },
+    {
+        "job_title": "Pharmacology Researcher",
+        "category": "Research & Development",
+        "skills_required": [
+            "study mechanisms of drug action",
+            "conduct laboratory experiments on drug effects",
+            "analyze pharmacokinetics and pharmacodynamics",
+            "develop safer and more effective medications",
+            "publish research findings"
+        ],
+        "education_required": [
+            "m.pharm / phd in pharmacology or pharmaceutical sciences"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "pharmaceutical research institutes",
+            "universities",
+            "drug development laboratories"
+        ]
+    },
+    {
+        "job_title": "Clinical Trial Pharmacist",
+        "category": "Clinical/Hospital Pharmacy",
+        "skills_required": [
+            "manage investigational drug supplies for clinical trials",
+            "prepare and dispense study medications according to protocols",
+            "maintain drug accountability records",
+            "ensure proper storage and labeling of clinical trial drugs",
+            "educate research staff on investigational drug usage",
+            "ensure compliance with clinical trial regulations and guidelines"
+        ],
+        "education_required": [
+            "b.pharm / pharmd / m.pharm",
+            "training in clinical trial management"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "hospitals conducting clinical trials",
+            "pharmaceutical companies",
+            "contract research organizations (cros)"
+        ]
+    },
+    {
+        "job_title": "Clinical Research Scientist",
+        "category": "Clinical/Hospital Pharmacy",
+        "skills_required": [
+            "design clinical trial protocols",
+            "analyze clinical trial data",
+            "evaluate safety and efficacy of investigational drugs",
+            "collaborate with regulatory and research teams",
+            "publish research findings in scientific journals",
+            "support regulatory submissions"
+        ],
+        "education_required": [
+            "m.pharm / phd / pharmd",
+            "expertise in clinical research methodology"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "pharmaceutical companies",
+            "research institutes",
+            "clinical research organizations"
+        ]
+    },
+    {
+        "job_title": "Medical Writer",
+        "category": "Pharmacy",
+        "skills_required": [
+            "write clinical study reports and research manuscripts",
+            "prepare regulatory documents for drug approvals",
+            "develop scientific articles and publications",
+            "create educational materials for healthcare professionals",
+            "review and edit scientific documents"
+        ],
+        "education_required": [
+            "b.pharm / m.pharm / pharmd",
+            "strong scientific writing skills"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "pharmaceutical companies",
+            "medical communication agencies",
+            "research institutions"
+        ]
+    },
+    {
+        "job_title": "Biostatistics Research Associate",
+        "category": "Research & Development",
+        "skills_required": [
+            "design statistical analysis plans for clinical trials",
+            "analyze research data using statistical software",
+            "interpret clinical study results",
+            "prepare statistical reports and presentations",
+            "support researchers in data interpretation"
+        ],
+        "education_required": [
+            "m.pharm / msc / phd in biostatistics or related field",
+            "knowledge of statistical software (sas, r, spss)"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "pharmaceutical companies",
+            "clinical research organizations",
+            "academic research institutions"
+        ]
+    },
+    {
+        "job_title": "Clinical Data Manager",
+        "category": "Clinical/Hospital Pharmacy",
+        "skills_required": [
+            "design clinical trial data management systems",
+            "ensure accuracy and integrity of clinical data",
+            "monitor data collection from research sites",
+            "maintain clinical trial databases",
+            "ensure compliance with regulatory data standards"
+        ],
+        "education_required": [
+            "b.pharm / m.pharm / pharmd",
+            "knowledge of clinical data management systems"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "pharmaceutical companies",
+            "contract research organizations",
+            "clinical trial management companies"
+        ]
+    },
+    {
+        "job_title": "Drug Development Scientist",
+        "category": "Research & Development",
+        "skills_required": [
+            "conduct preclinical and clinical research on new drugs",
+            "design drug development strategies",
+            "evaluate safety and efficacy data",
+            "collaborate with regulatory and manufacturing teams",
+            "support drug approval processes"
+        ],
+        "education_required": [
+            "m.pharm / phd in pharmaceutical sciences"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "pharmaceutical research and development departments",
+            "biotechnology companies",
+            "drug discovery laboratories"
+        ]
+    },
+    {
+        "job_title": "Clinical Quality Specialist",
+        "category": "Clinical/Hospital Pharmacy",
+        "skills_required": [
+            "monitor compliance with clinical trial regulations",
+            "conduct quality audits of clinical trial processes",
+            "review clinical trial documentation",
+            "identify and correct protocol deviations",
+            "ensure adherence to good clinical practice (gcp) standards"
+        ],
+        "education_required": [
+            "b.pharm / m.pharm / pharmd",
+            "knowledge of clinical quality management systems"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "pharmaceutical companies",
+            "clinical research organizations",
+            "regulatory compliance departments"
+        ]
+    },
+    {
+        "job_title": "Medical Affairs Manager",
+        "category": "Pharmacy",
+        "skills_required": [
+            "provide scientific support for pharmaceutical products",
+            "communicate clinical data to healthcare professionals",
+            "support medical education and training programs",
+            "manage medical information and scientific publications",
+            "collaborate with research, marketing, and regulatory teams",
+            "ensure compliance with medical and ethical guidelines"
+        ],
+        "education_required": [
+            "pharmd / m.pharm / phd in pharmaceutical sciences"
+        ],
+        "experience_required": "experience in medical affairs or clinical research",
+        "work_environment": [
+            "pharmaceutical companies",
+            "biotechnology companies",
+            "medical affairs departments"
+        ]
+    },
+    {
+        "job_title": "Pharmaceutical Product Manager",
+        "category": "Pharmacy",
+        "skills_required": [
+            "develop product strategies and marketing plans",
+            "conduct market research and competitor analysis",
+            "coordinate product launches",
+            "monitor product performance and sales",
+            "collaborate with research, regulatory, and sales teams",
+            "develop promotional materials for healthcare professionals"
+        ],
+        "education_required": [
+            "b.pharm / m.pharm / mba (pharma management preferred)",
+            "knowledge of pharmaceutical marketing and product management"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "pharmaceutical companies",
+            "biotechnology firms",
+            "healthcare product companies"
+        ]
+    },
+    {
+        "job_title": "Pharmaceutical Marketing Manager",
+        "category": "Pharmacy",
+        "skills_required": [
+            "develop marketing campaigns for pharmaceutical products",
+            "conduct market research and analyze industry trends",
+            "manage brand positioning and product promotion",
+            "coordinate with sales teams to achieve marketing goals",
+            "organize medical conferences and promotional events",
+            "monitor marketing performance metrics"
+        ],
+        "education_required": [
+            "b.pharm / m.pharm / mba in marketing or pharmaceutical management"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "pharmaceutical companies",
+            "healthcare marketing agencies",
+            "biotechnology firms"
+        ]
+    },
+    {
+        "job_title": "Medical Science Liaison",
+        "category": "Pharmacy",
+        "skills_required": [
+            "provide scientific support to healthcare professionals",
+            "present clinical trial data and research findings",
+            "build relationships with key opinion leaders (kols)",
+            "support clinical research and medical education programs",
+            "gather feedback from healthcare professionals about products"
+        ],
+        "education_required": [
+            "pharmd / phd / m.pharm",
+            "strong knowledge of clinical research and drug therapy"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "pharmaceutical companies",
+            "biotechnology companies",
+            "medical affairs departments"
+        ]
+    },
+    {
+        "job_title": "Healthcare Consultant (Pharma)",
+        "category": "Clinical/Hospital Pharmacy",
+        "skills_required": [
+            "analyze healthcare systems and pharmaceutical operations",
+            "develop strategies for improving healthcare services",
+            "provide regulatory and compliance guidance",
+            "conduct healthcare market analysis",
+            "advise pharmaceutical companies on business growth strategies"
+        ],
+        "education_required": [
+            "b.pharm / m.pharm / mba in healthcare management"
+        ],
+        "experience_required": "experience in healthcare consulting",
+        "work_environment": [
+            "healthcare consulting firms",
+            "pharmaceutical companies",
+            "healthcare organizations"
+        ]
+    },
+    {
+        "job_title": "Pharmaceutical Sales Manager",
+        "category": "Pharmacy",
+        "skills_required": [
+            "manage pharmaceutical sales teams",
+            "develop sales strategies and targets",
+            "monitor sales performance and revenue growth",
+            "train sales representatives",
+            "build relationships with healthcare providers and distributors",
+            "analyze market trends and sales data"
+        ],
+        "education_required": [
+            "b.pharm / m.pharm / mba in marketing or sales"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "pharmaceutical companies",
+            "medical product companies",
+            "healthcare distribution firms"
+        ]
+    },
+    {
+        "job_title": "Business Development Manager (Pharma)",
+        "category": "Pharmacy",
+        "skills_required": [
+            "identify new market opportunities",
+            "develop strategic partnerships with healthcare organizations",
+            "negotiate business agreements and collaborations",
+            "conduct market analysis and competitor research",
+            "support product expansion and international growth"
+        ],
+        "education_required": [
+            "b.pharm / m.pharm / mba in business administration"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "pharmaceutical companies",
+            "biotechnology companies",
+            "healthcare corporations"
+        ]
+    },
+    {
+        "job_title": "Medical Advisor",
+        "category": "Pharmacy",
+        "skills_required": [
+            "provide scientific advice on pharmaceutical products",
+            "review clinical research and medical literature",
+            "support regulatory submissions and medical communications",
+            "train internal teams on medical information",
+            "ensure ethical and scientific accuracy in promotional materials"
+        ],
+        "education_required": [
+            "pharmd / m.pharm / phd in pharmaceutical sciences"
+        ],
+        "experience_required": "experience in medical affairs or clinical research",
+        "work_environment": [
+            "pharmaceutical companies",
+            "biotechnology firms",
+            "medical advisory departments"
+        ]
+    },
+    {
+        "job_title": "Pharmacy Informatics Specialist",
+        "category": "Pharmacy",
+        "skills_required": [
+            "design and maintain pharmacy information systems",
+            "implement electronic medication management systems",
+            "optimize electronic prescribing and dispensing workflows",
+            "analyze medication-use data for safety improvements",
+            "train healthcare staff on pharmacy software systems",
+            "ensure compliance with healthcare data standards"
+        ],
+        "education_required": [
+            "b.pharm / pharmd / m.pharm",
+            "additional training in health informatics or healthcare it"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "hospitals and healthcare systems",
+            "health it companies",
+            "pharmacy management software companies"
+        ]
+    },
+    {
+        "job_title": "Healthcare Data Analyst (Pharmacy)",
+        "category": "Clinical/Hospital Pharmacy",
+        "skills_required": [
+            "analyze large datasets related to medication usage",
+            "identify trends in drug prescriptions and patient outcomes",
+            "develop dashboards and data visualization reports",
+            "support healthcare decision-making through data insights",
+            "monitor drug safety and treatment effectiveness"
+        ],
+        "education_required": [
+            "b.pharm / m.pharm / pharmd",
+            "skills in data analytics tools (python, r, sql, power bi)"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "healthcare organizations",
+            "pharmaceutical companies",
+            "health analytics firms"
+        ]
+    },
+    {
+        "job_title": "Digital Health Pharmacist",
+        "category": "Pharmacy",
+        "skills_required": [
+            "develop digital tools for medication adherence and patient monitoring",
+            "support telehealth and remote patient care services",
+            "evaluate digital health applications related to medication therapy",
+            "collaborate with technology developers to improve health platforms",
+            "ensure safe use of medications through digital systems"
+        ],
+        "education_required": [
+            "pharmd / m.pharm",
+            "knowledge of digital health technologies and telemedicine platforms"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "digital health startups",
+            "telemedicine companies",
+            "healthcare technology companies"
+        ]
+    },
+    {
+        "job_title": "E-Prescription System Specialist",
+        "category": "Pharmacy",
+        "skills_required": [
+            "implement and maintain electronic prescribing platforms",
+            "ensure secure transmission of prescription data",
+            "integrate e-prescription systems with hospital information systems",
+            "monitor system performance and troubleshoot issues",
+            "train healthcare providers on electronic prescribing tools"
+        ],
+        "education_required": [
+            "b.pharm / pharmd / m.pharm",
+            "knowledge of healthcare it systems and electronic health records"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "hospitals and healthcare networks",
+            "health it companies",
+            "pharmacy software development firms"
+        ]
+    },
+    {
+        "job_title": "Telepharmacy Consultant",
+        "category": "Pharmacy",
+        "skills_required": [
+            "provide remote patient counseling to patients",
+            "review prescriptions and ensure safe medication use",
+            "support rural or remote pharmacies through telepharmacy services",
+            "monitor medication adherence using digital tools",
+            "collaborate with physicians and healthcare providers remotely"
+        ],
+        "education_required": [
+            "pharmd / m.pharm / b.pharm",
+            "training in telehealth and remote patient care"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "telehealth platforms",
+            "online pharmacy services",
+            "remote healthcare clinics"
+        ]
+    },
+    {
+        "job_title": "Ai In Drug Discovery Researcher",
+        "category": "Research & Development",
+        "skills_required": [
+            "develop ai models for drug discovery and molecular prediction",
+            "analyze biological and pharmaceutical datasets",
+            "identify potential drug candidates using machine learning algorithms",
+            "collaborate with chemists, biologists, and data scientists",
+            "improve drug discovery pipelines using computational tools"
+        ],
+        "education_required": [
+            "m.pharm / phd in pharmaceutical sciences or computational biology",
+            "skills in machine learning, bioinformatics, and programming"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "pharmaceutical r&d departments",
+            "biotechnology companies",
+            "ai healthcare startups"
+        ]
+    },
+    {
+        "job_title": "Pharmaceutical Supply Chain Manager",
+        "category": "Pharmacy",
+        "skills_required": [
+            "plan and manage pharmaceutical supply chain operations",
+            "coordinate procurement, production, and distribution activities",
+            "monitor inventory levels across supply chain networks",
+            "ensure compliance with pharmaceutical storage and transportation regulations",
+            "optimize logistics processes to reduce costs and improve efficiency",
+            "manage relationships with suppliers, distributors, and logistics partners"
+        ],
+        "education_required": [
+            "b.pharm / m.pharm / mba in supply chain management"
+        ],
+        "experience_required": "experience in pharmaceutical logistics and distribution",
+        "work_environment": [
+            "pharmaceutical companies",
+            "drug distribution companies",
+            "healthcare supply chain organizations"
+        ]
+    },
+    {
+        "job_title": "Drug Distribution Manager",
+        "category": "Pharmacy",
+        "skills_required": [
+            "manage pharmaceutical distribution networks",
+            "ensure timely delivery of medicines to healthcare facilities",
+            "monitor compliance with drug storage and transportation standards",
+            "coordinate with wholesalers, retailers, and logistics providers",
+            "track distribution performance and logistics efficiency",
+            "maintain distribution documentation and regulatory compliance"
+        ],
+        "education_required": [
+            "b.pharm / m.pharm",
+            "knowledge of pharmaceutical distribution regulations"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "pharmaceutical distribution companies",
+            "wholesale drug suppliers",
+            "pharmaceutical logistics firms"
+        ]
+    },
+    {
+        "job_title": "Pharmaceutical Warehouse Manager",
+        "category": "Pharmacy",
+        "skills_required": [
+            "manage pharmaceutical warehouse operations",
+            "ensure proper storage conditions for medicines (temperature, humidity control)",
+            "supervise warehouse staff and logistics teams",
+            "maintain accurate inventory records",
+            "implement safety and regulatory compliance procedures",
+            "coordinate incoming and outgoing shipments"
+        ],
+        "education_required": [
+            "b.pharm / m.pharm / logistics management training"
+        ],
+        "experience_required": "experience in warehouse or logistics operations",
+        "work_environment": [
+            "pharmaceutical warehouses",
+            "drug distribution centers",
+            "medical supply companies"
+        ]
+    },
+    {
+        "job_title": "Procurement Pharmacist",
+        "category": "Pharmacy",
+        "skills_required": [
+            "identify and evaluate pharmaceutical suppliers",
+            "negotiate purchase contracts and pricing agreements",
+            "ensure procurement of quality medicines and supplies",
+            "maintain procurement documentation and compliance",
+            "monitor supplier performance and delivery schedules",
+            "manage procurement budgets and cost control"
+        ],
+        "education_required": [
+            "b.pharm / m.pharm",
+            "knowledge of procurement processes and pharmaceutical regulations"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "hospitals and healthcare systems",
+            "pharmaceutical companies",
+            "government healthcare procurement departments"
+        ]
+    },
+    {
+        "job_title": "Inventory Control Pharmacist",
+        "category": "Pharmacy",
+        "skills_required": [
+            "monitor inventory levels of pharmaceutical products",
+            "maintain stock records and inventory databases",
+            "implement inventory management systems",
+            "prevent expired or obsolete medication stock",
+            "conduct regular inventory audits",
+            "coordinate with procurement and distribution teams"
+        ],
+        "education_required": [
+            "b.pharm / pharmd / m.pharm",
+            "knowledge of inventory management systems"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "hospitals and healthcare facilities",
+            "pharmaceutical warehouses",
+            "drug distribution companies"
+        ]
+    },
+    {
+        "job_title": "Nuclear Pharmacy Specialist",
+        "category": "Pharmacy",
+        "skills_required": [
+            "prepare radiopharmaceuticals used in diagnostic imaging",
+            "ensure safe handling and storage of radioactive materials",
+            "maintain radiation safety protocols",
+            "dispense nuclear medicine drugs for medical procedures",
+            "monitor radiation exposure and compliance with safety regulations",
+            "collaborate with radiologists and nuclear medicine physicians"
+        ],
+        "education_required": [
+            "pharmd / m.pharm",
+            "specialized training or certification in nuclear pharmacy"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "nuclear medicine departments in hospitals",
+            "diagnostic imaging centers",
+            "radiopharmaceutical manufacturing facilities"
+        ]
+    },
+    {
+        "job_title": "Veterinary Pharmacist",
+        "category": "Pharmacy",
+        "skills_required": [
+            "medication dispensing prescribed by veterinarians",
+            "calculate appropriate drug dosages for different animal species",
+            "compound medications specifically for animals",
+            "provide guidance on veterinary drug safety and interactions",
+            "manage veterinary pharmaceutical inventory"
+        ],
+        "education_required": [
+            "b.pharm / pharmd / m.pharm",
+            "knowledge of veterinary pharmacology"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "veterinary hospitals and clinics",
+            "veterinary pharmaceutical companies",
+            "animal healthcare facilities"
+        ]
+    },
+    {
+        "job_title": "Compounding Pharmacist",
+        "category": "Pharmacy",
+        "skills_required": [
+            "prepare customized drug formulations",
+            "mix and compound medications in various forms (creams, capsules, liquids)",
+            "adjust drug dosages and ingredients based on patient requirements",
+            "ensure sterile and non-sterile compounding standards",
+            "maintain compounding equipment and laboratory safety protocols"
+        ],
+        "education_required": [
+            "b.pharm / pharmd / m.pharm",
+            "training in pharmaceutical compounding techniques"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "compounding pharmacies",
+            "hospitals and specialty clinics",
+            "pharmaceutical compounding laboratories"
+        ]
+    },
+    {
+        "job_title": "Toxicology Specialist",
+        "category": "Pharmacy",
+        "skills_required": [
+            "investigate drug toxicity and adverse reactions",
+            "conduct laboratory studies on chemical safety",
+            "analyze poisoning cases and toxic exposures",
+            "develop safety guidelines for drug usage",
+            "support regulatory and forensic investigations"
+        ],
+        "education_required": [
+            "m.pharm / phd in toxicology or pharmacology",
+            "strong laboratory research skills"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "toxicology laboratories",
+            "pharmaceutical safety departments",
+            "government regulatory agencies",
+            "forensic laboratories"
+        ]
+    },
+    {
+        "job_title": "Cosmetic Formulation Scientist",
+        "category": "Research & Development",
+        "skills_required": [
+            "design and develop cosmetic product formulations",
+            "conduct stability and safety testing",
+            "select appropriate cosmetic ingredients and preservatives",
+            "ensure compliance with cosmetic regulations",
+            "collaborate with marketing and product development teams"
+        ],
+        "education_required": [
+            "b.pharm / m.pharm / phd in pharmaceutics or cosmetic science"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "cosmetic manufacturing companies",
+            "personal care product companies",
+            "cosmetic research laboratories"
+        ]
+    },
+    {
+        "job_title": "Herbal / Ayurvedic Drug Researcher",
+        "category": "Research & Development",
+        "skills_required": [
+            "research medicinal plants and natural compounds",
+            "develop herbal drug formulations",
+            "conduct pharmacological studies on herbal medicines",
+            "ensure safety and quality of herbal products",
+            "publish research on traditional medicine and herbal therapies"
+        ],
+        "education_required": [
+            "b.pharm / m.pharm / phd in pharmacognosy or herbal drug research"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "herbal pharmaceutical companies",
+            "ayurvedic medicine research institutes",
+            "natural product research laboratories"
+        ]
+    },
+    {
+        "job_title": "Cruise Ship Pharmacist",
+        "category": "Pharmacy",
+        "skills_required": [
+            "dispense prescription and over-the-counter medications onboard",
+            "provide patient counseling to passengers and crew",
+            "manage onboard pharmacy inventory and medical supplies",
+            "assist ship doctors in managing medical emergencies",
+            "ensure proper storage of medicines in maritime environments",
+            "maintain medical records and regulatory compliance"
+        ],
+        "education_required": [
+            "b.pharm / pharmd / m.pharm",
+            "valid pharmacist license",
+            "maritime or travel medicine training (preferred)"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "international cruise ships",
+            "maritime healthcare services",
+            "cruise medical centers"
+        ]
+    },
+    {
+        "job_title": "Aviation Medical Supply Pharmacist",
+        "category": "Pharmacy",
+        "skills_required": [
+            "maintain medical kits used on commercial flights",
+            "manage pharmaceutical inventory for aviation medical services",
+            "ensure compliance with aviation health and safety regulations",
+            "supply medications for air ambulance operations",
+            "coordinate with airline medical departments"
+        ],
+        "education_required": [
+            "b.pharm / pharmd",
+            "knowledge of aviation medical safety standards"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "airline medical departments",
+            "air ambulance services",
+            "airport medical facilities"
+        ]
+    },
+    {
+        "job_title": "Military Pharmacist",
+        "category": "Pharmacy",
+        "skills_required": [
+            "medication dispensing to military personnel",
+            "manage pharmaceutical supply in military hospitals and field units",
+            "support medical teams during military operations and emergencies",
+            "maintain medical readiness for combat or disaster situations",
+            "ensure safe handling and distribution of medications in military environments"
+        ],
+        "education_required": [
+            "b.pharm / pharmd / m.pharm",
+            "military medical training"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "military hospitals",
+            "armed forces medical units",
+            "defense healthcare services example organization: indian armed forces"
+        ]
+    },
+    {
+        "job_title": "Humanitarian Pharmacist",
+        "category": "Pharmacy",
+        "skills_required": [
+            "manage medicine supply in disaster-affected regions",
+            "support emergency healthcare programs",
+            "coordinate pharmaceutical logistics for relief operations",
+            "ensure safe and appropriate medication use in humanitarian settings",
+            "train local healthcare workers on medication management"
+        ],
+        "education_required": [
+            "b.pharm / pharmd / m.pharm",
+            "training in humanitarian health or emergency medicine"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "international humanitarian organizations",
+            "disaster relief missions",
+            "refugee healthcare programs example organization: world health organization"
+        ]
+    },
+    {
+        "job_title": "Ngo Pharmaceutical Specialist",
+        "category": "Pharmacy",
+        "skills_required": [
+            "develop pharmaceutical policies for ngo health programs",
+            "manage procurement and distribution of medicines",
+            "monitor drug safety and quality in community programs",
+            "support public health initiatives and vaccination campaigns",
+            "train healthcare workers in medication management"
+        ],
+        "education_required": [
+            "b.pharm / m.pharm / pharmd"
+        ],
+        "experience_required": "experience in public health or global health programs",
+        "work_environment": [
+            "international ngos",
+            "public health organizations",
+            "global healthcare programs"
+        ]
+    }
+]
