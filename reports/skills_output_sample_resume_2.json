@@ -1,0 +1,53 @@
+{
+    "resume_name": "sample_resume_2_cleaned.txt",
+    "technical_skills": [
+        "Artificial Intelligence",
+        "CSS",
+        "Data Analysis",
+        "Data Science",
+        "Django",
+        "Feature Engineering",
+        "HTML",
+        "JavaScript",
+        "MSSQL",
+        "Machine Learning",
+        "Matplotlib",
+        "MySQL",
+        "NumPy",
+        "Pandas",
+        "Power BI",
+        "Python",
+        "SQL",
+        "SQLite",
+        "Scikit-Learn",
+        "Seaborn",
+        "Tableau"
+    ],
+    "non_technical_skills": [
+        "Management"
+    ],
+    "confidence": {
+        "Feature Engineering": 0.95,
+        "Machine Learning": 0.99,
+        "Data Analysis": 0.95,
+        "Data Science": 0.99,
+        "Scikit-Learn": 0.99,
+        "JavaScript": 0.99,
+        "Matplotlib": 0.99,
+        "Management": 0.95,
+        "Power BI": 0.99,
+        "Seaborn": 0.99,
+        "Tableau": 0.99,
+        "Python": 0.99,
+        "SQLite": 0.99,
+        "Django": 0.99,
+        "Pandas": 0.99,
+        "MySQL": 0.99,
+        "MSSQL": 0.95,
+        "NumPy": 0.99,
+        "HTML": 0.99,
+        "SQL": 0.99,
+        "CSS": 0.99,
+        "Artificial Intelligence": 0.95
+    }
+}
