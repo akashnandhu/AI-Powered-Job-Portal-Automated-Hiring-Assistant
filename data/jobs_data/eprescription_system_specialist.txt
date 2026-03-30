@@ -1,0 +1,17 @@
+69. E-Prescription System Specialist 
+Job Overview 
+An E-Prescription System Specialist designs and manages electronic prescribing systems that 
+allow healthcare providers to send prescriptions digitally to pharmacies. 
+Key Responsibilities 
+• Implement and maintain electronic prescribing platforms 
+• Ensure secure transmission of prescription data 
+• Integrate e-prescription systems with hospital information systems 
+• Monitor system performance and troubleshoot issues 
+• Train healthcare providers on electronic prescribing tools 
+Required Qualifications 
+• B.Pharm / PharmD / M.Pharm 
+• Knowledge of healthcare IT systems and electronic health records 
+Work Settings 
+• Hospitals and healthcare networks 
+• Health IT companies 
+• Pharmacy software development firms

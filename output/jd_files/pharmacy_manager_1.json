@@ -1,20 +1,21 @@
 {
     "job_title": "Pharmacy Manager",
-    "category": "Pharmacy",
+    "category": "Retail/Community Pharmacy",
     "skills_required": [
-        "manage operations across several pharmacy stores",
-        "develop operational strategies and policies",
-        "monitor sales, profits, and performance metrics",
-        "ensure regulatory compliance across branches",
-        "recruit and train pharmacy staff",
-        "implement marketing and customer service strategies"
+        "manage pharmacy operations and staff",
+        "maintain medication inventory and ordering",
+        "ensure regulatory compliance and safety standards",
+        "handle financial management and sales performance",
+        "resolve customer issues and complaints",
+        "train and supervise pharmacy employees"
     ],
     "education_required": [
         "b.pharm / pharmd"
     ],
-    "experience_required": "leadership and management experience",
+    "experience_required": "management experience in pharmacy practice",
     "work_environment": [
-        "national pharmacy chains",
-        "corporate pharmacy organizations"
+        "retail pharmacy stores",
+        "pharmacy chains",
+        "hospital outpatient pharmacies"
     ]
 }

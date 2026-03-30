@@ -167,19 +167,28 @@ def parse_jd_file(input_file):
     return jobs
 
 def main():
-    input_file = "data/jobs_data.txt/jd_sch.txt"
-    # Fallback to general jd_sch.txt if needed
-    if not os.path.exists(input_file):
-        input_file = "data/jd_sch.txt"
-        
+    input_dir = "data/jobs_data"
     output_dir = "output/jd_files"
     combined_file = "output/jd_parsed_output.json"
     
-    print(f"Reading job descriptions from {input_file}...")
-    try:
-        raw_jobs = parse_jd_file(input_file)
-    except FileNotFoundError:
-        print(f"Error: Could not find {input_file}")
+    if not os.path.exists(input_dir):
+        print(f"Error: Could not find input directory {input_dir}")
+        return
+        
+    print(f"Reading job descriptions from {input_dir}...")
+    
+    raw_jobs = []
+    # Process all txt files in the input directory
+    for filename in os.listdir(input_dir):
+        if filename.endswith(".txt"):
+            file_path = os.path.join(input_dir, filename)
+            try:
+                raw_jobs.extend(parse_jd_file(file_path))
+            except Exception as e:
+                print(f"Error parsing {file_path}: {e}")
+                
+    if not raw_jobs:
+        print("No job descriptions were successfully parsed.")
         return
         
     parsed_jobs = []

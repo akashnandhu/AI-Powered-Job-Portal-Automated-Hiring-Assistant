@@ -1,0 +1,17 @@
+67. Healthcare Data Analyst (Pharmacy) 
+Job Overview 
+A Healthcare Data Analyst in pharmacy analyzes healthcare and medication data to improve 
+clinical outcomes and operational efficiency. 
+Key Responsibilities 
+• Analyze large datasets related to medication usage 
+• Identify trends in drug prescriptions and patient outcomes 
+• Develop dashboards and data visualization reports 
+• Support healthcare decision-making through data insights 
+• Monitor drug safety and treatment effectiveness 
+Required Qualifications 
+• B.Pharm / M.Pharm / PharmD 
+• Skills in data analytics tools (Python, R, SQL, Power BI) 
+Work Settings 
+• Healthcare organizations 
+• Pharmaceutical companies 
+• Health analytics firms

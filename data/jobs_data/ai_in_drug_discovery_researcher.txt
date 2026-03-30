@@ -1,0 +1,17 @@
+71. AI in Drug Discovery Researcher 
+Job Overview 
+An AI in Drug Discovery Researcher uses artificial intelligence and machine learning 
+techniques to accelerate the discovery and development of new drugs. 
+Key Responsibilities 
+• Develop AI models for drug discovery and molecular prediction 
+• Analyze biological and pharmaceutical datasets 
+• Identify potential drug candidates using machine learning algorithms 
+• Collaborate with chemists, biologists, and data scientists 
+• Improve drug discovery pipelines using computational tools 
+Required Qualifications 
+• M.Pharm / PhD in pharmaceutical sciences or computational biology 
+• Skills in machine learning, bioinformatics, and programming 
+Work Settings 
+• Pharmaceutical R&D departments 
+• Biotechnology companies 
+• AI healthcare startups
