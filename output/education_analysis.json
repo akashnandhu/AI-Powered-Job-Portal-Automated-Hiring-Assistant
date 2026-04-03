@@ -1,0 +1,39 @@
+{
+    "parsed_data": {
+        "education": [
+            {
+                "degree": "M.Pharm",
+                "normalized_degree": "Master of Pharmacy",
+                "field": "Pharmaceutical Sciences",
+                "institution": "Pharm in Pharmaceutical Sciences     University of Example",
+                "graduation_year": "2021"
+            },
+            {
+                "degree": "B.Sc",
+                "normalized_degree": "Bachelor of Science",
+                "field": "Chemistry     State",
+                "institution": "Sc in Chemistry     State College",
+                "graduation_year": "2019"
+            }
+        ],
+        "certifications": [
+            {
+                "name": "Machine Learning by Coursera",
+                "issuer": "Coursera",
+                "year": "2022",
+                "category": "AI/ML"
+            },
+            {
+                "name": "AWS Certified Solutions Architect",
+                "issuer": "AWS",
+                "year": "2023",
+                "category": "Cloud"
+            }
+        ]
+    },
+    "scoring": {
+        "education_relevance_score": 0.9,
+        "meets_requirement": true,
+        "reason": "Master Of Pharmacy in Pharmaceutical Sciences matches job requirement."
+    }
+}
