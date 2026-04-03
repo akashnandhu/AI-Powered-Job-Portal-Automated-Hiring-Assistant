@@ -4,3 +4,4 @@ scikit-learn
 numpy
 pdfplumber
 python-docx
+python-dateutil

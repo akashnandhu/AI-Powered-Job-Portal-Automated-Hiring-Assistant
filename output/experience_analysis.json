@@ -1,0 +1,83 @@
+{
+    "target_job": {
+        "job_title": "Ai In Drug Discovery Researcher",
+        "category": "Research & Development",
+        "skills_required": [
+            "develop ai models for drug discovery and molecular prediction",
+            "analyze biological and pharmaceutical datasets",
+            "identify potential drug candidates using machine learning algorithms",
+            "collaborate with chemists, biologists, and data scientists",
+            "improve drug discovery pipelines using computational tools"
+        ],
+        "education_required": [
+            "m.pharm / phd in pharmaceutical sciences or computational biology",
+            "skills in machine learning, bioinformatics, and programming"
+        ],
+        "experience_required": "Not specified",
+        "work_environment": [
+            "pharmaceutical r&d departments",
+            "biotechnology companies",
+            "ai healthcare startups"
+        ]
+    },
+    "candidate_analysis": {
+        "parsed_experiences": [
+            {
+                "company": "Bioinformatics Ltd",
+                "job_title": "Senior AI Researcher",
+                "start_date": "Jan 2019",
+                "end_date": "Present",
+                "duration_months": 86
+            },
+            {
+                "company": "Healthcare Analytics Inc",
+                "job_title": "Data Scientist",
+                "start_date": "Jun 2016",
+                "end_date": "Dec 2018",
+                "duration_months": 30
+            },
+            {
+                "company": "Generic Pharma Labs",
+                "job_title": "Research Intern",
+                "start_date": "Jan 2015",
+                "end_date": "May 2016",
+                "duration_months": 16
+            }
+        ],
+        "timeline": {
+            "total_calc_months": 132,
+            "total_span_months": 134,
+            "gaps_months": 2,
+            "overlaps_months": 0,
+            "gaps": [
+                {
+                    "from": "2016-05-01",
+                    "to": "2016-06-01",
+                    "duration_months": 1
+                },
+                {
+                    "from": "2018-12-01",
+                    "to": "2019-01-01",
+                    "duration_months": 1
+                }
+            ],
+            "overlaps": []
+        },
+        "role_relevance": [
+            {
+                "role": "Senior AI Researcher",
+                "relevance_score": 0.46
+            },
+            {
+                "role": "Data Scientist",
+                "relevance_score": 0.0
+            },
+            {
+                "role": "Research Intern",
+                "relevance_score": 0.0
+            }
+        ],
+        "overall_relevance_score": 0.15,
+        "meets_experience_requirement": true
+    }
+}
