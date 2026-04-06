@@ -1,9 +1,15 @@
 import os
+import sys
 import json
 import glob
 import re
 import math
 from scoring.weights_config import get_weights_for_category
+
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.append(BASE_DIR)
+from config import CANDIDATE_ID
+
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 JD_DIR = os.path.join(BASE_DIR, "output", "jd_files")
@@ -12,8 +18,8 @@ OUTPUT_DIR = os.path.join(BASE_DIR, "output")
 FINAL_OUTPUT_DIR = os.path.join(BASE_DIR, "outputs")
 
 class ATSScorer:
-    def __init__(self, candidate_id="sample_resume_2"):
-        self.candidate_id = candidate_id
+    def __init__(self, candidate_id=None):
+        self.candidate_id = candidate_id or CANDIDATE_ID
         self.candidate_skills = []
         self.candidate_confidences = {}
         self.candidate_exp_months = 0
@@ -24,18 +30,14 @@ class ATSScorer:
 
     def load_candidate_data(self):
         # 1. Load Skills
-        # Assuming multiple skill output files could be present, taking the one related to candidate_id
-        # or just taking the first one found if candidate_id is generic
-        skill_files = glob.glob(os.path.join(REPORTS_DIR, f"skills_output_*.json"))
-        skill_file = next((f for f in skill_files if self.candidate_id in f), None)
-        if not skill_file and skill_files:
-            skill_file = skill_files[0]
+        skill_file = os.path.join(REPORTS_DIR, f"skills_output_{self.candidate_id}.json")
+        if not os.path.exists(skill_file):
+            raise FileNotFoundError(f"Error: Critical skills file {skill_file} not found for candidate. Run skill extractor first.")
             
-        if skill_file and os.path.exists(skill_file):
-            with open(skill_file, "r") as f:
-                data = json.load(f)
-                self.candidate_skills = data.get("technical_skills", []) + data.get("non_technical_skills", [])
-                self.candidate_confidences = data.get("confidence", {})
+        with open(skill_file, "r") as f:
+            data = json.load(f)
+            self.candidate_skills = data.get("technical_skills", []) + data.get("non_technical_skills", [])
+            self.candidate_confidences = data.get("confidence", {})
 
         # 2. Load Experience
         exp_file = os.path.join(OUTPUT_DIR, "experience_analysis.json")
@@ -57,12 +59,14 @@ class ATSScorer:
         # 4. Load Semantic Scores
         sem_file = os.path.join(OUTPUT_DIR, "semantic_scores.json")
         if not os.path.exists(sem_file):
-            # Fallback to outputs folder
             sem_file = os.path.join(FINAL_OUTPUT_DIR, "semantic_scores.json")
         
         if os.path.exists(sem_file):
             with open(sem_file, "r") as f:
                 self.semantic_scores = json.load(f)
+        else:
+            print("Warning: semantic_scores.json missing. Fallback to 0.5 semantic score.")
+            self.semantic_scores = {}
 
     def extract_jd_skills(self, jd_data):
         text_elements = jd_data.get("skills_required", []) + \

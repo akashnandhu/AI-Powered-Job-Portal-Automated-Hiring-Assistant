@@ -5,6 +5,7 @@ import json
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(BASE_DIR)
 
+from config import CANDIDATE_ID
 from scoring.ats_scorer import ATSScorer
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -16,8 +17,12 @@ def main():
     print("=" * 50)
     
     # 1. Initialize the Scorer
-    print("Loading candidate data and initialing scorer...")
-    scorer = ATSScorer(candidate_id="sample_resume")
+    print(f"Loading candidate data and initialing scorer for {CANDIDATE_ID}...")
+    try:
+        scorer = ATSScorer(candidate_id=CANDIDATE_ID)
+    except FileNotFoundError as e:
+        print(e)
+        return
     
     # 2. Run Batch Scoring for all 87 JDs
     print("Batch scoring all job descriptions...")

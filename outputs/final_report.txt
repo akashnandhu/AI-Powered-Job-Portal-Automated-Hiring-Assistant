@@ -1,0 +1,360 @@
+==================================================
+CANDIDATE MATCH REPORT
+==================================================
+
+SHORTLISTED:
+------------
+1. Healthcare Data Analyst (Pharmacy) – 80.0%
+   * Boost applied for possessing extra relevant skills (+10%).
+   * Strong skill match (5 matched).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+
+REVIEW:
+-------
+2. Ai In Drug Discovery Researcher – 73.44%
+   * Strong skill match (3 matched).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+3. Pharmacy Informatics Specialist – 68.12%
+   * Strong skill match (3 matched).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+4. Biostatistics Research Associate – 65.52%
+   * Strong skill match (2 matched).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+5. Drug Development Scientist – 65.52%
+   * Strong skill match (2 matched).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+6. Pharmaceutical Research Scientist – 65.52%
+   * Strong skill match (2 matched).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+7. Pharmaceutical Research Scientist – 65.52%
+   * Strong skill match (2 matched).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+8. Clinical Data Manager – 63.12%
+   * Strong skill match (3 matched).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+9. Drug Safety Associate – 60.52%
+   * Strong skill match (2 matched).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+10. E-Prescription System Specialist – 60.52%
+   * Strong skill match (2 matched).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+11. Food & Drug Administration Pharmacist – 60.52%
+   * Strong skill match (2 matched).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+12. Medical Affairs Manager – 60.52%
+   * Strong skill match (2 matched).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+13. Medical Science Liaison – 60.52%
+   * Strong skill match (2 matched).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+14. Pharmaceutical Sales Manager – 60.52%
+   * Strong skill match (2 matched).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+15. Pharmacovigilance Officer – 60.52%
+   * Strong skill match (2 matched).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+16. Pharmaceutical Product Manager – 60.2%
+   * Strong skill match (2 matched).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+17. Industrial Pharmacist – 60.0%
+   * Missing critical skills penalty applied (-15%).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+18. Manufacturing Pharmacist – 60.0%
+   * Missing critical skills penalty applied (-15%).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+19. Production Pharmacist – 60.0%
+   * Missing critical skills penalty applied (-15%).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+20. Cosmetic Formulation Scientist – 56.73%
+   * Missing critical skills penalty applied (-15%).
+   * Strong skill match (1 matched).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+21. Formulation Development Scientist – 56.73%
+   * Missing critical skills penalty applied (-15%).
+   * Strong skill match (1 matched).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+22. Process Development Scientist – 56.46%
+   * Missing critical skills penalty applied (-15%).
+   * Strong skill match (1 matched).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+23. Clinical Research Associate – 55.52%
+   * Strong skill match (2 matched).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+24. Clinical Research Scientist – 55.52%
+   * Strong skill match (2 matched).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+25. Healthcare Consultant (Pharma) – 55.2%
+   * Strong skill match (2 matched).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+26. Business Development Manager (Pharma) – 51.46%
+   * Missing critical skills penalty applied (-15%).
+   * Strong skill match (1 matched).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+27. Consultant Pharmacist – 51.46%
+   * Missing critical skills penalty applied (-15%).
+   * Strong skill match (1 matched).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+28. Humanitarian Pharmacist – 51.46%
+   * Missing critical skills penalty applied (-15%).
+   * Strong skill match (1 matched).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+29. Inventory Control Pharmacist – 51.46%
+   * Missing critical skills penalty applied (-15%).
+   * Strong skill match (1 matched).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+30. Ngo Pharmaceutical Specialist – 51.46%
+   * Missing critical skills penalty applied (-15%).
+   * Strong skill match (1 matched).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+31. Pain Management Pharmacist – 51.46%
+   * Missing critical skills penalty applied (-15%).
+   * Strong skill match (1 matched).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+32. Pharmaceutical Marketing Manager – 51.46%
+   * Missing critical skills penalty applied (-15%).
+   * Strong skill match (1 matched).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+33. Pharmaceutical Supply Chain Manager – 51.46%
+   * Missing critical skills penalty applied (-15%).
+   * Strong skill match (1 matched).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+34. Pharmaceutical Warehouse Manager – 51.46%
+   * Missing critical skills penalty applied (-15%).
+   * Strong skill match (1 matched).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+35. Pharmacy Manager – 51.46%
+   * Missing critical skills penalty applied (-15%).
+   * Strong skill match (1 matched).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+36. Pharmacy Manager – 51.46%
+   * Missing critical skills penalty applied (-15%).
+   * Strong skill match (1 matched).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+37. Herbal / Ayurvedic Drug Researcher – 50.0%
+   * Missing critical skills penalty applied (-15%).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+38. Packaging Development Scientist – 50.0%
+   * Missing critical skills penalty applied (-15%).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+39. Pharmacology Researcher – 50.0%
+   * Missing critical skills penalty applied (-15%).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+
+REJECTED:
+---------
+40. Ambulatory Care Pharmacist – 46.46%
+   * Missing critical skills penalty applied (-15%).
+   * Strong skill match (1 matched).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+41. Clinical Pharmacist – 46.46%
+   * Missing critical skills penalty applied (-15%).
+   * Strong skill match (1 matched).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+42. Clinical Quality Specialist – 46.46%
+   * Missing critical skills penalty applied (-15%).
+   * Strong skill match (1 matched).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+43. Clinical Trial Pharmacist – 46.46%
+   * Missing critical skills penalty applied (-15%).
+   * Strong skill match (1 matched).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+44. Assistant Professor (Pharmacy) – 45.0%
+   * Missing critical skills penalty applied (-15%).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+45. Associate Professor (Pharmacy) – 45.0%
+   * Missing critical skills penalty applied (-15%).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+46. Aviation Medical Supply Pharmacist – 45.0%
+   * Missing critical skills penalty applied (-15%).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+47. Cardiology Pharmacist – 45.0%
+   * Missing critical skills penalty applied (-15%).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+48. Community Pharmacist – 45.0%
+   * Missing critical skills penalty applied (-15%).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+49. Community Pharmacist – 45.0%
+   * Missing critical skills penalty applied (-15%).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+50. Compounding Pharmacist – 45.0%
+   * Missing critical skills penalty applied (-15%).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+51. Cruise Ship Pharmacist – 45.0%
+   * Missing critical skills penalty applied (-15%).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+52. Digital Health Pharmacist – 45.0%
+   * Missing critical skills penalty applied (-15%).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+53. Dispensing Pharmacist – 45.0%
+   * Missing critical skills penalty applied (-15%).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+54. Drug Control Officer – 45.0%
+   * Missing critical skills penalty applied (-15%).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+55. Drug Distribution Manager – 45.0%
+   * Missing critical skills penalty applied (-15%).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+56. Drug Inspector – 45.0%
+   * Missing critical skills penalty applied (-15%).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+57. Emergency Medicine Pharmacist – 45.0%
+   * Missing critical skills penalty applied (-15%).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+58. Geriatric Pharmacist – 45.0%
+   * Missing critical skills penalty applied (-15%).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+59. Government Pharmacist – 45.0%
+   * Missing critical skills penalty applied (-15%).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+60. Infectious Disease Pharmacist – 45.0%
+   * Missing critical skills penalty applied (-15%).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+61. Medical Advisor – 45.0%
+   * Missing critical skills penalty applied (-15%).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+62. Medical Writer – 45.0%
+   * Missing critical skills penalty applied (-15%).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+63. Military Pharmacist – 45.0%
+   * Missing critical skills penalty applied (-15%).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+64. Nuclear Pharmacist – 45.0%
+   * Missing critical skills penalty applied (-15%).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+65. Nuclear Pharmacy Specialist – 45.0%
+   * Missing critical skills penalty applied (-15%).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+66. Nutrition Support Pharmacist – 45.0%
+   * Missing critical skills penalty applied (-15%).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+67. Oncology Pharmacist – 45.0%
+   * Missing critical skills penalty applied (-15%).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+68. Pediatric Pharmacist – 45.0%
+   * Missing critical skills penalty applied (-15%).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+69. Pharmacy Owner / Independent Pharmacist – 45.0%
+   * Missing critical skills penalty applied (-15%).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+70. Pharmacy Professor – 45.0%
+   * Missing critical skills penalty applied (-15%).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+71. Pharmacy Supervisor – 45.0%
+   * Missing critical skills penalty applied (-15%).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+72. Procurement Pharmacist – 45.0%
+   * Missing critical skills penalty applied (-15%).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+73. Psychiatric Pharmacist – 45.0%
+   * Missing critical skills penalty applied (-15%).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+74. Public Health Pharmacist – 45.0%
+   * Missing critical skills penalty applied (-15%).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+75. Quality Assurance (Qa) Pharmacist – 45.0%
+   * Missing critical skills penalty applied (-15%).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+76. Quality Control (Qc) Pharmacist – 45.0%
+   * Missing critical skills penalty applied (-15%).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+77. Regulatory Affairs Pharmacist – 45.0%
+   * Missing critical skills penalty applied (-15%).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+78. Technology Transfer Specialist – 45.0%
+   * Missing critical skills penalty applied (-15%).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+79. Telepharmacy Consultant – 45.0%
+   * Missing critical skills penalty applied (-15%).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+80. Toxicology Specialist – 45.0%
+   * Missing critical skills penalty applied (-15%).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+81. Transplant Pharmacist – 45.0%
+   * Missing critical skills penalty applied (-15%).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+82. Validation Pharmacist – 45.0%
+   * Missing critical skills penalty applied (-15%).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+83. Veterinary Pharmacist – 45.0%
+   * Missing critical skills penalty applied (-15%).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+84. Clinical Pharmacist – 40.0%
+   * Missing critical skills penalty applied (-15%).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+85. Clinical Research Coordinator – 40.0%
+   * Missing critical skills penalty applied (-15%).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+86. Critical Care Pharmacist – 40.0%
+   * Missing critical skills penalty applied (-15%).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).
+87. Principal Investigator (Clinical Trials) – 40.0%
+   * Missing critical skills penalty applied (-15%).
+   * Exceeds expected experience (11.0 vs 3.5 years).
+   * Good education match (Related Field -> 0.7).

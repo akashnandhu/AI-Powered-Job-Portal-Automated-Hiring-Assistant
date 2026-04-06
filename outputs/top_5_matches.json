@@ -1,0 +1,87 @@
+[
+    {
+        "rank": 1,
+        "job_title": "Healthcare Data Analyst (Pharmacy)",
+        "score": 80.0,
+        "category": "Shortlisted",
+        "breakdown": {
+            "skill": 1.0,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Boost applied for possessing extra relevant skills (+10%).",
+            "Strong skill match (5 matched).",
+            "Exceeds expected experience (11.0 vs 3.5 years)."
+        ]
+    },
+    {
+        "rank": 2,
+        "job_title": "Ai In Drug Discovery Researcher",
+        "score": 73.44,
+        "category": "Review",
+        "breakdown": {
+            "skill": 0.59,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Strong skill match (3 matched).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ]
+    },
+    {
+        "rank": 3,
+        "job_title": "Pharmacy Informatics Specialist",
+        "score": 68.12,
+        "category": "Review",
+        "breakdown": {
+            "skill": 0.58,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Strong skill match (3 matched).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ]
+    },
+    {
+        "rank": 4,
+        "job_title": "Biostatistics Research Associate",
+        "score": 65.52,
+        "category": "Review",
+        "breakdown": {
+            "skill": 0.39,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Strong skill match (2 matched).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ]
+    },
+    {
+        "rank": 5,
+        "job_title": "Drug Development Scientist",
+        "score": 65.52,
+        "category": "Review",
+        "breakdown": {
+            "skill": 0.39,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Strong skill match (2 matched).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ]
+    }
+]

@@ -1,6 +1,11 @@
 import os
+import sys
 import json
 from sentence_transformers import SentenceTransformer, util
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+sys.path.append(BASE_DIR)
+from config import CANDIDATE_ID
 
 # Define score levels
 def get_match_level(score):
@@ -37,7 +42,7 @@ def main():
     print(f"Loaded {len(all_jds)} JDs.")
 
     # 2. Resume Parsing
-    resume_path = r"data/labels/sample_resume_2.json"
+    resume_path = os.path.join("data", "labels", f"{CANDIDATE_ID}.json")
     print(f"Loading resume from {resume_path}...")
     if not os.path.exists(resume_path):
         print(f"Resume {resume_path} not found.")
@@ -113,7 +118,13 @@ def main():
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(ranked_jobs, f, indent=4)
         
-    print(f"Matching complete. Results saved to {out_path}.")
+    sem_scores_path = os.path.join(out_dir, "semantic_scores.json")
+    sem_scores = {jd["job_id"]: jd["score"] for jd in ranked_jobs}
+    
+    with open(sem_scores_path, "w", encoding="utf-8") as f:
+        json.dump(sem_scores, f, indent=4)
+        
+    print(f"Matching complete. Results saved to {out_path} and {sem_scores_path}.")
     if ranked_jobs:
         print(f"Top Match: {ranked_jobs[0]['job_title']} with score {ranked_jobs[0]['score']}")
 

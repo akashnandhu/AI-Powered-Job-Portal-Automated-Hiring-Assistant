@@ -1,11 +1,18 @@
 {
     "candidate_id": "sample_resume_2",
-    "results": [
+    "summary": {
+        "total_jobs": 87,
+        "priority": 0,
+        "shortlisted": 1,
+        "review": 38,
+        "rejected": 48
+    },
+    "ranked_results": [
         {
+            "rank": 1,
             "job_title": "Healthcare Data Analyst (Pharmacy)",
-            "jd_filename": "healthcare_data_analyst_pharmacy.json",
-            "category": "Clinical/Hospital Pharmacy",
-            "final_score": 80.0,
+            "score": 80.0,
+            "category": "Shortlisted",
             "breakdown": {
                 "skill": 1.0,
                 "experience": 1.0,
@@ -19,10 +26,10 @@
             ]
         },
         {
+            "rank": 2,
             "job_title": "Ai In Drug Discovery Researcher",
-            "jd_filename": "ai_in_drug_discovery_researcher.json",
-            "category": "Research & Development",
-            "final_score": 73.44,
+            "score": 73.44,
+            "category": "Review",
             "breakdown": {
                 "skill": 0.59,
                 "experience": 1.0,
@@ -36,10 +43,10 @@
             ]
         },
         {
+            "rank": 3,
             "job_title": "Pharmacy Informatics Specialist",
-            "jd_filename": "pharmacy_informatics_specialist.json",
-            "category": "Pharmacy",
-            "final_score": 68.12,
+            "score": 68.12,
+            "category": "Review",
             "breakdown": {
                 "skill": 0.58,
                 "experience": 1.0,
@@ -53,10 +60,10 @@
             ]
         },
         {
+            "rank": 4,
             "job_title": "Biostatistics Research Associate",
-            "jd_filename": "biostatistics_research_associate.json",
-            "category": "Research & Development",
-            "final_score": 65.52,
+            "score": 65.52,
+            "category": "Review",
             "breakdown": {
                 "skill": 0.39,
                 "experience": 1.0,
@@ -70,10 +77,10 @@
             ]
         },
         {
+            "rank": 5,
             "job_title": "Drug Development Scientist",
-            "jd_filename": "drug_development_scientist.json",
-            "category": "Research & Development",
-            "final_score": 65.52,
+            "score": 65.52,
+            "category": "Review",
             "breakdown": {
                 "skill": 0.39,
                 "experience": 1.0,
@@ -87,10 +94,10 @@
             ]
         },
         {
+            "rank": 6,
             "job_title": "Pharmaceutical Research Scientist",
-            "jd_filename": "pharmaceutical_research_scientist.json",
-            "category": "Research & Development",
-            "final_score": 65.52,
+            "score": 65.52,
+            "category": "Review",
             "breakdown": {
                 "skill": 0.39,
                 "experience": 1.0,
@@ -104,10 +111,10 @@
             ]
         },
         {
+            "rank": 7,
             "job_title": "Pharmaceutical Research Scientist",
-            "jd_filename": "pharmaceutical_research_scientist_1.json",
-            "category": "Research & Development",
-            "final_score": 65.52,
+            "score": 65.52,
+            "category": "Review",
             "breakdown": {
                 "skill": 0.39,
                 "experience": 1.0,
@@ -121,10 +128,10 @@
             ]
         },
         {
+            "rank": 8,
             "job_title": "Clinical Data Manager",
-            "jd_filename": "clinical_data_manager.json",
-            "category": "Clinical/Hospital Pharmacy",
-            "final_score": 63.12,
+            "score": 63.12,
+            "category": "Review",
             "breakdown": {
                 "skill": 0.58,
                 "experience": 1.0,
@@ -138,10 +145,10 @@
             ]
         },
         {
+            "rank": 9,
             "job_title": "Drug Safety Associate",
-            "jd_filename": "drug_safety_associate.json",
-            "category": "Pharmacy",
-            "final_score": 60.52,
+            "score": 60.52,
+            "category": "Review",
             "breakdown": {
                 "skill": 0.39,
                 "experience": 1.0,
@@ -155,10 +162,10 @@
             ]
         },
         {
+            "rank": 10,
             "job_title": "E-Prescription System Specialist",
-            "jd_filename": "eprescription_system_specialist.json",
-            "category": "Pharmacy",
-            "final_score": 60.52,
+            "score": 60.52,
+            "category": "Review",
             "breakdown": {
                 "skill": 0.39,
                 "experience": 1.0,
@@ -172,10 +179,10 @@
             ]
         },
         {
+            "rank": 11,
             "job_title": "Food & Drug Administration Pharmacist",
-            "jd_filename": "food__drug_administration_pharmacist.json",
-            "category": "Pharmacy",
-            "final_score": 60.52,
+            "score": 60.52,
+            "category": "Review",
             "breakdown": {
                 "skill": 0.39,
                 "experience": 1.0,
@@ -189,10 +196,10 @@
             ]
         },
         {
+            "rank": 12,
             "job_title": "Medical Affairs Manager",
-            "jd_filename": "medical_affairs_manager.json",
-            "category": "Pharmacy",
-            "final_score": 60.52,
+            "score": 60.52,
+            "category": "Review",
             "breakdown": {
                 "skill": 0.39,
                 "experience": 1.0,
@@ -206,10 +213,10 @@
             ]
         },
         {
+            "rank": 13,
             "job_title": "Medical Science Liaison",
-            "jd_filename": "medical_science_liaison.json",
-            "category": "Pharmacy",
-            "final_score": 60.52,
+            "score": 60.52,
+            "category": "Review",
             "breakdown": {
                 "skill": 0.39,
                 "experience": 1.0,
@@ -223,10 +230,10 @@
             ]
         },
         {
+            "rank": 14,
             "job_title": "Pharmaceutical Sales Manager",
-            "jd_filename": "pharmaceutical_sales_manager.json",
-            "category": "Pharmacy",
-            "final_score": 60.52,
+            "score": 60.52,
+            "category": "Review",
             "breakdown": {
                 "skill": 0.39,
                 "experience": 1.0,
@@ -240,10 +247,10 @@
             ]
         },
         {
+            "rank": 15,
             "job_title": "Pharmacovigilance Officer",
-            "jd_filename": "pharmacovigilance_officer.json",
-            "category": "Pharmacy",
-            "final_score": 60.52,
+            "score": 60.52,
+            "category": "Review",
             "breakdown": {
                 "skill": 0.39,
                 "experience": 1.0,
@@ -257,10 +264,10 @@
             ]
         },
         {
+            "rank": 16,
             "job_title": "Pharmaceutical Product Manager",
-            "jd_filename": "pharmaceutical_product_manager.json",
-            "category": "Pharmacy",
-            "final_score": 60.2,
+            "score": 60.2,
+            "category": "Review",
             "breakdown": {
                 "skill": 0.38,
                 "experience": 1.0,
@@ -274,10 +281,10 @@
             ]
         },
         {
+            "rank": 17,
             "job_title": "Industrial Pharmacist",
-            "jd_filename": "industrial_pharmacist.json",
-            "category": "Industrial/Manufacturing Pharmacy",
-            "final_score": 60.0,
+            "score": 60.0,
+            "category": "Review",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
@@ -291,10 +298,10 @@
             ]
         },
         {
+            "rank": 18,
             "job_title": "Manufacturing Pharmacist",
-            "jd_filename": "manufacturing_pharmacist.json",
-            "category": "Industrial/Manufacturing Pharmacy",
-            "final_score": 60.0,
+            "score": 60.0,
+            "category": "Review",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
@@ -308,10 +315,10 @@
             ]
         },
         {
+            "rank": 19,
             "job_title": "Production Pharmacist",
-            "jd_filename": "production_pharmacist.json",
-            "category": "Industrial/Manufacturing Pharmacy",
-            "final_score": 60.0,
+            "score": 60.0,
+            "category": "Review",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
@@ -325,10 +332,10 @@
             ]
         },
         {
+            "rank": 20,
             "job_title": "Cosmetic Formulation Scientist",
-            "jd_filename": "cosmetic_formulation_scientist.json",
-            "category": "Research & Development",
-            "final_score": 56.73,
+            "score": 56.73,
+            "category": "Review",
             "breakdown": {
                 "skill": 0.17,
                 "experience": 1.0,
@@ -342,10 +349,10 @@
             ]
         },
         {
+            "rank": 21,
             "job_title": "Formulation Development Scientist",
-            "jd_filename": "formulation_development_scientist.json",
-            "category": "Research & Development",
-            "final_score": 56.73,
+            "score": 56.73,
+            "category": "Review",
             "breakdown": {
                 "skill": 0.17,
                 "experience": 1.0,
@@ -359,10 +366,10 @@
             ]
         },
         {
+            "rank": 22,
             "job_title": "Process Development Scientist",
-            "jd_filename": "process_development_scientist.json",
-            "category": "Research & Development",
-            "final_score": 56.46,
+            "score": 56.46,
+            "category": "Review",
             "breakdown": {
                 "skill": 0.16,
                 "experience": 1.0,
@@ -376,10 +383,10 @@
             ]
         },
         {
+            "rank": 23,
             "job_title": "Clinical Research Associate",
-            "jd_filename": "clinical_research_associate.json",
-            "category": "Clinical/Hospital Pharmacy",
-            "final_score": 55.52,
+            "score": 55.52,
+            "category": "Review",
             "breakdown": {
                 "skill": 0.39,
                 "experience": 1.0,
@@ -393,10 +400,10 @@
             ]
         },
         {
+            "rank": 24,
             "job_title": "Clinical Research Scientist",
-            "jd_filename": "clinical_research_scientist.json",
-            "category": "Clinical/Hospital Pharmacy",
-            "final_score": 55.52,
+            "score": 55.52,
+            "category": "Review",
             "breakdown": {
                 "skill": 0.39,
                 "experience": 1.0,
@@ -410,10 +417,10 @@
             ]
         },
         {
+            "rank": 25,
             "job_title": "Healthcare Consultant (Pharma)",
-            "jd_filename": "healthcare_consultant_pharma.json",
-            "category": "Clinical/Hospital Pharmacy",
-            "final_score": 55.2,
+            "score": 55.2,
+            "category": "Review",
             "breakdown": {
                 "skill": 0.38,
                 "experience": 1.0,
@@ -427,10 +434,10 @@
             ]
         },
         {
+            "rank": 26,
             "job_title": "Business Development Manager (Pharma)",
-            "jd_filename": "business_development_manager_pharma.json",
-            "category": "Pharmacy",
-            "final_score": 51.46,
+            "score": 51.46,
+            "category": "Review",
             "breakdown": {
                 "skill": 0.16,
                 "experience": 1.0,
@@ -444,10 +451,10 @@
             ]
         },
         {
+            "rank": 27,
             "job_title": "Consultant Pharmacist",
-            "jd_filename": "consultant_pharmacist.json",
-            "category": "Pharmacy",
-            "final_score": 51.46,
+            "score": 51.46,
+            "category": "Review",
             "breakdown": {
                 "skill": 0.16,
                 "experience": 1.0,
@@ -461,10 +468,10 @@
             ]
         },
         {
+            "rank": 28,
             "job_title": "Humanitarian Pharmacist",
-            "jd_filename": "humanitarian_pharmacist.json",
-            "category": "Pharmacy",
-            "final_score": 51.46,
+            "score": 51.46,
+            "category": "Review",
             "breakdown": {
                 "skill": 0.16,
                 "experience": 1.0,
@@ -478,10 +485,10 @@
             ]
         },
         {
+            "rank": 29,
             "job_title": "Inventory Control Pharmacist",
-            "jd_filename": "inventory_control_pharmacist.json",
-            "category": "Pharmacy",
-            "final_score": 51.46,
+            "score": 51.46,
+            "category": "Review",
             "breakdown": {
                 "skill": 0.16,
                 "experience": 1.0,
@@ -495,10 +502,10 @@
             ]
         },
         {
+            "rank": 30,
             "job_title": "Ngo Pharmaceutical Specialist",
-            "jd_filename": "ngo_pharmaceutical_specialist.json",
-            "category": "Pharmacy",
-            "final_score": 51.46,
+            "score": 51.46,
+            "category": "Review",
             "breakdown": {
                 "skill": 0.16,
                 "experience": 1.0,
@@ -512,10 +519,10 @@
             ]
         },
         {
+            "rank": 31,
             "job_title": "Pain Management Pharmacist",
-            "jd_filename": "pain_management_pharmacist.json",
-            "category": "Pharmacy",
-            "final_score": 51.46,
+            "score": 51.46,
+            "category": "Review",
             "breakdown": {
                 "skill": 0.16,
                 "experience": 1.0,
@@ -529,10 +536,10 @@
             ]
         },
         {
+            "rank": 32,
             "job_title": "Pharmaceutical Marketing Manager",
-            "jd_filename": "pharmaceutical_marketing_manager.json",
-            "category": "Pharmacy",
-            "final_score": 51.46,
+            "score": 51.46,
+            "category": "Review",
             "breakdown": {
                 "skill": 0.16,
                 "experience": 1.0,
@@ -546,10 +553,10 @@
             ]
         },
         {
+            "rank": 33,
             "job_title": "Pharmaceutical Supply Chain Manager",
-            "jd_filename": "pharmaceutical_supply_chain_manager.json",
-            "category": "Pharmacy",
-            "final_score": 51.46,
+            "score": 51.46,
+            "category": "Review",
             "breakdown": {
                 "skill": 0.16,
                 "experience": 1.0,
@@ -563,10 +570,10 @@
             ]
         },
         {
+            "rank": 34,
             "job_title": "Pharmaceutical Warehouse Manager",
-            "jd_filename": "pharmaceutical_warehouse_manager.json",
-            "category": "Pharmacy",
-            "final_score": 51.46,
+            "score": 51.46,
+            "category": "Review",
             "breakdown": {
                 "skill": 0.16,
                 "experience": 1.0,
@@ -580,10 +587,10 @@
             ]
         },
         {
+            "rank": 35,
             "job_title": "Pharmacy Manager",
-            "jd_filename": "pharmacy_manager.json",
-            "category": "Pharmacy",
-            "final_score": 51.46,
+            "score": 51.46,
+            "category": "Review",
             "breakdown": {
                 "skill": 0.16,
                 "experience": 1.0,
@@ -597,10 +604,10 @@
             ]
         },
         {
+            "rank": 36,
             "job_title": "Pharmacy Manager",
-            "jd_filename": "pharmacy_manager_1.json",
-            "category": "Retail/Community Pharmacy",
-            "final_score": 51.46,
+            "score": 51.46,
+            "category": "Review",
             "breakdown": {
                 "skill": 0.16,
                 "experience": 1.0,
@@ -614,10 +621,10 @@
             ]
         },
         {
+            "rank": 37,
             "job_title": "Herbal / Ayurvedic Drug Researcher",
-            "jd_filename": "herbal__ayurvedic_drug_researcher.json",
-            "category": "Research & Development",
-            "final_score": 50.0,
+            "score": 50.0,
+            "category": "Review",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
@@ -631,10 +638,10 @@
             ]
         },
         {
+            "rank": 38,
             "job_title": "Packaging Development Scientist",
-            "jd_filename": "packaging_development_scientist.json",
-            "category": "Research & Development",
-            "final_score": 50.0,
+            "score": 50.0,
+            "category": "Review",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
@@ -648,10 +655,10 @@
             ]
         },
         {
+            "rank": 39,
             "job_title": "Pharmacology Researcher",
-            "jd_filename": "pharmacology_researcher.json",
-            "category": "Research & Development",
-            "final_score": 50.0,
+            "score": 50.0,
+            "category": "Review",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
@@ -665,10 +672,10 @@
             ]
         },
         {
+            "rank": 40,
             "job_title": "Ambulatory Care Pharmacist",
-            "jd_filename": "ambulatory_care_pharmacist.json",
-            "category": "Clinical/Hospital Pharmacy",
-            "final_score": 46.46,
+            "score": 46.46,
+            "category": "Rejected",
             "breakdown": {
                 "skill": 0.16,
                 "experience": 1.0,
@@ -682,10 +689,10 @@
             ]
         },
         {
+            "rank": 41,
             "job_title": "Clinical Pharmacist",
-            "jd_filename": "clinical_pharmacist_1.json",
-            "category": "Clinical/Hospital Pharmacy",
-            "final_score": 46.46,
+            "score": 46.46,
+            "category": "Rejected",
             "breakdown": {
                 "skill": 0.16,
                 "experience": 1.0,
@@ -699,10 +706,10 @@
             ]
         },
         {
+            "rank": 42,
             "job_title": "Clinical Quality Specialist",
-            "jd_filename": "clinical_quality_specialist.json",
-            "category": "Clinical/Hospital Pharmacy",
-            "final_score": 46.46,
+            "score": 46.46,
+            "category": "Rejected",
             "breakdown": {
                 "skill": 0.16,
                 "experience": 1.0,
@@ -716,10 +723,10 @@
             ]
         },
         {
+            "rank": 43,
             "job_title": "Clinical Trial Pharmacist",
-            "jd_filename": "clinical_trial_pharmacist.json",
-            "category": "Clinical/Hospital Pharmacy",
-            "final_score": 46.46,
+            "score": 46.46,
+            "category": "Rejected",
             "breakdown": {
                 "skill": 0.16,
                 "experience": 1.0,
@@ -733,10 +740,10 @@
             ]
         },
         {
+            "rank": 44,
             "job_title": "Assistant Professor (Pharmacy)",
-            "jd_filename": "assistant_professor_pharmacy.json",
-            "category": "Pharmacy",
-            "final_score": 45.0,
+            "score": 45.0,
+            "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
@@ -750,10 +757,10 @@
             ]
         },
         {
+            "rank": 45,
             "job_title": "Associate Professor (Pharmacy)",
-            "jd_filename": "associate_professor_pharmacy.json",
-            "category": "Pharmacy",
-            "final_score": 45.0,
+            "score": 45.0,
+            "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
@@ -767,10 +774,10 @@
             ]
         },
         {
+            "rank": 46,
             "job_title": "Aviation Medical Supply Pharmacist",
-            "jd_filename": "aviation_medical_supply_pharmacist.json",
-            "category": "Pharmacy",
-            "final_score": 45.0,
+            "score": 45.0,
+            "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
@@ -784,10 +791,10 @@
             ]
         },
         {
+            "rank": 47,
             "job_title": "Cardiology Pharmacist",
-            "jd_filename": "cardiology_pharmacist.json",
-            "category": "Pharmacy",
-            "final_score": 45.0,
+            "score": 45.0,
+            "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
@@ -801,10 +808,10 @@
             ]
         },
         {
+            "rank": 48,
             "job_title": "Community Pharmacist",
-            "jd_filename": "community_pharmacist.json",
-            "category": "Retail/Community Pharmacy",
-            "final_score": 45.0,
+            "score": 45.0,
+            "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
@@ -818,10 +825,10 @@
             ]
         },
         {
+            "rank": 49,
             "job_title": "Community Pharmacist",
-            "jd_filename": "community_pharmacist_1.json",
-            "category": "Retail/Community Pharmacy",
-            "final_score": 45.0,
+            "score": 45.0,
+            "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
@@ -835,10 +842,10 @@
             ]
         },
         {
+            "rank": 50,
             "job_title": "Compounding Pharmacist",
-            "jd_filename": "compounding_pharmacist.json",
-            "category": "Pharmacy",
-            "final_score": 45.0,
+            "score": 45.0,
+            "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
@@ -852,10 +859,10 @@
             ]
         },
         {
+            "rank": 51,
             "job_title": "Cruise Ship Pharmacist",
-            "jd_filename": "cruise_ship_pharmacist.json",
-            "category": "Pharmacy",
-            "final_score": 45.0,
+            "score": 45.0,
+            "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
@@ -869,10 +876,10 @@
             ]
         },
         {
+            "rank": 52,
             "job_title": "Digital Health Pharmacist",
-            "jd_filename": "digital_health_pharmacist.json",
-            "category": "Pharmacy",
-            "final_score": 45.0,
+            "score": 45.0,
+            "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
@@ -886,10 +893,10 @@
             ]
         },
         {
+            "rank": 53,
             "job_title": "Dispensing Pharmacist",
-            "jd_filename": "dispensing_pharmacist.json",
-            "category": "Pharmacy",
-            "final_score": 45.0,
+            "score": 45.0,
+            "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
@@ -903,10 +910,10 @@
             ]
         },
         {
+            "rank": 54,
             "job_title": "Drug Control Officer",
-            "jd_filename": "drug_control_officer.json",
-            "category": "Pharmacy",
-            "final_score": 45.0,
+            "score": 45.0,
+            "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
@@ -920,10 +927,10 @@
             ]
         },
         {
+            "rank": 55,
             "job_title": "Drug Distribution Manager",
-            "jd_filename": "drug_distribution_manager.json",
-            "category": "Pharmacy",
-            "final_score": 45.0,
+            "score": 45.0,
+            "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
@@ -937,10 +944,10 @@
             ]
         },
         {
+            "rank": 56,
             "job_title": "Drug Inspector",
-            "jd_filename": "drug_inspector.json",
-            "category": "Pharmacy",
-            "final_score": 45.0,
+            "score": 45.0,
+            "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
@@ -954,10 +961,10 @@
             ]
         },
         {
+            "rank": 57,
             "job_title": "Emergency Medicine Pharmacist",
-            "jd_filename": "emergency_medicine_pharmacist.json",
-            "category": "Pharmacy",
-            "final_score": 45.0,
+            "score": 45.0,
+            "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
@@ -971,10 +978,10 @@
             ]
         },
         {
+            "rank": 58,
             "job_title": "Geriatric Pharmacist",
-            "jd_filename": "geriatric_pharmacist.json",
-            "category": "Pharmacy",
-            "final_score": 45.0,
+            "score": 45.0,
+            "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
@@ -988,10 +995,10 @@
             ]
         },
         {
+            "rank": 59,
             "job_title": "Government Pharmacist",
-            "jd_filename": "government_pharmacist.json",
-            "category": "Pharmacy",
-            "final_score": 45.0,
+            "score": 45.0,
+            "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
@@ -1005,10 +1012,10 @@
             ]
         },
         {
+            "rank": 60,
             "job_title": "Infectious Disease Pharmacist",
-            "jd_filename": "infectious_disease_pharmacist.json",
-            "category": "Pharmacy",
-            "final_score": 45.0,
+            "score": 45.0,
+            "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
@@ -1022,10 +1029,10 @@
             ]
         },
         {
+            "rank": 61,
             "job_title": "Medical Advisor",
-            "jd_filename": "medical_advisor.json",
-            "category": "Pharmacy",
-            "final_score": 45.0,
+            "score": 45.0,
+            "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
@@ -1039,10 +1046,10 @@
             ]
         },
         {
+            "rank": 62,
             "job_title": "Medical Writer",
-            "jd_filename": "medical_writer.json",
-            "category": "Pharmacy",
-            "final_score": 45.0,
+            "score": 45.0,
+            "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
@@ -1056,10 +1063,10 @@
             ]
         },
         {
+            "rank": 63,
             "job_title": "Military Pharmacist",
-            "jd_filename": "military_pharmacist.json",
-            "category": "Pharmacy",
-            "final_score": 45.0,
+            "score": 45.0,
+            "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
@@ -1073,10 +1080,10 @@
             ]
         },
         {
+            "rank": 64,
             "job_title": "Nuclear Pharmacist",
-            "jd_filename": "nuclear_pharmacist.json",
-            "category": "Pharmacy",
-            "final_score": 45.0,
+            "score": 45.0,
+            "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
@@ -1090,10 +1097,10 @@
             ]
         },
         {
+            "rank": 65,
             "job_title": "Nuclear Pharmacy Specialist",
-            "jd_filename": "nuclear_pharmacy_specialist.json",
-            "category": "Pharmacy",
-            "final_score": 45.0,
+            "score": 45.0,
+            "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
@@ -1107,10 +1114,10 @@
             ]
         },
         {
+            "rank": 66,
             "job_title": "Nutrition Support Pharmacist",
-            "jd_filename": "nutrition_support_pharmacist.json",
-            "category": "Pharmacy",
-            "final_score": 45.0,
+            "score": 45.0,
+            "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
@@ -1124,10 +1131,10 @@
             ]
         },
         {
+            "rank": 67,
             "job_title": "Oncology Pharmacist",
-            "jd_filename": "oncology_pharmacist.json",
-            "category": "Pharmacy",
-            "final_score": 45.0,
+            "score": 45.0,
+            "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
@@ -1141,10 +1148,10 @@
             ]
         },
         {
+            "rank": 68,
             "job_title": "Pediatric Pharmacist",
-            "jd_filename": "pediatric_pharmacist.json",
-            "category": "Pharmacy",
-            "final_score": 45.0,
+            "score": 45.0,
+            "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
@@ -1158,10 +1165,10 @@
             ]
         },
         {
+            "rank": 69,
             "job_title": "Pharmacy Owner / Independent Pharmacist",
-            "jd_filename": "pharmacy_owner__independent_pharmacist.json",
-            "category": "Pharmacy",
-            "final_score": 45.0,
+            "score": 45.0,
+            "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
@@ -1175,10 +1182,10 @@
             ]
         },
         {
+            "rank": 70,
             "job_title": "Pharmacy Professor",
-            "jd_filename": "pharmacy_professor.json",
-            "category": "Pharmacy",
-            "final_score": 45.0,
+            "score": 45.0,
+            "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
@@ -1192,10 +1199,10 @@
             ]
         },
         {
+            "rank": 71,
             "job_title": "Pharmacy Supervisor",
-            "jd_filename": "pharmacy_supervisor.json",
-            "category": "Pharmacy",
-            "final_score": 45.0,
+            "score": 45.0,
+            "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
@@ -1209,10 +1216,10 @@
             ]
         },
         {
+            "rank": 72,
             "job_title": "Procurement Pharmacist",
-            "jd_filename": "procurement_pharmacist.json",
-            "category": "Pharmacy",
-            "final_score": 45.0,
+            "score": 45.0,
+            "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
@@ -1226,10 +1233,10 @@
             ]
         },
         {
+            "rank": 73,
             "job_title": "Psychiatric Pharmacist",
-            "jd_filename": "psychiatric_pharmacist.json",
-            "category": "Pharmacy",
-            "final_score": 45.0,
+            "score": 45.0,
+            "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
@@ -1243,10 +1250,10 @@
             ]
         },
         {
+            "rank": 74,
             "job_title": "Public Health Pharmacist",
-            "jd_filename": "public_health_pharmacist.json",
-            "category": "Pharmacy",
-            "final_score": 45.0,
+            "score": 45.0,
+            "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
@@ -1260,10 +1267,10 @@
             ]
         },
         {
+            "rank": 75,
             "job_title": "Quality Assurance (Qa) Pharmacist",
-            "jd_filename": "quality_assurance_qa_pharmacist.json",
-            "category": "Pharmacy",
-            "final_score": 45.0,
+            "score": 45.0,
+            "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
@@ -1277,10 +1284,10 @@
             ]
         },
         {
+            "rank": 76,
             "job_title": "Quality Control (Qc) Pharmacist",
-            "jd_filename": "quality_control_qc_pharmacist.json",
-            "category": "Pharmacy",
-            "final_score": 45.0,
+            "score": 45.0,
+            "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
@@ -1294,10 +1301,10 @@
             ]
         },
         {
+            "rank": 77,
             "job_title": "Regulatory Affairs Pharmacist",
-            "jd_filename": "regulatory_affairs_pharmacist.json",
-            "category": "Pharmacy",
-            "final_score": 45.0,
+            "score": 45.0,
+            "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
@@ -1311,10 +1318,10 @@
             ]
         },
         {
+            "rank": 78,
             "job_title": "Technology Transfer Specialist",
-            "jd_filename": "technology_transfer_specialist.json",
-            "category": "Pharmacy",
-            "final_score": 45.0,
+            "score": 45.0,
+            "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
@@ -1328,10 +1335,10 @@
             ]
         },
         {
+            "rank": 79,
             "job_title": "Telepharmacy Consultant",
-            "jd_filename": "telepharmacy_consultant.json",
-            "category": "Pharmacy",
-            "final_score": 45.0,
+            "score": 45.0,
+            "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
@@ -1345,10 +1352,10 @@
             ]
         },
         {
+            "rank": 80,
             "job_title": "Toxicology Specialist",
-            "jd_filename": "toxicology_specialist.json",
-            "category": "Pharmacy",
-            "final_score": 45.0,
+            "score": 45.0,
+            "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
@@ -1362,10 +1369,10 @@
             ]
         },
         {
+            "rank": 81,
             "job_title": "Transplant Pharmacist",
-            "jd_filename": "transplant_pharmacist.json",
-            "category": "Pharmacy",
-            "final_score": 45.0,
+            "score": 45.0,
+            "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
@@ -1379,10 +1386,10 @@
             ]
         },
         {
+            "rank": 82,
             "job_title": "Validation Pharmacist",
-            "jd_filename": "validation_pharmacist.json",
-            "category": "Pharmacy",
-            "final_score": 45.0,
+            "score": 45.0,
+            "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
@@ -1396,10 +1403,10 @@
             ]
         },
         {
+            "rank": 83,
             "job_title": "Veterinary Pharmacist",
-            "jd_filename": "veterinary_pharmacist.json",
-            "category": "Pharmacy",
-            "final_score": 45.0,
+            "score": 45.0,
+            "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
@@ -1413,10 +1420,10 @@
             ]
         },
         {
+            "rank": 84,
             "job_title": "Clinical Pharmacist",
-            "jd_filename": "clinical_pharmacist.json",
-            "category": "Clinical/Hospital Pharmacy",
-            "final_score": 40.0,
+            "score": 40.0,
+            "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
@@ -1430,10 +1437,10 @@
             ]
         },
         {
+            "rank": 85,
             "job_title": "Clinical Research Coordinator",
-            "jd_filename": "clinical_research_coordinator.json",
-            "category": "Clinical/Hospital Pharmacy",
-            "final_score": 40.0,
+            "score": 40.0,
+            "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
@@ -1447,10 +1454,10 @@
             ]
         },
         {
+            "rank": 86,
             "job_title": "Critical Care Pharmacist",
-            "jd_filename": "critical_care_pharmacist.json",
-            "category": "Clinical/Hospital Pharmacy",
-            "final_score": 40.0,
+            "score": 40.0,
+            "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
@@ -1464,10 +1471,10 @@
             ]
         },
         {
+            "rank": 87,
             "job_title": "Principal Investigator (Clinical Trials)",
-            "jd_filename": "principal_investigator_clinical_trials.json",
-            "category": "Clinical/Hospital Pharmacy",
-            "final_score": 40.0,
+            "score": 40.0,
+            "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
