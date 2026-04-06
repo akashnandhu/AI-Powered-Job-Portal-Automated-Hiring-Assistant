@@ -1,0 +1,16 @@
+{
+    "resume_name": "resume_sample_student8ea47e04a8fe67e6b7acff0000376a3b_cleaned.txt",
+    "technical_skills": [],
+    "non_technical_skills": [
+        "Communication",
+        "Customer Service",
+        "Leadership",
+        "Management"
+    ],
+    "confidence": {
+        "Customer Service": 0.99,
+        "Communication": 0.99,
+        "Management": 0.95,
+        "Leadership": 0.95
+    }
+}

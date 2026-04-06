@@ -1,0 +1,17 @@
+{
+    "top_1_accuracy": 0,
+    "top_3_accuracy": 1,
+    "top_5_accuracy": 1,
+    "average_similarity_score": 0.1325,
+    "match_distribution": {
+        "Strong": 0,
+        "Moderate": 0,
+        "Weak": 87
+    },
+    "section_average_scores": {
+        "skills": 0.1418,
+        "experience": 0.1165,
+        "projects": 0.08,
+        "education": 0.2486
+    }
+}
