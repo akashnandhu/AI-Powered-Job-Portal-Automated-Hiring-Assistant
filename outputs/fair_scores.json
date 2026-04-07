@@ -1,0 +1,1829 @@
+[
+    {
+        "job_title": "Ai In Drug Discovery Researcher",
+        "jd_filename": "ai_in_drug_discovery_researcher.json",
+        "category": "Research & Development",
+        "final_score": 58.6,
+        "breakdown": {
+            "skill": 0.59,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Strong skill match (3 matched).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 62.58,
+        "fair_score": 0.6258,
+        "fair_adjustments": [],
+        "normalized_score": 0.5860000000000001
+    },
+    {
+        "job_title": "Ambulatory Care Pharmacist",
+        "jd_filename": "ambulatory_care_pharmacist.json",
+        "category": "Clinical/Hospital Pharmacy",
+        "final_score": 16.13,
+        "breakdown": {
+            "skill": 0.16,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Strong skill match (1 matched).",
+            "Exceeds expected experience (11.0 vs 3.5 years)."
+        ],
+        "original_percentage": 49.84,
+        "fair_score": 0.4984,
+        "fair_adjustments": [],
+        "normalized_score": 0.16133333333333333
+    },
+    {
+        "job_title": "Assistant Professor (Pharmacy)",
+        "jd_filename": "assistant_professor_pharmacy.json",
+        "category": "Pharmacy",
+        "final_score": 0.0,
+        "breakdown": {
+            "skill": 0.0,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 45.0,
+        "fair_score": 0.45,
+        "fair_adjustments": [],
+        "normalized_score": 0.0
+    },
+    {
+        "job_title": "Associate Professor (Pharmacy)",
+        "jd_filename": "associate_professor_pharmacy.json",
+        "category": "Pharmacy",
+        "final_score": 0.0,
+        "breakdown": {
+            "skill": 0.0,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 45.0,
+        "fair_score": 0.45,
+        "fair_adjustments": [],
+        "normalized_score": 0.0
+    },
+    {
+        "job_title": "Aviation Medical Supply Pharmacist",
+        "jd_filename": "aviation_medical_supply_pharmacist.json",
+        "category": "Pharmacy",
+        "final_score": 0.0,
+        "breakdown": {
+            "skill": 0.0,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 45.0,
+        "fair_score": 0.45,
+        "fair_adjustments": [],
+        "normalized_score": 0.0
+    },
+    {
+        "job_title": "Biostatistics Research Associate",
+        "jd_filename": "biostatistics_research_associate.json",
+        "category": "Research & Development",
+        "final_score": 38.8,
+        "breakdown": {
+            "skill": 0.39,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Strong skill match (2 matched).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 56.64,
+        "fair_score": 0.5664,
+        "fair_adjustments": [],
+        "normalized_score": 0.388
+    },
+    {
+        "job_title": "Business Development Manager (Pharma)",
+        "jd_filename": "business_development_manager_pharma.json",
+        "category": "Pharmacy",
+        "final_score": 16.13,
+        "breakdown": {
+            "skill": 0.16,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Strong skill match (1 matched).",
+            "Exceeds expected experience (11.0 vs 3.5 years)."
+        ],
+        "original_percentage": 49.84,
+        "fair_score": 0.4984,
+        "fair_adjustments": [],
+        "normalized_score": 0.16133333333333333
+    },
+    {
+        "job_title": "Cardiology Pharmacist",
+        "jd_filename": "cardiology_pharmacist.json",
+        "category": "Pharmacy",
+        "final_score": 0.0,
+        "breakdown": {
+            "skill": 0.0,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 45.0,
+        "fair_score": 0.45,
+        "fair_adjustments": [],
+        "normalized_score": 0.0
+    },
+    {
+        "job_title": "Clinical Data Manager",
+        "jd_filename": "clinical_data_manager.json",
+        "category": "Clinical/Hospital Pharmacy",
+        "final_score": 57.8,
+        "breakdown": {
+            "skill": 0.58,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Strong skill match (3 matched).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 62.34,
+        "fair_score": 0.6234000000000001,
+        "fair_adjustments": [],
+        "normalized_score": 0.5780000000000002
+    },
+    {
+        "job_title": "Clinical Pharmacist",
+        "jd_filename": "clinical_pharmacist.json",
+        "category": "Clinical/Hospital Pharmacy",
+        "final_score": 0.0,
+        "breakdown": {
+            "skill": 0.0,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 45.0,
+        "fair_score": 0.45,
+        "fair_adjustments": [],
+        "normalized_score": 0.0
+    },
+    {
+        "job_title": "Clinical Pharmacist",
+        "jd_filename": "clinical_pharmacist_1.json",
+        "category": "Clinical/Hospital Pharmacy",
+        "final_score": 16.13,
+        "breakdown": {
+            "skill": 0.16,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Strong skill match (1 matched).",
+            "Exceeds expected experience (11.0 vs 3.5 years)."
+        ],
+        "original_percentage": 49.84,
+        "fair_score": 0.4984,
+        "fair_adjustments": [],
+        "normalized_score": 0.16133333333333333
+    },
+    {
+        "job_title": "Clinical Quality Specialist",
+        "jd_filename": "clinical_quality_specialist.json",
+        "category": "Clinical/Hospital Pharmacy",
+        "final_score": 16.13,
+        "breakdown": {
+            "skill": 0.16,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Strong skill match (1 matched).",
+            "Exceeds expected experience (11.0 vs 3.5 years)."
+        ],
+        "original_percentage": 49.84,
+        "fair_score": 0.4984,
+        "fair_adjustments": [],
+        "normalized_score": 0.16133333333333333
+    },
+    {
+        "job_title": "Clinical Research Associate",
+        "jd_filename": "clinical_research_associate.json",
+        "category": "Clinical/Hospital Pharmacy",
+        "final_score": 38.8,
+        "breakdown": {
+            "skill": 0.39,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Strong skill match (2 matched).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 56.64,
+        "fair_score": 0.5664,
+        "fair_adjustments": [],
+        "normalized_score": 0.388
+    },
+    {
+        "job_title": "Clinical Research Coordinator",
+        "jd_filename": "clinical_research_coordinator.json",
+        "category": "Clinical/Hospital Pharmacy",
+        "final_score": 0.0,
+        "breakdown": {
+            "skill": 0.0,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 45.0,
+        "fair_score": 0.45,
+        "fair_adjustments": [],
+        "normalized_score": 0.0
+    },
+    {
+        "job_title": "Clinical Research Scientist",
+        "jd_filename": "clinical_research_scientist.json",
+        "category": "Clinical/Hospital Pharmacy",
+        "final_score": 38.8,
+        "breakdown": {
+            "skill": 0.39,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Strong skill match (2 matched).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 56.64,
+        "fair_score": 0.5664,
+        "fair_adjustments": [],
+        "normalized_score": 0.388
+    },
+    {
+        "job_title": "Clinical Trial Pharmacist",
+        "jd_filename": "clinical_trial_pharmacist.json",
+        "category": "Clinical/Hospital Pharmacy",
+        "final_score": 16.13,
+        "breakdown": {
+            "skill": 0.16,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Strong skill match (1 matched).",
+            "Exceeds expected experience (11.0 vs 3.5 years)."
+        ],
+        "original_percentage": 49.84,
+        "fair_score": 0.4984,
+        "fair_adjustments": [],
+        "normalized_score": 0.16133333333333333
+    },
+    {
+        "job_title": "Community Pharmacist",
+        "jd_filename": "community_pharmacist.json",
+        "category": "Retail/Community Pharmacy",
+        "final_score": 0.0,
+        "breakdown": {
+            "skill": 0.0,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 45.0,
+        "fair_score": 0.45,
+        "fair_adjustments": [],
+        "normalized_score": 0.0
+    },
+    {
+        "job_title": "Community Pharmacist",
+        "jd_filename": "community_pharmacist_1.json",
+        "category": "Retail/Community Pharmacy",
+        "final_score": 0.0,
+        "breakdown": {
+            "skill": 0.0,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 45.0,
+        "fair_score": 0.45,
+        "fair_adjustments": [],
+        "normalized_score": 0.0
+    },
+    {
+        "job_title": "Compounding Pharmacist",
+        "jd_filename": "compounding_pharmacist.json",
+        "category": "Pharmacy",
+        "final_score": 0.0,
+        "breakdown": {
+            "skill": 0.0,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 45.0,
+        "fair_score": 0.45,
+        "fair_adjustments": [],
+        "normalized_score": 0.0
+    },
+    {
+        "job_title": "Consultant Pharmacist",
+        "jd_filename": "consultant_pharmacist.json",
+        "category": "Pharmacy",
+        "final_score": 16.13,
+        "breakdown": {
+            "skill": 0.16,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Strong skill match (1 matched).",
+            "Exceeds expected experience (11.0 vs 3.5 years)."
+        ],
+        "original_percentage": 49.84,
+        "fair_score": 0.4984,
+        "fair_adjustments": [],
+        "normalized_score": 0.16133333333333333
+    },
+    {
+        "job_title": "Cosmetic Formulation Scientist",
+        "jd_filename": "cosmetic_formulation_scientist.json",
+        "category": "Research & Development",
+        "final_score": 16.83,
+        "breakdown": {
+            "skill": 0.17,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Strong skill match (1 matched).",
+            "Exceeds expected experience (11.0 vs 3.5 years)."
+        ],
+        "original_percentage": 50.05,
+        "fair_score": 0.5005,
+        "fair_adjustments": [],
+        "normalized_score": 0.1683333333333331
+    },
+    {
+        "job_title": "Critical Care Pharmacist",
+        "jd_filename": "critical_care_pharmacist.json",
+        "category": "Clinical/Hospital Pharmacy",
+        "final_score": 0.0,
+        "breakdown": {
+            "skill": 0.0,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 45.0,
+        "fair_score": 0.45,
+        "fair_adjustments": [],
+        "normalized_score": 0.0
+    },
+    {
+        "job_title": "Cruise Ship Pharmacist",
+        "jd_filename": "cruise_ship_pharmacist.json",
+        "category": "Pharmacy",
+        "final_score": 0.0,
+        "breakdown": {
+            "skill": 0.0,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 45.0,
+        "fair_score": 0.45,
+        "fair_adjustments": [],
+        "normalized_score": 0.0
+    },
+    {
+        "job_title": "Digital Health Pharmacist",
+        "jd_filename": "digital_health_pharmacist.json",
+        "category": "Pharmacy",
+        "final_score": 0.0,
+        "breakdown": {
+            "skill": 0.0,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 45.0,
+        "fair_score": 0.45,
+        "fair_adjustments": [],
+        "normalized_score": 0.0
+    },
+    {
+        "job_title": "Dispensing Pharmacist",
+        "jd_filename": "dispensing_pharmacist.json",
+        "category": "Pharmacy",
+        "final_score": 0.0,
+        "breakdown": {
+            "skill": 0.0,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 45.0,
+        "fair_score": 0.45,
+        "fair_adjustments": [],
+        "normalized_score": 0.0
+    },
+    {
+        "job_title": "Drug Control Officer",
+        "jd_filename": "drug_control_officer.json",
+        "category": "Pharmacy",
+        "final_score": 0.0,
+        "breakdown": {
+            "skill": 0.0,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 45.0,
+        "fair_score": 0.45,
+        "fair_adjustments": [],
+        "normalized_score": 0.0
+    },
+    {
+        "job_title": "Drug Development Scientist",
+        "jd_filename": "drug_development_scientist.json",
+        "category": "Research & Development",
+        "final_score": 38.8,
+        "breakdown": {
+            "skill": 0.39,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Strong skill match (2 matched).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 56.64,
+        "fair_score": 0.5664,
+        "fair_adjustments": [],
+        "normalized_score": 0.388
+    },
+    {
+        "job_title": "Drug Distribution Manager",
+        "jd_filename": "drug_distribution_manager.json",
+        "category": "Pharmacy",
+        "final_score": 0.0,
+        "breakdown": {
+            "skill": 0.0,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 45.0,
+        "fair_score": 0.45,
+        "fair_adjustments": [],
+        "normalized_score": 0.0
+    },
+    {
+        "job_title": "Drug Inspector",
+        "jd_filename": "drug_inspector.json",
+        "category": "Pharmacy",
+        "final_score": 0.0,
+        "breakdown": {
+            "skill": 0.0,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 45.0,
+        "fair_score": 0.45,
+        "fair_adjustments": [],
+        "normalized_score": 0.0
+    },
+    {
+        "job_title": "Drug Safety Associate",
+        "jd_filename": "drug_safety_associate.json",
+        "category": "Pharmacy",
+        "final_score": 38.8,
+        "breakdown": {
+            "skill": 0.39,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Strong skill match (2 matched).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 56.64,
+        "fair_score": 0.5664,
+        "fair_adjustments": [],
+        "normalized_score": 0.388
+    },
+    {
+        "job_title": "Emergency Medicine Pharmacist",
+        "jd_filename": "emergency_medicine_pharmacist.json",
+        "category": "Pharmacy",
+        "final_score": 0.0,
+        "breakdown": {
+            "skill": 0.0,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 45.0,
+        "fair_score": 0.45,
+        "fair_adjustments": [],
+        "normalized_score": 0.0
+    },
+    {
+        "job_title": "E-Prescription System Specialist",
+        "jd_filename": "eprescription_system_specialist.json",
+        "category": "Pharmacy",
+        "final_score": 38.8,
+        "breakdown": {
+            "skill": 0.39,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Strong skill match (2 matched).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 56.64,
+        "fair_score": 0.5664,
+        "fair_adjustments": [],
+        "normalized_score": 0.388
+    },
+    {
+        "job_title": "Food & Drug Administration Pharmacist",
+        "jd_filename": "food__drug_administration_pharmacist.json",
+        "category": "Pharmacy",
+        "final_score": 38.8,
+        "breakdown": {
+            "skill": 0.39,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Strong skill match (2 matched).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 56.64,
+        "fair_score": 0.5664,
+        "fair_adjustments": [],
+        "normalized_score": 0.388
+    },
+    {
+        "job_title": "Formulation Development Scientist",
+        "jd_filename": "formulation_development_scientist.json",
+        "category": "Research & Development",
+        "final_score": 16.83,
+        "breakdown": {
+            "skill": 0.17,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Strong skill match (1 matched).",
+            "Exceeds expected experience (11.0 vs 3.5 years)."
+        ],
+        "original_percentage": 50.05,
+        "fair_score": 0.5005,
+        "fair_adjustments": [],
+        "normalized_score": 0.1683333333333331
+    },
+    {
+        "job_title": "Geriatric Pharmacist",
+        "jd_filename": "geriatric_pharmacist.json",
+        "category": "Pharmacy",
+        "final_score": 0.0,
+        "breakdown": {
+            "skill": 0.0,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 45.0,
+        "fair_score": 0.45,
+        "fair_adjustments": [],
+        "normalized_score": 0.0
+    },
+    {
+        "job_title": "Government Pharmacist",
+        "jd_filename": "government_pharmacist.json",
+        "category": "Pharmacy",
+        "final_score": 0.0,
+        "breakdown": {
+            "skill": 0.0,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 45.0,
+        "fair_score": 0.45,
+        "fair_adjustments": [],
+        "normalized_score": 0.0
+    },
+    {
+        "job_title": "Healthcare Consultant (Pharma)",
+        "jd_filename": "healthcare_consultant_pharma.json",
+        "category": "Clinical/Hospital Pharmacy",
+        "final_score": 38.0,
+        "breakdown": {
+            "skill": 0.38,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Strong skill match (2 matched).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 56.4,
+        "fair_score": 0.564,
+        "fair_adjustments": [],
+        "normalized_score": 0.3799999999999998
+    },
+    {
+        "job_title": "Healthcare Data Analyst (Pharmacy)",
+        "jd_filename": "healthcare_data_analyst_pharmacy.json",
+        "category": "Clinical/Hospital Pharmacy",
+        "final_score": 100.0,
+        "breakdown": {
+            "skill": 1.0,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Boost applied for possessing extra relevant skills (+10%).",
+            "Strong skill match (5 matched).",
+            "Exceeds expected experience (11.0 vs 3.5 years)."
+        ],
+        "original_percentage": 75.0,
+        "fair_score": 0.75,
+        "fair_adjustments": [],
+        "normalized_score": 1.0
+    },
+    {
+        "job_title": "Herbal / Ayurvedic Drug Researcher",
+        "jd_filename": "herbal__ayurvedic_drug_researcher.json",
+        "category": "Research & Development",
+        "final_score": 0.0,
+        "breakdown": {
+            "skill": 0.0,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 45.0,
+        "fair_score": 0.45,
+        "fair_adjustments": [],
+        "normalized_score": 0.0
+    },
+    {
+        "job_title": "Humanitarian Pharmacist",
+        "jd_filename": "humanitarian_pharmacist.json",
+        "category": "Pharmacy",
+        "final_score": 16.13,
+        "breakdown": {
+            "skill": 0.16,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Strong skill match (1 matched).",
+            "Exceeds expected experience (11.0 vs 3.5 years)."
+        ],
+        "original_percentage": 49.84,
+        "fair_score": 0.4984,
+        "fair_adjustments": [],
+        "normalized_score": 0.16133333333333333
+    },
+    {
+        "job_title": "Industrial Pharmacist",
+        "jd_filename": "industrial_pharmacist.json",
+        "category": "Industrial/Manufacturing Pharmacy",
+        "final_score": 0.0,
+        "breakdown": {
+            "skill": 0.0,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 45.0,
+        "fair_score": 0.45,
+        "fair_adjustments": [],
+        "normalized_score": 0.0
+    },
+    {
+        "job_title": "Infectious Disease Pharmacist",
+        "jd_filename": "infectious_disease_pharmacist.json",
+        "category": "Pharmacy",
+        "final_score": 0.0,
+        "breakdown": {
+            "skill": 0.0,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 45.0,
+        "fair_score": 0.45,
+        "fair_adjustments": [],
+        "normalized_score": 0.0
+    },
+    {
+        "job_title": "Inventory Control Pharmacist",
+        "jd_filename": "inventory_control_pharmacist.json",
+        "category": "Pharmacy",
+        "final_score": 16.13,
+        "breakdown": {
+            "skill": 0.16,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Strong skill match (1 matched).",
+            "Exceeds expected experience (11.0 vs 3.5 years)."
+        ],
+        "original_percentage": 49.84,
+        "fair_score": 0.4984,
+        "fair_adjustments": [],
+        "normalized_score": 0.16133333333333333
+    },
+    {
+        "job_title": "Manufacturing Pharmacist",
+        "jd_filename": "manufacturing_pharmacist.json",
+        "category": "Industrial/Manufacturing Pharmacy",
+        "final_score": 0.0,
+        "breakdown": {
+            "skill": 0.0,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 45.0,
+        "fair_score": 0.45,
+        "fair_adjustments": [],
+        "normalized_score": 0.0
+    },
+    {
+        "job_title": "Medical Advisor",
+        "jd_filename": "medical_advisor.json",
+        "category": "Pharmacy",
+        "final_score": 0.0,
+        "breakdown": {
+            "skill": 0.0,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 45.0,
+        "fair_score": 0.45,
+        "fair_adjustments": [],
+        "normalized_score": 0.0
+    },
+    {
+        "job_title": "Medical Affairs Manager",
+        "jd_filename": "medical_affairs_manager.json",
+        "category": "Pharmacy",
+        "final_score": 38.8,
+        "breakdown": {
+            "skill": 0.39,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Strong skill match (2 matched).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 56.64,
+        "fair_score": 0.5664,
+        "fair_adjustments": [],
+        "normalized_score": 0.388
+    },
+    {
+        "job_title": "Medical Science Liaison",
+        "jd_filename": "medical_science_liaison.json",
+        "category": "Pharmacy",
+        "final_score": 38.8,
+        "breakdown": {
+            "skill": 0.39,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Strong skill match (2 matched).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 56.64,
+        "fair_score": 0.5664,
+        "fair_adjustments": [],
+        "normalized_score": 0.388
+    },
+    {
+        "job_title": "Medical Writer",
+        "jd_filename": "medical_writer.json",
+        "category": "Pharmacy",
+        "final_score": 0.0,
+        "breakdown": {
+            "skill": 0.0,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 45.0,
+        "fair_score": 0.45,
+        "fair_adjustments": [],
+        "normalized_score": 0.0
+    },
+    {
+        "job_title": "Military Pharmacist",
+        "jd_filename": "military_pharmacist.json",
+        "category": "Pharmacy",
+        "final_score": 0.0,
+        "breakdown": {
+            "skill": 0.0,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 45.0,
+        "fair_score": 0.45,
+        "fair_adjustments": [],
+        "normalized_score": 0.0
+    },
+    {
+        "job_title": "Ngo Pharmaceutical Specialist",
+        "jd_filename": "ngo_pharmaceutical_specialist.json",
+        "category": "Pharmacy",
+        "final_score": 16.13,
+        "breakdown": {
+            "skill": 0.16,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Strong skill match (1 matched).",
+            "Exceeds expected experience (11.0 vs 3.5 years)."
+        ],
+        "original_percentage": 49.84,
+        "fair_score": 0.4984,
+        "fair_adjustments": [],
+        "normalized_score": 0.16133333333333333
+    },
+    {
+        "job_title": "Nuclear Pharmacist",
+        "jd_filename": "nuclear_pharmacist.json",
+        "category": "Pharmacy",
+        "final_score": 0.0,
+        "breakdown": {
+            "skill": 0.0,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 45.0,
+        "fair_score": 0.45,
+        "fair_adjustments": [],
+        "normalized_score": 0.0
+    },
+    {
+        "job_title": "Nuclear Pharmacy Specialist",
+        "jd_filename": "nuclear_pharmacy_specialist.json",
+        "category": "Pharmacy",
+        "final_score": 0.0,
+        "breakdown": {
+            "skill": 0.0,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 45.0,
+        "fair_score": 0.45,
+        "fair_adjustments": [],
+        "normalized_score": 0.0
+    },
+    {
+        "job_title": "Nutrition Support Pharmacist",
+        "jd_filename": "nutrition_support_pharmacist.json",
+        "category": "Pharmacy",
+        "final_score": 0.0,
+        "breakdown": {
+            "skill": 0.0,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 45.0,
+        "fair_score": 0.45,
+        "fair_adjustments": [],
+        "normalized_score": 0.0
+    },
+    {
+        "job_title": "Oncology Pharmacist",
+        "jd_filename": "oncology_pharmacist.json",
+        "category": "Pharmacy",
+        "final_score": 0.0,
+        "breakdown": {
+            "skill": 0.0,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 45.0,
+        "fair_score": 0.45,
+        "fair_adjustments": [],
+        "normalized_score": 0.0
+    },
+    {
+        "job_title": "Packaging Development Scientist",
+        "jd_filename": "packaging_development_scientist.json",
+        "category": "Research & Development",
+        "final_score": 0.0,
+        "breakdown": {
+            "skill": 0.0,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 45.0,
+        "fair_score": 0.45,
+        "fair_adjustments": [],
+        "normalized_score": 0.0
+    },
+    {
+        "job_title": "Pain Management Pharmacist",
+        "jd_filename": "pain_management_pharmacist.json",
+        "category": "Pharmacy",
+        "final_score": 16.13,
+        "breakdown": {
+            "skill": 0.16,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Strong skill match (1 matched).",
+            "Exceeds expected experience (11.0 vs 3.5 years)."
+        ],
+        "original_percentage": 49.84,
+        "fair_score": 0.4984,
+        "fair_adjustments": [],
+        "normalized_score": 0.16133333333333333
+    },
+    {
+        "job_title": "Pediatric Pharmacist",
+        "jd_filename": "pediatric_pharmacist.json",
+        "category": "Pharmacy",
+        "final_score": 0.0,
+        "breakdown": {
+            "skill": 0.0,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 45.0,
+        "fair_score": 0.45,
+        "fair_adjustments": [],
+        "normalized_score": 0.0
+    },
+    {
+        "job_title": "Pharmaceutical Marketing Manager",
+        "jd_filename": "pharmaceutical_marketing_manager.json",
+        "category": "Pharmacy",
+        "final_score": 16.13,
+        "breakdown": {
+            "skill": 0.16,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Strong skill match (1 matched).",
+            "Exceeds expected experience (11.0 vs 3.5 years)."
+        ],
+        "original_percentage": 49.84,
+        "fair_score": 0.4984,
+        "fair_adjustments": [],
+        "normalized_score": 0.16133333333333333
+    },
+    {
+        "job_title": "Pharmaceutical Product Manager",
+        "jd_filename": "pharmaceutical_product_manager.json",
+        "category": "Pharmacy",
+        "final_score": 38.0,
+        "breakdown": {
+            "skill": 0.38,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Strong skill match (2 matched).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 56.4,
+        "fair_score": 0.564,
+        "fair_adjustments": [],
+        "normalized_score": 0.3799999999999998
+    },
+    {
+        "job_title": "Pharmaceutical Research Scientist",
+        "jd_filename": "pharmaceutical_research_scientist.json",
+        "category": "Research & Development",
+        "final_score": 38.8,
+        "breakdown": {
+            "skill": 0.39,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Strong skill match (2 matched).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 56.64,
+        "fair_score": 0.5664,
+        "fair_adjustments": [],
+        "normalized_score": 0.388
+    },
+    {
+        "job_title": "Pharmaceutical Research Scientist",
+        "jd_filename": "pharmaceutical_research_scientist_1.json",
+        "category": "Research & Development",
+        "final_score": 38.8,
+        "breakdown": {
+            "skill": 0.39,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Strong skill match (2 matched).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 56.64,
+        "fair_score": 0.5664,
+        "fair_adjustments": [],
+        "normalized_score": 0.388
+    },
+    {
+        "job_title": "Pharmaceutical Sales Manager",
+        "jd_filename": "pharmaceutical_sales_manager.json",
+        "category": "Pharmacy",
+        "final_score": 38.8,
+        "breakdown": {
+            "skill": 0.39,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Strong skill match (2 matched).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 56.64,
+        "fair_score": 0.5664,
+        "fair_adjustments": [],
+        "normalized_score": 0.388
+    },
+    {
+        "job_title": "Pharmaceutical Supply Chain Manager",
+        "jd_filename": "pharmaceutical_supply_chain_manager.json",
+        "category": "Pharmacy",
+        "final_score": 16.13,
+        "breakdown": {
+            "skill": 0.16,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Strong skill match (1 matched).",
+            "Exceeds expected experience (11.0 vs 3.5 years)."
+        ],
+        "original_percentage": 49.84,
+        "fair_score": 0.4984,
+        "fair_adjustments": [],
+        "normalized_score": 0.16133333333333333
+    },
+    {
+        "job_title": "Pharmaceutical Warehouse Manager",
+        "jd_filename": "pharmaceutical_warehouse_manager.json",
+        "category": "Pharmacy",
+        "final_score": 16.13,
+        "breakdown": {
+            "skill": 0.16,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Strong skill match (1 matched).",
+            "Exceeds expected experience (11.0 vs 3.5 years)."
+        ],
+        "original_percentage": 49.84,
+        "fair_score": 0.4984,
+        "fair_adjustments": [],
+        "normalized_score": 0.16133333333333333
+    },
+    {
+        "job_title": "Pharmacology Researcher",
+        "jd_filename": "pharmacology_researcher.json",
+        "category": "Research & Development",
+        "final_score": 0.0,
+        "breakdown": {
+            "skill": 0.0,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 45.0,
+        "fair_score": 0.45,
+        "fair_adjustments": [],
+        "normalized_score": 0.0
+    },
+    {
+        "job_title": "Pharmacovigilance Officer",
+        "jd_filename": "pharmacovigilance_officer.json",
+        "category": "Pharmacy",
+        "final_score": 38.8,
+        "breakdown": {
+            "skill": 0.39,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Strong skill match (2 matched).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 56.64,
+        "fair_score": 0.5664,
+        "fair_adjustments": [],
+        "normalized_score": 0.388
+    },
+    {
+        "job_title": "Pharmacy Informatics Specialist",
+        "jd_filename": "pharmacy_informatics_specialist.json",
+        "category": "Pharmacy",
+        "final_score": 57.8,
+        "breakdown": {
+            "skill": 0.58,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Strong skill match (3 matched).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 62.34,
+        "fair_score": 0.6234000000000001,
+        "fair_adjustments": [],
+        "normalized_score": 0.5780000000000002
+    },
+    {
+        "job_title": "Pharmacy Manager",
+        "jd_filename": "pharmacy_manager.json",
+        "category": "Pharmacy",
+        "final_score": 16.13,
+        "breakdown": {
+            "skill": 0.16,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Strong skill match (1 matched).",
+            "Exceeds expected experience (11.0 vs 3.5 years)."
+        ],
+        "original_percentage": 49.84,
+        "fair_score": 0.4984,
+        "fair_adjustments": [],
+        "normalized_score": 0.16133333333333333
+    },
+    {
+        "job_title": "Pharmacy Manager",
+        "jd_filename": "pharmacy_manager_1.json",
+        "category": "Retail/Community Pharmacy",
+        "final_score": 16.13,
+        "breakdown": {
+            "skill": 0.16,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Strong skill match (1 matched).",
+            "Exceeds expected experience (11.0 vs 3.5 years)."
+        ],
+        "original_percentage": 49.84,
+        "fair_score": 0.4984,
+        "fair_adjustments": [],
+        "normalized_score": 0.16133333333333333
+    },
+    {
+        "job_title": "Pharmacy Owner / Independent Pharmacist",
+        "jd_filename": "pharmacy_owner__independent_pharmacist.json",
+        "category": "Pharmacy",
+        "final_score": 0.0,
+        "breakdown": {
+            "skill": 0.0,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 45.0,
+        "fair_score": 0.45,
+        "fair_adjustments": [],
+        "normalized_score": 0.0
+    },
+    {
+        "job_title": "Pharmacy Professor",
+        "jd_filename": "pharmacy_professor.json",
+        "category": "Pharmacy",
+        "final_score": 0.0,
+        "breakdown": {
+            "skill": 0.0,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 45.0,
+        "fair_score": 0.45,
+        "fair_adjustments": [],
+        "normalized_score": 0.0
+    },
+    {
+        "job_title": "Pharmacy Supervisor",
+        "jd_filename": "pharmacy_supervisor.json",
+        "category": "Pharmacy",
+        "final_score": 0.0,
+        "breakdown": {
+            "skill": 0.0,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 45.0,
+        "fair_score": 0.45,
+        "fair_adjustments": [],
+        "normalized_score": 0.0
+    },
+    {
+        "job_title": "Principal Investigator (Clinical Trials)",
+        "jd_filename": "principal_investigator_clinical_trials.json",
+        "category": "Clinical/Hospital Pharmacy",
+        "final_score": 0.0,
+        "breakdown": {
+            "skill": 0.0,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 45.0,
+        "fair_score": 0.45,
+        "fair_adjustments": [],
+        "normalized_score": 0.0
+    },
+    {
+        "job_title": "Process Development Scientist",
+        "jd_filename": "process_development_scientist.json",
+        "category": "Research & Development",
+        "final_score": 16.13,
+        "breakdown": {
+            "skill": 0.16,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Strong skill match (1 matched).",
+            "Exceeds expected experience (11.0 vs 3.5 years)."
+        ],
+        "original_percentage": 49.84,
+        "fair_score": 0.4984,
+        "fair_adjustments": [],
+        "normalized_score": 0.16133333333333333
+    },
+    {
+        "job_title": "Procurement Pharmacist",
+        "jd_filename": "procurement_pharmacist.json",
+        "category": "Pharmacy",
+        "final_score": 0.0,
+        "breakdown": {
+            "skill": 0.0,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 45.0,
+        "fair_score": 0.45,
+        "fair_adjustments": [],
+        "normalized_score": 0.0
+    },
+    {
+        "job_title": "Production Pharmacist",
+        "jd_filename": "production_pharmacist.json",
+        "category": "Industrial/Manufacturing Pharmacy",
+        "final_score": 0.0,
+        "breakdown": {
+            "skill": 0.0,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 45.0,
+        "fair_score": 0.45,
+        "fair_adjustments": [],
+        "normalized_score": 0.0
+    },
+    {
+        "job_title": "Psychiatric Pharmacist",
+        "jd_filename": "psychiatric_pharmacist.json",
+        "category": "Pharmacy",
+        "final_score": 0.0,
+        "breakdown": {
+            "skill": 0.0,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 45.0,
+        "fair_score": 0.45,
+        "fair_adjustments": [],
+        "normalized_score": 0.0
+    },
+    {
+        "job_title": "Public Health Pharmacist",
+        "jd_filename": "public_health_pharmacist.json",
+        "category": "Pharmacy",
+        "final_score": 0.0,
+        "breakdown": {
+            "skill": 0.0,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 45.0,
+        "fair_score": 0.45,
+        "fair_adjustments": [],
+        "normalized_score": 0.0
+    },
+    {
+        "job_title": "Quality Assurance (Qa) Pharmacist",
+        "jd_filename": "quality_assurance_qa_pharmacist.json",
+        "category": "Pharmacy",
+        "final_score": 0.0,
+        "breakdown": {
+            "skill": 0.0,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 45.0,
+        "fair_score": 0.45,
+        "fair_adjustments": [],
+        "normalized_score": 0.0
+    },
+    {
+        "job_title": "Quality Control (Qc) Pharmacist",
+        "jd_filename": "quality_control_qc_pharmacist.json",
+        "category": "Pharmacy",
+        "final_score": 0.0,
+        "breakdown": {
+            "skill": 0.0,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 45.0,
+        "fair_score": 0.45,
+        "fair_adjustments": [],
+        "normalized_score": 0.0
+    },
+    {
+        "job_title": "Regulatory Affairs Pharmacist",
+        "jd_filename": "regulatory_affairs_pharmacist.json",
+        "category": "Pharmacy",
+        "final_score": 0.0,
+        "breakdown": {
+            "skill": 0.0,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 45.0,
+        "fair_score": 0.45,
+        "fair_adjustments": [],
+        "normalized_score": 0.0
+    },
+    {
+        "job_title": "Technology Transfer Specialist",
+        "jd_filename": "technology_transfer_specialist.json",
+        "category": "Pharmacy",
+        "final_score": 0.0,
+        "breakdown": {
+            "skill": 0.0,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 45.0,
+        "fair_score": 0.45,
+        "fair_adjustments": [],
+        "normalized_score": 0.0
+    },
+    {
+        "job_title": "Telepharmacy Consultant",
+        "jd_filename": "telepharmacy_consultant.json",
+        "category": "Pharmacy",
+        "final_score": 0.0,
+        "breakdown": {
+            "skill": 0.0,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 45.0,
+        "fair_score": 0.45,
+        "fair_adjustments": [],
+        "normalized_score": 0.0
+    },
+    {
+        "job_title": "Toxicology Specialist",
+        "jd_filename": "toxicology_specialist.json",
+        "category": "Pharmacy",
+        "final_score": 0.0,
+        "breakdown": {
+            "skill": 0.0,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 45.0,
+        "fair_score": 0.45,
+        "fair_adjustments": [],
+        "normalized_score": 0.0
+    },
+    {
+        "job_title": "Transplant Pharmacist",
+        "jd_filename": "transplant_pharmacist.json",
+        "category": "Pharmacy",
+        "final_score": 0.0,
+        "breakdown": {
+            "skill": 0.0,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 45.0,
+        "fair_score": 0.45,
+        "fair_adjustments": [],
+        "normalized_score": 0.0
+    },
+    {
+        "job_title": "Validation Pharmacist",
+        "jd_filename": "validation_pharmacist.json",
+        "category": "Pharmacy",
+        "final_score": 0.0,
+        "breakdown": {
+            "skill": 0.0,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 45.0,
+        "fair_score": 0.45,
+        "fair_adjustments": [],
+        "normalized_score": 0.0
+    },
+    {
+        "job_title": "Veterinary Pharmacist",
+        "jd_filename": "veterinary_pharmacist.json",
+        "category": "Pharmacy",
+        "final_score": 0.0,
+        "breakdown": {
+            "skill": 0.0,
+            "experience": 1.0,
+            "education": 1.0,
+            "semantic": 0.5
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
+        ],
+        "original_percentage": 45.0,
+        "fair_score": 0.45,
+        "fair_adjustments": [],
+        "normalized_score": 0.0
+    }
+]

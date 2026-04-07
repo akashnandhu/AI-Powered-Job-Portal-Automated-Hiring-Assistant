@@ -81,13 +81,32 @@ class ATSScorer:
         if not jd_words:
             return 0.5, ["No explicit skills extracted from JD."]
 
+        synonym_mapping = {
+            "pharma": "pharmaceutical",
+            "clinical research": "clinical trials",
+            "ml": "machine learning",
+            "ai": "artificial intelligence"
+        }
+
         matched_skills = []
         base_score = 0.0
 
+        # Also add mapped values to jd_words for robust matching
+        jd_words_expanded = set(jd_words)
+        for w in jd_words:
+            for k, v in synonym_mapping.items():
+                if w == v:
+                    jd_words_expanded.add(k)
+                elif w == k:
+                    jd_words_expanded.add(v)
+
         for skill in self.candidate_skills:
-            skill_tokens = skill.lower().split()
+            skill_lower = skill.lower()
+            skill_mapped = synonym_mapping.get(skill_lower, skill_lower)
+            skill_tokens = skill_mapped.split()
+            
             # If the skill or its parts appear in JD
-            if any(t in jd_words for t in skill_tokens):
+            if any(t in jd_words_expanded for t in skill_tokens):
                 matched_skills.append(skill)
                 # Use confidence score
                 base_score += self.candidate_confidences.get(skill, 0.8)
@@ -198,25 +217,23 @@ class ATSScorer:
             edu_score, edu_ins = self.compute_education_score(jd_data)
             sem_score, sem_ins = self.compute_semantic_score(filename)
             
-            # Get weights
-            weights = get_weights_for_category(category)
+            # Bias Reduction - Implement Combined Scoring
+            skill_w = 0.3
+            exp_w = 0.2
+            sem_w = 0.5
             
-            # Missing data adjustment
             available_weights = 0.0
             computed_score = 0.0
             
             if skill_score is not None:
-                computed_score += skill_score * weights.get("skill", 0.4)
-                available_weights += weights.get("skill", 0.4)
+                computed_score += skill_score * skill_w
+                available_weights += skill_w
             if exp_score is not None:
-                computed_score += exp_score * weights.get("experience", 0.2)
-                available_weights += weights.get("experience", 0.2)
-            if edu_score is not None:
-                computed_score += edu_score * weights.get("education", 0.1)
-                available_weights += weights.get("education", 0.1)
+                computed_score += exp_score * exp_w
+                available_weights += exp_w
             if sem_score is not None:
-                computed_score += sem_score * weights.get("semantic", 0.3)
-                available_weights += weights.get("semantic", 0.3)
+                computed_score += sem_score * sem_w
+                available_weights += sem_w
                 
             # Normalize to 1.0 if some weights were missing
             final_score_raw = computed_score / available_weights if available_weights > 0 else 0
