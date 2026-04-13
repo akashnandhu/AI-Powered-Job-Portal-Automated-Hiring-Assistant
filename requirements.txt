@@ -5,3 +5,5 @@ numpy
 pdfplumber
 python-docx
 python-dateutil
+sentence-transformers
+torch
