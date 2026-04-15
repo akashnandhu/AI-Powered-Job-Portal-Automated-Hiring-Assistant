@@ -38,5 +38,6 @@ async def get_results(job_id: str):
         "resume_id": job_data.get("resume_id", "Unknown"),
         "target_role": job_data.get("target_role", "Unknown"),
         "parsed_data": job_data.get("parsed_data", {}),
-        "similarity_scores": job_data.get("similarity_scores", {})
+        "similarity_scores": job_data.get("similarity_scores", {}),
+        "shortlisting_status": job_data.get("shortlisting_status", "Unknown")
     }

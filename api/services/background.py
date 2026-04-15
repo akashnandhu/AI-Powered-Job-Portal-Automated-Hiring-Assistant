@@ -41,7 +41,15 @@ def process_resume_pipeline(job_id: str, filename: str, jd_id: str = None):
         "experience": 0,
         "education": 0.5
     }
+    
+    # Calculate mock final score (weighted average)
+    final_score = (scoring["skills"] * 100 * 0.6) + (scoring["experience"] * 100 * 0.25) + (scoring["education"] * 100 * 0.15)
+    
+    from ranking.threshold_config import get_category
+    category = get_category(final_score)
+    
     JOB_STORE[job_id]["similarity_scores"] = scoring
+    JOB_STORE[job_id]["shortlisting_status"] = category
     JOB_STORE[job_id]["jd_id"] = jd_id
         
     JOB_STORE[job_id]["resume_id"] = filename
