@@ -2,6 +2,7 @@ import os
 import sys
 import json
 import torch
+import pickle
 from sentence_transformers import SentenceTransformer, util
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -80,16 +81,44 @@ def main():
         else:
             resume_embs[section] = None
 
-    # 3. Batch Encode JDs
-    print("Encoding all JD sections in batch...")
-    jd_overviews = [" ".join(jd.get("overview", [])) for jd in all_jds]
-    jd_resps = [" ".join(jd.get("responsibilities", [])) for jd in all_jds]
-    jd_quals = [" ".join(jd.get("qualifications", [])) for jd in all_jds]
+    # 3. Batch Encode or Load Cache for JDs
+    cache_path = os.path.join(BASE_DIR, "data", "jd_embeddings_cache.pkl")
+    
+    emb_j_overviews = None
+    emb_j_resps = None
+    emb_j_quals = None
+    
+    # We create a mapping to verify cache validity
+    jd_ids = [jd.get("job_id", "") for jd in all_jds]
+    
+    if os.path.exists(cache_path):
+        print("Loading cached JD embeddings...")
+        with open(cache_path, "rb") as f:
+            cache_data = pickle.load(f)
+            # Only use if cache matches the exact list of JDs
+            if cache_data.get("jd_ids") == jd_ids:
+                emb_j_overviews = cache_data["overviews"]
+                emb_j_resps = cache_data["resps"]
+                emb_j_quals = cache_data["quals"]
+                
+    if emb_j_overviews is None:
+        print("Precomputing and caching all JD sections in batch...")
+        jd_overviews = [" ".join(jd.get("overview", [])) for jd in all_jds]
+        jd_resps = [" ".join(jd.get("responsibilities", [])) for jd in all_jds]
+        jd_quals = [" ".join(jd.get("qualifications", [])) for jd in all_jds]
 
-    # Batch encode to save time
-    emb_j_overviews = model.encode(jd_overviews, convert_to_tensor=True, show_progress_bar=True)
-    emb_j_resps = model.encode(jd_resps, convert_to_tensor=True, show_progress_bar=True)
-    emb_j_quals = model.encode(jd_quals, convert_to_tensor=True, show_progress_bar=True)
+        with torch.no_grad():
+            emb_j_overviews = model.encode(jd_overviews, convert_to_tensor=True, show_progress_bar=True)
+            emb_j_resps = model.encode(jd_resps, convert_to_tensor=True, show_progress_bar=True)
+            emb_j_quals = model.encode(jd_quals, convert_to_tensor=True, show_progress_bar=True)
+            
+        with open(cache_path, "wb") as f:
+            pickle.dump({
+                "jd_ids": jd_ids,
+                "overviews": emb_j_overviews,
+                "resps": emb_j_resps,
+                "quals": emb_j_quals
+            }, f)
 
     ranked_jobs = []
 

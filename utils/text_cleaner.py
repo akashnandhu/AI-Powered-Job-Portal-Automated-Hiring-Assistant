@@ -1,5 +1,22 @@
 import re
 
+# Compile regex patterns for performance optimization
+HEADERS_MAP = [
+    (re.compile(r'(\b(?:SKILLS|TECHNICAL SKILLS|CORE COMPETENCIES|TECHNICAL COMPETENCIES)\b)', re.IGNORECASE), '\n### SKILLS\n'),
+    (re.compile(r'(\b(?:EDUCATION|ACADEMIC BACKGROUND|SCHOLASTIC RECORD)\b)', re.IGNORECASE), '\n### EDUCATION\n'),
+    (re.compile(r'(\b(?:EXPERIENCE|WORK EXPERIENCE|PROFESSIONAL EXPERIENCE|EMPLOYMENT HISTORY)\b)', re.IGNORECASE), '\n### EXPERIENCE\n'),
+    (re.compile(r'(\b(?:PROJECTS|ACADEMIC PROJECTS|PERSONAL PROJECTS)\b)', re.IGNORECASE), '\n### PROJECTS\n'),
+    (re.compile(r'(\b(?:CERTIFICATIONS|CREDENTIALS|AWARDS)\b)', re.IGNORECASE), '\n### CERTIFICATIONS\n'),
+    (re.compile(r'(\b(?:SUMMARY|PROFILE|OBJECTIVE)\b)', re.IGNORECASE), '\n### SUMMARY\n'),
+    (re.compile(r'(\b(?:CONTACT|PERSONAL INFO|CONTACT INFORMATION)\b)', re.IGNORECASE), '\n### PERSONAL INFO\n'),
+]
+
+RE_SPACES = re.compile(r'[ \t]+')
+RE_BULLET_START = re.compile(r'(?m)^[\s\u2022\u00B7\u25CF\-\*\+]\s+')
+RE_BULLET_INLINE = re.compile(r'[\u2022\u00B7\u25CF]\s*')
+RE_NEWLINES = re.compile(r'\n{3,}')
+RE_NOISY_CHARS = re.compile(r'[\x00-\x08\x0b\x0c\x0e-\x1f\x7f-\x9f\u200b]') # Control chars, zero-width spaces
+
 def clean_text(text):
     """
     Cleans raw text extracted from resumes.
@@ -9,37 +26,22 @@ def clean_text(text):
     """
     if not text:
         return ""
+        
+    # 0. Remove noisy invisible/control characters
+    text = RE_NOISY_CHARS.sub('', text)
 
-    # 1. Standardize headers. 
-    # Try to identify lines that are likely section headers (all caps or camel case in short lines)
-    headers = {
-        r'(\b(?:SKILLS|TECHNICAL SKILLS|CORE COMPETENCIES|TECHNICAL COMPETENCIES)\b)': '\n### SKILLS\n',
-        r'(\b(?:EDUCATION|ACADEMIC BACKGROUND|SCHOLASTIC RECORD)\b)': '\n### EDUCATION\n',
-        r'(\b(?:EXPERIENCE|WORK EXPERIENCE|PROFESSIONAL EXPERIENCE|EMPLOYMENT HISTORY)\b)': '\n### EXPERIENCE\n',
-        r'(\b(?:PROJECTS|ACADEMIC PROJECTS|PERSONAL PROJECTS)\b)': '\n### PROJECTS\n',
-        r'(\b(?:CERTIFICATIONS|CREDENTIALS|AWARDS)\b)': '\n### CERTIFICATIONS\n',
-        r'(\b(?:SUMMARY|PROFILE|OBJECTIVE)\b)': '\n### SUMMARY\n',
-        r'(\b(?:CONTACT|PERSONAL INFO|CONTACT INFORMATION)\b)': '\n### PERSONAL INFO\n',
-    }
-
-    # Use regex to replace headers with standardized markdown ones. 
-    # Use flags to catch different case styles
-    for pattern, replacement in headers.items():
-        text = re.sub(pattern, replacement, text, flags=re.IGNORECASE)
+    # 1. Standardize headers
+    for pattern, replacement in HEADERS_MAP:
+        text = pattern.sub(replacement, text)
 
     # 2. Normalize whitespace (ensure single spaces between words)
-    text = re.sub(r'[ \t]+', ' ', text)
+    text = RE_SPACES.sub(' ', text)
 
     # 3. Handle list markers (bullet points)
-    # Convert various bullet point styles (e.g., •, ·, ●, -, *, +) to standard "- "
-    # Note: Only at start of line (or after newline/space)
-    text = re.sub(r'(?m)^[\s\u2022\u00B7\u25CF\-\*\+]\s+', '- ', text)
-    text = re.sub(r'[\u2022\u00B7\u25CF]\s*', '- ', text)
+    text = RE_BULLET_START.sub('- ', text)
+    text = RE_BULLET_INLINE.sub('- ', text)
 
     # 4. Remove excessive newlines (keep max 2 for section spacing)
-    text = re.sub(r'\n{3,}', '\n\n', text)
-
-    # 5. Clean up weird characters (mostly non-printable or symbols)
-    # text = "".join(ch for ch in text if ch.isprintable() or ch in "\n\r\t")
+    text = RE_NEWLINES.sub('\n\n', text)
 
     return text.strip()

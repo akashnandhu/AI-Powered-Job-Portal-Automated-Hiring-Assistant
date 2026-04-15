@@ -1,32 +1,37 @@
-import pdfplumber
 import os
+import logging
 
 def parse_pdf(file_path):
     """
-    Extracts text from a PDF file using pdfplumber.
-    Handles multi-page PDFs, tables, and attempts to preserve layout.
+    Extracts text from a PDF file.
+    Optimized for speed using PyMuPDF (fitz), with fallback to pdfplumber.
     """
     if not os.path.exists(file_path):
         raise FileNotFoundError(f"File not found: {file_path}")
 
     text_content = []
-    
+
+    # 1. Try PyMuPDF (Fastest, best for production)
     try:
+        import fitz  # PyMuPDF
+        with fitz.open(file_path) as doc:
+            for page in doc:
+                text = page.get_text()
+                if text:
+                    text_content.append(text)
+        return "\n".join(text_content)
+    except ImportError:
+        logging.warning("PyMuPDF (fitz) not installed. Falling back to pdfplumber (slower).")
+    except Exception as e:
+        logging.warning(f"PyMuPDF failed {file_path}: {e}. Trying pdfplumber...")
+
+    # 2. Fallback to pdfplumber
+    try:
+        import pdfplumber
         with pdfplumber.open(file_path) as pdf:
+            # Optimize: do not extract tables explicitly unless necessary for speed.
+            # Using extract_text is generally sufficient for standard resumes.
             for page in pdf.pages:
-                # 1. Extract tables as readable text
-                tables = page.extract_tables()
-                if tables:
-                    for table in tables:
-                        for row in table:
-                            # Filter None values and join row items
-                            row_text = " | ".join([str(item) for item in row if item is not None])
-                            text_content.append(row_text)
-                
-                # 2. Extract regular text
-                # extract_text usually skips tables if they are well-formatted, 
-                # but might duplicate text if extracted above. 
-                # However, for resumes, extract_text is generally more reliable for layout.
                 page_text = page.extract_text(x_tolerance=3, y_tolerance=3)
                 if page_text:
                     text_content.append(page_text)

@@ -3,7 +3,9 @@ pandas
 scikit-learn
 numpy
 pdfplumber
+PyMuPDF
 python-docx
 python-dateutil
 sentence-transformers
 torch
+spacy
