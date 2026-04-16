@@ -106,6 +106,36 @@ class ExperienceScorer:
              # Fallback if vocabulary is empty
              return [{"role": r, "relevance_score": 0.0} for r in candidate_roles]
 
+    def compute_role_similarity_matrix(self, candidate_roles: List[str]) -> Dict[str, Any]:
+        """
+        Builds a role-to-role similarity logic to see how similar 
+        past roles are to each other.
+        """
+        if len(candidate_roles) < 2:
+            return {"matrix": [], "average_similarity": 0.0}
+            
+        clean_candidates = [clean_job_title(r) for r in candidate_roles]
+        
+        try:
+            vectorizer = TfidfVectorizer(stop_words='english')
+            tfidf_matrix = vectorizer.fit_transform(clean_candidates)
+            sim_matrix = cosine_similarity(tfidf_matrix)
+            
+            # Convert to list for JSON serialization
+            matrix_list = sim_matrix.tolist()
+            
+            # Calculate average off-diagonal similarity
+            mask = ~np.eye(sim_matrix.shape[0], dtype=bool)
+            avg_sim = sim_matrix[mask].mean() if len(candidate_roles) > 1 else 0.0
+            
+            return {
+                "matrix": matrix_list,
+                "roles": candidate_roles,
+                "average_similarity": round(float(avg_sim), 2)
+            }
+        except Exception:
+             return {"matrix": [], "average_similarity": 0.0}
+
     def score_experience(self, experiences: List[Dict[str, Any]], target_role: str, target_required_months: int = 0) -> Dict[str, Any]:
         """
         Generates the final structured experience object containing parses and relevance scoring.
@@ -114,6 +144,7 @@ class ExperienceScorer:
         
         candidate_titles = [e.get('job_title', '') for e in experiences if e.get('job_title')]
         relevance_analysis = self.compute_role_relevance(candidate_titles, target_role)
+        similarity_matrix = self.compute_role_similarity_matrix(candidate_titles)
         
         # Aggregate Relevance
         avg_relevance = 0
@@ -136,6 +167,7 @@ class ExperienceScorer:
             ],
             "timeline": timeline_analysis,
             "role_relevance": relevance_analysis,
+            "role_similarity_matrix": similarity_matrix,
             "overall_relevance_score": round(avg_relevance, 2),
             "meets_experience_requirement": is_experienced
         }

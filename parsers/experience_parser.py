@@ -14,8 +14,9 @@ class ExperienceParser:
         # MM/YYYY - MM/YYYY
         # YYYY - YYYY
         # ... - Present
+        # Enhanced pattern to catch various date formats and handling 'Ongoing' or missing end dates
         self.date_range_pattern = re.compile(
-            r'((?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.?\s+\d{4}|\d{1,2}/\d{4}|\d{4})\s*(?:-|to|–|—)\s*((?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.?\s+\d{4}|\d{1,2}/\d{4}|\d{4}|Present|Current|Now|Till Date|To Date)',
+            r'((?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.?\s+\d{4}|\d{1,2}/\d{4}|\d{4})\s*(?:-|to|–|—|until|till)\s*((?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\.?\s+\d{4}|\d{1,2}/\d{4}|\d{4}|Present|Current|Now|Till Date|To Date|Ongoing)?',
             re.IGNORECASE
         )
         
@@ -38,7 +39,9 @@ class ExperienceParser:
         
         for i, match in enumerate(matches):
             exp = {}
-            start_str, end_str = match.groups()
+            start_str = match.group(1)
+            end_str = match.group(2) if match.group(2) else "Present"
+            
             exp['start_date_str'] = start_str
             exp['end_date_str'] = end_str
             exp['parsed_start'] = parse_date(start_str)

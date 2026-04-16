@@ -12,7 +12,7 @@ def parse_date(date_str):
         return None
         
     date_str = str(date_str).strip().lower()
-    if date_str in ["present", "current", "now", "till date", "to date"]:
+    if date_str in ["present", "current", "now", "till date", "to date", "ongoing"]:
         return datetime.now()
     
     try:

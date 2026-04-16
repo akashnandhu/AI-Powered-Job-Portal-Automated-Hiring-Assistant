@@ -1,0 +1,31 @@
+{
+    "parsed_experiences": [
+        {
+            "company": "Scope India | (Ongoing)",
+            "job_title": "Data Science &AI",
+            "start_date": "July 2025",
+            "end_date": "Present",
+            "duration_months": 9
+        }
+    ],
+    "timeline": {
+        "total_calc_months": 9,
+        "total_span_months": 9,
+        "gaps_months": 0,
+        "overlaps_months": 0,
+        "gaps": [],
+        "overlaps": []
+    },
+    "role_relevance": [
+        {
+            "role": "Data Science &AI",
+            "relevance_score": 0.0
+        }
+    ],
+    "role_similarity_matrix": {
+        "matrix": [],
+        "average_similarity": 0.0
+    },
+    "overall_relevance_score": 0.0,
+    "meets_experience_requirement": false
+}
