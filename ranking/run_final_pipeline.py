@@ -10,6 +10,7 @@ from utils.normalization import normalize_text, standardize_resume, mask_sensiti
 from scoring.ats_scorer import ATSScorer
 from scoring.fairness_engine import apply_fairness, normalize_score_array
 from ranking.shortlisting_engine import ShortlistingEngine
+from ranking.eligibility_engine import EligibilityEngine
 
 def evaluate_bias(fair_results):
     if not fair_results:
@@ -131,6 +132,14 @@ def main():
         f2 = engine.generate_top_5_matches_json()
         f3 = engine.generate_recruiter_report()
         print(f"   - Saved Shortlisting Reports.")
+        
+    print("\n9. Running Eligibility Engine for AI Screening Calls...")
+    eligibility_engine = EligibilityEngine(candidate_id=candidate_id)
+    eligibility_results = eligibility_engine.evaluate_eligibility()
+    eligibility_file = eligibility_engine.save_results(eligibility_results)
+    print(f"   - Candidate eligibility decisions saved to {eligibility_file}")
+    print(f"   - Results: {len([r for r in eligibility_results if r['status'] == 'Eligible'])} Eligible, "
+          f"{len([r for r in eligibility_results if r['status'] == 'Review'])} Review for Screenings.")
         
 if __name__ == "__main__":
     main()

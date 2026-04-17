@@ -1,0 +1,28 @@
+{
+    "default_rules": {
+        "min_ats_score": 50,
+        "mandatory_skills": [],
+        "min_experience_years": 1,
+        "max_experience_years": 20,
+        "location_constraint": null,
+        "availability_required": "immediate"
+    },
+    "job_specific_rules": {
+        "Ai In Drug Discovery Researcher": {
+            "min_ats_score": 55,
+            "mandatory_skills": ["machine learning"],
+            "min_experience_years": 3,
+            "availability_required": "within 30 days"
+        },
+        "Clinical Data Manager": {
+            "min_ats_score": 55,
+            "mandatory_skills": ["data analysis"],
+            "min_experience_years": 5
+        },
+        "Healthcare Data Analyst (Pharmacy)": {
+            "min_ats_score": 70,
+            "mandatory_skills": ["data analysis"],
+            "location_constraint": "Remote"
+        }
+    }
+}

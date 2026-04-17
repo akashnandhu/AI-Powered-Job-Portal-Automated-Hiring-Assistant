@@ -1,0 +1,1400 @@
+{
+    "candidate_id": "sample_resume_2",
+    "overall_summary": {
+        "eligible_count": 4,
+        "review_count": 0,
+        "rejected_count": 83
+    },
+    "eligibility_decisions": [
+        {
+            "job_title": "Ai In Drug Discovery Researcher",
+            "status": "Eligible",
+            "score": 58.6,
+            "reasons": [],
+            "rules_applied": {
+                "min_ats_score": 55,
+                "mandatory_skills": [
+                    "machine learning"
+                ],
+                "min_experience_years": 3,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "within 30 days"
+            }
+        },
+        {
+            "job_title": "Ambulatory Care Pharmacist",
+            "status": "Rejected",
+            "score": 16.13,
+            "reasons": [
+                "ATS score 16.13% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Assistant Professor (Pharmacy)",
+            "status": "Rejected",
+            "score": 0.0,
+            "reasons": [
+                "ATS score 0.0% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Associate Professor (Pharmacy)",
+            "status": "Rejected",
+            "score": 0.0,
+            "reasons": [
+                "ATS score 0.0% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Aviation Medical Supply Pharmacist",
+            "status": "Rejected",
+            "score": 0.0,
+            "reasons": [
+                "ATS score 0.0% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Biostatistics Research Associate",
+            "status": "Rejected",
+            "score": 38.8,
+            "reasons": [
+                "ATS score 38.8% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Business Development Manager (Pharma)",
+            "status": "Rejected",
+            "score": 16.13,
+            "reasons": [
+                "ATS score 16.13% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Cardiology Pharmacist",
+            "status": "Rejected",
+            "score": 0.0,
+            "reasons": [
+                "ATS score 0.0% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Clinical Data Manager",
+            "status": "Eligible",
+            "score": 57.8,
+            "reasons": [],
+            "rules_applied": {
+                "min_ats_score": 55,
+                "mandatory_skills": [
+                    "data analysis"
+                ],
+                "min_experience_years": 5,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Clinical Pharmacist",
+            "status": "Rejected",
+            "score": 0.0,
+            "reasons": [
+                "ATS score 0.0% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Clinical Pharmacist",
+            "status": "Rejected",
+            "score": 16.13,
+            "reasons": [
+                "ATS score 16.13% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Clinical Quality Specialist",
+            "status": "Rejected",
+            "score": 16.13,
+            "reasons": [
+                "ATS score 16.13% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Clinical Research Associate",
+            "status": "Rejected",
+            "score": 38.8,
+            "reasons": [
+                "ATS score 38.8% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Clinical Research Coordinator",
+            "status": "Rejected",
+            "score": 0.0,
+            "reasons": [
+                "ATS score 0.0% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Clinical Research Scientist",
+            "status": "Rejected",
+            "score": 38.8,
+            "reasons": [
+                "ATS score 38.8% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Clinical Trial Pharmacist",
+            "status": "Rejected",
+            "score": 16.13,
+            "reasons": [
+                "ATS score 16.13% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Community Pharmacist",
+            "status": "Rejected",
+            "score": 0.0,
+            "reasons": [
+                "ATS score 0.0% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Community Pharmacist",
+            "status": "Rejected",
+            "score": 0.0,
+            "reasons": [
+                "ATS score 0.0% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Compounding Pharmacist",
+            "status": "Rejected",
+            "score": 0.0,
+            "reasons": [
+                "ATS score 0.0% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Consultant Pharmacist",
+            "status": "Rejected",
+            "score": 16.13,
+            "reasons": [
+                "ATS score 16.13% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Cosmetic Formulation Scientist",
+            "status": "Rejected",
+            "score": 16.83,
+            "reasons": [
+                "ATS score 16.83% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Critical Care Pharmacist",
+            "status": "Rejected",
+            "score": 0.0,
+            "reasons": [
+                "ATS score 0.0% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Cruise Ship Pharmacist",
+            "status": "Rejected",
+            "score": 0.0,
+            "reasons": [
+                "ATS score 0.0% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Digital Health Pharmacist",
+            "status": "Rejected",
+            "score": 0.0,
+            "reasons": [
+                "ATS score 0.0% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Dispensing Pharmacist",
+            "status": "Rejected",
+            "score": 0.0,
+            "reasons": [
+                "ATS score 0.0% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Drug Control Officer",
+            "status": "Rejected",
+            "score": 0.0,
+            "reasons": [
+                "ATS score 0.0% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Drug Development Scientist",
+            "status": "Rejected",
+            "score": 38.8,
+            "reasons": [
+                "ATS score 38.8% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Drug Distribution Manager",
+            "status": "Rejected",
+            "score": 0.0,
+            "reasons": [
+                "ATS score 0.0% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Drug Inspector",
+            "status": "Rejected",
+            "score": 0.0,
+            "reasons": [
+                "ATS score 0.0% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Drug Safety Associate",
+            "status": "Rejected",
+            "score": 38.8,
+            "reasons": [
+                "ATS score 38.8% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Emergency Medicine Pharmacist",
+            "status": "Rejected",
+            "score": 0.0,
+            "reasons": [
+                "ATS score 0.0% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "E-Prescription System Specialist",
+            "status": "Rejected",
+            "score": 38.8,
+            "reasons": [
+                "ATS score 38.8% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Food & Drug Administration Pharmacist",
+            "status": "Rejected",
+            "score": 38.8,
+            "reasons": [
+                "ATS score 38.8% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Formulation Development Scientist",
+            "status": "Rejected",
+            "score": 16.83,
+            "reasons": [
+                "ATS score 16.83% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Geriatric Pharmacist",
+            "status": "Rejected",
+            "score": 0.0,
+            "reasons": [
+                "ATS score 0.0% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Government Pharmacist",
+            "status": "Rejected",
+            "score": 0.0,
+            "reasons": [
+                "ATS score 0.0% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Healthcare Consultant (Pharma)",
+            "status": "Rejected",
+            "score": 38.0,
+            "reasons": [
+                "ATS score 38.0% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Healthcare Data Analyst (Pharmacy)",
+            "status": "Eligible",
+            "score": 100.0,
+            "reasons": [],
+            "rules_applied": {
+                "min_ats_score": 70,
+                "mandatory_skills": [
+                    "data analysis"
+                ],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": "Remote",
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Herbal / Ayurvedic Drug Researcher",
+            "status": "Rejected",
+            "score": 0.0,
+            "reasons": [
+                "ATS score 0.0% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Humanitarian Pharmacist",
+            "status": "Rejected",
+            "score": 16.13,
+            "reasons": [
+                "ATS score 16.13% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Industrial Pharmacist",
+            "status": "Rejected",
+            "score": 0.0,
+            "reasons": [
+                "ATS score 0.0% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Infectious Disease Pharmacist",
+            "status": "Rejected",
+            "score": 0.0,
+            "reasons": [
+                "ATS score 0.0% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Inventory Control Pharmacist",
+            "status": "Rejected",
+            "score": 16.13,
+            "reasons": [
+                "ATS score 16.13% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Manufacturing Pharmacist",
+            "status": "Rejected",
+            "score": 0.0,
+            "reasons": [
+                "ATS score 0.0% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Medical Advisor",
+            "status": "Rejected",
+            "score": 0.0,
+            "reasons": [
+                "ATS score 0.0% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Medical Affairs Manager",
+            "status": "Rejected",
+            "score": 38.8,
+            "reasons": [
+                "ATS score 38.8% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Medical Science Liaison",
+            "status": "Rejected",
+            "score": 38.8,
+            "reasons": [
+                "ATS score 38.8% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Medical Writer",
+            "status": "Rejected",
+            "score": 0.0,
+            "reasons": [
+                "ATS score 0.0% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Military Pharmacist",
+            "status": "Rejected",
+            "score": 0.0,
+            "reasons": [
+                "ATS score 0.0% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Ngo Pharmaceutical Specialist",
+            "status": "Rejected",
+            "score": 16.13,
+            "reasons": [
+                "ATS score 16.13% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Nuclear Pharmacist",
+            "status": "Rejected",
+            "score": 0.0,
+            "reasons": [
+                "ATS score 0.0% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Nuclear Pharmacy Specialist",
+            "status": "Rejected",
+            "score": 0.0,
+            "reasons": [
+                "ATS score 0.0% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Nutrition Support Pharmacist",
+            "status": "Rejected",
+            "score": 0.0,
+            "reasons": [
+                "ATS score 0.0% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Oncology Pharmacist",
+            "status": "Rejected",
+            "score": 0.0,
+            "reasons": [
+                "ATS score 0.0% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Packaging Development Scientist",
+            "status": "Rejected",
+            "score": 0.0,
+            "reasons": [
+                "ATS score 0.0% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Pain Management Pharmacist",
+            "status": "Rejected",
+            "score": 16.13,
+            "reasons": [
+                "ATS score 16.13% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Pediatric Pharmacist",
+            "status": "Rejected",
+            "score": 0.0,
+            "reasons": [
+                "ATS score 0.0% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Pharmaceutical Marketing Manager",
+            "status": "Rejected",
+            "score": 16.13,
+            "reasons": [
+                "ATS score 16.13% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Pharmaceutical Product Manager",
+            "status": "Rejected",
+            "score": 38.0,
+            "reasons": [
+                "ATS score 38.0% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Pharmaceutical Research Scientist",
+            "status": "Rejected",
+            "score": 38.8,
+            "reasons": [
+                "ATS score 38.8% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Pharmaceutical Research Scientist",
+            "status": "Rejected",
+            "score": 38.8,
+            "reasons": [
+                "ATS score 38.8% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Pharmaceutical Sales Manager",
+            "status": "Rejected",
+            "score": 38.8,
+            "reasons": [
+                "ATS score 38.8% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Pharmaceutical Supply Chain Manager",
+            "status": "Rejected",
+            "score": 16.13,
+            "reasons": [
+                "ATS score 16.13% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Pharmaceutical Warehouse Manager",
+            "status": "Rejected",
+            "score": 16.13,
+            "reasons": [
+                "ATS score 16.13% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Pharmacology Researcher",
+            "status": "Rejected",
+            "score": 0.0,
+            "reasons": [
+                "ATS score 0.0% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Pharmacovigilance Officer",
+            "status": "Rejected",
+            "score": 38.8,
+            "reasons": [
+                "ATS score 38.8% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Pharmacy Informatics Specialist",
+            "status": "Eligible",
+            "score": 57.8,
+            "reasons": [],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Pharmacy Manager",
+            "status": "Rejected",
+            "score": 16.13,
+            "reasons": [
+                "ATS score 16.13% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Pharmacy Manager",
+            "status": "Rejected",
+            "score": 16.13,
+            "reasons": [
+                "ATS score 16.13% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Pharmacy Owner / Independent Pharmacist",
+            "status": "Rejected",
+            "score": 0.0,
+            "reasons": [
+                "ATS score 0.0% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Pharmacy Professor",
+            "status": "Rejected",
+            "score": 0.0,
+            "reasons": [
+                "ATS score 0.0% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Pharmacy Supervisor",
+            "status": "Rejected",
+            "score": 0.0,
+            "reasons": [
+                "ATS score 0.0% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Principal Investigator (Clinical Trials)",
+            "status": "Rejected",
+            "score": 0.0,
+            "reasons": [
+                "ATS score 0.0% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Process Development Scientist",
+            "status": "Rejected",
+            "score": 16.13,
+            "reasons": [
+                "ATS score 16.13% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Procurement Pharmacist",
+            "status": "Rejected",
+            "score": 0.0,
+            "reasons": [
+                "ATS score 0.0% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Production Pharmacist",
+            "status": "Rejected",
+            "score": 0.0,
+            "reasons": [
+                "ATS score 0.0% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Psychiatric Pharmacist",
+            "status": "Rejected",
+            "score": 0.0,
+            "reasons": [
+                "ATS score 0.0% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Public Health Pharmacist",
+            "status": "Rejected",
+            "score": 0.0,
+            "reasons": [
+                "ATS score 0.0% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Quality Assurance (Qa) Pharmacist",
+            "status": "Rejected",
+            "score": 0.0,
+            "reasons": [
+                "ATS score 0.0% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Quality Control (Qc) Pharmacist",
+            "status": "Rejected",
+            "score": 0.0,
+            "reasons": [
+                "ATS score 0.0% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Regulatory Affairs Pharmacist",
+            "status": "Rejected",
+            "score": 0.0,
+            "reasons": [
+                "ATS score 0.0% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Technology Transfer Specialist",
+            "status": "Rejected",
+            "score": 0.0,
+            "reasons": [
+                "ATS score 0.0% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Telepharmacy Consultant",
+            "status": "Rejected",
+            "score": 0.0,
+            "reasons": [
+                "ATS score 0.0% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Toxicology Specialist",
+            "status": "Rejected",
+            "score": 0.0,
+            "reasons": [
+                "ATS score 0.0% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Transplant Pharmacist",
+            "status": "Rejected",
+            "score": 0.0,
+            "reasons": [
+                "ATS score 0.0% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Validation Pharmacist",
+            "status": "Rejected",
+            "score": 0.0,
+            "reasons": [
+                "ATS score 0.0% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        },
+        {
+            "job_title": "Veterinary Pharmacist",
+            "status": "Rejected",
+            "score": 0.0,
+            "reasons": [
+                "ATS score 0.0% is below minimum 50%"
+            ],
+            "rules_applied": {
+                "min_ats_score": 50,
+                "mandatory_skills": [],
+                "min_experience_years": 1,
+                "max_experience_years": 20,
+                "location_constraint": null,
+                "availability_required": "immediate"
+            }
+        }
+    ]
+}
