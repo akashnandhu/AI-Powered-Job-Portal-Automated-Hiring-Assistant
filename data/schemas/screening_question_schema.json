@@ -1,0 +1,65 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ScreeningQuestionBank",
+  "description": "Schema for AI-ready HR screening question datasets",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "question_id": {
+        "type": "string",
+        "description": "Unique identifier for the question"
+      },
+      "category": {
+        "type": "string",
+        "enum": [
+          "Introduction",
+          "Education",
+          "Experience",
+          "Skills",
+          "Location",
+          "Salary",
+          "Notice period"
+        ],
+        "description": "Category of the screening question"
+      },
+      "template": {
+        "type": "string",
+        "description": "The actual question text, with optional format variables like {role}, {skill}, {location}"
+      },
+      "expected_answer_type": {
+        "type": "string",
+        "enum": ["boolean", "numeric", "text", "date", "list"],
+        "description": "The data type expected as the answer"
+      },
+      "is_mandatory": {
+        "type": "boolean",
+        "description": "Whether this question is mandatory to ask"
+      },
+      "scoring_importance": {
+        "type": "string",
+        "enum": ["low", "medium", "high", "critical"],
+        "description": "Importance of the question for candidate evaluation"
+      },
+      "applicable_roles": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "description": "List of roles this question applies to. If empty, implies all roles."
+      },
+      "intent": {
+        "type": "string",
+        "description": "The AI intent behind the question, useful for LLM context"
+      }
+    },
+    "required": [
+      "question_id",
+      "category",
+      "template",
+      "expected_answer_type",
+      "is_mandatory",
+      "scoring_importance"
+    ]
+  }
+}

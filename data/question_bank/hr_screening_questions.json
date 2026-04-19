@@ -1,0 +1,142 @@
+[
+  {
+    "question_id": "intro_001",
+    "category": "Introduction",
+    "template": "Hello! Thank you for taking the time to speak with us today. To get started, could you briefly introduce yourself and share a bit about your current professional situation?",
+    "expected_answer_type": "text",
+    "is_mandatory": true,
+    "scoring_importance": "low",
+    "applicable_roles": [],
+    "intent": "Icebreaker and basic candidate profiling."
+  },
+  {
+    "question_id": "intro_002",
+    "category": "Introduction",
+    "template": "What sparked your interest in the {role} position here at our company?",
+    "expected_answer_type": "text",
+    "is_mandatory": true,
+    "scoring_importance": "medium",
+    "applicable_roles": [],
+    "intent": "Assess motivation and company interest."
+  },
+  {
+    "question_id": "edu_001",
+    "category": "Education",
+    "template": "Can you confirm your highest level of education and your field of study?",
+    "expected_answer_type": "text",
+    "is_mandatory": true,
+    "scoring_importance": "medium",
+    "applicable_roles": [],
+    "intent": "Verify foundational educational qualifications."
+  },
+  {
+    "question_id": "exp_001",
+    "category": "Experience",
+    "template": "How many total years of professional experience do you have in the tech industry, specifically working as a {role}?",
+    "expected_answer_type": "numeric",
+    "is_mandatory": true,
+    "scoring_importance": "high",
+    "applicable_roles": [],
+    "intent": "Quantify relevant role experience."
+  },
+  {
+    "question_id": "exp_002",
+    "category": "Experience",
+    "template": "Could you walk me through your most recent project involving {key_technology}? What was your specific contribution?",
+    "expected_answer_type": "text",
+    "is_mandatory": false,
+    "scoring_importance": "critical",
+    "applicable_roles": [],
+    "intent": "Qualitative assessment of recent relevant technical experience."
+  },
+  {
+    "question_id": "exp_003",
+    "category": "Experience",
+    "template": "Have you ever led a team or mentored junior team members?",
+    "expected_answer_type": "boolean",
+    "is_mandatory": false,
+    "scoring_importance": "medium",
+    "applicable_roles": ["Senior Software Engineer", "Tech Lead", "Engineering Manager"],
+    "intent": "Identify leadership experience."
+  },
+  {
+    "question_id": "skills_001",
+    "category": "Skills",
+    "template": "On a scale of 1 to 10, how would you rate your proficiency in {primary_skill}?",
+    "expected_answer_type": "numeric",
+    "is_mandatory": true,
+    "scoring_importance": "high",
+    "applicable_roles": [],
+    "intent": "Self-assessment of primary mandatory skill."
+  },
+  {
+    "question_id": "skills_002",
+    "category": "Skills",
+    "template": "Do you have working experience with {secondary_skill} in a production environment?",
+    "expected_answer_type": "boolean",
+    "is_mandatory": false,
+    "scoring_importance": "medium",
+    "applicable_roles": [],
+    "intent": "Verify secondary or optional tech stack skills."
+  },
+  {
+    "question_id": "loc_001",
+    "category": "Location",
+    "template": "Are you currently located in {job_location}, or are you open to relocating there for this role?",
+    "expected_answer_type": "boolean",
+    "is_mandatory": true,
+    "scoring_importance": "critical",
+    "applicable_roles": [],
+    "intent": "Confirm geographic eligibility or relocation willingness."
+  },
+  {
+    "question_id": "loc_002",
+    "category": "Location",
+    "template": "This role operates in a {work_model} model. Are you comfortable with this working arrangement?",
+    "expected_answer_type": "boolean",
+    "is_mandatory": true,
+    "scoring_importance": "high",
+    "applicable_roles": [],
+    "intent": "Verify alignment with remote/hybrid/on-site policy."
+  },
+  {
+    "question_id": "sal_001",
+    "category": "Salary",
+    "template": "What are your expected compensation requirements for this role?",
+    "expected_answer_type": "numeric",
+    "is_mandatory": true,
+    "scoring_importance": "critical",
+    "applicable_roles": [],
+    "intent": "Ensure alignment with budget constraints."
+  },
+  {
+    "question_id": "sal_002",
+    "category": "Salary",
+    "template": "Are you open to a flexible compensation structure, including performance bonuses or equity options?",
+    "expected_answer_type": "boolean",
+    "is_mandatory": false,
+    "scoring_importance": "low",
+    "applicable_roles": ["Executive", "Sales", "Startup roles"],
+    "intent": "Understand flexibility on total compensation package."
+  },
+  {
+    "question_id": "notice_001",
+    "category": "Notice period",
+    "template": "What is your current notice period or availability to join?",
+    "expected_answer_type": "text",
+    "is_mandatory": true,
+    "scoring_importance": "high",
+    "applicable_roles": [],
+    "intent": "Determine timeline for onboarding."
+  },
+  {
+    "question_id": "notice_002",
+    "category": "Notice period",
+    "template": "If offered the position, would you be able to start by {target_start_date}?",
+    "expected_answer_type": "boolean",
+    "is_mandatory": false,
+    "scoring_importance": "medium",
+    "applicable_roles": [],
+    "intent": "Check alignment with tight hiring timelines."
+  }
+]
