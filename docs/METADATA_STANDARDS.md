@@ -64,3 +64,32 @@ Every output JSON produced by an AI or parsing module (Parsed Profiles, ATS Scor
 - **Immutability**: Once an AI-generated JSON file is written to storage, its metadata block must never be mutated. If the artifact requires reprocessing, an entirely new file (or a new versioned entry in the database) must be created with a fresh `timestamp` and potentially a new `model_version`.
 - **Validation**: All components reading intermediate AI outputs (e.g., the Screening AI reading the Parsed Resume) MUST throw an exception if the `metadata` envelope is missing or fails UUID/ISO validation.
 - **Logging**: The core fields (`candidate_id`, `job_id`, `model_version`) should be attached to every telemetry and logging event emitted by the `utils/logger.py` module during processing.
+
+---
+
+## 4. Voice & Screening Metadata Standards
+
+When integrating voice-based agent interactions, additional contextual fields are required for processing voice transcripts:
+
+### 4.1 Question ID (`question_id`)
+- **Type**: `String`
+- **Description**: Identifies the specific predefined screening question (mapped to the `ScreeningQuestionBank`) being addressed by the candidate.
+- **Requirement**: Mandatory in interaction transcripts and AI scoring evaluations.
+
+### 4.2 Confidence Level (`confidence_level`)
+- **Type**: `Number` (Float between 0.0 and 1.0)
+- **Description**: Represents the Speech-to-Text (STT) model's confidence in its transcription.
+- **Requirement**: Mandatory for voice transcripts. Low confidence (< 0.8) may trigger a re-prompt workflow or flag the answer for manual review.
+- **Example**: `0.94`
+
+---
+
+## 5. Transcript Normalization Rules
+
+To ensure reliable data extraction from voice transcripts, the following normalization rules must be applied prior to semantic parsing or AI evaluation:
+
+1. **Filler Word Removal**: Strip common conversational fillers (e.g., "um", "uh", "like", "you know") unless they provide essential context within the utterance.
+2. **Contraction Expansion**: Expand contractions to formal equivalents (e.g., "I'm" -> "I am", "don't" -> "do not") for uniform NLP processing.
+3. **Punctuation Correction**: Apply standard STT capitalization and punctuation. Remove redundant or repeated punctuation marks (e.g., "!!", "??").
+4. **Number Formulation**: Convert spoken numbers into continuous numeric digits (e.g., "five years" -> "5 years", "twenty thousand" -> "20000").
+5. **Acronym Standardization**: Normalize common technical acronyms into uppercase equivalents (e.g., "a w s" -> "AWS", "react j s" -> "ReactJS").

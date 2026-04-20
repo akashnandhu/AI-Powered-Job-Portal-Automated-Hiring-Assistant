@@ -1,0 +1,52 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "VoiceTranscript",
+  "description": "Schema structure for storing normalized voice-to-text transcripts generated during candidate interactions.",
+  "type": "object",
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "candidate_id": {
+          "type": "string",
+          "description": "UUID of the candidate"
+        },
+        "job_id": {
+          "type": "string",
+          "description": "UUID of the target job role"
+        },
+        "question_id": {
+          "type": "string",
+          "description": "ID mapped to the ScreeningQuestionBank"
+        },
+        "timestamp": {
+          "type": "string",
+          "format": "date-time",
+          "description": "ISO-8601 UTC timestamp of transcription"
+        },
+        "confidence_level": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 1,
+          "description": "STT confidence score (0.0 to 1.0)"
+        }
+      },
+      "required": ["candidate_id", "job_id", "question_id", "timestamp", "confidence_level"]
+    },
+    "text_payload": {
+      "type": "object",
+      "properties": {
+        "raw_transcript": {
+          "type": "string",
+          "description": "Original text returned by STT engine"
+        },
+        "normalized_transcript": {
+          "type": "string",
+          "description": "Cleaned text after applying standard normalization rules"
+        }
+      },
+      "required": ["raw_transcript", "normalized_transcript"]
+    }
+  },
+  "required": ["metadata", "text_payload"]
+}

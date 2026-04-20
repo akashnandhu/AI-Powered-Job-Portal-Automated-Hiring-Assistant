@@ -1,0 +1,66 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ScreeningInteraction",
+  "description": "Database schema design for managing the full lifecycle of an AI screening conversation.",
+  "type": "object",
+  "properties": {
+    "session_id": {
+      "type": "string",
+      "description": "UUID referencing the entire screening session"
+    },
+    "candidate_id": {
+      "type": "string",
+      "description": "UUID of the candidate"
+    },
+    "job_id": {
+      "type": "string",
+      "description": "UUID of the job requisition"
+    },
+    "status": {
+      "type": "string",
+      "enum": ["initiated", "in_progress", "completed", "aborted"]
+    },
+    "start_timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "end_timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "interactions": {
+      "type": "array",
+      "description": "Turn-by-turn log of questions and answers",
+      "items": {
+        "type": "object",
+        "properties": {
+          "turn_index": { "type": "integer" },
+          "question_id": { "type": "string" },
+          "ai_prompt": { "type": "string" },
+          "transcript_ref_id": {
+            "type": "string",
+            "description": "Optional reference to a linked VoiceTranscript document"
+          },
+          "normalized_response": {
+            "type": "string",
+            "description": "The normalized text string used for evaluation"
+          },
+          "extracted_data": {
+            "type": "object",
+            "description": "Key/value pairs extracted from response based on expected_answer_type in screening question bank"
+          }
+        },
+        "required": ["turn_index", "question_id", "ai_prompt", "normalized_response"]
+      }
+    },
+    "evaluation_summary": {
+      "type": "object",
+      "properties": {
+        "overall_score": { "type": "number", "minimum": 0, "maximum": 100 },
+        "recommendation": { "type": "string", "enum": ["Shortlisted", "In Review", "Rejected"] },
+        "ai_notes": { "type": "string" }
+      }
+    }
+  },
+  "required": ["session_id", "candidate_id", "job_id", "status", "start_timestamp", "interactions"]
+}
