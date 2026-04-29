@@ -21,6 +21,8 @@ class STTService:
         # Mock STT response with segments to simulate silence detection
         return {
             "text": "Uh, I have five years of experience in Python. And, like, I also know... um, React but-",
+            "confidence": 0.85,
+            "background_noise_level": 0.2, # Simulated noise level (0.0 to 1.0)
             "segments": [
                 {"start": 0.0, "end": 2.5, "text": "Uh, I have five years of experience in Python."},
                 # Simulated silence of 2.5 seconds here
@@ -177,9 +179,18 @@ class CleanTranscriptProcessor:
         silences = self.stt_service.detect_silence(segments)
         clean_text = self.normalizer.process(raw_text)
         
+        # Audio Quality heuristics
+        noise_level = stt_result.get("background_noise_level", 0.0)
+        confidence = stt_result.get("confidence", 1.0)
+        
+        poor_audio = confidence < 0.6
+        high_background_noise = noise_level > 0.7
+        
         return {
             "raw_transcript": raw_text,
             "normalized_transcript": clean_text,
             "silences_detected": silences,
-            "segments": segments
+            "segments": segments,
+            "poor_audio": poor_audio,
+            "high_background_noise": high_background_noise
         }

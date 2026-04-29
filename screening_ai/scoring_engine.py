@@ -75,7 +75,7 @@ class ScreeningScoringEngine:
             return ParameterScore(score=0.0, explanation="No response provided.")
             
         words = text.split()
-        if len(words) < 3:
+        if len(words) < 2:
             return ParameterScore(score=0.4, explanation="Response is too brief, lacking clear articulation.")
             
         filler_words = ["um", "uh", "like", "you know", "basically", "kinda"]
@@ -117,10 +117,10 @@ class ScreeningScoringEngine:
             return ParameterScore(score=0.0, explanation="No response provided.")
             
         if is_vague:
-            return ParameterScore(score=0.3, explanation="Response is too vague to be considered complete.")
+            return ParameterScore(score=0.5, explanation="Response is somewhat vague and could be more complete.")
             
         words = text.split()
-        if len(words) < 5:
+        if len(words) < 3:
             return ParameterScore(score=0.5, explanation="Response is a partial answer and lacks detail.")
             
         return ParameterScore(score=1.0, explanation="Response provides complete and actionable information.")

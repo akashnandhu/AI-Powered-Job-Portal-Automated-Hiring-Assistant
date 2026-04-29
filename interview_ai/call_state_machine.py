@@ -18,6 +18,9 @@ class ErrorType(Enum):
     SILENCE = "silence"
     CONFUSION = "confusion"
     REPEATED_ANSWER = "repeated_answer"
+    POOR_AUDIO = "poor_audio"
+    LANGUAGE_MIXING = "language_mixing"
+    MISSING_ANSWER = "missing_answer"
 
 class ConversationStateMachine:
     """
@@ -101,9 +104,24 @@ class ConversationStateMachine:
         """
         confusion_detected = payload.get("confusion", False)
         repeated_detected = payload.get("repeated", False)
+        poor_audio = payload.get("poor_audio", False)
+        language_mixed = payload.get("language_mixed", False)
+        missing_answer = payload.get("missing_answer", False)
         needs_follow_up = payload.get("needs_follow_up", False)
         
-        if confusion_detected:
+        if poor_audio:
+            self.current_error_type = ErrorType.POOR_AUDIO
+            self.transition(CallState.ERROR_RECOVERY)
+            return self._handle_error_recovery()
+        elif language_mixed:
+            self.current_error_type = ErrorType.LANGUAGE_MIXING
+            self.transition(CallState.ERROR_RECOVERY)
+            return self._handle_error_recovery()
+        elif missing_answer:
+            self.current_error_type = ErrorType.MISSING_ANSWER
+            self.transition(CallState.ERROR_RECOVERY)
+            return self._handle_error_recovery()
+        elif confusion_detected:
             self.current_error_type = ErrorType.CONFUSION
             self.transition(CallState.ERROR_RECOVERY)
             return self._handle_error_recovery()
@@ -142,8 +160,12 @@ class ConversationStateMachine:
             self.transition(CallState.WRAP_UP)
             return self._handle_polite_failure()
             
-        if self.current_error_type == ErrorType.SILENCE:
+        if self.current_error_type == ErrorType.SILENCE or self.current_error_type == ErrorType.MISSING_ANSWER:
             msg = "I didn't quite catch that. Are you still there?" if self.consecutive_errors == 1 else "Just checking if you are still connected. To repeat the question..."
+        elif self.current_error_type == ErrorType.POOR_AUDIO:
+            msg = "I'm having a little trouble hearing you clearly due to some background noise. Could you repeat that?" if self.consecutive_errors == 1 else "The audio is still a bit fuzzy. Let's try one more time."
+        elif self.current_error_type == ErrorType.LANGUAGE_MIXING:
+            msg = "I'm sorry, I primarily understand English. Could you please answer in English?" if self.consecutive_errors == 1 else "Could you try phrasing that in English again?"
         elif self.current_error_type == ErrorType.CONFUSION:
             msg = "Let me rephrase that using simpler terms. " + self.questions[self.current_question_index] if self.consecutive_errors == 1 else "Let's try a simpler fallback question on this topic."
         elif self.current_error_type == ErrorType.REPEATED_ANSWER:

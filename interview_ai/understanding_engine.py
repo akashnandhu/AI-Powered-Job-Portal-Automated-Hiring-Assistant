@@ -27,6 +27,10 @@ class StructuredAnswer(BaseModel):
     intent: Literal["direct_answer", "clarification_needed", "off_topic", "refusal_to_answer", "partial_answer", "unknown"] = Field(..., description="Detected intent of the candidate's response")
     is_off_topic: bool = Field(..., description="True if response is totally unrelated to the question")
     is_vague_or_missing: bool = Field(..., description="True if the response lacks concrete details or is missing")
+    missing_answer: bool = Field(False, description="True if the response is completely empty or just silence")
+    language_mixed: bool = Field(False, description="True if the response contains multiple languages or non-English")
+    confusion_detected: bool = Field(False, description="True if the candidate expressed confusion")
+    repeated_detected: bool = Field(False, description="True if the candidate repeated themselves")
     extracted_data: ExtractedEntities = Field(..., description="Structured entities extracted from the answer")
     confidence_score: float = Field(..., description="Confidence score of the extraction and classification")
 
@@ -43,8 +47,9 @@ class AnswerUnderstandingEngine:
         # Intent classification keywords
         self.off_topic_keywords = ["weather", "sports", "politics", "movie", "recipe", "baseball", "restaurant"]
         self.refusal_keywords = ["i don't know", "cannot answer", "skip this", "pass", "no idea", "i'm not sure", "skip"]
-        self.clarification_keywords = ["can you repeat", "what do you mean", "could you clarify", "not sure i understand", "pardon"]
+        self.clarification_keywords = ["can you repeat", "what do you mean", "could you clarify", "not sure i understand", "pardon", "confused", "i didn't catch that"]
         self.vague_keywords = ["some stuff", "things", "various things", "a little bit", "maybe", "depends", "probably"]
+        self.repeated_keywords = ["as i said", "like i mentioned before", "i already told you", "again"]
         
     def classify_intent(self, text: str) -> Literal["direct_answer", "clarification_needed", "off_topic", "refusal_to_answer", "partial_answer", "unknown"]:
         """
@@ -79,9 +84,18 @@ class AnswerUnderstandingEngine:
         if intent == "off_topic":
             return True
             
-        # Contextual check could be added here based on question_category
-        # For instance, if question is "Skills", but text only talks about salary
         return False
+        
+    def detect_language_mixing(self, text: str) -> bool:
+        """
+        Basic heuristic to detect non-English words or language mixing.
+        In production, this uses a language identification model (e.g., fastText or CLD3).
+        """
+        if not text.strip():
+             return False
+        # Simulating detection by looking for specific non-English markers or generic logic
+        foreign_words = ["gracias", "bonjour", "hola", "merci", "namaste", "danke"]
+        return any(word in text.lower() for word in foreign_words)
 
     def check_vague_or_missing(self, text: str) -> bool:
         """
@@ -144,6 +158,12 @@ class AnswerUnderstandingEngine:
         intent = self.classify_intent(cleaned_transcript)
         is_off_topic = self.detect_off_topic(cleaned_transcript, question_category)
         is_vague = self.check_vague_or_missing(cleaned_transcript)
+        missing_answer = not cleaned_transcript.strip()
+        language_mixed = self.detect_language_mixing(cleaned_transcript)
+        confusion_detected = intent == "clarification_needed"
+        
+        text_lower = cleaned_transcript.lower()
+        repeated_detected = any(k in text_lower for k in self.repeated_keywords)
         
         # Run extraction
         entities = self.extract_entities(cleaned_transcript)
@@ -163,6 +183,10 @@ class AnswerUnderstandingEngine:
             intent=intent,
             is_off_topic=is_off_topic,
             is_vague_or_missing=is_vague,
+            missing_answer=missing_answer,
+            language_mixed=language_mixed,
+            confusion_detected=confusion_detected,
+            repeated_detected=repeated_detected,
             extracted_data=entities,
             confidence_score=round(max(0.0, min(1.0, confidence)), 2)
         )
