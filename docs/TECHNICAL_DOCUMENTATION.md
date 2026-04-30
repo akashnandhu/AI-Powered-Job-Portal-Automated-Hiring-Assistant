@@ -13,6 +13,8 @@ The ATS operates on a modular, asynchronous pipeline architecture built with Pyt
 *   **Semantic Matching Layer:** Employs NLP models to generate semantic scores representing the alignment between the candidate's resume and the raw job descriptions (`semantic_matcher.py`).
 *   **Scoring & Fairness Engine:** Computes categorical scores (skills, experience, education, semantic) and normalizes the results through a fairness algorithm to minimize demographic or keyword bias (`ats_scorer.py`, `fairness_engine.py`).
 *   **Ranking & Shortlisting Engine:** Evaluates the final scores against configurable thresholds and categorizes matches into priorities (`shortlisting_engine.py`).
+*   **Interview AI & Voice Screening Engine:** Manages dynamic conversation logic through a state machine, handles confusion/repetition, and evaluates live candidate responses using an NLU-based understanding engine (`call_state_machine.py`, `understanding_engine.py`).
+*   **Screening Evaluator:** Scores live interview answers against clarity, completeness, relevance, and consistency, aggregating them into an explainable normalized score (`scoring_engine.py`).
 
 ## 3. Data Flow
 

@@ -1,0 +1,19 @@
+--- Conversation History ---
+[INIT] AI: Hello! Welcome to the interview. Are you ready to begin?
+[WAITING_FOR_RESPONSE] AI: Can you describe your experience with Python and machine learning?
+[CANDIDATE_SPEAKS] Candidate: Um, I am a bit confused, what do you mean by machine learning experience?
+[WAITING_FOR_RESPONSE] Internal_Payload: {'confusion': True, 'repeated': False, 'needs_follow_up': False}
+[CANDIDATE_SPEAKS] Candidate: I have 5 years of experience in Python and building ML models.
+[ASK_QUESTION] Internal_Payload: {'confusion': False, 'repeated': False, 'needs_follow_up': False}
+[WAITING_FOR_RESPONSE] AI: What are your salary expectations?
+[CANDIDATE_SPEAKS] Candidate: As I said, I have 5 years.
+[WAITING_FOR_RESPONSE] Internal_Payload: {'confusion': False, 'repeated': True, 'needs_follow_up': False}
+[CANDIDATE_SPEAKS] Candidate: 120k
+[ASK_QUESTION] Internal_Payload: {'confusion': False, 'repeated': False, 'needs_follow_up': False}
+[TERMINATED] AI: Thank you for taking the time to speak with me today. Have a great day!
+
+--- Scoring Engine Test ---
+Q1 Score (I have 5 years of experience in Python and building ML models.): 1.0
+Q1 Explain: Response provides complete and actionable information., Very clear and articulate response without filler words.
+Q2 Score (120k): 0.73
+Q2 Explain: Response is a partial answer and lacks detail., Response is too brief, lacking clear articulation.

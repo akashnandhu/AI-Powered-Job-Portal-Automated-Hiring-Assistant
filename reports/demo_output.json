@@ -1,0 +1,94 @@
+{
+  "conversation_history": [
+    {
+      "state": "INIT",
+      "speaker": "AI",
+      "text": "Hello! Welcome to the interview. Are you ready to begin?"
+    },
+    {
+      "state": "WAITING_FOR_RESPONSE",
+      "speaker": "AI",
+      "text": "Can you describe your experience with Python and machine learning?"
+    },
+    {
+      "state": "CANDIDATE_SPEAKS",
+      "speaker": "Candidate",
+      "text": "Um, I am a bit confused, what do you mean by machine learning experience?"
+    },
+    {
+      "state": "WAITING_FOR_RESPONSE",
+      "speaker": "Internal_Payload",
+      "payload": {
+        "confusion": true,
+        "repeated": false,
+        "needs_follow_up": false
+      }
+    },
+    {
+      "state": "CANDIDATE_SPEAKS",
+      "speaker": "Candidate",
+      "text": "I have 5 years of experience in Python and building ML models."
+    },
+    {
+      "state": "ASK_QUESTION",
+      "speaker": "Internal_Payload",
+      "payload": {
+        "confusion": false,
+        "repeated": false,
+        "needs_follow_up": false
+      }
+    },
+    {
+      "state": "WAITING_FOR_RESPONSE",
+      "speaker": "AI",
+      "text": "What are your salary expectations?"
+    },
+    {
+      "state": "CANDIDATE_SPEAKS",
+      "speaker": "Candidate",
+      "text": "As I said, I have 5 years."
+    },
+    {
+      "state": "WAITING_FOR_RESPONSE",
+      "speaker": "Internal_Payload",
+      "payload": {
+        "confusion": false,
+        "repeated": true,
+        "needs_follow_up": false
+      }
+    },
+    {
+      "state": "CANDIDATE_SPEAKS",
+      "speaker": "Candidate",
+      "text": "120k"
+    },
+    {
+      "state": "ASK_QUESTION",
+      "speaker": "Internal_Payload",
+      "payload": {
+        "confusion": false,
+        "repeated": false,
+        "needs_follow_up": false
+      }
+    },
+    {
+      "state": "TERMINATED",
+      "speaker": "AI",
+      "text": "Thank you for taking the time to speak with me today. Have a great day!"
+    }
+  ],
+  "scoring_engine_test": [
+    {
+      "question": "Q1",
+      "response": "I have 5 years of experience in Python and building ML models.",
+      "score": 1.0,
+      "explanation": "Response provides complete and actionable information., Very clear and articulate response without filler words."
+    },
+    {
+      "question": "Q2",
+      "response": "120k",
+      "score": 0.73,
+      "explanation": "Response is a partial answer and lacks detail., Response is too brief, lacking clear articulation."
+    }
+  ]
+}
