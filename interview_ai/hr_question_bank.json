@@ -1,0 +1,94 @@
+{
+  "questions": [
+    {
+      "id": "HR_SI_001",
+      "category": "Self-introduction",
+      "text": "Could you start by telling me a little bit about yourself and your background?",
+      "target_experience": ["fresher", "experienced"],
+      "target_role": ["technical", "non-technical"],
+      "follow_up_eligible": false,
+      "expected_intents": ["background_overview", "current_status"]
+    },
+    {
+      "id": "HR_CJ_001",
+      "category": "Career journey",
+      "text": "Can you walk me through your career journey so far and what led you to this field?",
+      "target_experience": ["fresher", "experienced"],
+      "target_role": ["technical", "non-technical"],
+      "follow_up_eligible": true,
+      "expected_intents": ["career_motivation", "past_experience"]
+    },
+    {
+      "id": "HR_SW_001",
+      "category": "Strengths & weaknesses",
+      "text": "What would you say is your greatest professional strength?",
+      "target_experience": ["fresher", "experienced"],
+      "target_role": ["technical", "non-technical"],
+      "follow_up_eligible": true,
+      "expected_intents": ["strength_mention", "example_provided"]
+    },
+    {
+      "id": "HR_SW_002",
+      "category": "Strengths & weaknesses",
+      "text": "What is an area of improvement or a weakness you are currently working on?",
+      "target_experience": ["fresher", "experienced"],
+      "target_role": ["technical", "non-technical"],
+      "follow_up_eligible": true,
+      "expected_intents": ["weakness_mention", "improvement_effort"]
+    },
+    {
+      "id": "HR_TW_001",
+      "category": "Teamwork & culture fit",
+      "text": "Tell me about a time you had a disagreement with a team member. How did you resolve it?",
+      "target_experience": ["experienced"],
+      "target_role": ["technical", "non-technical"],
+      "follow_up_eligible": true,
+      "expected_intents": ["conflict_resolution", "collaboration"]
+    },
+    {
+      "id": "HR_TW_002",
+      "category": "Teamwork & culture fit",
+      "text": "How do you handle working on a group project where a team member is not contributing their fair share?",
+      "target_experience": ["fresher"],
+      "target_role": ["technical", "non-technical"],
+      "follow_up_eligible": true,
+      "expected_intents": ["conflict_resolution", "responsibility_taking"]
+    },
+    {
+      "id": "HR_CG_001",
+      "category": "Career goals",
+      "text": "Where do you see yourself in the next 3 to 5 years?",
+      "target_experience": ["fresher", "experienced"],
+      "target_role": ["technical", "non-technical"],
+      "follow_up_eligible": false,
+      "expected_intents": ["future_goals", "career_alignment"]
+    },
+    {
+      "id": "HR_AC_001",
+      "category": "Availability & commitment",
+      "text": "What is your current notice period and when would you be available to join?",
+      "target_experience": ["fresher", "experienced"],
+      "target_role": ["technical", "non-technical"],
+      "follow_up_eligible": false,
+      "expected_intents": ["notice_period", "join_date"]
+    },
+    {
+      "id": "HR_TECH_001",
+      "category": "Role-based evaluation",
+      "text": "How do you stay updated with the latest technologies and trends in software development?",
+      "target_experience": ["fresher", "experienced"],
+      "target_role": ["technical"],
+      "follow_up_eligible": true,
+      "expected_intents": ["continuous_learning", "tech_passion"]
+    },
+    {
+      "id": "HR_NTECH_001",
+      "category": "Role-based evaluation",
+      "text": "How do you prioritize multiple tasks and handle tight deadlines?",
+      "target_experience": ["fresher", "experienced"],
+      "target_role": ["non-technical"],
+      "follow_up_eligible": true,
+      "expected_intents": ["time_management", "stress_handling"]
+    }
+  ]
+}
