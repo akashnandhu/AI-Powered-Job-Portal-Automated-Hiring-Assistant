@@ -5,8 +5,6 @@ from pydantic import BaseModel, Field
 
 logger = logging.getLogger(__name__)
 
-
-
 class SentimentAnalysis(BaseModel):
     """Sentiment scoring module."""
     score: float = Field(..., ge=-1.0, le=1.0, description="Sentiment score from -1.0 (Negative) to 1.0 (Positive)")
