@@ -89,6 +89,42 @@
       "target_role": ["non-technical"],
       "follow_up_eligible": true,
       "expected_intents": ["time_management", "stress_handling"]
+    },
+    {
+      "id": "HR_COG_001",
+      "category": "Cognitive Reasoning",
+      "text": "Explain a complex technical concept you recently learned as if you were explaining it to a non-technical person. Why did you choose that specific explanation method?",
+      "target_experience": ["fresher", "experienced"],
+      "target_role": ["technical"],
+      "follow_up_eligible": true,
+      "expected_intents": ["logical_simplification", "reasoning_depth", "communication_strategy"]
+    },
+    {
+      "id": "HR_COG_002",
+      "category": "Cognitive Reasoning",
+      "text": "If you had to estimate the number of windows in a city like New York without using the internet, what logic and steps would you use to arrive at a reasonable answer?",
+      "target_experience": ["fresher", "experienced"],
+      "target_role": ["technical", "non-technical"],
+      "follow_up_eligible": true,
+      "expected_intents": ["logical_estimation", "structured_thinking", "analytical_breakdown"]
+    },
+    {
+      "id": "HR_SIT_001",
+      "category": "Situational Judgment",
+      "text": "Imagine you discover a critical bug in a system just an hour before a major release. The client is waiting, and your manager is out of reach. What are your immediate steps?",
+      "target_experience": ["fresher", "experienced"],
+      "target_role": ["technical"],
+      "follow_up_eligible": true,
+      "expected_intents": ["risk_assessment", "problem_solving", "decision_making"]
+    },
+    {
+      "id": "HR_SIT_002",
+      "category": "Situational Judgment",
+      "text": "A client is demanding a feature that you know will compromise the security of the application. How do you handle this conversation and what is your proposed solution?",
+      "target_experience": ["experienced"],
+      "target_role": ["technical", "non-technical"],
+      "follow_up_eligible": true,
+      "expected_intents": ["ethical_judgment", "negotiation", "security_awareness"]
     }
   ]
 }

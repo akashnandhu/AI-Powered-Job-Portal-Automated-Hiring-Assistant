@@ -93,7 +93,8 @@ class BehavioralAnalyzer:
                 break
                 
         # Base confidence is 1.0, penalized by hesitations, uncertainty, and contradictions
-        penalty = (hesitation_count * 0.05) + (uncertainty_count * 0.1) + (0.2 if contradiction else 0.0)
+        # Hesitation: -2% per filler, Uncertainty: -5% per phrase
+        penalty = (hesitation_count * 0.02) + (uncertainty_count * 0.05) + (0.15 if contradiction else 0.0)
         confidence_score = max(0.0, 1.0 - penalty)
         
         return ConfidenceAnalysis(

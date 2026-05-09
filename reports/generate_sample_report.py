@@ -62,6 +62,20 @@ def generate_sample():
             "candidate_response": "I haven't used cloud platforms extensively yet, mostly focused on local development.",
             "importance": "medium",
             "is_vague": True
+        },
+        {
+            "question_id": "q8",
+            "question_text": "If you had to estimate the number of windows in New York, what logic would you use?",
+            "category": "Cognitive Reasoning",
+            "candidate_response": "Firstly, I would estimate the number of buildings based on population density. Secondly, I'd assume an average number of floors per building and windows per floor. Finally, I would multiply these to get the total. This structured approach ensures I don't miss key variables.",
+            "importance": "high"
+        },
+        {
+            "question_id": "q9",
+            "question_text": "What would you do if a critical bug is found an hour before release?",
+            "category": "Situational Judgment",
+            "candidate_response": "I would immediately assess the severity of the bug. Then, I would communicate with the team and stakeholders to decide if we should postpone or patch. Finally, I'd document the incident to prevent it from happening again. Priority is always system stability.",
+            "importance": "critical"
         }
     ]
 

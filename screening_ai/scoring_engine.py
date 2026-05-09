@@ -1,6 +1,7 @@
 import logging
 from pydantic import BaseModel, Field
 from typing import List, Dict, Optional, Literal
+from scoring.cognitive_scorer import CognitiveScorer
 
 logger = logging.getLogger(__name__)
 
@@ -66,6 +67,7 @@ class ScreeningScoringEngine:
             "completeness": 0.3,
             "consistency": 0.2
         }
+        self.cognitive_scorer = CognitiveScorer()
 
     def _evaluate_clarity(self, text: str) -> ParameterScore:
         """
@@ -157,7 +159,6 @@ class ScreeningScoringEngine:
         relevance = self._evaluate_relevance(candidate_response, category, is_off_topic)
         completeness = self._evaluate_completeness(candidate_response, is_vague)
         consistency = self._evaluate_consistency(candidate_response)
-        
         # Normalize score for this question (0.0 to 1.0)
         normalized_score = (
             clarity.score * self.parameter_weights["clarity"] +
@@ -166,6 +167,13 @@ class ScreeningScoringEngine:
             consistency.score * self.parameter_weights["consistency"]
         )
         
+        # --- NEW: Cognitive and Situational Logic ---
+        cog_result = None
+        if category in ["Cognitive Reasoning", "Situational Judgment"]:
+            cog_result = self.cognitive_scorer.evaluate_cognitive_aspect(category, candidate_response)
+            # Adjust normalized score to factor in cognitive metrics (50% weight)
+            normalized_score = (normalized_score * 0.5) + (cog_result["overall_score"] * 0.5)
+
         return QuestionScoreBreakdown(
             question_id=question_id,
             question_text=question_text,

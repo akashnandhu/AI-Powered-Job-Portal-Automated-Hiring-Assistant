@@ -18,12 +18,12 @@ class CommunicationScorer:
             
         avg_words_per_sentence = sum(len(s.split()) for s in sentences) / len(sentences)
         
-        # Ideal avg words per sentence around 10-25
-        if 10 <= avg_words_per_sentence <= 25:
+        # Ideal avg words per sentence around 8-30 for spoken communication
+        if 8 <= avg_words_per_sentence <= 30:
             fluency_score = 1.0
         else:
-            # Penalty for being outside the ideal range
-            fluency_score = max(0.0, 1.0 - abs(avg_words_per_sentence - 17.5) / 17.5)
+            # Softer penalty for being outside the ideal range
+            fluency_score = max(0.0, 1.0 - abs(avg_words_per_sentence - 19.0) / 25.0)
             
         return fluency_score
         
@@ -97,8 +97,8 @@ class CommunicationScorer:
                 found_fillers.extend([filler] * count)
                 
         filler_ratio = len(found_fillers) / total_words
-        # Penalty increases as ratio goes up, max penalty if > 10% fillers
-        filler_score = max(0.0, 1.0 - (filler_ratio / 0.1))
+        # Penalty increases as ratio goes up, hits 0 only if fillers > 25% of total speech
+        filler_score = max(0.0, 1.0 - (filler_ratio / 0.25))
         
         return filler_score, found_fillers
         

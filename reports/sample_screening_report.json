@@ -1,7 +1,7 @@
 {
     "candidate_name": "AKASH AA",
     "candidate_id": "sample_resume_2",
-    "date_of_screening": "2026-05-09 12:03:47",
+    "date_of_screening": "2026-05-09 12:36:48",
     "overall_ai_score_percent": 94,
     "ai_summary": "Candidate provided highly clear, relevant, complete, and consistent responses overall.",
     "highlights": {
@@ -27,7 +27,9 @@
             "**Skills**: Strong articulation and relevance. (100.0%)",
             "**Notice period**: Strong articulation and relevance. (100.0%)",
             "**Location**: Strong articulation and relevance. (100.0%)",
-            "**Skills**: Strong articulation and relevance. (85.0%)"
+            "**Skills**: Strong articulation and relevance. (85.0%)",
+            "**Cognitive Reasoning**: Strong articulation and relevance. (92.0%)",
+            "**Situational Judgment**: Strong articulation and relevance. (95.0%)"
         ],
         "risks": [
             "No major risks identified."
@@ -84,6 +86,20 @@
                 "answer": "I haven't used cloud platforms extensively yet, mostly focused on local development.",
                 "score": 0.85,
                 "importance": "medium"
+            },
+            {
+                "question": "If you had to estimate the number of windows in New York, what logic would you use?",
+                "category": "Cognitive Reasoning",
+                "answer": "Firstly, I would estimate the number of buildings based on population density. Secondly, I'd assume an average number of floors per building and windows per floor. Finally, I would multiply these to get the total. This structured approach ensures I don't miss key variables.",
+                "score": 0.92,
+                "importance": "high"
+            },
+            {
+                "question": "What would you do if a critical bug is found an hour before release?",
+                "category": "Situational Judgment",
+                "answer": "I would immediately assess the severity of the bug. Then, I would communicate with the team and stakeholders to decide if we should postpone or patch. Finally, I'd document the incident to prevent it from happening again. Priority is always system stability.",
+                "score": 0.95,
+                "importance": "critical"
             }
         ]
     }
