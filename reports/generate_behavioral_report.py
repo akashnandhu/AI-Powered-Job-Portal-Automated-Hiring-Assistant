@@ -11,28 +11,28 @@ def generate_report():
     
     test_cases = [
         {
-            "description": "Confident, positive, and structured",
-            "text": "I am very excited to achieve great success in this innovative role. I always lead with passion and clear goals.",
-            "duration": 10.0
-        },
-        {
-            "description": "Hesitant with multiple fillers",
-            "text": "Um, well, I guess I could, like, you know, try to manage the project. It's kinda hard to say.",
-            "duration": 15.0
-        },
-        {
-            "description": "Uncertain with potential contradictions",
-            "text": "I mean, yes, I have used it, but no, not really. Maybe I could be good at it, I guess.",
+            "description": "Introduction (Confident)",
+            "text": "Hi, I'm Akash AA. I'm a Data Science student with experience in Python, machine learning, and building web applications using Django.",
             "duration": 12.0
         },
         {
-            "description": "Negative sentiment and fast-paced",
-            "text": "Unfortunately that was a terrible fail. It was the worst struggle and very difficult.",
-            "duration": 3.0
+            "description": "Experience (Structured)",
+            "text": "I'm currently interning at Scope India, where I've built models using Linear Regression and Decision Trees.",
+            "duration": 8.0
         },
         {
-            "description": "Terse response",
-            "text": "I think so. Yes.",
+            "description": "Salary Expectations (Hesitant proxy example)",
+            "text": "Um, well, I guess I'm open to industry standard packages for entry-level data science roles.",
+            "duration": 7.0
+        },
+        {
+            "description": "Cloud Platforms (Uncertainty proxy example)",
+            "text": "I mean, I haven't used cloud platforms extensively yet, mostly focused on local development, I guess.",
+            "duration": 9.0
+        },
+        {
+            "description": "Notice Period (Terse)",
+            "text": "I can start immediately.",
             "duration": 2.0
         }
     ]

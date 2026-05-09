@@ -11,72 +11,72 @@ def generate_sample():
     # 1. Initialize scoring engine
     engine = ScreeningScoringEngine()
 
-    # 2. Mock candidate responses
+    # 2. Mock candidate responses based on sample_resume_2 (AKASH AA)
     responses = [
         {
             "question_id": "q1",
             "question_text": "Please introduce yourself and your background.",
             "category": "Introduction",
-            "candidate_response": "Hi, I'm Alex. I've been a software engineer for about 5 years, mostly working with Python and React on web applications.",
+            "candidate_response": "Hi, I'm Akash AA. I'm a Data Science student with experience in Python, machine learning, and building web applications using Django.",
             "importance": "medium"
         },
         {
             "question_id": "q2",
-            "question_text": "What is your experience with cloud platforms like AWS or Azure?",
+            "question_text": "What is your experience with Machine Learning?",
             "category": "Experience",
-            "candidate_response": "I have used AWS for the last 3 years. Mostly EC2, S3, and Lambda for deploying our backend services.",
+            "candidate_response": "I'm currently interning at Scope India, where I've built models using Linear Regression and Decision Trees.",
             "importance": "high"
         },
         {
             "question_id": "q3",
             "question_text": "Can you rate your proficiency in Python?",
             "category": "Skills",
-            "candidate_response": "I would say I'm very proficient. I use it daily.",
+            "candidate_response": "I am highly proficient in Python, especially for data analysis and web development.",
             "importance": "critical"
         },
         {
             "question_id": "q4",
             "question_text": "What are your salary expectations for this role?",
             "category": "Salary",
-            "candidate_response": "I am looking for around $120,000 per year.",
+            "candidate_response": "I'm open to industry standard packages for entry-level data science roles.",
             "importance": "high"
         },
         {
             "question_id": "q5",
             "question_text": "What is your notice period or availability to start?",
             "category": "Notice period",
-            "candidate_response": "I can start in 2 weeks after an offer is made.",
+            "candidate_response": "I can start immediately.",
             "importance": "high"
         },
         {
             "question_id": "q6",
-            "question_text": "Are you willing to relocate to San Francisco?",
+            "question_text": "Are you willing to relocate?",
             "category": "Location",
-            "candidate_response": "No, I am looking for remote work only right now.",
+            "candidate_response": "Yes, I am open to relocating.",
             "importance": "critical"
         },
         {
             "question_id": "q7",
-            "question_text": "Do you have any experience with Kubernetes?",
+            "question_text": "Do you have experience with Cloud platforms?",
             "category": "Skills",
-            "candidate_response": "Not much, just played around with it a bit.",
+            "candidate_response": "I haven't used cloud platforms extensively yet, mostly focused on local development.",
             "importance": "medium",
             "is_vague": True
         }
     ]
 
     # 3. Evaluate responses
-    candidate_id = "CAND-9012"
-    candidate_name = "Alex Johnson"
+    candidate_id = "sample_resume_2"
+    candidate_name = "AKASH AA"
     score_result = engine.evaluate_screening(candidate_id, responses)
 
     # 4. Generate report
     builder = ScreeningReportBuilder()
-    output_path = os.path.join(os.path.dirname(__file__), "sample_screening_report.md")
+    output_path = os.path.join(os.path.dirname(__file__), "sample_screening_report.json")
     
     # 5. Export
-    builder.export_report(candidate_name, score_result, output_path)
-    print(f"Sample report generated at: {output_path}")
+    generated_path = builder.export_report(candidate_name, score_result, output_path)
+    print(f"Sample report generated at: {generated_path}")
 
 if __name__ == "__main__":
     generate_sample()

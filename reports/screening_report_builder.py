@@ -178,10 +178,28 @@ class ScreeningReportBuilder:
 
     def export_report(self, candidate_name: str, score_result: ScreeningScoreResult, output_path: str):
         """
-        Exports the markdown report to a file.
+        Exports the screening report to a JSON file.
         """
+        # We still generate MD content if it's needed in memory, but we don't save it to a file.
         md_content = self.generate_markdown_report(candidate_name, score_result)
-        with open(output_path, 'w', encoding='utf-8') as f:
-            f.write(md_content)
-        logger.info(f"Report exported successfully to {output_path}")
-        return md_content
+        
+        # 1. Export JSON
+        analysis = self.analyze_responses(score_result)
+        json_data = {
+            "candidate_name": candidate_name,
+            "candidate_id": score_result.candidate_id,
+            "date_of_screening": self.report_date,
+            "overall_ai_score_percent": int(score_result.total_normalized_score * 100),
+            "ai_summary": score_result.overall_explanation,
+            "highlights": analysis["highlights"],
+            "summaries": analysis["summaries"]
+        }
+        
+        # Ensure it saves as .json
+        json_path = output_path.replace(".md", ".json") if output_path.endswith(".md") else output_path
+        
+        with open(json_path, 'w', encoding='utf-8') as f:
+            json.dump(json_data, f, indent=4)
+        logger.info(f"JSON Report exported successfully to {json_path}")
+        
+        return json_path

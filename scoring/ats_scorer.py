@@ -183,9 +183,13 @@ class ATSScorer:
     def compute_semantic_score(self, jd_filename):
         # Ensure we check the filename mapping
         # E.g. ai_in_drug_discovery_researcher.json vs ai_in_drug_discovery_researcher
-        score = self.semantic_scores.get(jd_filename, 0.5) 
-        if jd_filename.endswith(".json"):
-            score = max(score, self.semantic_scores.get(jd_filename.replace(".json", ""), 0.5))
+        base_name = jd_filename.replace(".json", "")
+        
+        # Default to 0.5 if completely missing
+        score = self.semantic_scores.get(jd_filename, self.semantic_scores.get(base_name, 0.5))
+        
+        # Scale up the raw cosine similarity slightly as raw embeddings often max out around 0.6-0.7
+        score = min(1.0, score * 1.5)
             
         insights = []
         if score > 0.8:

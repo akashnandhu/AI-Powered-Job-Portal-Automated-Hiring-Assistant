@@ -1,0 +1,82 @@
+{
+    "candidate_name": "AKASH AA",
+    "date": "2026-05-09 11:41:35",
+    "evaluation_results": {
+        "final_hr_score": 88.53,
+        "score_breakdown": {
+            "answer_relevance": 86.88,
+            "communication": 91.0,
+            "confidence": 90.0,
+            "consistency": 86.88
+        },
+        "weights_used": {
+            "answer_relevance": 0.35,
+            "communication": 0.25,
+            "confidence": 0.2,
+            "consistency": 0.2
+        },
+        "consistency_details": {
+            "length_consistency": 73.75,
+            "sentiment_consistency": 100.0
+        },
+        "question_level_analysis": [
+            {
+                "question_index": 1,
+                "question": "Please introduce yourself and your background.",
+                "answer_length": 21,
+                "scores": {
+                    "relevance": 87.5,
+                    "communication": 91.0,
+                    "confidence": 90.0
+                },
+                "insights": {
+                    "communication_issues": [],
+                    "confidence_issues": []
+                }
+            },
+            {
+                "question_index": 2,
+                "question": "What is your experience with Machine Learning?",
+                "answer_length": 16,
+                "scores": {
+                    "relevance": 85.0,
+                    "communication": 91.0,
+                    "confidence": 90.0
+                },
+                "insights": {
+                    "communication_issues": [],
+                    "confidence_issues": []
+                }
+            },
+            {
+                "question_index": 3,
+                "question": "What are your salary expectations for this role?",
+                "answer_length": 11,
+                "scores": {
+                    "relevance": 87.5,
+                    "communication": 91.0,
+                    "confidence": 90.0
+                },
+                "insights": {
+                    "communication_issues": [],
+                    "confidence_issues": []
+                }
+            },
+            {
+                "question_index": 4,
+                "question": "Do you have experience with Cloud platforms?",
+                "answer_length": 12,
+                "scores": {
+                    "relevance": 87.5,
+                    "communication": 91.0,
+                    "confidence": 90.0
+                },
+                "insights": {
+                    "communication_issues": [],
+                    "confidence_issues": []
+                }
+            }
+        ]
+    },
+    "performance_band": "Excellent"
+}

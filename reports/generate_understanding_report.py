@@ -12,46 +12,40 @@ def generate_report():
     
     test_cases = [
         {
-            "category": "Experience & Skills",
-            "raw": "Uh, yeah, I have 5.5 years of experience working with Python and AWS.",
-            "cleaned": "I have 5.5 years of experience working with Python and AWS.",
+            "category": "Introduction",
+            "raw": "Hi, I'm Akash AA. I'm a Data Science student with experience in Python, machine learning, and building web applications using Django.",
+            "cleaned": "Hi, I'm Akash AA. I'm a Data Science student with experience in Python, machine learning, and building web applications using Django.",
+            "expected_intent": "direct_answer"
+        },
+        {
+            "category": "Experience",
+            "raw": "I'm currently interning at Scope India, where I've built models using Linear Regression and Decision Trees.",
+            "cleaned": "I'm currently interning at Scope India, where I've built models using Linear Regression and Decision Trees.",
             "expected_intent": "direct_answer"
         },
         {
             "category": "Salary",
-            "raw": "My salary expectation is around $120K.",
-            "cleaned": "My salary expectation is around $120K.",
+            "raw": "I'm open to industry standard packages for entry-level data science roles.",
+            "cleaned": "I'm open to industry standard packages for entry-level data science roles.",
             "expected_intent": "direct_answer"
         },
         {
-            "category": "Availability",
-            "raw": "I can join immediately, or within 2 weeks notice if needed.",
-            "cleaned": "I can join immediately, or within 2 weeks notice if needed.",
+            "category": "Notice period",
+            "raw": "I can start immediately.",
+            "cleaned": "I can start immediately.",
             "expected_intent": "direct_answer"
         },
         {
-            "category": "General",
-            "raw": "I don't know, maybe some stuff about that.",
-            "cleaned": "I don't know, maybe some stuff about that.",
-            "expected_intent": "refusal_to_answer"
+            "category": "Location",
+            "raw": "Yes, I am open to relocating.",
+            "cleaned": "Yes, I am open to relocating.",
+            "expected_intent": "direct_answer"
         },
         {
-            "category": "General",
-            "raw": "What do you mean by that?",
-            "cleaned": "What do you mean by that?",
-            "expected_intent": "clarification_needed"
-        },
-        {
-            "category": "General",
-            "raw": "The weather is really nice today, I love baseball.",
-            "cleaned": "The weather is really nice today, I love baseball.",
-            "expected_intent": "off_topic"
-        },
-        {
-            "category": "General",
-            "raw": "Yes.",
-            "cleaned": "Yes.",
-            "expected_intent": "partial_answer"
+            "category": "Skills",
+            "raw": "I haven't used cloud platforms extensively yet, mostly focused on local development.",
+            "cleaned": "I haven't used cloud platforms extensively yet, mostly focused on local development.",
+            "expected_intent": "direct_answer"
         }
     ]
 

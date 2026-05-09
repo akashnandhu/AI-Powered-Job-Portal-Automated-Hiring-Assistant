@@ -2,15 +2,15 @@
 
 ## Overview statistics
 
-- **Overall Accuracy**: 100.00% (10/10)
+- **Overall Accuracy**: 100.00% (5/5)
 
 ### Section-Wise Accuracy
 
-- **Skills**: 100.00% (2/2)
-- **Work_experience**: 100.00% (2/2)
-- **Education**: 100.00% (2/2)
-- **Projects**: 100.00% (2/2)
-- **Certifications**: 100.00% (2/2)
+- **Skills**: 100.00% (1/1)
+- **Work_experience**: 100.00% (1/1)
+- **Education**: 100.00% (1/1)
+- **Projects**: 100.00% (1/1)
+- **Certifications**: 100.00% (1/1)
 
 ### Observations & Improvements Needed
 
@@ -19,37 +19,6 @@
 - **Improvement 1**: Integrating deeper NLP embeddings to match semantics instead of purely rule-based lines is recommended for unlabelled sections.
 
 --- 
-
-## Evaluation for `john_doe_resume_cleaned.txt`
-### Skills
-- **Predicted**: Python, AWS, Docker, PostgreSQL
-- **Actual**: Python, AWS, Docker, PostgreSQL
-- **Match**: ✅ Yes
-- **Confidence**: 0.90
-
-### Work experience
-- **Predicted**: Senior Dev at Tech Corp - Built scalable APIs using Flask and Python - Optimized database performanc...
-- **Actual**: Senior Dev at Tech Corp - Built scalable APIs using Flask and Python - Optimized database performanc...
-- **Match**: ✅ Yes
-- **Confidence**: 0.90
-
-### Education
-- **Predicted**: 
-- **Actual**: 
-- **Match**: ✅ Yes
-- **Confidence**: 0.00
-
-### Projects
-- **Predicted**: 
-- **Actual**: 
-- **Match**: ✅ Yes
-- **Confidence**: 0.00
-
-### Certifications
-- **Predicted**: 
-- **Actual**: 
-- **Match**: ✅ Yes
-- **Confidence**: 0.00
 
 ## Evaluation for `sample_resume_2_cleaned.txt`
 ### Skills

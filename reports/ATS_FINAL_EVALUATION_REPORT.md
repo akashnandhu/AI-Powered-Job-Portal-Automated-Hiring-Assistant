@@ -24,7 +24,7 @@ Extensive validation over multiple optimization passes yielded strong results in
 ## 3. Demo Datasets Availability
 
 Demo datasets have been standardized and packaged within the active project directory:
-- **Resumes:** Found in `data/resumes/`. Includes different formats such as `sample_resume_2.pdf` and `john_doe_resume.docx` tailored for specific functional tests.
+- **Resumes:** Found in `data/resumes/`. Includes different formats such as `sample_resume_2.pdf` and `Resume1.pdf` tailored for specific functional tests.
 - **Job Descriptions (JDs):** Parsed dynamically and mapped against sample resumes to demonstrate the precision of the matching system.
 - **Mock Samples:** Accessible in `data/samples/` (`jds.json`, `resumes.json`) for quick integration and stress-testing.
 

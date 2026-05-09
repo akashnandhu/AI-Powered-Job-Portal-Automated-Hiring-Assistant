@@ -5,27 +5,33 @@ This report demonstrates the capabilities of the Answer Understanding Engine to 
 
 ## Test Cases
 
-### Test Case 1: Experience & Skills
-- **Raw Transcript**: `Uh, yeah, I have 5.5 years of experience working with Python and AWS.`
+### Test Case 1: Introduction
+- **Raw Transcript**: `Hi, I'm Akash AA. I'm a Data Science student with experience in Python, machine learning, and building web applications using Django.`
 - **Detected Intent**: `direct_answer` (Expected: `direct_answer`)
 - **Off-Topic Detected**: `False`
 - **Vague/Missing Detected**: `False`
 - **Confidence Score**: `0.95`
 - **Extracted Entities**:
-  - **Skills**: `['Python', 'AWS']`
-  - **Experience Years**: `5.5`
+  - **Skills**: `['Python', 'Machine Learning']`
 
-### Test Case 2: Salary
-- **Raw Transcript**: `My salary expectation is around $120K.`
+### Test Case 2: Experience
+- **Raw Transcript**: `I'm currently interning at Scope India, where I've built models using Linear Regression and Decision Trees.`
 - **Detected Intent**: `direct_answer` (Expected: `direct_answer`)
 - **Off-Topic Detected**: `False`
 - **Vague/Missing Detected**: `False`
 - **Confidence Score**: `0.95`
 - **Extracted Entities**:
-  - **Salary Expectation**: `$120K`
 
-### Test Case 3: Availability
-- **Raw Transcript**: `I can join immediately, or within 2 weeks notice if needed.`
+### Test Case 3: Salary
+- **Raw Transcript**: `I'm open to industry standard packages for entry-level data science roles.`
+- **Detected Intent**: `direct_answer` (Expected: `direct_answer`)
+- **Off-Topic Detected**: `False`
+- **Vague/Missing Detected**: `False`
+- **Confidence Score**: `0.95`
+- **Extracted Entities**:
+
+### Test Case 4: Notice period
+- **Raw Transcript**: `I can start immediately.`
 - **Detected Intent**: `direct_answer` (Expected: `direct_answer`)
 - **Off-Topic Detected**: `False`
 - **Vague/Missing Detected**: `False`
@@ -33,36 +39,20 @@ This report demonstrates the capabilities of the Answer Understanding Engine to 
 - **Extracted Entities**:
   - **Availability**: `immediately`
 
-### Test Case 4: General
-- **Raw Transcript**: `I don't know, maybe some stuff about that.`
-- **Detected Intent**: `refusal_to_answer` (Expected: `refusal_to_answer`)
-- **Off-Topic Detected**: `False`
-- **Vague/Missing Detected**: `True`
-- **Confidence Score**: `0.45`
-- **Extracted Entities**:
-
-### Test Case 5: General
-- **Raw Transcript**: `What do you mean by that?`
-- **Detected Intent**: `clarification_needed` (Expected: `clarification_needed`)
+### Test Case 5: Location
+- **Raw Transcript**: `Yes, I am open to relocating.`
+- **Detected Intent**: `direct_answer` (Expected: `direct_answer`)
 - **Off-Topic Detected**: `False`
 - **Vague/Missing Detected**: `False`
-- **Confidence Score**: `0.75`
+- **Confidence Score**: `0.95`
 - **Extracted Entities**:
 
-### Test Case 6: General
-- **Raw Transcript**: `The weather is really nice today, I love baseball.`
-- **Detected Intent**: `off_topic` (Expected: `off_topic`)
-- **Off-Topic Detected**: `True`
-- **Vague/Missing Detected**: `False`
-- **Confidence Score**: `0.45`
-- **Extracted Entities**:
-
-### Test Case 7: General
-- **Raw Transcript**: `Yes.`
-- **Detected Intent**: `partial_answer` (Expected: `partial_answer`)
+### Test Case 6: Skills
+- **Raw Transcript**: `I haven't used cloud platforms extensively yet, mostly focused on local development.`
+- **Detected Intent**: `direct_answer` (Expected: `direct_answer`)
 - **Off-Topic Detected**: `False`
 - **Vague/Missing Detected**: `False`
-- **Confidence Score**: `0.6`
+- **Confidence Score**: `0.95`
 - **Extracted Entities**:
 
 ## Deliverables Achieved

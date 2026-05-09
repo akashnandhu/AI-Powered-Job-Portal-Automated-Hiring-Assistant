@@ -1,106 +1,90 @@
 {
-  "report_metadata": {
-    "title": "AI Candidate Screening Report",
-    "generated_by": "AI Screening Assistant"
-  },
-  "candidate_details": {
-    "candidate_name": "Alex Johnson",
-    "candidate_id": "CAND-9012",
-    "date_of_screening": "2026-04-26 12:38:37"
-  },
-  "overall_assessment": {
-    "score_percentage": 98,
-    "rating_badge": " Strong",
-    "ai_summary": "Candidate provided highly clear, relevant, complete, and consistent responses overall."
-  },
-  "quick_highlights": {
-    "salary_expectation": "I am looking for around $120,000 per year.",
-    "availability_notice": "I can start in 2 weeks after an offer is made.",
-    "skill_confirmations": [
-      {
-        "topic": "Can you rate your proficiency in Python?",
-        "response": "I would say I'm very proficient. I use it daily.",
-        "score_percentage": 100.0
-      },
-      {
-        "topic": "Do you have any experience with Kubernetes?",
-        "response": "Not much, just played around with it a bit.",
-        "score_percentage": 79.0
-      }
-    ]
-  },
-  "summary_insights": {
-    "strengths": [
-      "Introduction: Strong articulation and relevance. (100.0%)",
-      "Experience: Strong articulation and relevance. (100.0%)",
-      "Skills: Strong articulation and relevance. (100.0%)",
-      "Salary: Strong articulation and relevance. (100.0%)",
-      "Notice period: Strong articulation and relevance. (100.0%)",
-      "Location: Strong articulation and relevance. (100.0%)"
-    ],
-    "potential_risks": [
-      "No major risks identified."
-    ],
-    "missing_vague_data": [
-      "All mandatory fields captured."
-    ]
-  },
-  "key_answers_breakdown": [
-    {
-      "category": "Introduction",
-      "importance": "Medium",
-      "question": "Please introduce yourself and your background.",
-      "answer": "Hi, I'm Alex. I've been a software engineer for about 5 years, mostly working with Python and React on web applications.",
-      "ai_evaluation_score_percentage": 100.0,
-      "score_badge": "🟢"
+    "candidate_name": "AKASH AA",
+    "candidate_id": "sample_resume_2",
+    "date_of_screening": "2026-05-09 12:03:47",
+    "overall_ai_score_percent": 94,
+    "ai_summary": "Candidate provided highly clear, relevant, complete, and consistent responses overall.",
+    "highlights": {
+        "salary_expectation": "I'm open to industry standard packages for entry-level data science roles.",
+        "availability": "I can start immediately.",
+        "skill_confirmations": [
+            {
+                "skill_topic": "Can you rate your proficiency in Python?",
+                "response": "I am highly proficient in Python, especially for data analysis and web development.",
+                "confidence_score": 1.0
+            },
+            {
+                "skill_topic": "Do you have experience with Cloud platforms?",
+                "response": "I haven't used cloud platforms extensively yet, mostly focused on local development.",
+                "confidence_score": 0.85
+            }
+        ]
     },
-    {
-      "category": "Experience",
-      "importance": "High",
-      "question": "What is your experience with cloud platforms like AWS or Azure?",
-      "answer": "I have used AWS for the last 3 years. Mostly EC2, S3, and Lambda for deploying our backend services.",
-      "ai_evaluation_score_percentage": 100.0,
-      "score_badge": "🟢"
-    },
-    {
-      "category": "Skills",
-      "importance": "Critical",
-      "question": "Can you rate your proficiency in Python?",
-      "answer": "I would say I'm very proficient. I use it daily.",
-      "ai_evaluation_score_percentage": 100.0,
-      "score_badge": "🟢"
-    },
-    {
-      "category": "Salary",
-      "importance": "High",
-      "question": "What are your salary expectations for this role?",
-      "answer": "I am looking for around $120,000 per year.",
-      "ai_evaluation_score_percentage": 100.0,
-      "score_badge": "🟢"
-    },
-    {
-      "category": "Notice period",
-      "importance": "High",
-      "question": "What is your notice period or availability to start?",
-      "answer": "I can start in 2 weeks after an offer is made.",
-      "ai_evaluation_score_percentage": 100.0,
-      "score_badge": "🟢"
-    },
-    {
-      "category": "Location",
-      "importance": "Critical",
-      "question": "Are you willing to relocate to San Francisco?",
-      "answer": "No, I am looking for remote work only right now.",
-      "ai_evaluation_score_percentage": 100.0,
-      "score_badge": "🟢"
-    },
-    {
-      "category": "Skills",
-      "importance": "Medium",
-      "question": "Do you have any experience with Kubernetes?",
-      "answer": "Not much, just played around with it a bit.",
-      "ai_evaluation_score_percentage": 79.0,
-      "score_badge": "🟡"
+    "summaries": {
+        "strengths": [
+            "**Introduction**: Strong articulation and relevance. (100.0%)",
+            "**Experience**: Strong articulation and relevance. (88.0%)",
+            "**Skills**: Strong articulation and relevance. (100.0%)",
+            "**Notice period**: Strong articulation and relevance. (100.0%)",
+            "**Location**: Strong articulation and relevance. (100.0%)",
+            "**Skills**: Strong articulation and relevance. (85.0%)"
+        ],
+        "risks": [
+            "No major risks identified."
+        ],
+        "missing_data": [
+            "All mandatory fields captured."
+        ],
+        "key_answers": [
+            {
+                "question": "Please introduce yourself and your background.",
+                "category": "Introduction",
+                "answer": "Hi, I'm Akash AA. I'm a Data Science student with experience in Python, machine learning, and building web applications using Django.",
+                "score": 1.0,
+                "importance": "medium"
+            },
+            {
+                "question": "What is your experience with Machine Learning?",
+                "category": "Experience",
+                "answer": "I'm currently interning at Scope India, where I've built models using Linear Regression and Decision Trees.",
+                "score": 0.88,
+                "importance": "high"
+            },
+            {
+                "question": "Can you rate your proficiency in Python?",
+                "category": "Skills",
+                "answer": "I am highly proficient in Python, especially for data analysis and web development.",
+                "score": 1.0,
+                "importance": "critical"
+            },
+            {
+                "question": "What are your salary expectations for this role?",
+                "category": "Salary",
+                "answer": "I'm open to industry standard packages for entry-level data science roles.",
+                "score": 0.79,
+                "importance": "high"
+            },
+            {
+                "question": "What is your notice period or availability to start?",
+                "category": "Notice period",
+                "answer": "I can start immediately.",
+                "score": 1.0,
+                "importance": "high"
+            },
+            {
+                "question": "Are you willing to relocate?",
+                "category": "Location",
+                "answer": "Yes, I am open to relocating.",
+                "score": 1.0,
+                "importance": "critical"
+            },
+            {
+                "question": "Do you have experience with Cloud platforms?",
+                "category": "Skills",
+                "answer": "I haven't used cloud platforms extensively yet, mostly focused on local development.",
+                "score": 0.85,
+                "importance": "medium"
+            }
+        ]
     }
-  ]
 }

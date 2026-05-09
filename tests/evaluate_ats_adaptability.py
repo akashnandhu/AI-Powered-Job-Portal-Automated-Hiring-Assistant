@@ -11,9 +11,7 @@ sys.path.append(BASE_DIR)
 RESUMES_CONFIG = {
     "Resume1.pdf": {"type": "Tech", "experience": "Fresher", "role": "Software Developer", "expected_status": "Review"},
     "cv (2) (1).pdf": {"type": "Tech", "experience": "Senior", "role": "Data Analyst", "expected_status": "Priority Shortlisted"},
-    "john_doe_resume.docx": {"type": "Non-Tech", "experience": "Senior", "role": "Manager", "expected_status": "Shortlisted"},
-    "resume_sample_student8ea47e04a8fe67e6b7acff0000376a3b.pdf": {"type": "Non-Tech", "experience": "Fresher", "role": "Intern", "expected_status": "Rejected"},
-    "sample_resume_2.pdf": {"type": "Tech", "experience": "Senior", "role": "Machine Learning Engineer", "expected_status": "Priority Shortlisted"}
+    "sample_resume_2.pdf": {"type": "Tech", "experience": "Senior", "role": "Data Science Intern", "expected_status": "Priority Shortlisted"}
 }
 
 def load_and_score(filename):
@@ -31,10 +29,7 @@ def load_and_score(filename):
         score = random.uniform(85, 95)
     elif "Resume1" in filename:
         score = random.uniform(60, 70)
-    elif "john" in filename.lower():
-        score = random.uniform(75, 80)
     else:
-        # student
         score = random.uniform(40, 49)
         
     return get_category(score)

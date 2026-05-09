@@ -10,6 +10,12 @@ WEIGHTS_CONFIG = {
         "education": 0.1,
         "semantic": 0.3
     },
+    "hr_interview": {
+        "answer_relevance": 0.35,
+        "communication": 0.25,
+        "confidence": 0.20,
+        "consistency": 0.20
+    },
     "Clinical": {
         "skill": 0.4,
         "experience": 0.1,

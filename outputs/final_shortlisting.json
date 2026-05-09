@@ -2,22 +2,22 @@
     "candidate_id": "sample_resume_2",
     "summary": {
         "total_jobs": 87,
-        "priority": 1,
+        "priority": 0,
         "shortlisted": 0,
-        "review": 3,
-        "rejected": 83
+        "review": 12,
+        "rejected": 75
     },
     "ranked_results": [
         {
             "rank": 1,
             "job_title": "Healthcare Data Analyst (Pharmacy)",
-            "score": 100.0,
-            "category": "Priority Shortlisted",
+            "score": 72.72,
+            "category": "Review",
             "breakdown": {
                 "skill": 1.0,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.45
             },
             "insights": [
                 "Boost applied for possessing extra relevant skills (+10%).",
@@ -27,201 +27,201 @@
         },
         {
             "rank": 2,
-            "job_title": "Ai In Drug Discovery Researcher",
-            "score": 58.6,
+            "job_title": "Food & Drug Administration Pharmacist",
+            "score": 69.14,
             "category": "Review",
             "breakdown": {
-                "skill": 0.59,
+                "skill": 0.39,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.75
             },
             "insights": [
-                "Strong skill match (3 matched).",
+                "Strong skill match (2 matched).",
                 "Exceeds expected experience (11.0 vs 3.5 years).",
                 "Good education match (Related Field -> 0.7)."
             ]
         },
         {
             "rank": 3,
-            "job_title": "Clinical Data Manager",
-            "score": 57.8,
+            "job_title": "Business Development Manager (Pharma)",
+            "score": 62.35,
             "category": "Review",
             "breakdown": {
-                "skill": 0.58,
+                "skill": 0.16,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.75
             },
             "insights": [
-                "Strong skill match (3 matched).",
-                "Exceeds expected experience (11.0 vs 3.5 years).",
-                "Good education match (Related Field -> 0.7)."
+                "Missing critical skills penalty applied (-15%).",
+                "Strong skill match (1 matched).",
+                "Exceeds expected experience (11.0 vs 3.5 years)."
             ]
         },
         {
             "rank": 4,
-            "job_title": "Pharmacy Informatics Specialist",
-            "score": 57.8,
+            "job_title": "Clinical Pharmacist",
+            "score": 62.35,
             "category": "Review",
             "breakdown": {
-                "skill": 0.58,
+                "skill": 0.16,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.75
             },
             "insights": [
-                "Strong skill match (3 matched).",
-                "Exceeds expected experience (11.0 vs 3.5 years).",
-                "Good education match (Related Field -> 0.7)."
+                "Missing critical skills penalty applied (-15%).",
+                "Strong skill match (1 matched).",
+                "Exceeds expected experience (11.0 vs 3.5 years)."
             ]
         },
         {
             "rank": 5,
-            "job_title": "Biostatistics Research Associate",
-            "score": 38.8,
-            "category": "Rejected",
+            "job_title": "Pharmacy Manager",
+            "score": 62.35,
+            "category": "Review",
             "breakdown": {
-                "skill": 0.39,
+                "skill": 0.16,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.75
             },
             "insights": [
-                "Strong skill match (2 matched).",
-                "Exceeds expected experience (11.0 vs 3.5 years).",
-                "Good education match (Related Field -> 0.7)."
+                "Missing critical skills penalty applied (-15%).",
+                "Strong skill match (1 matched).",
+                "Exceeds expected experience (11.0 vs 3.5 years)."
             ]
         },
         {
             "rank": 6,
-            "job_title": "Clinical Research Associate",
-            "score": 38.8,
-            "category": "Rejected",
+            "job_title": "Pharmacy Manager",
+            "score": 62.35,
+            "category": "Review",
             "breakdown": {
-                "skill": 0.39,
+                "skill": 0.16,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.75
             },
             "insights": [
-                "Strong skill match (2 matched).",
-                "Exceeds expected experience (11.0 vs 3.5 years).",
-                "Good education match (Related Field -> 0.7)."
+                "Missing critical skills penalty applied (-15%).",
+                "Strong skill match (1 matched).",
+                "Exceeds expected experience (11.0 vs 3.5 years)."
             ]
         },
         {
             "rank": 7,
-            "job_title": "Clinical Research Scientist",
-            "score": 38.8,
-            "category": "Rejected",
+            "job_title": "Ai In Drug Discovery Researcher",
+            "score": 58.2,
+            "category": "Review",
             "breakdown": {
-                "skill": 0.39,
+                "skill": 0.59,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.41
             },
             "insights": [
-                "Strong skill match (2 matched).",
+                "Strong skill match (3 matched).",
                 "Exceeds expected experience (11.0 vs 3.5 years).",
                 "Good education match (Related Field -> 0.7)."
             ]
         },
         {
             "rank": 8,
-            "job_title": "Drug Development Scientist",
-            "score": 38.8,
-            "category": "Rejected",
+            "job_title": "Pharmacy Informatics Specialist",
+            "score": 57.82,
+            "category": "Review",
             "breakdown": {
-                "skill": 0.39,
+                "skill": 0.58,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.41
             },
             "insights": [
-                "Strong skill match (2 matched).",
+                "Strong skill match (3 matched).",
                 "Exceeds expected experience (11.0 vs 3.5 years).",
                 "Good education match (Related Field -> 0.7)."
             ]
         },
         {
             "rank": 9,
-            "job_title": "Drug Safety Associate",
-            "score": 38.8,
-            "category": "Rejected",
+            "job_title": "Community Pharmacist",
+            "score": 57.5,
+            "category": "Review",
             "breakdown": {
-                "skill": 0.39,
+                "skill": 0.0,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.75
             },
             "insights": [
-                "Strong skill match (2 matched).",
+                "Missing critical skills penalty applied (-15%).",
                 "Exceeds expected experience (11.0 vs 3.5 years).",
                 "Good education match (Related Field -> 0.7)."
             ]
         },
         {
             "rank": 10,
-            "job_title": "E-Prescription System Specialist",
-            "score": 38.8,
-            "category": "Rejected",
+            "job_title": "Herbal / Ayurvedic Drug Researcher",
+            "score": 57.5,
+            "category": "Review",
             "breakdown": {
-                "skill": 0.39,
+                "skill": 0.0,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.75
             },
             "insights": [
-                "Strong skill match (2 matched).",
+                "Missing critical skills penalty applied (-15%).",
                 "Exceeds expected experience (11.0 vs 3.5 years).",
                 "Good education match (Related Field -> 0.7)."
             ]
         },
         {
             "rank": 11,
-            "job_title": "Food & Drug Administration Pharmacist",
-            "score": 38.8,
-            "category": "Rejected",
+            "job_title": "Pharmacy Owner / Independent Pharmacist",
+            "score": 57.5,
+            "category": "Review",
             "breakdown": {
-                "skill": 0.39,
+                "skill": 0.0,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.75
             },
             "insights": [
-                "Strong skill match (2 matched).",
+                "Missing critical skills penalty applied (-15%).",
                 "Exceeds expected experience (11.0 vs 3.5 years).",
                 "Good education match (Related Field -> 0.7)."
             ]
         },
         {
             "rank": 12,
-            "job_title": "Medical Affairs Manager",
-            "score": 38.8,
-            "category": "Rejected",
+            "job_title": "Clinical Data Manager",
+            "score": 51.84,
+            "category": "Review",
             "breakdown": {
-                "skill": 0.39,
+                "skill": 0.58,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.29
             },
             "insights": [
-                "Strong skill match (2 matched).",
+                "Strong skill match (3 matched).",
                 "Exceeds expected experience (11.0 vs 3.5 years).",
                 "Good education match (Related Field -> 0.7)."
             ]
         },
         {
             "rank": 13,
-            "job_title": "Medical Science Liaison",
-            "score": 38.8,
+            "job_title": "E-Prescription System Specialist",
+            "score": 49.18,
             "category": "Rejected",
             "breakdown": {
                 "skill": 0.39,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.35
             },
             "insights": [
                 "Strong skill match (2 matched).",
@@ -231,14 +231,14 @@
         },
         {
             "rank": 14,
-            "job_title": "Pharmaceutical Research Scientist",
-            "score": 38.8,
+            "job_title": "Pharmaceutical Sales Manager",
+            "score": 47.98,
             "category": "Rejected",
             "breakdown": {
                 "skill": 0.39,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.33
             },
             "insights": [
                 "Strong skill match (2 matched).",
@@ -248,14 +248,14 @@
         },
         {
             "rank": 15,
-            "job_title": "Pharmaceutical Research Scientist",
-            "score": 38.8,
+            "job_title": "Pharmaceutical Product Manager",
+            "score": 47.46,
             "category": "Rejected",
             "breakdown": {
-                "skill": 0.39,
+                "skill": 0.38,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.32
             },
             "insights": [
                 "Strong skill match (2 matched).",
@@ -265,14 +265,14 @@
         },
         {
             "rank": 16,
-            "job_title": "Pharmaceutical Sales Manager",
-            "score": 38.8,
+            "job_title": "Biostatistics Research Associate",
+            "score": 45.78,
             "category": "Rejected",
             "breakdown": {
                 "skill": 0.39,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.28
             },
             "insights": [
                 "Strong skill match (2 matched).",
@@ -282,14 +282,14 @@
         },
         {
             "rank": 17,
-            "job_title": "Pharmacovigilance Officer",
-            "score": 38.8,
+            "job_title": "Medical Science Liaison",
+            "score": 44.26,
             "category": "Rejected",
             "breakdown": {
                 "skill": 0.39,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.25
             },
             "insights": [
                 "Strong skill match (2 matched).",
@@ -299,14 +299,14 @@
         },
         {
             "rank": 18,
-            "job_title": "Healthcare Consultant (Pharma)",
-            "score": 38.0,
+            "job_title": "Pharmaceutical Research Scientist",
+            "score": 44.2,
             "category": "Rejected",
             "breakdown": {
-                "skill": 0.38,
+                "skill": 0.39,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.25
             },
             "insights": [
                 "Strong skill match (2 matched).",
@@ -316,14 +316,14 @@
         },
         {
             "rank": 19,
-            "job_title": "Pharmaceutical Product Manager",
-            "score": 38.0,
+            "job_title": "Medical Affairs Manager",
+            "score": 43.14,
             "category": "Rejected",
             "breakdown": {
-                "skill": 0.38,
+                "skill": 0.39,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.23
             },
             "insights": [
                 "Strong skill match (2 matched).",
@@ -333,82 +333,82 @@
         },
         {
             "rank": 20,
-            "job_title": "Cosmetic Formulation Scientist",
-            "score": 16.83,
+            "job_title": "Healthcare Consultant (Pharma)",
+            "score": 43.08,
             "category": "Rejected",
             "breakdown": {
-                "skill": 0.17,
+                "skill": 0.38,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.23
             },
             "insights": [
-                "Missing critical skills penalty applied (-15%).",
-                "Strong skill match (1 matched).",
-                "Exceeds expected experience (11.0 vs 3.5 years)."
+                "Strong skill match (2 matched).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
             ]
         },
         {
             "rank": 21,
-            "job_title": "Formulation Development Scientist",
-            "score": 16.83,
+            "job_title": "Pharmaceutical Research Scientist",
+            "score": 42.7,
             "category": "Rejected",
             "breakdown": {
-                "skill": 0.17,
+                "skill": 0.39,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.22
             },
             "insights": [
-                "Missing critical skills penalty applied (-15%).",
-                "Strong skill match (1 matched).",
-                "Exceeds expected experience (11.0 vs 3.5 years)."
+                "Strong skill match (2 matched).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
             ]
         },
         {
             "rank": 22,
-            "job_title": "Ambulatory Care Pharmacist",
-            "score": 16.13,
+            "job_title": "Drug Safety Associate",
+            "score": 42.56,
             "category": "Rejected",
             "breakdown": {
-                "skill": 0.16,
+                "skill": 0.39,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.22
             },
             "insights": [
-                "Missing critical skills penalty applied (-15%).",
-                "Strong skill match (1 matched).",
-                "Exceeds expected experience (11.0 vs 3.5 years)."
+                "Strong skill match (2 matched).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
             ]
         },
         {
             "rank": 23,
-            "job_title": "Business Development Manager (Pharma)",
-            "score": 16.13,
+            "job_title": "Pharmacovigilance Officer",
+            "score": 41.99,
             "category": "Rejected",
             "breakdown": {
-                "skill": 0.16,
+                "skill": 0.39,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.21
             },
             "insights": [
-                "Missing critical skills penalty applied (-15%).",
-                "Strong skill match (1 matched).",
-                "Exceeds expected experience (11.0 vs 3.5 years)."
+                "Strong skill match (2 matched).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
             ]
         },
         {
             "rank": 24,
-            "job_title": "Clinical Pharmacist",
-            "score": 16.13,
+            "job_title": "Pharmaceutical Warehouse Manager",
+            "score": 40.19,
             "category": "Rejected",
             "breakdown": {
                 "skill": 0.16,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.31
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",
@@ -418,14 +418,14 @@
         },
         {
             "rank": 25,
-            "job_title": "Clinical Quality Specialist",
-            "score": 16.13,
+            "job_title": "Pharmaceutical Marketing Manager",
+            "score": 40.08,
             "category": "Rejected",
             "breakdown": {
                 "skill": 0.16,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.3
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",
@@ -435,31 +435,31 @@
         },
         {
             "rank": 26,
-            "job_title": "Clinical Trial Pharmacist",
-            "score": 16.13,
+            "job_title": "Drug Development Scientist",
+            "score": 39.91,
             "category": "Rejected",
             "breakdown": {
-                "skill": 0.16,
+                "skill": 0.39,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.17
             },
             "insights": [
-                "Missing critical skills penalty applied (-15%).",
-                "Strong skill match (1 matched).",
-                "Exceeds expected experience (11.0 vs 3.5 years)."
+                "Strong skill match (2 matched).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
             ]
         },
         {
             "rank": 27,
-            "job_title": "Consultant Pharmacist",
-            "score": 16.13,
+            "job_title": "Inventory Control Pharmacist",
+            "score": 39.37,
             "category": "Rejected",
             "breakdown": {
                 "skill": 0.16,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.29
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",
@@ -469,14 +469,14 @@
         },
         {
             "rank": 28,
-            "job_title": "Humanitarian Pharmacist",
-            "score": 16.13,
+            "job_title": "Process Development Scientist",
+            "score": 38.7,
             "category": "Rejected",
             "breakdown": {
                 "skill": 0.16,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.28
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",
@@ -486,48 +486,48 @@
         },
         {
             "rank": 29,
-            "job_title": "Inventory Control Pharmacist",
-            "score": 16.13,
+            "job_title": "Clinical Research Scientist",
+            "score": 38.14,
             "category": "Rejected",
             "breakdown": {
-                "skill": 0.16,
+                "skill": 0.39,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.13
             },
             "insights": [
-                "Missing critical skills penalty applied (-15%).",
-                "Strong skill match (1 matched).",
-                "Exceeds expected experience (11.0 vs 3.5 years)."
+                "Strong skill match (2 matched).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
             ]
         },
         {
             "rank": 30,
-            "job_title": "Ngo Pharmaceutical Specialist",
-            "score": 16.13,
+            "job_title": "Clinical Research Associate",
+            "score": 38.09,
             "category": "Rejected",
             "breakdown": {
-                "skill": 0.16,
+                "skill": 0.39,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.13
             },
             "insights": [
-                "Missing critical skills penalty applied (-15%).",
-                "Strong skill match (1 matched).",
-                "Exceeds expected experience (11.0 vs 3.5 years)."
+                "Strong skill match (2 matched).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
             ]
         },
         {
             "rank": 31,
-            "job_title": "Pain Management Pharmacist",
-            "score": 16.13,
+            "job_title": "Pharmaceutical Supply Chain Manager",
+            "score": 37.65,
             "category": "Rejected",
             "breakdown": {
                 "skill": 0.16,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.26
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",
@@ -537,31 +537,31 @@
         },
         {
             "rank": 32,
-            "job_title": "Pharmaceutical Marketing Manager",
-            "score": 16.13,
+            "job_title": "Digital Health Pharmacist",
+            "score": 37.3,
             "category": "Rejected",
             "breakdown": {
-                "skill": 0.16,
+                "skill": 0.0,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.35
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",
-                "Strong skill match (1 matched).",
-                "Exceeds expected experience (11.0 vs 3.5 years)."
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
             ]
         },
         {
             "rank": 33,
-            "job_title": "Pharmaceutical Supply Chain Manager",
-            "score": 16.13,
+            "job_title": "Consultant Pharmacist",
+            "score": 34.38,
             "category": "Rejected",
             "breakdown": {
                 "skill": 0.16,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.19
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",
@@ -571,14 +571,14 @@
         },
         {
             "rank": 34,
-            "job_title": "Pharmaceutical Warehouse Manager",
-            "score": 16.13,
+            "job_title": "Cosmetic Formulation Scientist",
+            "score": 34.15,
             "category": "Rejected",
             "breakdown": {
-                "skill": 0.16,
+                "skill": 0.17,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.18
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",
@@ -588,14 +588,14 @@
         },
         {
             "rank": 35,
-            "job_title": "Pharmacy Manager",
-            "score": 16.13,
+            "job_title": "Ambulatory Care Pharmacist",
+            "score": 34.14,
             "category": "Rejected",
             "breakdown": {
                 "skill": 0.16,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.19
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",
@@ -605,31 +605,31 @@
         },
         {
             "rank": 36,
-            "job_title": "Pharmacy Manager",
-            "score": 16.13,
+            "job_title": "Pharmacy Supervisor",
+            "score": 33.12,
             "category": "Rejected",
             "breakdown": {
-                "skill": 0.16,
+                "skill": 0.0,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.26
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",
-                "Strong skill match (1 matched).",
-                "Exceeds expected experience (11.0 vs 3.5 years)."
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
             ]
         },
         {
             "rank": 37,
-            "job_title": "Process Development Scientist",
-            "score": 16.13,
+            "job_title": "Formulation Development Scientist",
+            "score": 33.11,
             "category": "Rejected",
             "breakdown": {
-                "skill": 0.16,
+                "skill": 0.17,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.16
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",
@@ -639,31 +639,31 @@
         },
         {
             "rank": 38,
-            "job_title": "Assistant Professor (Pharmacy)",
-            "score": 0.0,
+            "job_title": "Ngo Pharmaceutical Specialist",
+            "score": 33.09,
             "category": "Rejected",
             "breakdown": {
-                "skill": 0.0,
+                "skill": 0.16,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.16
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",
-                "Exceeds expected experience (11.0 vs 3.5 years).",
-                "Good education match (Related Field -> 0.7)."
+                "Strong skill match (1 matched).",
+                "Exceeds expected experience (11.0 vs 3.5 years)."
             ]
         },
         {
             "rank": 39,
-            "job_title": "Associate Professor (Pharmacy)",
-            "score": 0.0,
+            "job_title": "Assistant Professor (Pharmacy)",
+            "score": 33.07,
             "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.26
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",
@@ -673,14 +673,14 @@
         },
         {
             "rank": 40,
-            "job_title": "Aviation Medical Supply Pharmacist",
-            "score": 0.0,
+            "job_title": "Manufacturing Pharmacist",
+            "score": 32.81,
             "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.26
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",
@@ -690,31 +690,31 @@
         },
         {
             "rank": 41,
-            "job_title": "Cardiology Pharmacist",
-            "score": 0.0,
+            "job_title": "Clinical Trial Pharmacist",
+            "score": 32.8,
             "category": "Rejected",
             "breakdown": {
-                "skill": 0.0,
+                "skill": 0.16,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.16
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",
-                "Exceeds expected experience (11.0 vs 3.5 years).",
-                "Good education match (Related Field -> 0.7)."
+                "Strong skill match (1 matched).",
+                "Exceeds expected experience (11.0 vs 3.5 years)."
             ]
         },
         {
             "rank": 42,
-            "job_title": "Clinical Pharmacist",
-            "score": 0.0,
+            "job_title": "Telepharmacy Consultant",
+            "score": 32.35,
             "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.25
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",
@@ -724,31 +724,31 @@
         },
         {
             "rank": 43,
-            "job_title": "Clinical Research Coordinator",
-            "score": 0.0,
+            "job_title": "Humanitarian Pharmacist",
+            "score": 32.26,
             "category": "Rejected",
             "breakdown": {
-                "skill": 0.0,
+                "skill": 0.16,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.15
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",
-                "Exceeds expected experience (11.0 vs 3.5 years).",
-                "Good education match (Related Field -> 0.7)."
+                "Strong skill match (1 matched).",
+                "Exceeds expected experience (11.0 vs 3.5 years)."
             ]
         },
         {
             "rank": 44,
-            "job_title": "Community Pharmacist",
-            "score": 0.0,
+            "job_title": "Drug Inspector",
+            "score": 31.42,
             "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.23
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",
@@ -758,14 +758,14 @@
         },
         {
             "rank": 45,
-            "job_title": "Community Pharmacist",
-            "score": 0.0,
+            "job_title": "Production Pharmacist",
+            "score": 30.91,
             "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.22
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",
@@ -775,14 +775,14 @@
         },
         {
             "rank": 46,
-            "job_title": "Compounding Pharmacist",
-            "score": 0.0,
+            "job_title": "Quality Assurance (Qa) Pharmacist",
+            "score": 30.85,
             "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.22
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",
@@ -792,14 +792,14 @@
         },
         {
             "rank": 47,
-            "job_title": "Critical Care Pharmacist",
-            "score": 0.0,
+            "job_title": "Associate Professor (Pharmacy)",
+            "score": 30.57,
             "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.21
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",
@@ -809,14 +809,14 @@
         },
         {
             "rank": 48,
-            "job_title": "Cruise Ship Pharmacist",
-            "score": 0.0,
+            "job_title": "Drug Distribution Manager",
+            "score": 30.16,
             "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.2
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",
@@ -826,14 +826,14 @@
         },
         {
             "rank": 49,
-            "job_title": "Digital Health Pharmacist",
-            "score": 0.0,
+            "job_title": "Pharmacy Professor",
+            "score": 30.09,
             "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.2
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",
@@ -843,14 +843,14 @@
         },
         {
             "rank": 50,
-            "job_title": "Dispensing Pharmacist",
-            "score": 0.0,
+            "job_title": "Procurement Pharmacist",
+            "score": 29.75,
             "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.2
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",
@@ -860,14 +860,14 @@
         },
         {
             "rank": 51,
-            "job_title": "Drug Control Officer",
-            "score": 0.0,
+            "job_title": "Technology Transfer Specialist",
+            "score": 29.72,
             "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.19
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",
@@ -877,14 +877,14 @@
         },
         {
             "rank": 52,
-            "job_title": "Drug Distribution Manager",
-            "score": 0.0,
+            "job_title": "Drug Control Officer",
+            "score": 29.45,
             "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.19
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",
@@ -894,14 +894,14 @@
         },
         {
             "rank": 53,
-            "job_title": "Drug Inspector",
-            "score": 0.0,
+            "job_title": "Industrial Pharmacist",
+            "score": 29.32,
             "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.19
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",
@@ -911,31 +911,31 @@
         },
         {
             "rank": 54,
-            "job_title": "Emergency Medicine Pharmacist",
-            "score": 0.0,
+            "job_title": "Pain Management Pharmacist",
+            "score": 29.07,
             "category": "Rejected",
             "breakdown": {
-                "skill": 0.0,
+                "skill": 0.16,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.08
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",
-                "Exceeds expected experience (11.0 vs 3.5 years).",
-                "Good education match (Related Field -> 0.7)."
+                "Strong skill match (1 matched).",
+                "Exceeds expected experience (11.0 vs 3.5 years)."
             ]
         },
         {
             "rank": 55,
-            "job_title": "Geriatric Pharmacist",
-            "score": 0.0,
+            "job_title": "Validation Pharmacist",
+            "score": 28.93,
             "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.18
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",
@@ -945,14 +945,14 @@
         },
         {
             "rank": 56,
-            "job_title": "Government Pharmacist",
-            "score": 0.0,
+            "job_title": "Pharmacology Researcher",
+            "score": 28.85,
             "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.18
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",
@@ -962,14 +962,14 @@
         },
         {
             "rank": 57,
-            "job_title": "Herbal / Ayurvedic Drug Researcher",
-            "score": 0.0,
+            "job_title": "Quality Control (Qc) Pharmacist",
+            "score": 28.85,
             "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.18
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",
@@ -979,14 +979,14 @@
         },
         {
             "rank": 58,
-            "job_title": "Industrial Pharmacist",
-            "score": 0.0,
+            "job_title": "Veterinary Pharmacist",
+            "score": 28.81,
             "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.18
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",
@@ -996,14 +996,14 @@
         },
         {
             "rank": 59,
-            "job_title": "Infectious Disease Pharmacist",
-            "score": 0.0,
+            "job_title": "Clinical Pharmacist",
+            "score": 28.62,
             "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.17
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",
@@ -1013,14 +1013,14 @@
         },
         {
             "rank": 60,
-            "job_title": "Manufacturing Pharmacist",
-            "score": 0.0,
+            "job_title": "Public Health Pharmacist",
+            "score": 28.54,
             "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.17
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",
@@ -1030,14 +1030,14 @@
         },
         {
             "rank": 61,
-            "job_title": "Medical Advisor",
-            "score": 0.0,
+            "job_title": "Cruise Ship Pharmacist",
+            "score": 28.38,
             "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.17
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",
@@ -1047,14 +1047,14 @@
         },
         {
             "rank": 62,
-            "job_title": "Medical Writer",
-            "score": 0.0,
+            "job_title": "Regulatory Affairs Pharmacist",
+            "score": 28.13,
             "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.16
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",
@@ -1064,14 +1064,14 @@
         },
         {
             "rank": 63,
-            "job_title": "Military Pharmacist",
-            "score": 0.0,
+            "job_title": "Clinical Research Coordinator",
+            "score": 28.06,
             "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.16
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",
@@ -1081,14 +1081,14 @@
         },
         {
             "rank": 64,
-            "job_title": "Nuclear Pharmacist",
-            "score": 0.0,
+            "job_title": "Infectious Disease Pharmacist",
+            "score": 27.99,
             "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.16
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",
@@ -1098,14 +1098,14 @@
         },
         {
             "rank": 65,
-            "job_title": "Nuclear Pharmacy Specialist",
-            "score": 0.0,
+            "job_title": "Dispensing Pharmacist",
+            "score": 27.98,
             "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.16
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",
@@ -1115,31 +1115,31 @@
         },
         {
             "rank": 66,
-            "job_title": "Nutrition Support Pharmacist",
-            "score": 0.0,
+            "job_title": "Clinical Quality Specialist",
+            "score": 27.76,
             "category": "Rejected",
             "breakdown": {
-                "skill": 0.0,
+                "skill": 0.16,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.06
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",
-                "Exceeds expected experience (11.0 vs 3.5 years).",
-                "Good education match (Related Field -> 0.7)."
+                "Strong skill match (1 matched).",
+                "Exceeds expected experience (11.0 vs 3.5 years)."
             ]
         },
         {
             "rank": 67,
-            "job_title": "Oncology Pharmacist",
-            "score": 0.0,
+            "job_title": "Packaging Development Scientist",
+            "score": 27.59,
             "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.15
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",
@@ -1149,14 +1149,14 @@
         },
         {
             "rank": 68,
-            "job_title": "Packaging Development Scientist",
-            "score": 0.0,
+            "job_title": "Psychiatric Pharmacist",
+            "score": 27.54,
             "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.15
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",
@@ -1166,14 +1166,14 @@
         },
         {
             "rank": 69,
-            "job_title": "Pediatric Pharmacist",
-            "score": 0.0,
+            "job_title": "Medical Writer",
+            "score": 27.26,
             "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.15
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",
@@ -1183,14 +1183,14 @@
         },
         {
             "rank": 70,
-            "job_title": "Pharmacology Researcher",
-            "score": 0.0,
+            "job_title": "Medical Advisor",
+            "score": 27.25,
             "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.15
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",
@@ -1200,14 +1200,14 @@
         },
         {
             "rank": 71,
-            "job_title": "Pharmacy Owner / Independent Pharmacist",
-            "score": 0.0,
+            "job_title": "Oncology Pharmacist",
+            "score": 27.01,
             "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.14
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",
@@ -1217,14 +1217,14 @@
         },
         {
             "rank": 72,
-            "job_title": "Pharmacy Professor",
-            "score": 0.0,
+            "job_title": "Community Pharmacist",
+            "score": 26.9,
             "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.14
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",
@@ -1234,14 +1234,14 @@
         },
         {
             "rank": 73,
-            "job_title": "Pharmacy Supervisor",
-            "score": 0.0,
+            "job_title": "Emergency Medicine Pharmacist",
+            "score": 26.89,
             "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.14
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",
@@ -1251,14 +1251,14 @@
         },
         {
             "rank": 74,
-            "job_title": "Principal Investigator (Clinical Trials)",
-            "score": 0.0,
+            "job_title": "Compounding Pharmacist",
+            "score": 26.76,
             "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.14
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",
@@ -1268,14 +1268,14 @@
         },
         {
             "rank": 75,
-            "job_title": "Procurement Pharmacist",
-            "score": 0.0,
+            "job_title": "Nutrition Support Pharmacist",
+            "score": 26.49,
             "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.13
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",
@@ -1285,14 +1285,14 @@
         },
         {
             "rank": 76,
-            "job_title": "Production Pharmacist",
-            "score": 0.0,
+            "job_title": "Government Pharmacist",
+            "score": 26.45,
             "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.13
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",
@@ -1302,14 +1302,14 @@
         },
         {
             "rank": 77,
-            "job_title": "Psychiatric Pharmacist",
-            "score": 0.0,
+            "job_title": "Aviation Medical Supply Pharmacist",
+            "score": 25.83,
             "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.12
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",
@@ -1319,14 +1319,14 @@
         },
         {
             "rank": 78,
-            "job_title": "Public Health Pharmacist",
-            "score": 0.0,
+            "job_title": "Cardiology Pharmacist",
+            "score": 25.78,
             "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.12
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",
@@ -1336,14 +1336,14 @@
         },
         {
             "rank": 79,
-            "job_title": "Quality Assurance (Qa) Pharmacist",
-            "score": 0.0,
+            "job_title": "Geriatric Pharmacist",
+            "score": 25.43,
             "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.11
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",
@@ -1353,14 +1353,14 @@
         },
         {
             "rank": 80,
-            "job_title": "Quality Control (Qc) Pharmacist",
-            "score": 0.0,
+            "job_title": "Military Pharmacist",
+            "score": 25.33,
             "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.11
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",
@@ -1370,14 +1370,14 @@
         },
         {
             "rank": 81,
-            "job_title": "Regulatory Affairs Pharmacist",
-            "score": 0.0,
+            "job_title": "Nuclear Pharmacy Specialist",
+            "score": 25.24,
             "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.1
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",
@@ -1387,14 +1387,14 @@
         },
         {
             "rank": 82,
-            "job_title": "Technology Transfer Specialist",
-            "score": 0.0,
+            "job_title": "Toxicology Specialist",
+            "score": 25.22,
             "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.1
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",
@@ -1404,14 +1404,14 @@
         },
         {
             "rank": 83,
-            "job_title": "Telepharmacy Consultant",
-            "score": 0.0,
+            "job_title": "Pediatric Pharmacist",
+            "score": 25.11,
             "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.1
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",
@@ -1421,14 +1421,14 @@
         },
         {
             "rank": 84,
-            "job_title": "Toxicology Specialist",
-            "score": 0.0,
+            "job_title": "Critical Care Pharmacist",
+            "score": 24.74,
             "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.09
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",
@@ -1439,13 +1439,13 @@
         {
             "rank": 85,
             "job_title": "Transplant Pharmacist",
-            "score": 0.0,
+            "score": 24.61,
             "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.09
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",
@@ -1455,14 +1455,14 @@
         },
         {
             "rank": 86,
-            "job_title": "Validation Pharmacist",
-            "score": 0.0,
+            "job_title": "Principal Investigator (Clinical Trials)",
+            "score": 24.56,
             "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.09
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",
@@ -1472,14 +1472,14 @@
         },
         {
             "rank": 87,
-            "job_title": "Veterinary Pharmacist",
-            "score": 0.0,
+            "job_title": "Nuclear Pharmacist",
+            "score": 24.48,
             "category": "Rejected",
             "breakdown": {
                 "skill": 0.0,
                 "experience": 1.0,
                 "education": 1.0,
-                "semantic": 0.5
+                "semantic": 0.09
             },
             "insights": [
                 "Missing critical skills penalty applied (-15%).",

@@ -111,3 +111,17 @@ class ShortlistingEngine:
             f.write("\n".join(lines))
             
         return out_file
+
+if __name__ == "__main__":
+    print("Running Shortlisting Engine...")
+    engine = ShortlistingEngine()
+    if engine.load_scores():
+        engine.process_and_rank()
+        f1 = engine.generate_final_shortlisting_json()
+        f2 = engine.generate_top_5_matches_json()
+        f3 = engine.generate_recruiter_report()
+        print(f"Generated: {f1}")
+        print(f"Generated: {f2}")
+        print(f"Generated: {f3}")
+    else:
+        print("Failed to load scores.")
