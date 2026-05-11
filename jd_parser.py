@@ -114,13 +114,37 @@ def save_each_job_to_file(job, output_dir, title_counts):
     with open(file_path, "w", encoding="utf-8") as f:
         json.dump(job, f, indent=4)
 
+def read_file_text(file_path):
+    ext = file_path.lower().split('.')[-1]
+    if ext == 'pdf':
+        try:
+            from parsers.pdf_parser import parse_pdf
+            text = parse_pdf(file_path)
+            return text.split('\n')
+        except ImportError:
+            print("Warning: parsers.pdf_parser not found. Falling back to open().")
+    elif ext in ['docx', 'doc']:
+        try:
+            import docx
+            doc = docx.Document(file_path)
+            return [p.text for p in doc.paragraphs]
+        except ImportError:
+            print("Warning: python-docx not installed. Cannot parse DOCX.")
+            return []
+    
+    with open(file_path, "r", encoding="utf-8", errors="ignore") as f:
+        return f.readlines()
+
 def parse_jd_file(input_file):
-    with open(input_file, "r", encoding="utf-8") as f:
-        lines = f.readlines()
+    lines = read_file_text(input_file)
+    if not lines:
+        return []
         
     jobs = []
     current_job = {}
     current_section = None
+    
+    default_title = os.path.basename(input_file).split('.')[0].replace('_', ' ').replace('-', ' ').title()
     
     for line in lines:
         line = line.strip()
@@ -129,11 +153,20 @@ def parse_jd_file(input_file):
             
         # Match "1. Clinical Pharmacist"
         match_title = re.match(r'^(\d+)\.\s+(.+)', line)
+        # Match "Job Title: Clinical Pharmacist" or "Position: Clinical Pharmacist"
+        match_explicit_title = re.match(r'(?i)^(?:job title|position|role):\s*(.+)', line)
+        
+        title_found = None
         if match_title:
+            title_found = match_title.group(2).strip()
+        elif match_explicit_title:
+            title_found = match_explicit_title.group(1).strip()
+            
+        if title_found:
             if current_job and "title" in current_job:
                 jobs.append(current_job)
             current_job = {
-                "title": match_title.group(2).strip(),
+                "title": title_found,
                 "overview": [],
                 "responsibilities": [],
                 "qualifications": [],
@@ -143,24 +176,40 @@ def parse_jd_file(input_file):
             continue
             
         val_lower = line.lower()
-        if "job overview" in val_lower:
+        if "job overview" in val_lower or "about the role" in val_lower or "summary" in val_lower:
+            if not current_job:
+                current_job = {"title": default_title, "overview": [], "responsibilities": [], "qualifications": [], "work_settings": []}
             current_section = "overview"
             continue
-        elif "key responsibilities" in val_lower:
+        elif "key responsibilities" in val_lower or "responsibilities" in val_lower or "duties" in val_lower or "what you will do" in val_lower:
+            if not current_job:
+                current_job = {"title": default_title, "overview": [], "responsibilities": [], "qualifications": [], "work_settings": []}
             current_section = "responsibilities"
             continue
-        elif "required qualifications" in val_lower:
+        elif "required qualifications" in val_lower or "qualifications" in val_lower or "requirements" in val_lower or "what we look for" in val_lower:
+            if not current_job:
+                current_job = {"title": default_title, "overview": [], "responsibilities": [], "qualifications": [], "work_settings": []}
             current_section = "qualifications"
             continue
-        elif "work settings" in val_lower:
+        elif "work settings" in val_lower or "environment" in val_lower or "working conditions" in val_lower:
+            if not current_job:
+                current_job = {"title": default_title, "overview": [], "responsibilities": [], "qualifications": [], "work_settings": []}
             current_section = "work_settings"
             continue
             
         if current_section == "title_continuation":
-            current_job["title"] += " " + line.strip()
+            if len(line.split()) < 10:
+                current_job["title"] += " " + line.strip()
+            else:
+                current_section = None
         elif current_section and current_job:
             current_job[current_section].append(line)
             
+    # Fallback if no sections were identified but file has content
+    if not current_job and len(lines) > 5:
+        # Just dump everything into overview as a generic parsing failure but data retention
+        current_job = {"title": default_title, "overview": lines, "responsibilities": [], "qualifications": [], "work_settings": []}
+
     if current_job and "title" in current_job:
         jobs.append(current_job)
         
@@ -178,9 +227,9 @@ def main():
     print(f"Reading job descriptions from {input_dir}...")
     
     raw_jobs = []
-    # Process all txt files in the input directory
+    # Process all supported files in the input directory
     for filename in os.listdir(input_dir):
-        if filename.endswith(".txt"):
+        if filename.lower().endswith((".txt", ".pdf", ".docx", ".doc")):
             file_path = os.path.join(input_dir, filename)
             try:
                 raw_jobs.extend(parse_jd_file(file_path))

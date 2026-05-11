@@ -57,27 +57,27 @@ class ExperienceParser:
                  # There's a decent amount of text on the same line before the date
                  pass # We rely on lines logic below
 
+            lines = [l.strip() for l in pre_text.split('\n') if l.strip()]
+            
+            # Assume last 1 or 2 lines before date is title/company of current job
+            title_comp_lines = []
+            idx = len(lines) - 1
+            while idx >= 0 and len(title_comp_lines) < 2:
+                words = lines[idx].split()
+                # Sentences usually end with a period or are long. Job titles/companies usually don't and are short.
+                if len(words) < 15 and not lines[idx].endswith('.'):
+                    title_comp_lines.insert(0, lines[idx])
+                    idx -= 1
+                else:
+                    break
+                    
+            desc_lines = lines[:idx+1]
+            
             if i > 0:
-                lines = [l.strip() for l in pre_text.split('\n') if l.strip()]
-                
-                # Assume last 1 or 2 lines before date is title/company of current job
-                title_comp_lines = []
-                idx = len(lines) - 1
-                while idx >= 0 and len(title_comp_lines) < 2:
-                    words = lines[idx].split()
-                    # Sentences usually end with a period or are long. Job titles/companies usually don't and are short.
-                    if len(words) < 15 and not lines[idx].endswith('.'):
-                        title_comp_lines.insert(0, lines[idx])
-                        idx -= 1
-                    else:
-                        break
-                        
-                desc_lines = lines[:idx+1]
                 experiences[-1]['description'] = "  ".join(desc_lines)
-                self._extract_title_company(" | ".join(title_comp_lines), exp)
-            else:
-                # First experience block
-                self._extract_title_company(pre_text.replace('\n', ' | '), exp)
+                
+            # First experience block or subsequent
+            self._extract_title_company(" | ".join(title_comp_lines), exp)
                 
             experiences.append(exp)
             

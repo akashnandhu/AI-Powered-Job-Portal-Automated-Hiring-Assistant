@@ -364,12 +364,11 @@
         "category": "Pharmacy",
         "skills_required": [
             "prepare customized drug formulations",
-            "mix and compound medications in various forms (creams, capsules, liquids)",
-            "adjust drug dosages and ingredients based on patient requirements",
-            "ensure sterile and non-sterile compounding standards",
-            "maintain compounding equipment and laboratory safety protocols"
+            "mix and compound medications in various forms (creams, capsules, liquids)"
         ],
         "education_required": [
+            "ensure sterile and non-sterile compounding standards",
+            "maintain compounding equipment and laboratory safety protocols",
             "b.pharm / pharmd / m.pharm",
             "training in pharmaceutical compounding techniques"
         ],
@@ -450,9 +449,7 @@
             "dispense prescription and over-the-counter medications onboard",
             "provide patient counseling to passengers and crew",
             "manage onboard pharmacy inventory and medical supplies",
-            "assist ship doctors in managing medical emergencies",
-            "ensure proper storage of medicines in maritime environments",
-            "maintain medical records and regulatory compliance"
+            "assist ship doctors in managing medical emergencies"
         ],
         "education_required": [
             "b.pharm / pharmd / m.pharm",
@@ -461,6 +458,7 @@
         ],
         "experience_required": "Not specified",
         "work_environment": [
+            "maintain medical records and regulatory compliance",
             "international cruise ships",
             "maritime healthcare services",
             "cruise medical centers"
@@ -1014,8 +1012,7 @@
             "medication dispensing to military personnel",
             "manage pharmaceutical supply in military hospitals and field units",
             "support medical teams during military operations and emergencies",
-            "maintain medical readiness for combat or disaster situations",
-            "ensure safe handling and distribution of medications in military environments"
+            "maintain medical readiness for combat or disaster situations"
         ],
         "education_required": [
             "b.pharm / pharmd / m.pharm",

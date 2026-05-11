@@ -5,9 +5,7 @@
         "dispense prescription and over-the-counter medications onboard",
         "provide patient counseling to passengers and crew",
         "manage onboard pharmacy inventory and medical supplies",
-        "assist ship doctors in managing medical emergencies",
-        "ensure proper storage of medicines in maritime environments",
-        "maintain medical records and regulatory compliance"
+        "assist ship doctors in managing medical emergencies"
     ],
     "education_required": [
         "b.pharm / pharmd / m.pharm",
@@ -16,6 +14,7 @@
     ],
     "experience_required": "Not specified",
     "work_environment": [
+        "maintain medical records and regulatory compliance",
         "international cruise ships",
         "maritime healthcare services",
         "cruise medical centers"

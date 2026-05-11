@@ -1,21 +1,18 @@
+import os
 import json
+import sys
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from parsers.education_parser import parse_education_and_certifications
 from scoring.education_scorer import calculate_education_score
+from parsers.pdf_parser import parse_pdf
+from utils.text_cleaner import clean_text
 
 def run_education_pipeline():
-    # 1. Sample Resume Text
-    sample_resume = """
-    EDUCATION
-    M.Pharm in Pharmaceutical Sciences
-    University of Example | 2021
-    
-    B.Sc in Chemistry
-    State College | 2019
-    
-    CERTIFICATIONS
-    Machine Learning by Coursera 2022
-    AWS Certified Solutions Architect 2023
-    """
+    # 1. Load sample_resume_2.pdf
+    resume_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "resumes", "sample_resume_2.pdf")
+    raw_text = parse_pdf(resume_path)
+    sample_resume = clean_text(raw_text)
     
     # 2. Parse Education and Certifications
     parsed_data = parse_education_and_certifications(sample_resume)
@@ -36,7 +33,6 @@ def run_education_pipeline():
     }
     
     # Save to output file
-    import os
     os.makedirs('output', exist_ok=True)
     out_file = 'output/education_analysis.json'
     with open(out_file, 'w') as f:

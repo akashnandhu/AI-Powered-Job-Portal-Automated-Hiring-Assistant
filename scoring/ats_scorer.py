@@ -18,7 +18,7 @@ OUTPUT_DIR = os.path.join(BASE_DIR, "output")
 FINAL_OUTPUT_DIR = os.path.join(BASE_DIR, "outputs")
 
 class ATSScorer:
-    def __init__(self, candidate_id=None):
+    def __init__(self, candidate_id=None, resume_data=None):
         self.candidate_id = candidate_id or CANDIDATE_ID
         self.candidate_skills = []
         self.candidate_confidences = {}
@@ -26,7 +26,17 @@ class ATSScorer:
         self.candidate_education = []
         self.semantic_scores = {}
         
-        self.load_candidate_data()
+        if resume_data:
+            self.load_from_dict(resume_data)
+        else:
+            self.load_candidate_data()
+
+    def load_from_dict(self, resume_data):
+        self.candidate_skills = resume_data.get("skills", [])
+        self.candidate_confidences = resume_data.get("confidences", {})
+        self.candidate_exp_months = resume_data.get("exp_months", 0)
+        self.candidate_education = resume_data.get("education", [])
+        self.semantic_scores = resume_data.get("semantic_scores", {})
 
     def load_candidate_data(self):
         # 1. Load Skills
@@ -199,6 +209,55 @@ class ATSScorer:
         
         return score, insights
 
+    def score_single_jd(self, jd_data, filename="memory_jd.json"):
+        job_title = jd_data.get("job_title", filename.replace(".json", "").replace("_", " ").title())
+        category = jd_data.get("category", "")
+        
+        # Sub-scores
+        skill_score, skill_ins = self.compute_skill_score(jd_data)
+        exp_score, exp_ins = self.compute_experience_score(jd_data)
+        edu_score, edu_ins = self.compute_education_score(jd_data)
+        sem_score, sem_ins = self.compute_semantic_score(filename)
+        
+        # Bias Reduction - Implement Combined Scoring
+        skill_w = 0.3
+        exp_w = 0.2
+        sem_w = 0.5
+        
+        available_weights = 0.0
+        computed_score = 0.0
+        
+        if skill_score is not None:
+            computed_score += skill_score * skill_w
+            available_weights += skill_w
+        if exp_score is not None:
+            computed_score += exp_score * exp_w
+            available_weights += exp_w
+        if sem_score is not None:
+            computed_score += sem_score * sem_w
+            available_weights += sem_w
+            
+        # Normalize to 1.0 if some weights were missing
+        final_score_raw = computed_score / available_weights if available_weights > 0 else 0
+        final_percentage = round(final_score_raw * 100, 2)
+        
+        # Only include valid insights
+        all_insights = [i for p in [skill_ins, exp_ins, edu_ins, sem_ins] for i in p if i]
+        
+        return {
+            "job_title": job_title,
+            "jd_filename": filename,
+            "category": category,
+            "final_score": final_percentage,
+            "breakdown": {
+                "skill": round(skill_score, 2),
+                "experience": round(exp_score, 2),
+                "education": round(edu_score, 2),
+                "semantic": round(sem_score, 2)
+            },
+            "insights": all_insights[:3]  # top 3 insights
+        }
+
     def score_all_jobs(self):
         results = []
         
@@ -212,53 +271,7 @@ class ATSScorer:
             except Exception:
                 continue
                 
-            job_title = jd_data.get("job_title", filename.replace(".json", "").replace("_", " ").title())
-            category = jd_data.get("category", "")
-            
-            # Sub-scores
-            skill_score, skill_ins = self.compute_skill_score(jd_data)
-            exp_score, exp_ins = self.compute_experience_score(jd_data)
-            edu_score, edu_ins = self.compute_education_score(jd_data)
-            sem_score, sem_ins = self.compute_semantic_score(filename)
-            
-            # Bias Reduction - Implement Combined Scoring
-            skill_w = 0.3
-            exp_w = 0.2
-            sem_w = 0.5
-            
-            available_weights = 0.0
-            computed_score = 0.0
-            
-            if skill_score is not None:
-                computed_score += skill_score * skill_w
-                available_weights += skill_w
-            if exp_score is not None:
-                computed_score += exp_score * exp_w
-                available_weights += exp_w
-            if sem_score is not None:
-                computed_score += sem_score * sem_w
-                available_weights += sem_w
-                
-            # Normalize to 1.0 if some weights were missing
-            final_score_raw = computed_score / available_weights if available_weights > 0 else 0
-            final_percentage = round(final_score_raw * 100, 2)
-            
-            # Only include valid insights
-            all_insights = [i for p in [skill_ins, exp_ins, edu_ins, sem_ins] for i in p if i]
-            
-            results.append({
-                "job_title": job_title,
-                "jd_filename": filename,
-                "category": category,
-                "final_score": final_percentage,
-                "breakdown": {
-                    "skill": round(skill_score, 2),
-                    "experience": round(exp_score, 2),
-                    "education": round(edu_score, 2),
-                    "semantic": round(sem_score, 2)
-                },
-                "insights": all_insights[:3]  # top 3 insights
-            })
+            results.append(self.score_single_jd(jd_data, filename))
             
         return results
 

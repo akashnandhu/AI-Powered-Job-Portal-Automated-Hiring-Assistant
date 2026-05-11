@@ -214,15 +214,17 @@ def parse_education_and_certifications(resume_text: str) -> Dict[str, Any]:
     
     current_section = None
     for line in resume_text.split('\n'):
-        header_check = line.strip().lower()
+        # Remove leading markdown symbols like '#', '-', '*' for reliable header checking
+        header_check = re.sub(r'^[\#\-\*\s]+', '', line.strip().lower())
         if re.match(r'^(education|academic background|academics)', header_check):
             current_section = "education"
             continue
         elif re.match(r'^(certifications|certificates|courses|licenses)', header_check):
             current_section = "certifications"
             continue
-        elif re.match(r'^(experience|work history|skills|projects|summary|objective)', header_check):
+        elif re.match(r'^(experience|work history|skills|projects|summary|objective|declaration|languages)', header_check):
             current_section = "other"
+            continue
             
         if current_section == "education":
             edu_text += line + "\n"
