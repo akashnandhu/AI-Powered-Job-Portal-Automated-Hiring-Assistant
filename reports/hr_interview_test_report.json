@@ -1,0 +1,68 @@
+{
+    "results": [
+        {
+            "type": "Confident",
+            "transcript": "I have 5 years of experience in Python and AWS. I can start immediately and my salary expectation is $120K. I have led multiple projects delivering robust backend systems.",
+            "predicted_intent": "direct_answer",
+            "is_vague": false,
+            "confidence": 0.95,
+            "extracted_skills": [
+                "Python",
+                "AWS"
+            ],
+            "extracted_exp": 5.0,
+            "extracted_salary": "$120K",
+            "extracted_avail": "immediately",
+            "match": true
+        },
+        {
+            "type": "Hesitant",
+            "transcript": "Could you clarify what you mean? I guess I know some stuff... maybe 2 years of experience. I'm not sure.",
+            "predicted_intent": "refusal_to_answer",
+            "is_vague": false,
+            "confidence": 0.75,
+            "extracted_skills": [],
+            "extracted_exp": 2.0,
+            "extracted_salary": null,
+            "extracted_avail": null,
+            "match": false
+        },
+        {
+            "type": "Inexperienced",
+            "transcript": "Well, the weather is nice today. I like to watch movies.",
+            "predicted_intent": "off_topic",
+            "is_vague": false,
+            "confidence": 0.45,
+            "extracted_skills": [],
+            "extracted_exp": null,
+            "extracted_salary": null,
+            "extracted_avail": null,
+            "match": true
+        },
+        {
+            "type": "Overqualified",
+            "transcript": "I have 15 years of experience architecting large scale distributed systems using Java, Python, AWS, Docker, and Kubernetes. I was a Principal Engineer at my last job, leading a team of 50. I am available in 30 days and expect $250K.",
+            "predicted_intent": "direct_answer",
+            "is_vague": false,
+            "confidence": 0.95,
+            "extracted_skills": [
+                "Python",
+                "Java",
+                "AWS",
+                "Docker",
+                "Kubernetes"
+            ],
+            "extracted_exp": 15.0,
+            "extracted_salary": "$250K",
+            "extracted_avail": "30 days ",
+            "match": true
+        }
+    ],
+    "inconsistencies": [
+        "Hesitant: Expected intent 'clarification_needed', got 'refusal_to_answer'",
+        "Hesitant: Expected is_vague 'True', got 'False'"
+    ],
+    "accuracy": 75.0,
+    "correct": 3,
+    "total": 4
+}

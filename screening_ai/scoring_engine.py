@@ -1,6 +1,14 @@
+import sys
+import os
 import logging
 from pydantic import BaseModel, Field
 from typing import List, Dict, Optional, Literal
+
+# Add base directory to path to fix import errors when run directly
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+if BASE_DIR not in sys.path:
+    sys.path.append(BASE_DIR)
+
 from scoring.cognitive_scorer import CognitiveScorer
 
 logger = logging.getLogger(__name__)
