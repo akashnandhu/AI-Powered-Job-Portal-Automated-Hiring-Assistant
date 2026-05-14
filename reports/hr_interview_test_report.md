@@ -5,8 +5,8 @@ Simulated end-to-end testing of the HR Interview `AnswerUnderstandingEngine` usi
 
 ## 2. Accuracy Evaluation
 - **Total Scenarios**: 4
-- **Successful Matches**: 3
-- **Overall Accuracy**: 75.00%
+- **Successful Matches**: 4
+- **Overall Accuracy**: 100.00%
 
 ## 3. Candidate Simulation Details
 
@@ -23,14 +23,14 @@ Simulated end-to-end testing of the HR Interview `AnswerUnderstandingEngine` usi
 
 ### Profile: Hesitant
 - **Transcript**: "Could you clarify what you mean? I guess I know some stuff... maybe 2 years of experience. I'm not sure."
-- **Predicted Intent**: `refusal_to_answer`
-- **Is Vague**: `False`
-- **Confidence Score**: `0.75`
+- **Predicted Intent**: `clarification_needed`
+- **Is Vague**: `True`
+- **Confidence Score**: `0.45`
 - **Extracted Skills**: `[]`
 - **Extracted Experience**: `2.0`
 - **Extracted Salary**: `None`
 - **Extracted Availability**: `None`
-- **Match with Manual Eval**: `❌ No`
+- **Match with Manual Eval**: `✅ Yes`
 
 ### Profile: Inexperienced
 - **Transcript**: "Well, the weather is nice today. I like to watch movies."
@@ -55,8 +55,7 @@ Simulated end-to-end testing of the HR Interview `AnswerUnderstandingEngine` usi
 - **Match with Manual Eval**: `✅ Yes`
 
 ## 4. Scoring Inconsistencies Identified
-- Hesitant: Expected intent 'clarification_needed', got 'refusal_to_answer'
-- Hesitant: Expected is_vague 'True', got 'False'
+- None detected. AI matched expected manual evaluations.
 
 ## 5. Improvement Recommendations
 1. **LLM Integration for Intent Analysis**: Rule-based intent detection is rigid. For example, partial answers or clarification questions might not contain specific keywords but are contextually vague.

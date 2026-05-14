@@ -42,6 +42,34 @@ WEIGHTS_CONFIG = {
     }
 }
 
+UNIFIED_WEIGHTS_CONFIG = {
+    "default": {
+        "ats_score": 0.33,
+        "screening_score": 0.33,
+        "hr_interview_score": 0.34
+    },
+    "technical": {
+        "ats_score": 0.45,
+        "screening_score": 0.35,
+        "hr_interview_score": 0.20
+    },
+    "leadership": {
+        "ats_score": 0.30,
+        "screening_score": 0.20,
+        "hr_interview_score": 0.50
+    },
+    "customer_facing": {
+        "ats_score": 0.20,
+        "screening_score": 0.30,
+        "hr_interview_score": 0.50
+    },
+    "entry_level": {
+        "ats_score": 0.25,
+        "screening_score": 0.50,
+        "hr_interview_score": 0.25
+    }
+}
+
 def get_weights_for_category(category):
     if not category:
         return WEIGHTS_CONFIG["default"]

@@ -57,13 +57,13 @@ class AnswerUnderstandingEngine:
         """
         text_lower = text.lower()
         
-        # 1. Refusal
-        if any(k in text_lower for k in self.refusal_keywords):
-            return "refusal_to_answer"
-            
-        # 2. Clarification Needed
+        # 1. Clarification Needed
         if any(k in text_lower for k in self.clarification_keywords) or (text_lower.endswith('?') and len(text_lower.split()) < 10):
             return "clarification_needed"
+            
+        # 2. Refusal
+        if any(k in text_lower for k in self.refusal_keywords):
+            return "refusal_to_answer"
             
         # 3. Off-Topic
         if any(k in text_lower for k in self.off_topic_keywords):
@@ -105,7 +105,7 @@ class AnswerUnderstandingEngine:
             return True
         
         text_lower = text.lower()
-        if any(k in text_lower for k in self.vague_keywords) and len(text.split()) < 15:
+        if any(k in text_lower for k in self.vague_keywords) and len(text.split()) < 25:
             return True
             
         return False

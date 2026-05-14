@@ -18,14 +18,14 @@
         {
             "type": "Hesitant",
             "transcript": "Could you clarify what you mean? I guess I know some stuff... maybe 2 years of experience. I'm not sure.",
-            "predicted_intent": "refusal_to_answer",
-            "is_vague": false,
-            "confidence": 0.75,
+            "predicted_intent": "clarification_needed",
+            "is_vague": true,
+            "confidence": 0.45,
             "extracted_skills": [],
             "extracted_exp": 2.0,
             "extracted_salary": null,
             "extracted_avail": null,
-            "match": false
+            "match": true
         },
         {
             "type": "Inexperienced",
@@ -58,11 +58,8 @@
             "match": true
         }
     ],
-    "inconsistencies": [
-        "Hesitant: Expected intent 'clarification_needed', got 'refusal_to_answer'",
-        "Hesitant: Expected is_vague 'True', got 'False'"
-    ],
-    "accuracy": 75.0,
-    "correct": 3,
+    "inconsistencies": [],
+    "accuracy": 100.0,
+    "correct": 4,
     "total": 4
 }
