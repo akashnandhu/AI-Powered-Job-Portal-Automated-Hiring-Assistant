@@ -118,11 +118,16 @@ def read_file_text(file_path):
     ext = file_path.lower().split('.')[-1]
     if ext == 'pdf':
         try:
-            from parsers.pdf_parser import parse_pdf
-            text = parse_pdf(file_path)
-            return text.split('\n')
+            import pdfplumber
+            text_lines = []
+            with pdfplumber.open(file_path) as pdf:
+                for page in pdf.pages:
+                    page_text = page.extract_text()
+                    if page_text:
+                        text_lines.extend(page_text.split('\n'))
+            return text_lines
         except ImportError:
-            print("Warning: parsers.pdf_parser not found. Falling back to open().")
+            print("Warning: pdfplumber not found. Falling back to open().")
     elif ext in ['docx', 'doc']:
         try:
             import docx
@@ -146,6 +151,8 @@ def parse_jd_file(input_file):
     
     default_title = os.path.basename(input_file).split('.')[0].replace('_', ' ').replace('-', ' ').title()
     
+    first_line_checked = False
+    
     for line in lines:
         line = line.strip()
         if not line:
@@ -161,6 +168,11 @@ def parse_jd_file(input_file):
             title_found = match_title.group(2).strip()
         elif match_explicit_title:
             title_found = match_explicit_title.group(1).strip()
+        elif not current_job and not first_line_checked and len(line.split()) <= 7:
+            # Assume first short line is the title if nothing else is defined
+            title_found = line
+            
+        first_line_checked = True
             
         if title_found:
             if current_job and "title" in current_job:

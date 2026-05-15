@@ -37,21 +37,23 @@ class HRInterviewScorer:
         q_words = set(question.lower().split())
         a_words = set(answer.lower().split())
 
-        # Fairer base score: if the answer is at least 8 words, give a solid 75% relevance
-        # because candidates often give concise, direct answers.
-        length_ratio = min(1.0, len(a_words) / 8.0)
-        base_score = length_ratio * 0.75
-        
-        # Overlap boost: even 1 or 2 matching words is a good sign for short Q&A
+        # Improved heuristic: Ensure we don't just reward length.
+        # We require some overlap or a reasonable length to get a passing score.
         overlap = len(q_words.intersection(a_words))
-        overlap_score = min(1.0, overlap / 2.0) * 0.25 
+        length_ratio = min(1.0, len(a_words) / 12.0)
         
-        relevance_score = base_score + overlap_score
-        
+        if overlap == 0 and len(a_words) < 5:
+            # Short and completely no overlap = very low relevance
+            relevance_score = 0.2 * length_ratio
+        else:
+            base_score = length_ratio * 0.40  # 40% based on length
+            overlap_score = min(1.0, overlap / 3.0) * 0.60  # 60% based on overlap
+            relevance_score = base_score + overlap_score
+
         # For standard HR questions, candidates rarely repeat the question words.
-        # Ensure a minimum score of 85% if the answer has a decent length.
-        if len(a_words) >= 6 and relevance_score < 0.85:
-            relevance_score = 0.85 + (overlap * 0.02)
+        # Ensure a reasonable minimum if it's a substantive answer.
+        if len(a_words) >= 10 and relevance_score < 0.70:
+            relevance_score = 0.70 + (overlap * 0.05)
             
         return min(100.0, round(relevance_score * 100, 2))
 
@@ -73,7 +75,8 @@ class HRInterviewScorer:
         std_dev_length = length_variance ** 0.5
         
         # Penalty for erratic answer lengths
-        length_consistency_score = max(0.0, 1.0 - (std_dev_length / max(1, avg_length)))
+        # Use a softer penalty to prevent extreme drops
+        length_consistency_score = max(0.0, 1.0 - (std_dev_length / max(1, avg_length * 1.5)))
         
         # Check sentiment consistency
         sentiments = [self.confidence_analyzer.analyze_sentiment(a)["score"] for a in answers]

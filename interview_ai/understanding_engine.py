@@ -45,32 +45,48 @@ class AnswerUnderstandingEngine:
     """
     def __init__(self):
         # Intent classification keywords
-        self.off_topic_keywords = ["weather", "sports", "politics", "movie", "recipe", "baseball", "restaurant"]
-        self.refusal_keywords = ["i don't know", "cannot answer", "skip this", "pass", "no idea", "i'm not sure", "skip"]
-        self.clarification_keywords = ["can you repeat", "what do you mean", "could you clarify", "not sure i understand", "pardon", "confused", "i didn't catch that"]
-        self.vague_keywords = ["some stuff", "things", "various things", "a little bit", "maybe", "depends", "probably"]
-        self.repeated_keywords = ["as i said", "like i mentioned before", "i already told you", "again"]
+        self.off_topic_keywords = [r'\bweather\b', r'\bsports\b', r'\bpolitics\b', r'\bmovie\b', r'\brecipe\b', r'\bbaseball\b', r'\brestaurant\b']
+        self.refusal_keywords = [r"\bi don't know\b", r"\bcannot answer\b", r"\bskip this\b", r"\bpass\b", r"\bno idea\b", r"\bi'm not sure\b", r"\bskip\b"]
+        self.clarification_keywords = [r"\bcan you repeat\b", r"\bwhat do you mean\b", r"\bcould you clarify\b", r"\bnot sure i understand\b", r"\bpardon\b", r"\bconfused\b", r"\bi didn't catch that\b"]
+        self.vague_keywords = [r"\bsome stuff\b", r"\bthings\b", r"\bvarious things\b", r"\ba little bit\b", r"\bmaybe\b", r"\bdepends\b", r"\bprobably\b"]
+        self.repeated_keywords = [r"\bas i said\b", r"\blike i mentioned before\b", r"\bi already told you\b", r"\bagain\b"]
         
+        # Precompile patterns for speed and accuracy
+        self.off_topic_pattern = re.compile('|'.join(self.off_topic_keywords), re.IGNORECASE)
+        self.refusal_pattern = re.compile('|'.join(self.refusal_keywords), re.IGNORECASE)
+        self.clarification_pattern = re.compile('|'.join(self.clarification_keywords), re.IGNORECASE)
+        self.vague_pattern = re.compile('|'.join(self.vague_keywords), re.IGNORECASE)
+        self.repeated_pattern = re.compile('|'.join(self.repeated_keywords), re.IGNORECASE)
+
+        # Entity extraction patterns
+        self.exp_pattern = re.compile(r'(\d+(?:\.\d+)?)\s*(?:years|yrs?)(?:\s*of)?\s*(?:experience|working)?', re.IGNORECASE)
+        self.salary_pattern = re.compile(r'(\$?\d{2,3}[kK]|\$?\d{1,3}(?:,\d{3})+)', re.IGNORECASE)
+        self.avail_pattern = re.compile(r'(immediate(?:ly)?|\d+\s*(?:days|weeks|months)\s*(?:notice)?)', re.IGNORECASE)
+        
+        self.known_skills = ['python', 'java', 'aws', 'sql', 'react', 'node.js', 'docker', 'kubernetes', 'machine learning', 'c++']
+        self.skills_patterns = [(skill, re.compile(r'\b' + re.escape(skill) + r'\b', re.IGNORECASE)) for skill in self.known_skills]
+
+        foreign_words = [r'\bgracias\b', r'\bbonjour\b', r'\bhola\b', r'\bmerci\b', r'\bnamaste\b', r'\bdanke\b']
+        self.foreign_pattern = re.compile('|'.join(foreign_words), re.IGNORECASE)
+
     def classify_intent(self, text: str) -> Literal["direct_answer", "clarification_needed", "off_topic", "refusal_to_answer", "partial_answer", "unknown"]:
         """
         Classifies the core intent of the response.
         """
-        text_lower = text.lower()
-        
         # 1. Clarification Needed
-        if any(k in text_lower for k in self.clarification_keywords) or (text_lower.endswith('?') and len(text_lower.split()) < 10):
+        if self.clarification_pattern.search(text) or (text.strip().endswith('?') and len(text.split()) < 10):
             return "clarification_needed"
             
         # 2. Refusal
-        if any(k in text_lower for k in self.refusal_keywords):
+        if self.refusal_pattern.search(text):
             return "refusal_to_answer"
             
         # 3. Off-Topic
-        if any(k in text_lower for k in self.off_topic_keywords):
+        if self.off_topic_pattern.search(text):
             return "off_topic"
             
         # 4. Partial Answer
-        words = text_lower.split()
+        words = text.split()
         if 0 < len(words) < 4:
             return "partial_answer"
             
@@ -93,9 +109,8 @@ class AnswerUnderstandingEngine:
         """
         if not text.strip():
              return False
-        # Simulating detection by looking for specific non-English markers or generic logic
-        foreign_words = ["gracias", "bonjour", "hola", "merci", "namaste", "danke"]
-        return any(word in text.lower() for word in foreign_words)
+        # Simulating detection by looking for specific non-English markers
+        return bool(self.foreign_pattern.search(text))
 
     def check_vague_or_missing(self, text: str) -> bool:
         """
@@ -104,8 +119,7 @@ class AnswerUnderstandingEngine:
         if not text.strip():
             return True
         
-        text_lower = text.lower()
-        if any(k in text_lower for k in self.vague_keywords) and len(text.split()) < 25:
+        if self.vague_pattern.search(text) and len(text.split()) < 25:
             return True
             
         return False
@@ -115,33 +129,26 @@ class AnswerUnderstandingEngine:
         Extracts relevant fields: skills, experience, availability, salary.
         """
         entities = ExtractedEntities()
-        text_lower = text.lower()
         
         # 1. Experience Extraction
-        # Matches: "5 years of experience", "2.5 yrs experience", "10 years"
-        exp_match = re.search(r'(\d+(?:\.\d+)?)\s*(?:years|yrs?)(?:\s*of)?\s*(?:experience|working)?', text_lower)
+        exp_match = self.exp_pattern.search(text)
         if exp_match:
             entities.experience_years = float(exp_match.group(1))
             
         # 2. Salary Extraction
-        # Matches: "$100k", "120K", "$150,000"
-        salary_match = re.search(r'(\$?\d{2,3}[kK]|\$?\d{1,3}(?:,\d{3})+)', text_lower)
+        salary_match = self.salary_pattern.search(text)
         if salary_match:
             entities.salary_expectation = salary_match.group(1).upper()
             
         # 3. Availability Extraction
-        # Matches: "immediately", "2 weeks notice", "30 days"
-        avail_match = re.search(r'(immediate(?:ly)?|\d+\s*(?:days|weeks|months)\s*(?:notice)?)', text_lower)
+        avail_match = self.avail_pattern.search(text)
         if avail_match:
             entities.availability = avail_match.group(1)
             
         # 4. Skills Extraction
-        # Hardcoded taxonomy for demonstration purposes. In production, this matches a DB dictionary or uses NLP.
-        known_skills = ['python', 'java', 'aws', 'sql', 'react', 'node.js', 'docker', 'kubernetes', 'machine learning', 'c++']
         extracted_skills = []
-        for skill in known_skills:
-            # Word boundary search to prevent matching "javascript" for "java"
-            if re.search(r'\b' + re.escape(skill) + r'\b', text_lower):
+        for skill, pattern in self.skills_patterns:
+            if pattern.search(text):
                 # Standardize output casing
                 extracted_skills.append(skill.title() if len(skill) > 3 else skill.upper())
         
@@ -163,7 +170,7 @@ class AnswerUnderstandingEngine:
         confusion_detected = intent == "clarification_needed"
         
         text_lower = cleaned_transcript.lower()
-        repeated_detected = any(k in text_lower for k in self.repeated_keywords)
+        repeated_detected = bool(self.repeated_pattern.search(cleaned_transcript))
         
         # Run extraction
         entities = self.extract_entities(cleaned_transcript)

@@ -58,7 +58,7 @@ class TranscriptNormalizer:
     """
     def __init__(self):
         # Common filler words to remove
-        self.filler_words = [r'\buh\b', r'\bum\b', r'\blike\b', r'\byou know\b', r'\bso\b', r'\bah\b', r'\ber\b', r'\bhm+\b', r'\buhm\b']
+        self.filler_words = [r'\buh\b', r'\bum\b', r'\blike\b', r'\byou know\b', r'\bso\b', r'\bah\b', r'\ber\b', r'\bhm+\b', r'\buhm\b', r'\bbasically\b', r'\bliterally\b', r'\bactually\b', r'\bsort of\b', r'\bkind of\b', r'\bi mean\b']
         self.filler_pattern = re.compile(r'\b(?:' + '|'.join([w.replace(r'\b', '') for w in self.filler_words]) + r')\b', re.IGNORECASE)
 
     def remove_filler_words(self, text: str) -> str:

@@ -11,28 +11,27 @@ class FollowUpEngine:
         Simulates evaluating a response to determine its completeness and missing intents.
         In a real scenario, an LLM would extract intents and score completeness.
         """
-        # Simulated logic: calculate based on transcript length and matched intents
         words = response.candidate_transcript.split()
         
-        # Calculate completeness score based on length (simplistic mock)
-        if len(words) < 10:
-            completeness = 0.3 # Vague / Incomplete
-        elif len(words) < 30:
-            completeness = 0.6 # Adequate
-        else:
-            completeness = 0.9 # Confident / Complete
-
-        # Determine missing intents (mock logic assumes missing randomly if not perfectly complete)
-        missing_intents = []
-        if completeness < 0.8:
-            # Just grabbing expected intents that weren't "found" (we mock not finding some)
-            missing_intents = [intent for intent in expected_intents if intent not in response.extracted_intents]
-            # Mock extraction update
-            response.extracted_intents = [intent for intent in expected_intents if intent not in missing_intents]
-        else:
-            response.extracted_intents = expected_intents.copy()
-
-        response.completeness_score = completeness
+        # Robust mock: completeness factors in both length and intent coverage.
+        base_completeness = min(1.0, len(words) / 40.0)
+        
+        found_intents = getattr(response, "extracted_intents", [])
+        if not found_intents and expected_intents:
+             # Mock finding some intents if the answer is decently long
+             if len(words) > 15:
+                 found_intents = expected_intents[:1]
+        
+        intent_coverage = len(found_intents) / len(expected_intents) if expected_intents else 1.0
+        
+        # Combined completeness score
+        completeness = (base_completeness * 0.4) + (intent_coverage * 0.6)
+        
+        missing_intents = [intent for intent in expected_intents if intent not in found_intents]
+        
+        response.extracted_intents = found_intents
+        response.completeness_score = round(completeness, 2)
+        
         return completeness, missing_intents
 
     def determine_follow_up_type(self, completeness: float, missing_intents: List[str]) -> str:
