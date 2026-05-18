@@ -12,7 +12,7 @@ def apply_fairness(resume_data, raw_score):
     if exp_years > 15:
         adjustment = 0.05
         final_score -= adjustment
-        adjustments.append(f"Capped experience advantage to ensure fairness (-{adjustment})")
+        adjustments.append(f"Capped experience advantage to mitigate age bias and ensure fairness (-{adjustment})")
     
     # Balance domain-specific scoring
     # A small normalizer, assuming domain specific might skew numbers

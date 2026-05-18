@@ -36,6 +36,9 @@ def mask_sensitive_info(text):
     # Mask common gender terms
     text = re.sub(r'\b(he|him|his|she|her|hers|male|female|man|woman|boy|girl)\b', '[GENDER]', text, flags=re.IGNORECASE)
     
+    # Mask common demographic bias terms (age, race, religion, marital status, nationality)
+    text = re.sub(r'\b(age|race|religion|married|single|divorced|ethnicity|nationality|dob|date of birth|white|black|asian|hispanic)\b', '[DEMOGRAPHIC]', text, flags=re.IGNORECASE)
+    
     # Mask locations (We'll assume basic things like city names or country if we could, 
     # but for simplicity we will mask common location prefixes/keywords for illustration)
     text = re.sub(r'\b(?:in|at|from)\s+([A-Z][a-z]+(?:\s+[A-Z][a-z]+)?)\b', r' \g<0> [LOCATION]', text) # placeholder logic

@@ -22,6 +22,7 @@ class ScoringResponse(ResumeBase):
     similarity_scores: SimilarityScores
     final_score: float
     decision: str
+    explainability_notes: List[str] = []
 
 class ErrorDetail(BaseModel):
     code: str
