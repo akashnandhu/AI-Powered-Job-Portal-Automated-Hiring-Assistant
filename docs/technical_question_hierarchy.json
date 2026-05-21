@@ -1,0 +1,231 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TechnicalQuestionBank",
+  "description": "Hierarchical database for technical role-based interview questions adaptive progression",
+  "questions": [
+    {
+      "question_id": "TQ_DS_J01",
+      "role_track": "data_science",
+      "skill_domain": "data_analysis",
+      "difficulty_level": 2,
+      "experience_brackets": ["0-2"],
+      "question_text": "Can you explain the difference between using Pandas and NumPy in Python? How would you handle missing values or null values in a dataset before feeding it to a machine learning model?",
+      "expected_keywords": [
+        "Pandas",
+        "NumPy",
+        "DataFrame",
+        "Vectorized operations",
+        "dropna()",
+        "fillna()",
+        "Imputation"
+      ],
+      "fallback_question_id": "TQ_DS_J01_FB"
+    },
+    {
+      "question_id": "TQ_DS_J01_FB",
+      "role_track": "data_science",
+      "skill_domain": "data_analysis",
+      "difficulty_level": 1,
+      "experience_brackets": ["0-2"],
+      "question_text": "What is the difference between a Python list and a NumPy array?",
+      "expected_keywords": [
+        "Contiguous memory",
+        "Homogeneous elements",
+        "Vectorization",
+        "Performance optimization"
+      ]
+    },
+    {
+      "question_id": "TQ_DS_M01",
+      "role_track": "data_science",
+      "skill_domain": "predictive_modeling",
+      "difficulty_level": 3,
+      "experience_brackets": ["3-5"],
+      "question_text": "Explain how a Decision Tree algorithm makes splits. What is the difference between Gini impurity and Information Gain, and how do you prevent a Decision Tree from overfitting?",
+      "expected_keywords": [
+        "Decision Trees",
+        "Gini impurity",
+        "Information Gain",
+        "Entropy",
+        "Overfitting",
+        "Pruning",
+        "max_depth"
+      ]
+    },
+    {
+      "question_id": "TQ_DS_S01",
+      "role_track": "data_science",
+      "skill_domain": "deep_learning",
+      "difficulty_level": 5,
+      "experience_brackets": ["5+"],
+      "question_text": "Design a real-time predictive recommendation model pipeline that handles millions of active users and catalog items. How would you handle feature engineering, model training drift, and low-latency inference serving?",
+      "expected_keywords": [
+        "Deep Learning",
+        "Machine Learning",
+        "Feature Engineering",
+        "Feature store",
+        "Model drift",
+        "TensorFlow",
+        "PyTorch",
+        "Low-latency serving"
+      ]
+    },
+    {
+      "question_id": "TQ_MERN_J01",
+      "role_track": "mern",
+      "skill_domain": "asynchronous_execution",
+      "difficulty_level": 2,
+      "experience_brackets": ["0-2"],
+      "question_text": "Can you explain the difference between asynchronous execution using Promises versus async/await in Node.js? When would you use one over the other?",
+      "expected_keywords": [
+        "Event loop",
+        "Call stack",
+        "Callback queue",
+        "Syntactic sugar",
+        "Promise.all",
+        "Try-catch block"
+      ],
+      "fallback_question_id": "TQ_MERN_J01_FB"
+    },
+    {
+      "question_id": "TQ_MERN_J01_FB",
+      "role_track": "mern",
+      "skill_domain": "asynchronous_execution",
+      "difficulty_level": 1,
+      "experience_brackets": ["0-2"],
+      "question_text": "What is a callback in JavaScript, and what problem does it solve?",
+      "expected_keywords": [
+        "Callback function",
+        "Higher-order function",
+        "Asynchronous execution",
+        "Callback hell"
+      ]
+    },
+    {
+      "question_id": "TQ_MERN_M01",
+      "role_track": "mern",
+      "skill_domain": "backend_caching_scaling",
+      "difficulty_level": 3,
+      "experience_brackets": ["3-5"],
+      "question_text": "How does Redis caching improve the read performance of a MERN application? Can you explain how you would handle cache invalidation when a database write occurs?",
+      "expected_keywords": [
+        "In-memory store",
+        "Key-value cache",
+        "Cache invalidation",
+        "TTL (Time to Live)",
+        "Write-through cache",
+        "Cache aside"
+      ]
+    },
+    {
+      "question_id": "TQ_MERN_S01",
+      "role_track": "mern",
+      "skill_domain": "distributed_state_websockets",
+      "difficulty_level": 5,
+      "experience_brackets": ["5+"],
+      "question_text": "Imagine you are designing a real-time collaborative document editing tool using React and Node.js. How would you handle state synchronization and scale WebSockets connections to handle fifty thousand concurrent users?",
+      "expected_keywords": [
+        "WebSockets",
+        "horizontal scaling",
+        "Redis Adapter",
+        "Operational Transformation (OT)",
+        "conflict-free replicated data types (CRDT)",
+        "Sticky sessions",
+        "Load balancer"
+      ]
+    },
+    {
+      "question_id": "TQ_JAVA_J01",
+      "role_track": "java",
+      "skill_domain": "memory_management",
+      "difficulty_level": 2,
+      "experience_brackets": ["0-2"],
+      "question_text": "Can you explain the difference between the Stack memory and the Heap memory in a Java application? Where are local variables and objects stored?",
+      "expected_keywords": [
+        "Stack frame",
+        "Heap allocation",
+        "Object reference",
+        "Thread-local",
+        "Garbage Collection (GC)"
+      ]
+    },
+    {
+      "question_id": "TQ_JAVA_M01",
+      "role_track": "java",
+      "skill_domain": "relational_transactions_locking",
+      "difficulty_level": 3,
+      "experience_brackets": ["3-5"],
+      "question_text": "Explain the difference between optimistic locking and pessimistic locking when executing database updates using Hibernate. In what scenarios would you choose optimistic locking?",
+      "expected_keywords": [
+        "Version column",
+        "Dirty reads",
+        "Database locks",
+        "StaleObjectStateException",
+        "High concurrency"
+      ]
+    },
+    {
+      "question_id": "TQ_JAVA_S01",
+      "role_track": "java",
+      "skill_domain": "distributed_transactions_microservices",
+      "difficulty_level": 5,
+      "experience_brackets": ["5+"],
+      "question_text": "In a distributed Spring Boot microservices architecture, how would you maintain transactional consistency across multiple separate database systems? Explain the Saga Pattern and how you'd handle failure compensations.",
+      "expected_keywords": [
+        "Saga Pattern",
+        "Orchestrator",
+        "Choreography",
+        "Compensating transaction",
+        "Eventual consistency",
+        "Outbox pattern"
+      ]
+    },
+    {
+      "question_id": "TQ_DEVOPS_J01",
+      "role_track": "devops",
+      "skill_domain": "containerization_fundamentals",
+      "difficulty_level": 2,
+      "experience_brackets": ["0-2"],
+      "question_text": "What is the difference between a Docker image and a running container? How does Docker's layered file system optimize build speed?",
+      "expected_keywords": [
+        "Read-only layer",
+        "Writable container layer",
+        "Union File System",
+        "Layer caching",
+        "Container runtime"
+      ]
+    },
+    {
+      "question_id": "TQ_DEVOPS_M01",
+      "role_track": "devops",
+      "skill_domain": "kubernetes_networking_deployments",
+      "difficulty_level": 3,
+      "experience_brackets": ["3-5"],
+      "question_text": "How does a Kubernetes Service expose pod deployments internally and externally? Explain the difference between ClusterIP, NodePort, and LoadBalancer service types.",
+      "expected_keywords": [
+        "Kube-proxy",
+        "DNS resolution",
+        "Cluster IP",
+        "NodePort allocation",
+        "Cloud controller manager",
+        "Ingress controller"
+      ]
+    },
+    {
+      "question_id": "TQ_DEVOPS_S01",
+      "role_track": "devops",
+      "skill_domain": "infrastructure_as_code_high_availability",
+      "difficulty_level": 5,
+      "experience_brackets": ["5+"],
+      "question_text": "Design a multi-region, self-healing continuous deployment pipeline on AWS using Terraform and EKS. How do you handle blue-green deployments with zero downtime, database schema migrations, and quick rollbacks?",
+      "expected_keywords": [
+        "Blue-green deployment",
+        "Canary analysis",
+        "Route 53 traffic steering",
+        "Terraform state locking",
+        "Liquibase/Flyway",
+        "Horizontal Pod Autoscaling (HPA)"
+      ]
+    }
+  ]
+}
