@@ -1,0 +1,86 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "sample_resume_2",
+      "name": "AKASH AA",
+      "target_role": "Junior Data Scientist",
+      "experience_level": "fresher",
+      "role_type": "technical",
+      "ats_score": 88.5,
+      "screening_score": 82.0,
+      "turns": [
+        {
+          "phase": "introduction",
+          "category": "Self-introduction",
+          "question_id": "HR_SI_001",
+          "candidate_response": "Hi, I am AKASH AA. I recently graduated with a Bachelor of Computer Science and I am currently a Data Science intern at Scope India, working on Python, Machine Learning models, and data analytics tools."
+        },
+        {
+          "phase": "core_hr",
+          "category": "Strengths & weaknesses",
+          "question_id": "HR_SW_001",
+          "candidate_response": "I think my greatest professional strength is that I'm just a really good developer and I work extremely hard on things."
+        },
+        {
+          "phase": "probing_follow_up",
+          "category": "Strengths & weaknesses",
+          "question_id": "FU_HR_SW_001_1",
+          "candidate_response": "Sure! In my data science internship at Scope India, my analytical skills allowed me to build and clean datasets using Pandas and NumPy, then train predictive machine learning models using Decision Trees, which improved overall prediction accuracy by 15%."
+        },
+        {
+          "phase": "role_based_evaluation",
+          "category": "Teamwork & culture fit",
+          "question_id": "HR_TW_002",
+          "candidate_response": "What do you mean by conflict? I don't really get what you mean. Can you clarify that?"
+        },
+        {
+          "phase": "error_recovery",
+          "category": "Teamwork & culture fit",
+          "question_id": "HR_TW_002_REPHRASED",
+          "candidate_response": "Ah, okay! In our online bus management system web project, a teammate wanted to use MongoDB, but I wanted SQLite for structured bookings. We compared the schemas and, since SQLite fit our relational seating and ticket calculations, we went with SQLite."
+        },
+        {
+          "phase": "closing",
+          "category": "Availability & commitment",
+          "question_id": "HR_AC_001",
+          "candidate_response": "Since my academic courses are completed, I am available to join immediately. I am open to standard packages for entry-level data science roles, around $60K."
+        }
+      ]
+    },
+    {
+      "candidate_id": "cand_002",
+      "name": "Jane Smith",
+      "target_role": "Junior Data Analyst",
+      "experience_level": "fresher",
+      "role_type": "technical",
+      "ats_score": 78.0,
+      "screening_score": 82.5,
+      "turns": [
+        {
+          "phase": "introduction",
+          "category": "Self-introduction",
+          "question_id": "HR_SI_001",
+          "candidate_response": "Hello, I am Jane Smith. I recently graduated with a degree in Statistics. I have worked on academic projects using Python, Pandas, Matplotlib, and SQL for analytical tasks."
+        },
+        {
+          "phase": "core_hr",
+          "category": "Strengths & weaknesses",
+          "question_id": "HR_SW_001",
+          "candidate_response": "My greatest strength is my attention to detail. During my final year capstone project, I noticed a data entry error that skewed our entire forecasting chart, and I fixed it before presentation."
+        },
+        {
+          "phase": "role_based_evaluation",
+          "category": "Teamwork & culture fit",
+          "question_id": "HR_TW_002",
+          "candidate_response": "If a team member isn't contributing, I would first speak with them privately to check if they need help or are facing difficulties. Then, we can partition the workload more equitably so they feel supported."
+        },
+        {
+          "phase": "closing",
+          "category": "Availability & commitment",
+          "question_id": "HR_AC_001",
+          "candidate_response": "I can join immediately. As a fresher, I am open to standard industry packages, around $65K."
+        }
+      ]
+    }
+  ]
+}
