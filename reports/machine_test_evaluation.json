@@ -1,0 +1,66 @@
+{
+    "candidate_id": "sample_resume_2",
+    "role_evaluated_for": "Junior Data Scientist",
+    "weighted_machine_test_score": 97.38,
+    "readiness_band": "Exceptional Tech Capability (Offer Immediately)",
+    "task_contributions": {
+        "TASK_CODING_01": {
+            "task_title": "TASK_CODING_01",
+            "task_type": "CODING",
+            "individual_final_score": 100.0,
+            "role_weight_applied": "40%",
+            "weighted_contribution": 40.0,
+            "metrics": {
+                "correctness": 100.0,
+                "efficiency": 95.0,
+                "quality": 100.0,
+                "approach": 100.0
+            }
+        },
+        "TASK_DEBUGGING_01": {
+            "task_title": "TASK_DEBUGGING_01",
+            "task_type": "DEBUGGING",
+            "individual_final_score": 100.0,
+            "role_weight_applied": "30%",
+            "weighted_contribution": 30.0,
+            "metrics": {
+                "correctness": 100.0,
+                "efficiency": 85.0,
+                "quality": 100.0,
+                "approach": 100.0
+            }
+        },
+        "TASK_FILE_01": {
+            "task_title": "TASK_FILE_01",
+            "task_type": "FILE_BASED",
+            "individual_final_score": 100.0,
+            "role_weight_applied": "15%",
+            "weighted_contribution": 15.0,
+            "metrics": {
+                "correctness": 100.0,
+                "efficiency": 100.0,
+                "quality": 100.0,
+                "approach": 85.0
+            }
+        },
+        "TASK_DESIGN_01": {
+            "task_title": "TASK_DESIGN_01",
+            "task_type": "SYSTEM_DESIGN",
+            "individual_final_score": 82.5,
+            "role_weight_applied": "15%",
+            "weighted_contribution": 12.38,
+            "metrics": {
+                "correctness": 70.0,
+                "efficiency": 100.0,
+                "quality": 85.0,
+                "approach": 75.0
+            }
+        }
+    },
+    "weight_distribution_used": {
+        "CODING": "40%",
+        "DEBUGGING": "30%",
+        "FILE_BASED": "15%",
+        "SYSTEM_DESIGN": "15%"
+    }
+}

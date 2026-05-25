@@ -206,51 +206,38 @@ def run_integrity_evaluation_demo():
             print(f"    {icon} {ins}")
             
         # 2. Integrate with project workflow (Unified Dynamic Scorer)
-        print(f"\n{CLR_CYAN}[Connecting to Unified Scorer pipeline...]{CLR_RESET}")
+        print(f"\n{CLR_CYAN}[Connecting to Unified Scorer pipeline (with Risk Engine Integration)...]{CLR_RESET}")
         
-        # Calculate raw dynamic unified hiring fit first
         ats = cand["ats_score"]
         scr = cand["screening_score"]
         hr_raw = cand["hr_raw_score"]
-        
-        # Apply the cheat-capping mechanism if risk is RED
-        hold_automated_decision = False
-        final_hr_score = hr_raw
-        
-        if integrity_report["risk_tag"] == "RED":
-            # Cap the HR score contribution
-            final_hr_score = min(40.0, final_hr_score) # Cap raw HR score
-            hold_automated_decision = True
             
         unified_report = unified_scorer.calculate_hiring_fit(
             candidate_id=cand["id"],
             role_type=cand["role"],
             ats_score=ats,
             screening_score=scr,
-            hr_interview_score=final_hr_score
+            hr_interview_score=hr_raw,
+            integrity_report=integrity_report
         )
         
         # Override the readiness band for RED risk to prevent automated offers
         final_fit_score = unified_report["final_hiring_fit_score"]
         readiness_status = unified_report["readiness_band"]
-        
-        if hold_automated_decision:
-            readiness_status = "HOLD (Integrity Check Failed; Manual Audit Required)"
-            # Cap the unified fit score at 45% maximum due to integrity holds
-            final_fit_score = min(45.0, final_fit_score)
+        risk_tag = unified_report["risk_tag"]
             
         print_banner(f"FINAL INTEGRATED DECISION: {cand['name']}", risk_color)
         print(f"{CLR_BOLD}Candidate ID:        {CLR_RESET}{cand['id']}")
         print(f"{CLR_BOLD}Readiness Status:    {risk_color}{CLR_BOLD}{readiness_status}{CLR_RESET}")
         print(f"{CLR_BOLD}Unified hiring fit:  {risk_color}{CLR_BOLD}{final_fit_score}%{CLR_RESET}")
-        print(f"{CLR_BOLD}Session Integrity:   {risk_color}{integrity_report['integrity_index']}% ({integrity_report['risk_tag']} RISK){CLR_RESET}")
+        print(f"{CLR_BOLD}Session Integrity:   {risk_color}{integrity_report['integrity_index']}% ({risk_tag} RISK){CLR_RESET}")
         
         print(f"\n{CLR_BOLD}Pipeline Score Contributions Breakdown:{CLR_RESET}")
         for round_key, metrics in unified_report["cross_round_breakdown"].items():
             round_title = round_key.upper().replace("_", " ")
             raw_score = metrics['raw_score']
-            if round_key == "hr_interview_round" and hold_automated_decision:
-                raw_score = f"{metrics['raw_score']}% (Capped from {hr_raw}%)"
+            if round_key == "hr_interview_round" and hr_raw != raw_score:
+                raw_score = f"{raw_score}% (Capped from {hr_raw}%)"
             else:
                 raw_score = f"{raw_score}%"
             print(f" |- {round_title:18}: Raw {raw_score:18} | Weighted {metrics['weight_applied']} -> Contributed: {CLR_GREEN}{metrics['weighted_contribution']}%{CLR_RESET}")

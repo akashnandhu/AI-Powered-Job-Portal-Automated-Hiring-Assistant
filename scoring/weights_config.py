@@ -51,29 +51,34 @@ WEIGHTS_CONFIG = {
 
 UNIFIED_WEIGHTS_CONFIG = {
     "default": {
-        "ats_score": 0.33,
-        "screening_score": 0.33,
-        "hr_interview_score": 0.34
+        "ats_score": 0.25,
+        "screening_score": 0.25,
+        "machine_test_score": 0.25,
+        "hr_interview_score": 0.25
     },
     "technical": {
-        "ats_score": 0.45,
-        "screening_score": 0.35,
-        "hr_interview_score": 0.20
+        "ats_score": 0.20,
+        "screening_score": 0.20,
+        "machine_test_score": 0.45,
+        "hr_interview_score": 0.15
     },
     "leadership": {
-        "ats_score": 0.30,
-        "screening_score": 0.20,
-        "hr_interview_score": 0.50
+        "ats_score": 0.20,
+        "screening_score": 0.15,
+        "machine_test_score": 0.30,
+        "hr_interview_score": 0.35
     },
     "customer_facing": {
-        "ats_score": 0.20,
-        "screening_score": 0.30,
-        "hr_interview_score": 0.50
+        "ats_score": 0.15,
+        "screening_score": 0.25,
+        "machine_test_score": 0.15,
+        "hr_interview_score": 0.45
     },
     "entry_level": {
-        "ats_score": 0.25,
-        "screening_score": 0.50,
-        "hr_interview_score": 0.25
+        "ats_score": 0.20,
+        "screening_score": 0.30,
+        "machine_test_score": 0.30,
+        "hr_interview_score": 0.20
     }
 }
 
