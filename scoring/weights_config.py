@@ -16,6 +16,13 @@ WEIGHTS_CONFIG = {
         "confidence": 0.20,
         "consistency": 0.20
     },
+    "hr_interview_with_behavioral": {
+        "answer_relevance": 0.30,
+        "communication": 0.20,
+        "confidence": 0.15,
+        "consistency": 0.15,
+        "behavioral_ai": 0.20
+    },
     "Clinical": {
         "skill": 0.4,
         "experience": 0.1,
