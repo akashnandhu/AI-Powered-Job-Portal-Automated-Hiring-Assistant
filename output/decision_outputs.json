@@ -1,0 +1,39 @@
+[
+    {
+        "candidate_id": "CAND-001",
+        "decision": "Selected",
+        "confidence_score": 93.5,
+        "reasoning": [
+            "Strong overall performance with a unified score of 88.50%, exceeding the selection threshold of 75.0%.",
+            "Demonstrated exceptional performance in: Ats, Screening, Hr Interview, Technical Interview."
+        ],
+        "risk_factors": []
+    },
+    {
+        "candidate_id": "CAND-002",
+        "decision": "Hold / Review",
+        "confidence_score": 85.0,
+        "reasoning": [
+            "Achieved a qualifying score (78.00%) but placed on hold for manual review due to identified risk factors."
+        ],
+        "risk_factors": [
+            "Warning: Moderate Integrity Risk Detected",
+            "Inconsistent eye contact detected",
+            "Vague answers regarding previous employment timeline"
+        ]
+    },
+    {
+        "candidate_id": "CAND-003",
+        "decision": "Rejected",
+        "confidence_score": 95.0,
+        "reasoning": [
+            "Candidate automatically rejected due to severe integrity/behavioral violations (Risk Tag: RED).",
+            "Significant poor performance observed in: Screening, Hr Interview."
+        ],
+        "risk_factors": [
+            "Critical: High Integrity Risk Detected",
+            "Multiple voices detected in background",
+            "Tab switching out of assessment window 15 times"
+        ]
+    }
+]
