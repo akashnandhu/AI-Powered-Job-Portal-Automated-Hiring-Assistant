@@ -32,6 +32,7 @@ class StructuredAnswer(BaseModel):
     confusion_detected: bool = Field(False, description="True if the candidate expressed confusion")
     repeated_detected: bool = Field(False, description="True if the candidate repeated themselves")
     extracted_data: ExtractedEntities = Field(..., description="Structured entities extracted from the answer")
+    content_intent: str = Field(..., description="Categorized content intent (e.g. experience, education, future_intent, generic)")
     confidence_score: float = Field(..., description="Confidence score of the extraction and classification")
 
 # -------------------------------------------------------------------
@@ -48,7 +49,7 @@ class AnswerUnderstandingEngine:
         self.off_topic_keywords = [r'\bweather\b', r'\bsports\b', r'\bpolitics\b', r'\bmovie\b', r'\brecipe\b', r'\bbaseball\b', r'\brestaurant\b']
         self.refusal_keywords = [r"\bi don't know\b", r"\bcannot answer\b", r"\bskip this\b", r"\bpass\b", r"\bno idea\b", r"\bi'm not sure\b", r"\bskip\b"]
         self.clarification_keywords = [r"\bcan you repeat\b", r"\bwhat do you mean\b", r"\bcould you clarify\b", r"\bnot sure i understand\b", r"\bpardon\b", r"\bconfused\b", r"\bi didn't catch that\b"]
-        self.vague_keywords = [r"\bsome stuff\b", r"\bthings\b", r"\bvarious things\b", r"\ba little bit\b", r"\bmaybe\b", r"\bdepends\b", r"\bprobably\b"]
+        self.vague_keywords = [r"\bsome stuff\b", r"\bthings\b", r"\bvarious things\b", r"\ba little bit\b", r"\bmaybe\b", r"\bdepends\b", r"\bprobably\b", r"\bwhatever\b"]
         self.repeated_keywords = [r"\bas i said\b", r"\blike i mentioned before\b", r"\bi already told you\b", r"\bagain\b"]
         
         # Precompile patterns for speed and accuracy
@@ -92,6 +93,19 @@ class AnswerUnderstandingEngine:
             
         return "direct_answer"
 
+    def refined_intent_detection(self, text: str) -> str:
+        """
+        Categorizes the content-based intent of the answer.
+        """
+        text = text.lower()
+        if any(word in text for word in ["built", "developed", "implemented"]):
+            return "experience"
+        if any(word in text for word in ["learned", "studied", "course"]):
+            return "education"
+        if any(word in text for word in ["will", "plan", "future"]):
+            return "future_intent"
+        return "generic"
+
     def detect_off_topic(self, text: str, question_category: str) -> bool:
         """
         Detects if the response is completely off-topic relative to the context.
@@ -119,7 +133,7 @@ class AnswerUnderstandingEngine:
         if not text.strip():
             return True
         
-        if self.vague_pattern.search(text) and len(text.split()) < 25:
+        if self.vague_pattern.search(text) and len(text.split()) < 12:
             return True
             
         return False
@@ -163,6 +177,7 @@ class AnswerUnderstandingEngine:
         """
         # Run classifiers
         intent = self.classify_intent(cleaned_transcript)
+        content_intent = self.refined_intent_detection(cleaned_transcript)
         is_off_topic = self.detect_off_topic(cleaned_transcript, question_category)
         is_vague = self.check_vague_or_missing(cleaned_transcript)
         missing_answer = not cleaned_transcript.strip()
@@ -195,5 +210,6 @@ class AnswerUnderstandingEngine:
             confusion_detected=confusion_detected,
             repeated_detected=repeated_detected,
             extracted_data=entities,
+            content_intent=content_intent,
             confidence_score=round(max(0.0, min(1.0, confidence)), 2)
         )

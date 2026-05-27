@@ -29,7 +29,7 @@ class DecisionEngine:
     Implements rule-based + score-based hybrid logic to determine final candidate status,
     confidence levels, and explainable insights.
     """
-    def __init__(self, selected_threshold: float = 75.0, reject_threshold: float = 55.0):
+    def __init__(self, selected_threshold: float = 78.0, reject_threshold: float = 60.0):
         self.selected_threshold = selected_threshold
         self.reject_threshold = reject_threshold
         

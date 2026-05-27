@@ -1,3 +1,4 @@
+import math
 from typing import Dict, Any, Tuple
 from scoring.unified_candidate_score import RoundContribution
 
@@ -48,5 +49,17 @@ class CrossRoundEngine:
                 weight_applied=f"{int(normalized_weight * 100)}%",
                 weighted_contribution=weighted_contribution
             )
+            
+        # Check variance across rounds to improve consistency
+        if len(available_scores) > 1:
+            scores = list(available_scores.values())
+            mean_score = sum(scores) / len(scores)
+            variance = sum((s - mean_score) ** 2 for s in scores) / len(scores)
+            std_dev = math.sqrt(variance)
+            
+            # Apply inconsistency penalty for high variance
+            if std_dev > 15.0:
+                penalty = min(5.0, (std_dev - 15.0) * 0.2)
+                unified_score -= penalty
             
         return unified_score, cross_round_breakdown
