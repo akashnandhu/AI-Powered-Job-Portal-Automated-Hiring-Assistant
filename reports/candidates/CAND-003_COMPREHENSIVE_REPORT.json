@@ -1,0 +1,42 @@
+{
+    "metadata": {
+        "candidate_id": "CAND-003",
+        "role": "Data Analyst",
+        "generated_at": "2026-05-27 19:22:25"
+    },
+    "final_recommendation": {
+        "decision": "Rejected",
+        "confidence_score": 95.0,
+        "readiness_band": "HOLD (Integrity Check Failed; Manual Audit Required)",
+        "reasoning": [
+            "Candidate automatically rejected due to severe integrity/behavioral violations (Risk Tag: RED).",
+            "Significant poor performance observed in: Screening, Hr Interview."
+        ]
+    },
+    "performance_summary": {
+        "overall_score": 45.0,
+        "weight_system_used": "Technical",
+        "round_breakdown": {
+            "ats_round": 60.0,
+            "screening_round": 40.0,
+            "hr_interview_round": 45.0
+        }
+    },
+    "highlights": {
+        "strengths": [
+            "Meets baseline expectations for the role."
+        ],
+        "weaknesses": [
+            "Below average performance in Screening (40.0%).",
+            "Below average performance in Hr Interview (45.0%)."
+        ]
+    },
+    "behavioral_and_integrity": {
+        "risk_tag": "RED",
+        "flags": [
+            "Critical: High Integrity Risk Detected",
+            "Multiple voices detected in background",
+            "Tab switching out of assessment window 15 times"
+        ]
+    }
+}

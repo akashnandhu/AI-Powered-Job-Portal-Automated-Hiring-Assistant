@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "candidate_id": "CAND-001",
+        "role": "Software Engineer",
+        "generated_at": "2026-05-27 19:22:25"
+    },
+    "final_recommendation": {
+        "decision": "Selected",
+        "confidence_score": 93.5,
+        "readiness_band": "Exceptional Fit (Fast-Track Offer)",
+        "reasoning": [
+            "Strong overall performance with a unified score of 88.50%, exceeding the selection threshold of 75.0%.",
+            "Demonstrated exceptional performance in: Ats, Screening, Hr Interview, Technical Interview."
+        ]
+    },
+    "performance_summary": {
+        "overall_score": 88.5,
+        "weight_system_used": "Technical",
+        "round_breakdown": {
+            "ats_round": 90.0,
+            "screening_round": 85.0,
+            "hr_interview_round": 88.0,
+            "technical_interview_round": 92.0
+        }
+    },
+    "highlights": {
+        "strengths": [
+            "Exceptional performance in Ats (90.0%).",
+            "Exceptional performance in Screening (85.0%).",
+            "Exceptional performance in Hr Interview (88.0%).",
+            "Exceptional performance in Technical Interview (92.0%).",
+            "High overall consistency across multiple evaluation stages."
+        ],
+        "weaknesses": [
+            "No significant weaknesses identified across standard evaluation metrics."
+        ]
+    },
+    "behavioral_and_integrity": {
+        "risk_tag": "GREEN",
+        "flags": [
+            "No significant behavioral or integrity risks detected."
+        ]
+    }
+}
