@@ -1,6 +1,7 @@
 from typing import Dict, Any, List
 from dataclasses import dataclass
 from scoring.unified_candidate_score import UnifiedCandidateScore
+from compliance.audit_logger import audit_logger
 
 @dataclass
 class HiringDecision:
@@ -102,6 +103,14 @@ class DecisionEngine:
                     reasoning.append(f"Significant poor performance observed in: {', '.join(weak_rounds)}.")
                 else:
                     reasoning.append(f"Areas of concern identified requiring further evaluation: {', '.join(weak_rounds)}.")
+                    
+        # Secure Audit Logging
+        audit_logger.log_decision(
+            candidate_id=candidate_score.candidate_id,
+            decision=decision,
+            confidence=confidence_score,
+            reasoning=reasoning
+        )
                     
         return HiringDecision(
             candidate_id=candidate_score.candidate_id,
