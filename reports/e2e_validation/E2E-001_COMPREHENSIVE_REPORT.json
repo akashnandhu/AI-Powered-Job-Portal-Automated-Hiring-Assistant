@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "candidate_id": "E2E-001",
+        "role": "Backend Engineer",
+        "generated_at": "2026-05-27 20:38:55"
+    },
+    "final_recommendation": {
+        "decision": "Selected",
+        "confidence_score": 92.65,
+        "readiness_band": "Calculated Dynamically",
+        "reasoning": [
+            "Strong overall performance with a unified score of 90.65%, exceeding the selection threshold of 78.0%.",
+            "Demonstrated exceptional performance in: Ats, Screening, Hr Interview, Technical Interview."
+        ]
+    },
+    "performance_summary": {
+        "overall_score": 90.65,
+        "weight_system_used": "Backend Standard",
+        "round_breakdown": {
+            "ats_round": 92.0,
+            "screening_round": 88.0,
+            "hr_interview_round": 85.0,
+            "technical_interview_round": 95.0
+        }
+    },
+    "highlights": {
+        "strengths": [
+            "Exceptional performance in Ats (92.0%).",
+            "Exceptional performance in Screening (88.0%).",
+            "Exceptional performance in Hr Interview (85.0%).",
+            "Exceptional performance in Technical Interview (95.0%).",
+            "High overall consistency across multiple evaluation stages."
+        ],
+        "weaknesses": [
+            "No significant weaknesses identified across standard evaluation metrics."
+        ]
+    },
+    "behavioral_and_integrity": {
+        "risk_tag": "GREEN",
+        "flags": [
+            "No significant behavioral or integrity risks detected."
+        ]
+    }
+}

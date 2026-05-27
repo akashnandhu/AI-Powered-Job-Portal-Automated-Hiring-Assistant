@@ -1,0 +1,43 @@
+{
+    "metadata": {
+        "candidate_id": "E2E-002",
+        "role": "Backend Engineer",
+        "generated_at": "2026-05-27 20:38:56"
+    },
+    "final_recommendation": {
+        "decision": "Rejected",
+        "confidence_score": 95.0,
+        "readiness_band": "Calculated Dynamically",
+        "reasoning": [
+            "Candidate automatically rejected due to severe integrity/behavioral violations (Risk Tag: RED).",
+            "Significant poor performance observed in: Technical Interview."
+        ]
+    },
+    "performance_summary": {
+        "overall_score": 54.789255120561286,
+        "weight_system_used": "Backend Standard",
+        "round_breakdown": {
+            "ats_round": 95.0,
+            "screening_round": 55.0,
+            "hr_interview_round": 50.0,
+            "technical_interview_round": 45.0
+        }
+    },
+    "highlights": {
+        "strengths": [
+            "Exceptional performance in Ats (95.0%)."
+        ],
+        "weaknesses": [
+            "Below average performance in Screening (55.0%).",
+            "Below average performance in Hr Interview (50.0%).",
+            "Below average performance in Technical Interview (45.0%)."
+        ]
+    },
+    "behavioral_and_integrity": {
+        "risk_tag": "RED",
+        "flags": [
+            "Critical: High Integrity Risk Detected",
+            "Tab switching detected in technical round"
+        ]
+    }
+}

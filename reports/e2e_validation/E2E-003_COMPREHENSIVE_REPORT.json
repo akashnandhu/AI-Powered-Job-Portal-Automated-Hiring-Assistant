@@ -1,0 +1,39 @@
+{
+    "metadata": {
+        "candidate_id": "E2E-003",
+        "role": "Backend Engineer",
+        "generated_at": "2026-05-27 20:38:56"
+    },
+    "final_recommendation": {
+        "decision": "Hold / Review",
+        "confidence_score": 75.0,
+        "readiness_band": "Calculated Dynamically",
+        "reasoning": [
+            "Score (75.25%) is in the borderline range; further team review or subsequent rounds recommended."
+        ]
+    },
+    "performance_summary": {
+        "overall_score": 75.25,
+        "weight_system_used": "Backend Standard",
+        "round_breakdown": {
+            "ats_round": 75.0,
+            "screening_round": 80.0,
+            "hr_interview_round": 88.0,
+            "technical_interview_round": 65.0
+        }
+    },
+    "highlights": {
+        "strengths": [
+            "Exceptional performance in Hr Interview (88.0%)."
+        ],
+        "weaknesses": [
+            "No significant weaknesses identified across standard evaluation metrics."
+        ]
+    },
+    "behavioral_and_integrity": {
+        "risk_tag": "GREEN",
+        "flags": [
+            "No significant behavioral or integrity risks detected."
+        ]
+    }
+}
