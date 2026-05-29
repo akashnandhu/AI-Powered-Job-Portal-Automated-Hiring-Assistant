@@ -157,7 +157,7 @@ class ConversationStateMachine:
         self.consecutive_errors += 1
         
         if self.consecutive_errors > self.max_retries:
-            self.transition(CallState.WRAP_UP)
+            self.transition(CallState.TERMINATED)
             return self._handle_polite_failure()
             
         if self.current_error_type == ErrorType.SILENCE or self.current_error_type == ErrorType.MISSING_ANSWER:

@@ -61,5 +61,7 @@ class CrossRoundEngine:
             if std_dev > 15.0:
                 penalty = min(5.0, (std_dev - 15.0) * 0.2)
                 unified_score -= penalty
+                
+        unified_score = max(0.0, min(100.0, unified_score))
             
         return unified_score, cross_round_breakdown

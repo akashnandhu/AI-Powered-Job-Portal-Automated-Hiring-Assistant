@@ -69,11 +69,13 @@ class HiringFitCalculator:
         role_weights, weight_system_name = self.get_role_weights(role_type)
         
         # 3. Consolidate available valid scores to run through Cross-Round Engine
-        available_scores = {
-            "ats_round": ats_score,
-            "screening_round": screening_score,
-            "hr_interview_round": hr_interview_score
-        }
+        available_scores = {}
+        if ats_score is not None:
+            available_scores["ats_round"] = ats_score
+        if screening_score is not None:
+            available_scores["screening_round"] = screening_score
+        if hr_interview_score is not None:
+            available_scores["hr_interview_round"] = hr_interview_score
         if technical_interview_score is not None:
             available_scores["technical_interview_round"] = technical_interview_score
         if machine_test_score is not None:

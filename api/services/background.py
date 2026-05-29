@@ -69,6 +69,6 @@ def cleanup_stale_jobs(max_age_seconds=86400):
     """Compliance: Data retention logic. Purges candidate records older than max_age_seconds."""
     import time
     current_time = time.time()
-    stale_keys = [jid for jid, data in JOB_STORE.items() if data.get("timestamp_epoch") and current_time - data["timestamp_epoch"] > max_age_seconds]
+    stale_keys = [jid for jid, data in JOB_STORE.items() if data.get("timestamp_epoch") is not None and current_time - data["timestamp_epoch"] > max_age_seconds]
     for k in stale_keys:
         del JOB_STORE[k]
