@@ -1,0 +1,43 @@
+{
+    "metadata": {
+        "candidate_id": "Resume1",
+        "role": "Healthcare Data Analyst (Pharmacy)",
+        "generated_at": "2026-05-31 21:01:56"
+    },
+    "final_recommendation": {
+        "decision": "Rejected",
+        "confidence_score": 99.0,
+        "readiness_band": "Calculated Dynamically",
+        "reasoning": [
+            "Unified score (33.04%) falls below the minimum viable requirement of 60.0%.",
+            "Significant poor performance observed in: Ats, Screening, Hr Interview, Technical Interview."
+        ]
+    },
+    "performance_summary": {
+        "overall_score": 33.04,
+        "weight_system_used": "Standard Role",
+        "round_breakdown": {
+            "ats_round": 35.04,
+            "screening_round": 25.04,
+            "hr_interview_round": 35.04,
+            "technical_interview_round": 35.04
+        }
+    },
+    "highlights": {
+        "strengths": [
+            "Meets baseline expectations for the role."
+        ],
+        "weaknesses": [
+            "Below average performance in Ats (35.04%).",
+            "Below average performance in Screening (25.04%).",
+            "Below average performance in Hr Interview (35.04%).",
+            "Below average performance in Technical Interview (35.04%)."
+        ]
+    },
+    "behavioral_and_integrity": {
+        "risk_tag": "GREEN",
+        "flags": [
+            "No significant behavioral or integrity risks detected."
+        ]
+    }
+}
