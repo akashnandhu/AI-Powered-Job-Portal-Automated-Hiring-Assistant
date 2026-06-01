@@ -1,0 +1,22 @@
+{
+    "candidate_id": "cv 121",
+    "resume_name": "cv 121_cleaned.txt",
+    "technical_skills": [
+        "HTML",
+        "Python"
+    ],
+    "non_technical_skills": [
+        "Communication",
+        "Design",
+        "Leadership",
+        "Operations"
+    ],
+    "confidence": {
+        "Communication": 0.95,
+        "Leadership": 0.99,
+        "Operations": 0.95,
+        "Python": 0.99,
+        "Design": 0.95,
+        "HTML": 0.99
+    }
+}

@@ -1,28 +1,28 @@
 # 📄 AI Candidate Evaluation Report
 **Candidate ID:** `sample_resume_2`  
 **Role:** Healthcare Data Analyst (Pharmacy)  
-**Date Generated:** 2026-05-31 21:02:14  
+**Date Generated:** 2026-05-31 22:18:23  
 
 ---
 
-## 🎯 Final Recommendation: Rejected
-- **Confidence Level:** 99.0%
+## 🎯 Final Recommendation: Selected
+- **Confidence Level:** 85.72%
 - **Readiness Band:** Calculated Dynamically
-- **Overall Score:** 28.29 / 100
+- **Overall Score:** 75.72 / 100
 
 ### Executive Summary
-- Unified score (28.29%) falls below the minimum viable requirement of 60.0%.
-- Significant poor performance observed in: Ats, Screening, Hr Interview, Technical Interview.
+- Strong overall performance with a unified score of 75.72%, exceeding the selection threshold of 70.0%.
+- Demonstrated exceptional performance in: Hr Interview.
 
 ---
 
 ## 📊 Performance Breakdown
 **Evaluation Profile:** Standard Role
 
-- **Ats:** 30.29% *(Weight: 20%)*
-- **Screening:** 20.29% *(Weight: 20%)*
-- **Hr Interview:** 30.29% *(Weight: 25%)*
-- **Technical Interview:** 30.29% *(Weight: 35%)*
+- **Ats:** 72.72% *(Weight: 20%)*
+- **Screening:** 77.72% *(Weight: 20%)*
+- **Hr Interview:** 80.72% *(Weight: 25%)*
+- **Technical Interview:** 72.72% *(Weight: 35%)*
 
 ---
 
@@ -31,10 +31,7 @@
 - Meets baseline expectations for the role.
 
 ### ⚠️ Areas for Improvement (Weaknesses)
-- Below average performance in Ats (30.29%).
-- Below average performance in Screening (20.29%).
-- Below average performance in Hr Interview (30.29%).
-- Below average performance in Technical Interview (30.29%).
+- No significant weaknesses identified across standard evaluation metrics.
 
 ---
 

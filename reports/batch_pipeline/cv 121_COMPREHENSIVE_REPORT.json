@@ -1,26 +1,25 @@
 {
     "metadata": {
         "candidate_id": "cv 121",
-        "role": "Process Development Scientist",
-        "generated_at": "2026-05-31 21:01:38"
+        "role": "Pharmacy Manager",
+        "generated_at": "2026-05-31 22:18:14"
     },
     "final_recommendation": {
-        "decision": "Rejected",
-        "confidence_score": 99.0,
+        "decision": "Selected",
+        "confidence_score": 82.14,
         "readiness_band": "Calculated Dynamically",
         "reasoning": [
-            "Unified score (25.72%) falls below the minimum viable requirement of 60.0%.",
-            "Significant poor performance observed in: Ats, Screening, Hr Interview, Technical Interview."
+            "Strong overall performance with a unified score of 72.14%, exceeding the selection threshold of 70.0%."
         ]
     },
     "performance_summary": {
-        "overall_score": 25.72,
+        "overall_score": 72.14,
         "weight_system_used": "Standard Role",
         "round_breakdown": {
-            "ats_round": 27.72,
-            "screening_round": 17.72,
-            "hr_interview_round": 27.72,
-            "technical_interview_round": 27.72
+            "ats_round": 69.14,
+            "screening_round": 74.14,
+            "hr_interview_round": 77.14,
+            "technical_interview_round": 69.14
         }
     },
     "highlights": {
@@ -28,10 +27,7 @@
             "Meets baseline expectations for the role."
         ],
         "weaknesses": [
-            "Below average performance in Ats (27.72%).",
-            "Below average performance in Screening (17.72%).",
-            "Below average performance in Hr Interview (27.72%).",
-            "Below average performance in Technical Interview (27.72%)."
+            "No significant weaknesses identified across standard evaluation metrics."
         ]
     },
     "behavioral_and_integrity": {

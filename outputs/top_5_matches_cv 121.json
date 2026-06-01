@@ -1,24 +1,7 @@
 [
     {
         "rank": 1,
-        "job_title": "Healthcare Data Analyst (Pharmacy)",
-        "score": 72.72,
-        "category": "Shortlisted",
-        "breakdown": {
-            "skill": 1.0,
-            "experience": 1.0,
-            "education": 0.7,
-            "semantic": 0.45
-        },
-        "insights": [
-            "Boost applied for possessing extra relevant skills (+10%).",
-            "Strong skill match (5 matched).",
-            "Exceeds expected experience (11.0 vs 3.5 years)."
-        ]
-    },
-    {
-        "rank": 2,
-        "job_title": "Food & Drug Administration Pharmacist",
+        "job_title": "Pharmacy Manager",
         "score": 69.14,
         "category": "Review",
         "breakdown": {
@@ -34,8 +17,25 @@
         ]
     },
     {
+        "rank": 2,
+        "job_title": "Pharmacy Manager",
+        "score": 62.35,
+        "category": "Review",
+        "breakdown": {
+            "skill": 0.16,
+            "experience": 1.0,
+            "education": 0.7,
+            "semantic": 0.75
+        },
+        "insights": [
+            "Missing critical skills penalty applied (-15%).",
+            "Strong skill match (1 matched).",
+            "Exceeds expected experience (11.0 vs 3.5 years)."
+        ]
+    },
+    {
         "rank": 3,
-        "job_title": "Business Development Manager (Pharma)",
+        "job_title": "Pharmacy Owner / Independent Pharmacist",
         "score": 62.35,
         "category": "Review",
         "breakdown": {
@@ -52,36 +52,36 @@
     },
     {
         "rank": 4,
-        "job_title": "Clinical Pharmacist",
-        "score": 62.35,
+        "job_title": "Business Development Manager (Pharma)",
+        "score": 57.5,
         "category": "Review",
         "breakdown": {
-            "skill": 0.16,
+            "skill": 0.0,
             "experience": 1.0,
             "education": 0.7,
             "semantic": 0.75
         },
         "insights": [
             "Missing critical skills penalty applied (-15%).",
-            "Strong skill match (1 matched).",
-            "Exceeds expected experience (11.0 vs 3.5 years)."
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
         ]
     },
     {
         "rank": 5,
-        "job_title": "Pharmacy Manager",
-        "score": 62.35,
+        "job_title": "Clinical Pharmacist",
+        "score": 57.5,
         "category": "Review",
         "breakdown": {
-            "skill": 0.16,
+            "skill": 0.0,
             "experience": 1.0,
             "education": 0.7,
             "semantic": 0.75
         },
         "insights": [
             "Missing critical skills penalty applied (-15%).",
-            "Strong skill match (1 matched).",
-            "Exceeds expected experience (11.0 vs 3.5 years)."
+            "Exceeds expected experience (11.0 vs 3.5 years).",
+            "Good education match (Related Field -> 0.7)."
         ]
     }
 ]

@@ -1,6 +1,6 @@
 THRESHOLDS = {
     "priority": 85,
-    "shortlist": 75,
+    "shortlist": 70,
     "review": 50
 }
 

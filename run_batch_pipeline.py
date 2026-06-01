@@ -33,10 +33,11 @@ def run_pipeline():
         "hr_interview_score": 0.25,
         "technical_interview_score": 0.35
     })
-    decision_engine = DecisionEngine(selected_threshold=75.0, reject_threshold=60.0)
+    decision_engine = DecisionEngine(selected_threshold=70.0, reject_threshold=60.0)
     report_gen = ComprehensiveReportGenerator(output_dir="reports/batch_pipeline")
     
     final_results = []
+    combined_shortlisting = []
     
     for resume in resumes:
         candidate_id = resume.replace(".pdf", "")
@@ -69,21 +70,26 @@ def run_pipeline():
         print("[2] Generating Section Labels (Education, Skills, Experience)...")
         generate_labels(processed_dir, labels_dir)
         
-        # 4. Semantic Matching (ATS Checking)
-        print("[3] Running ATS Semantic Match against Job Descriptions...")
-        os.system(f"{sys.executable} semantic_matcher.py")
+        # 3.5 Extract Skills
+        print("[2.5] Extracting Skills...")
+        os.system(f"{sys.executable} test_skills.py")
+        
+        # 4. ATS Scoring
+        print("[3] Running ATS Scoring against Job Descriptions...")
+        os.system(f"{sys.executable} scoring/run_ats.py")
         
         # Load ATS Score
-        ranked_jobs_path = os.path.join("outputs", "ranked_jobs.json")
+        ats_scores_path = os.path.join("outputs", "ats_scores.json")
         ats_score = 0
         best_role = "General Candidate"
-        if os.path.exists(ranked_jobs_path):
-            with open(ranked_jobs_path, "r") as f:
-                jobs = json.load(f)
+        if os.path.exists(ats_scores_path):
+            with open(ats_scores_path, "r") as f:
+                ats_data = json.load(f)
+                jobs = ats_data.get("results", [])
                 if jobs:
                     best_role = jobs[0]["job_title"]
-                    # Semantic matcher outputs max score 1.0, scale to 100
-                    ats_score = jobs[0]["score"] * 100
+                    # scoring/run_ats.py outputs final_score out of 100
+                    ats_score = jobs[0]["final_score"]
                     
         print(f"    -> Best Matched Role: {best_role}")
         print(f"    -> ATS Score: {ats_score:.2f}")
@@ -123,9 +129,24 @@ def run_pipeline():
         print(f"    -> Final AI Decision: {decision.decision} (Confidence: {decision.confidence_score}%)")
         print(f"    -> Reason: {decision.reasoning[0] if decision.reasoning else 'No reason provided'}")
         
-        # 7. Generate Report
-        print("[6] Generating Final Hiring Report...")
-        report_gen.generate_report(candidate_obj, decision)
+        # 8. Run Shortlisting Engine
+        print("[7] Generating Shortlisting Engine Outputs...")
+        os.system(f"{sys.executable} ranking/shortlisting_engine.py")
+        
+        # Read the generated final_shortlisting.json and append to combined array
+        shortlisting_path = os.path.join("outputs", "final_shortlisting.json")
+        if os.path.exists(shortlisting_path):
+            with open(shortlisting_path, "r") as f:
+                candidate_shortlisting = json.load(f)
+                combined_shortlisting.append(candidate_shortlisting)
+                
+        # Rename outputs to preserve per-candidate files (except final_shortlisting)
+        import shutil
+        for file_name in ["ats_scores.json", "ranked_jobs.json", "top_5_matches.json", "final_report.txt"]:
+            src = os.path.join("outputs", file_name)
+            dst = os.path.join("outputs", f"{file_name.split('.')[0]}_{candidate_id}.{file_name.split('.')[1]}")
+            if os.path.exists(src):
+                shutil.copy(src, dst)
         
         final_results.append({
             "Candidate": candidate_id,
@@ -134,6 +155,12 @@ def run_pipeline():
             "Final Score": round(unified_score, 2),
             "Decision": decision.decision
         })
+        
+    # After the loop, save the combined shortlisting file
+    combined_path = os.path.join("outputs", "combined_final_shortlisting.json")
+    with open(combined_path, "w") as f:
+        json.dump(combined_shortlisting, f, indent=4)
+    print(f"\nSaved combined shortlisting data to: {combined_path}")
         time.sleep(1)
 
     print("\n==================================================")

@@ -1,1046 +1,1484 @@
-[
-    {
-        "job_title": "Healthcare Data Analyst (Pharmacy)",
-        "job_id": "healthcare_data_analyst_pharmacy",
-        "score": 0.3029,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.3993,
-            "experience": 0.3131,
-            "projects": 0.1366,
-            "education": 0.219
-        }
-    },
-    {
-        "job_title": "AI in Drug Discovery Researcher",
-        "job_id": "ai_in_drug_discovery_researcher",
-        "score": 0.2749,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.3369,
-            "experience": 0.2905,
-            "projects": 0.1085,
-            "education": 0.3127
-        }
-    },
-    {
-        "job_title": "Pharmacy Informatics Specialist",
-        "job_id": "pharmacy_informatics_specialist",
-        "score": 0.2731,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.2409,
-            "experience": 0.2656,
-            "projects": 0.2985,
-            "education": 0.3731
-        }
-    },
-    {
-        "job_title": "E-Prescription System Specialist",
-        "job_id": "eprescription_system_specialist",
-        "score": 0.2339,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.1555,
-            "experience": 0.2497,
-            "projects": 0.3128,
-            "education": 0.342
-        }
-    },
-    {
-        "job_title": "Digital Health Pharmacist",
-        "job_id": "digital_health_pharmacist",
-        "score": 0.2307,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.2278,
-            "experience": 0.2568,
-            "projects": 0.1999,
-            "education": 0.2256
-        }
-    },
-    {
-        "job_title": "Pharmaceutical Sales Manager",
-        "job_id": "pharmaceutical_sales_manager",
-        "score": 0.2178,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.2292,
-            "experience": 0.19,
-            "projects": 0.1739,
-            "education": 0.343
-        }
-    },
-    {
-        "job_title": "Pharmaceutical Product Manager",
-        "job_id": "pharmaceutical_product_manager",
-        "score": 0.2141,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.2137,
-            "experience": 0.2263,
-            "projects": 0.1532,
-            "education": 0.3009
-        }
-    },
-    {
-        "job_title": "Pharmaceutical Warehouse Manager",
-        "job_id": "pharmaceutical_warehouse_manager",
-        "score": 0.2046,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.1328,
-            "experience": 0.2916,
-            "projects": 0.2094,
-            "education": 0.2207
-        }
-    },
-    {
-        "job_title": "Pharmaceutical Marketing Manager",
-        "job_id": "pharmaceutical_marketing_manager",
-        "score": 0.2031,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.2074,
-            "experience": 0.1886,
-            "projects": 0.1425,
-            "education": 0.3506
-        }
-    },
-    {
-        "job_title": "Pharmacy Store Manager",
-        "job_id": "pharmacy_store_manager",
-        "score": 0.1957,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.1539,
-            "experience": 0.2468,
-            "projects": 0.1932,
-            "education": 0.215
-        }
-    },
-    {
-        "job_title": "Inventory Control Pharmacist",
-        "job_id": "inventory_control_pharmacist",
-        "score": 0.1936,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.1784,
-            "experience": 0.215,
-            "projects": 0.1612,
-            "education": 0.2549
-        }
-    },
-    {
-        "job_title": "Chain Pharmacy Manager",
-        "job_id": "chain_pharmacy_manager",
-        "score": 0.1934,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.1816,
-            "experience": 0.1774,
-            "projects": 0.2043,
-            "education": 0.2674
-        }
-    },
-    {
-        "job_title": "Clinical Data Manager",
-        "job_id": "clinical_data_manager",
-        "score": 0.1934,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.193,
-            "experience": 0.24,
-            "projects": 0.0929,
-            "education": 0.256
-        }
-    },
-    {
-        "job_title": "Biostatistics Research Associate",
-        "job_id": "biostatistics_research_associate",
-        "score": 0.1885,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.2909,
-            "experience": 0.0702,
-            "projects": 0.0907,
-            "education": 0.3292
-        }
-    },
-    {
-        "job_title": "Process Development Scientist",
-        "job_id": "process_development_scientist",
-        "score": 0.1848,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.185,
-            "experience": 0.1266,
-            "projects": 0.1853,
-            "education": 0.3578
-        }
-    },
-    {
-        "job_title": "Food & Drug Administration Pharmacist",
-        "job_id": "food_drug_administration",
-        "score": 0.1836,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.1388,
-            "experience": 0.2673,
-            "projects": 0.1035,
-            "education": 0.2721
-        }
-    },
-    {
-        "job_title": "Pharmacy Supervisor",
-        "job_id": "pharmacy_supervisor",
-        "score": 0.175,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.1827,
-            "experience": 0.1585,
-            "projects": 0.1301,
-            "education": 0.2837
-        }
-    },
-    {
-        "job_title": "Assistant Professor (Pharmacy)",
-        "job_id": "assistant_professor_pharmacy",
-        "score": 0.1743,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.2514,
-            "experience": 0.1106,
-            "projects": 0.0627,
-            "education": 0.2795
-        }
-    },
-    {
-        "job_title": "Manufacturing Pharmacist",
-        "job_id": "manufacturing_pharmacist",
-        "score": 0.1708,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.1919,
-            "experience": 0.1232,
-            "projects": 0.1348,
-            "education": 0.3011
-        }
-    },
-    {
-        "job_title": "Pharmaceutical Supply Chain Manager",
-        "job_id": "pharmaceutical_supply_chain_manager",
-        "score": 0.1707,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.13,
-            "experience": 0.2141,
-            "projects": 0.1656,
-            "education": 0.2131
-        }
-    },
-    {
-        "job_title": "Medical Science Liaison",
-        "job_id": "medical_science_liaison",
-        "score": 0.1682,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.215,
-            "experience": 0.1275,
-            "projects": 0.1189,
-            "education": 0.2018
-        }
-    },
-    {
-        "job_title": "Pharmaceutical Research Scientist",
-        "job_id": "pharmaceutical_research_scientist",
-        "score": 0.1675,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.2327,
-            "experience": 0.0964,
-            "projects": 0.051,
-            "education": 0.3533
-        }
-    },
-    {
-        "job_title": "Telepharmacy Consultant",
-        "job_id": "telepharmacy_consultant",
-        "score": 0.1647,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.1369,
-            "experience": 0.1521,
-            "projects": 0.2098,
-            "education": 0.2242
-        }
-    },
-    {
-        "job_title": "Business Development Manager (Pharma)",
-        "job_id": "business_development_manager",
-        "score": 0.1634,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.125,
-            "experience": 0.2125,
-            "projects": 0.0669,
-            "education": 0.3624
-        }
-    },
-    {
-        "job_title": "Healthcare Consultant (Pharma)",
-        "job_id": "healthcare_consultant_pharma",
-        "score": 0.1557,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.1927,
-            "experience": 0.104,
-            "projects": 0.1072,
-            "education": 0.2595
-        }
-    },
-    {
-        "job_title": "Medical Affairs Manager",
-        "job_id": "medical_affairs_manager",
-        "score": 0.1533,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.1723,
-            "experience": 0.1715,
-            "projects": 0.0393,
-            "education": 0.2505
-        }
-    },
-    {
-        "job_title": "Drug Inspector",
-        "job_id": "drug_inspector",
-        "score": 0.1523,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.1831,
-            "experience": 0.1356,
-            "projects": 0.0275,
-            "education": 0.3291
-        }
-    },
-    {
-        "job_title": "Pharmaceutical Research Scientist",
-        "job_id": "pharmaceutical_research_scientist_1",
-        "score": 0.1474,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.2236,
-            "experience": 0.0654,
-            "projects": 0.0514,
-            "education": 0.2805
-        }
-    },
-    {
-        "job_title": "Drug Safety Associate",
-        "job_id": "drug_safety_associate",
-        "score": 0.1456,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.1746,
-            "experience": 0.1533,
-            "projects": 0.0537,
-            "education": 0.19
-        }
-    },
-    {
-        "job_title": "Production Pharmacist",
-        "job_id": "production_pharmacist",
-        "score": 0.1455,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.1326,
-            "experience": 0.143,
-            "projects": 0.0806,
-            "education": 0.3346
-        }
-    },
-    {
-        "job_title": "Quality Assurance (QA) Pharmacist",
-        "job_id": "quality_assurance_qa_pharmacist",
-        "score": 0.1447,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.1428,
-            "experience": 0.1309,
-            "projects": 0.0958,
-            "education": 0.2915
-        }
-    },
-    {
-        "job_title": "Associate Professor (Pharmacy)",
-        "job_id": "associate_professor_pharmacy",
-        "score": 0.1409,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.2273,
-            "experience": 0.0549,
-            "projects": 0.0607,
-            "education": 0.2136
-        }
-    },
-    {
-        "job_title": "Pharmacovigilance Officer",
-        "job_id": "pharmacovigilance_officer",
-        "score": 0.138,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.1844,
-            "experience": 0.1244,
-            "projects": 0.0485,
-            "education": 0.1725
-        }
-    },
-    {
-        "job_title": "Retail Pharmacist",
-        "job_id": "retail_pharmacist",
-        "score": 0.1376,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.0942,
-            "experience": 0.138,
-            "projects": 0.1765,
-            "education": 0.2327
-        }
-    },
-    {
-        "job_title": "Pharmacy Owner / Independent Pharmacist",
-        "job_id": "pharmacy_owner_independent",
-        "score": 0.136,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.1436,
-            "experience": 0.105,
-            "projects": 0.1105,
-            "education": 0.2495
-        }
-    },
-    {
-        "job_title": "Drug Distribution Manager",
-        "job_id": "drug_distribution_manager",
-        "score": 0.1355,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.0979,
-            "experience": 0.1493,
-            "projects": 0.1525,
-            "education": 0.2103
-        }
-    },
-    {
-        "job_title": "Pharmacy Professor",
-        "job_id": "pharmacy_professor",
-        "score": 0.1345,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.2303,
-            "experience": 0.0624,
-            "projects": 0.0,
-            "education": 0.2366
-        }
-    },
-    {
-        "job_title": "Cruise Ship Pharmacist",
-        "job_id": "cruise_ship_pharmacist",
-        "score": 0.134,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.1152,
-            "experience": 0.1195,
-            "projects": 0.1773,
-            "education": 0.1666
-        }
-    },
-    {
-        "job_title": "Procurement Pharmacist",
-        "job_id": "procurement_pharmacist",
-        "score": 0.13,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.1077,
-            "experience": 0.1467,
-            "projects": 0.0947,
-            "education": 0.2396
-        }
-    },
-    {
-        "job_title": "Hospital Pharmacist",
-        "job_id": "hospital_pharmacist",
-        "score": 0.1296,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.1307,
-            "experience": 0.0792,
-            "projects": 0.1199,
-            "education": 0.2955
-        }
-    },
-    {
-        "job_title": "Technology Transfer Specialist",
-        "job_id": "technology_transfer_specialist",
-        "score": 0.1296,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.0872,
-            "experience": 0.1479,
-            "projects": 0.0848,
-            "education": 0.3333
-        }
-    },
-    {
-        "job_title": "Consultant Pharmacist",
-        "job_id": "consultant_pharmacist",
-        "score": 0.1272,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.1393,
-            "experience": 0.1061,
-            "projects": 0.0791,
-            "education": 0.2377
-        }
-    },
-    {
-        "job_title": "Drug Control Officer",
-        "job_id": "drug_control_officer",
-        "score": 0.126,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.1686,
-            "experience": 0.1103,
-            "projects": 0.0,
-            "education": 0.2547
-        }
-    },
-    {
-        "job_title": "Industrial Pharmacist",
-        "job_id": "industrial_pharmacist",
-        "score": 0.1242,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.1373,
-            "experience": 0.1118,
-            "projects": 0.0416,
-            "education": 0.2748
-        }
-    },
-    {
-        "job_title": "Ambulatory Care Pharmacist",
-        "job_id": "ambulatory_care_pharmacist",
-        "score": 0.1239,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.163,
-            "experience": 0.0802,
-            "projects": 0.0844,
-            "education": 0.1778
-        }
-    },
-    {
-        "job_title": "Cosmetic Formulation Scientist",
-        "job_id": "cosmetic_formulation_scientist",
-        "score": 0.1213,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.0919,
-            "experience": 0.1252,
-            "projects": 0.0778,
-            "education": 0.3147
-        }
-    },
-    {
-        "job_title": "Validation Pharmacist",
-        "job_id": "validation_pharmacist",
-        "score": 0.1213,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.0953,
-            "experience": 0.0846,
-            "projects": 0.1527,
-            "education": 0.2724
-        }
-    },
-    {
-        "job_title": "Pharmacology Researcher",
-        "job_id": "pharmacology_researcher",
-        "score": 0.118,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.1169,
-            "experience": 0.0998,
-            "projects": 0.0368,
-            "education": 0.34
-        }
-    },
-    {
-        "job_title": "Quality Control (QC) Pharmacist",
-        "job_id": "quality_control_qc_pharmacist",
-        "score": 0.118,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.1897,
-            "experience": 0.068,
-            "projects": 0.0139,
-            "education": 0.1897
-        }
-    },
-    {
-        "job_title": "Veterinary Pharmacist",
-        "job_id": "veterinary_pharmacist",
-        "score": 0.1174,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.15,
-            "experience": 0.0868,
-            "projects": 0.0757,
-            "education": 0.1625
-        }
-    },
-    {
-        "job_title": "Clinical Pharmacist",
-        "job_id": "clinical_pharmacist",
-        "score": 0.1149,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.1384,
-            "experience": 0.0691,
-            "projects": 0.1019,
-            "education": 0.1844
-        }
-    },
-    {
-        "job_title": "Public Health Pharmacist",
-        "job_id": "public_health_pharmacist",
-        "score": 0.1139,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.1364,
-            "experience": 0.0987,
-            "projects": 0.0057,
-            "education": 0.2857
-        }
-    },
-    {
-        "job_title": "Drug Development Scientist",
-        "job_id": "drug_development_scientist",
-        "score": 0.1102,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.1076,
-            "experience": 0.1062,
-            "projects": 0.0,
-            "education": 0.3533
-        }
-    },
-    {
-        "job_title": "NGO Pharmaceutical Specialist",
-        "job_id": "ngo_pharmaceutical_specialist",
-        "score": 0.1099,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.1405,
-            "experience": 0.0765,
-            "projects": 0.02,
-            "education": 0.2679
-        }
-    },
-    {
-        "job_title": "Clinical Research Coordinator",
-        "job_id": "clinical_research_coordinator",
-        "score": 0.1075,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.1282,
-            "experience": 0.1054,
-            "projects": 0.0,
-            "education": 0.2456
-        }
-    },
-    {
-        "job_title": "Formulation Development Scientist",
-        "job_id": "formulation_development_scientist",
-        "score": 0.1075,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.0763,
-            "experience": 0.1168,
-            "projects": 0.0575,
-            "education": 0.304
-        }
-    },
-    {
-        "job_title": "Infectious Disease Pharmacist",
-        "job_id": "infectious_disease_pharmacist",
-        "score": 0.1065,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.1857,
-            "experience": 0.0618,
-            "projects": 0.0,
-            "education": 0.1367
-        }
-    },
-    {
-        "job_title": "Dispensing Pharmacist",
-        "job_id": "dispensing_pharmacist",
-        "score": 0.1064,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.0925,
-            "experience": 0.0956,
-            "projects": 0.0772,
-            "education": 0.253
-        }
-    },
-    {
-        "job_title": "Clinical Trial Pharmacist",
-        "job_id": "clinical_trial_pharmacist",
-        "score": 0.1061,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.14,
-            "experience": 0.0737,
-            "projects": 0.0325,
-            "education": 0.2153
-        }
-    },
-    {
-        "job_title": "Packaging Development Scientist",
-        "job_id": "packaging_development_scientist",
-        "score": 0.1012,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.0443,
-            "experience": 0.1756,
-            "projects": 0.0641,
-            "education": 0.1795
-        }
-    },
-    {
-        "job_title": "Regulatory Affairs Pharmacist",
-        "job_id": "regulatory_affairs_pharmacist",
-        "score": 0.1012,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.107,
-            "experience": 0.0684,
-            "projects": 0.0746,
-            "education": 0.2299
-        }
-    },
-    {
-        "job_title": "Psychiatric Pharmacist",
-        "job_id": "psychiatric_pharmacist",
-        "score": 0.1005,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.1455,
-            "experience": 0.0412,
-            "projects": 0.0572,
-            "education": 0.1848
-        }
-    },
-    {
-        "job_title": "Humanitarian Pharmacist",
-        "job_id": "humanitarian_pharmacist",
-        "score": 0.0989,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.1164,
-            "experience": 0.0594,
-            "projects": 0.0403,
-            "education": 0.2641
-        }
-    },
-    {
-        "job_title": "Medical Writer",
-        "job_id": "medical_writer",
-        "score": 0.0968,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.1704,
-            "experience": 0.0105,
-            "projects": 0.0,
-            "education": 0.2545
-        }
-    },
-    {
-        "job_title": "Medical Advisor",
-        "job_id": "medical_advisor",
-        "score": 0.0967,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.0876,
-            "experience": 0.122,
-            "projects": 0.0,
-            "education": 0.2505
-        }
-    },
-    {
-        "job_title": "Oncology Pharmacist",
-        "job_id": "oncology_pharmacist",
-        "score": 0.0934,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.1297,
-            "experience": 0.0562,
-            "projects": 0.0,
-            "education": 0.2467
-        }
-    },
-    {
-        "job_title": "Community Pharmacist",
-        "job_id": "community_pharmacist",
-        "score": 0.092,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.0467,
-            "experience": 0.0967,
-            "projects": 0.0798,
-            "education": 0.2837
-        }
-    },
-    {
-        "job_title": "Emergency Medicine Pharmacist",
-        "job_id": "emergency_medicine_pharmacist",
-        "score": 0.0918,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.0873,
-            "experience": 0.0711,
-            "projects": 0.0868,
-            "education": 0.1817
-        }
-    },
-    {
-        "job_title": "Clinical Research Scientist",
-        "job_id": "clinical_research_scientist",
-        "score": 0.0866,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.1289,
-            "experience": 0.0488,
-            "projects": 0.0,
-            "education": 0.2039
-        }
-    },
-    {
-        "job_title": "Nutrition Support Pharmacist",
-        "job_id": "nutrition_support_pharmacist",
-        "score": 0.0865,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.0362,
-            "experience": 0.1447,
-            "projects": 0.0627,
-            "education": 0.161
-        }
-    },
-    {
-        "job_title": "Clinical Research Associate",
-        "job_id": "clinical_research_associate",
-        "score": 0.086,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.1395,
-            "experience": 0.0,
-            "projects": 0.0252,
-            "education": 0.2517
-        }
-    },
-    {
-        "job_title": "Government Pharmacist",
-        "job_id": "government_pharmacist",
-        "score": 0.086,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.0519,
-            "experience": 0.0785,
-            "projects": 0.0318,
-            "education": 0.3532
-        }
-    },
-    {
-        "job_title": "Military Pharmacist",
-        "job_id": "military_pharmacist",
-        "score": 0.0819,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.097,
-            "experience": 0.0542,
-            "projects": 0.0,
-            "education": 0.2683
-        }
-    },
-    {
-        "job_title": "Compounding Pharmacist",
-        "job_id": "compounding_pharmacist",
-        "score": 0.0817,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.0524,
-            "experience": 0.0866,
-            "projects": 0.1294,
-            "education": 0.0887
-        }
-    },
-    {
-        "job_title": "Aviation Medical Supply Pharmacist",
-        "job_id": "aviation_medical_supply_pharmacist",
-        "score": 0.0805,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.0331,
-            "experience": 0.0952,
-            "projects": 0.0977,
-            "education": 0.1918
-        }
-    },
-    {
-        "job_title": "Herbal / Ayurvedic Drug Researcher",
-        "job_id": "herbal_ayurvedic_drug_researcher",
-        "score": 0.0805,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.0511,
-            "experience": 0.0883,
-            "projects": 0.0264,
-            "education": 0.2834
-        }
-    },
-    {
-        "job_title": "Cardiology Pharmacist",
-        "job_id": "cardiology_pharmacist",
-        "score": 0.0771,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.1405,
-            "experience": 0.0151,
-            "projects": 0.0,
-            "education": 0.1635
-        }
-    },
-    {
-        "job_title": "Geriatric Pharmacist",
-        "job_id": "geriatric_pharmacist",
-        "score": 0.0724,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.0846,
-            "experience": 0.0316,
-            "projects": 0.0723,
-            "education": 0.1466
-        }
-    },
-    {
-        "job_title": "Nuclear Pharmacy Specialist",
-        "job_id": "nuclear_pharmacy_specialist",
-        "score": 0.0698,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.0723,
-            "experience": 0.0362,
-            "projects": 0.0,
-            "education": 0.3003
-        }
-    },
-    {
-        "job_title": "Toxicology Specialist",
-        "job_id": "toxicology_specialist",
-        "score": 0.0696,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.0758,
-            "experience": 0.0594,
-            "projects": 0.0,
-            "education": 0.215
-        }
-    },
-    {
-        "job_title": "Pediatric Pharmacist",
-        "job_id": "pediatric_pharmacist",
-        "score": 0.0682,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.0779,
-            "experience": 0.0458,
-            "projects": 0.0219,
-            "education": 0.1893
-        }
-    },
-    {
-        "job_title": "Critical Care Pharmacist",
-        "job_id": "critical_care_pharmacist",
-        "score": 0.0632,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.0977,
-            "experience": 0.0,
-            "projects": 0.0732,
-            "education": 0.0952
-        }
-    },
-    {
-        "job_title": "Transplant Pharmacist",
-        "job_id": "transplant_pharmacist",
-        "score": 0.0614,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.097,
-            "experience": 0.0301,
-            "projects": 0.0129,
-            "education": 0.1102
-        }
-    },
-    {
-        "job_title": "Principal Investigator (Clinical Trials)",
-        "job_id": "principal_investigator_clinical_trials",
-        "score": 0.0608,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.0788,
-            "experience": 0.0585,
-            "projects": 0.0,
-            "education": 0.1173
-        }
-    },
-    {
-        "job_title": "Nuclear Pharmacist",
-        "job_id": "nuclear_pharmacist",
-        "score": 0.0597,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.0707,
-            "experience": 0.0076,
-            "projects": 0.0,
-            "education": 0.2909
-        }
-    },
-    {
-        "job_title": "Pain Management Pharmacist",
-        "job_id": "pain_management_pharmacist",
-        "score": 0.0564,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.0745,
-            "experience": 0.0238,
-            "projects": 0.0247,
-            "education": 0.1456
-        }
-    },
-    {
-        "job_title": "Clinical Quality Specialist",
-        "job_id": "clinical_quality_specialist",
-        "score": 0.0388,
-        "match_level": "Weak Match",
-        "section_scores": {
-            "skills": 0.0421,
-            "experience": 0.003,
-            "projects": 0.0016,
-            "education": 0.207
-        }
-    }
-]
+{
+    "candidate_id": "sample_resume_2",
+    "results": [
+        {
+            "job_title": "Healthcare Data Analyst (Pharmacy)",
+            "jd_filename": "healthcare_data_analyst_pharmacy.json",
+            "category": "Clinical/Hospital Pharmacy",
+            "final_score": 72.72,
+            "breakdown": {
+                "skill": 1.0,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.45
+            },
+            "insights": [
+                "Boost applied for possessing extra relevant skills (+10%).",
+                "Strong skill match (5 matched).",
+                "Exceeds expected experience (11.0 vs 3.5 years)."
+            ]
+        },
+        {
+            "job_title": "Food & Drug Administration Pharmacist",
+            "jd_filename": "food__drug_administration_pharmacist.json",
+            "category": "Pharmacy",
+            "final_score": 69.14,
+            "breakdown": {
+                "skill": 0.39,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.75
+            },
+            "insights": [
+                "Strong skill match (2 matched).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Business Development Manager (Pharma)",
+            "jd_filename": "business_development_manager_pharma.json",
+            "category": "Pharmacy",
+            "final_score": 62.35,
+            "breakdown": {
+                "skill": 0.16,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.75
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Strong skill match (1 matched).",
+                "Exceeds expected experience (11.0 vs 3.5 years)."
+            ]
+        },
+        {
+            "job_title": "Clinical Pharmacist",
+            "jd_filename": "clinical_pharmacist_1.json",
+            "category": "Clinical/Hospital Pharmacy",
+            "final_score": 62.35,
+            "breakdown": {
+                "skill": 0.16,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.75
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Strong skill match (1 matched).",
+                "Exceeds expected experience (11.0 vs 3.5 years)."
+            ]
+        },
+        {
+            "job_title": "Pharmacy Manager",
+            "jd_filename": "pharmacy_manager.json",
+            "category": "Pharmacy",
+            "final_score": 62.35,
+            "breakdown": {
+                "skill": 0.16,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.75
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Strong skill match (1 matched).",
+                "Exceeds expected experience (11.0 vs 3.5 years)."
+            ]
+        },
+        {
+            "job_title": "Pharmacy Manager",
+            "jd_filename": "pharmacy_manager_1.json",
+            "category": "Retail/Community Pharmacy",
+            "final_score": 62.35,
+            "breakdown": {
+                "skill": 0.16,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.75
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Strong skill match (1 matched).",
+                "Exceeds expected experience (11.0 vs 3.5 years)."
+            ]
+        },
+        {
+            "job_title": "Ai In Drug Discovery Researcher",
+            "jd_filename": "ai_in_drug_discovery_researcher.json",
+            "category": "Research & Development",
+            "final_score": 58.2,
+            "breakdown": {
+                "skill": 0.59,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.41
+            },
+            "insights": [
+                "Strong skill match (3 matched).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Pharmacy Informatics Specialist",
+            "jd_filename": "pharmacy_informatics_specialist.json",
+            "category": "Pharmacy",
+            "final_score": 57.82,
+            "breakdown": {
+                "skill": 0.58,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.41
+            },
+            "insights": [
+                "Strong skill match (3 matched).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Community Pharmacist",
+            "jd_filename": "community_pharmacist_1.json",
+            "category": "Retail/Community Pharmacy",
+            "final_score": 57.5,
+            "breakdown": {
+                "skill": 0.0,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.75
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Herbal / Ayurvedic Drug Researcher",
+            "jd_filename": "herbal__ayurvedic_drug_researcher.json",
+            "category": "Research & Development",
+            "final_score": 57.5,
+            "breakdown": {
+                "skill": 0.0,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.75
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Pharmacy Owner / Independent Pharmacist",
+            "jd_filename": "pharmacy_owner__independent_pharmacist.json",
+            "category": "Pharmacy",
+            "final_score": 57.5,
+            "breakdown": {
+                "skill": 0.0,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.75
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Clinical Data Manager",
+            "jd_filename": "clinical_data_manager.json",
+            "category": "Clinical/Hospital Pharmacy",
+            "final_score": 51.84,
+            "breakdown": {
+                "skill": 0.58,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.29
+            },
+            "insights": [
+                "Strong skill match (3 matched).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "E-Prescription System Specialist",
+            "jd_filename": "eprescription_system_specialist.json",
+            "category": "Pharmacy",
+            "final_score": 49.18,
+            "breakdown": {
+                "skill": 0.39,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.35
+            },
+            "insights": [
+                "Strong skill match (2 matched).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Pharmaceutical Sales Manager",
+            "jd_filename": "pharmaceutical_sales_manager.json",
+            "category": "Pharmacy",
+            "final_score": 47.98,
+            "breakdown": {
+                "skill": 0.39,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.33
+            },
+            "insights": [
+                "Strong skill match (2 matched).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Pharmaceutical Product Manager",
+            "jd_filename": "pharmaceutical_product_manager.json",
+            "category": "Pharmacy",
+            "final_score": 47.46,
+            "breakdown": {
+                "skill": 0.38,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.32
+            },
+            "insights": [
+                "Strong skill match (2 matched).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Biostatistics Research Associate",
+            "jd_filename": "biostatistics_research_associate.json",
+            "category": "Research & Development",
+            "final_score": 45.78,
+            "breakdown": {
+                "skill": 0.39,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.28
+            },
+            "insights": [
+                "Strong skill match (2 matched).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Medical Science Liaison",
+            "jd_filename": "medical_science_liaison.json",
+            "category": "Pharmacy",
+            "final_score": 44.26,
+            "breakdown": {
+                "skill": 0.39,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.25
+            },
+            "insights": [
+                "Strong skill match (2 matched).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Pharmaceutical Research Scientist",
+            "jd_filename": "pharmaceutical_research_scientist.json",
+            "category": "Research & Development",
+            "final_score": 44.2,
+            "breakdown": {
+                "skill": 0.39,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.25
+            },
+            "insights": [
+                "Strong skill match (2 matched).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Medical Affairs Manager",
+            "jd_filename": "medical_affairs_manager.json",
+            "category": "Pharmacy",
+            "final_score": 43.14,
+            "breakdown": {
+                "skill": 0.39,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.23
+            },
+            "insights": [
+                "Strong skill match (2 matched).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Healthcare Consultant (Pharma)",
+            "jd_filename": "healthcare_consultant_pharma.json",
+            "category": "Clinical/Hospital Pharmacy",
+            "final_score": 43.08,
+            "breakdown": {
+                "skill": 0.38,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.23
+            },
+            "insights": [
+                "Strong skill match (2 matched).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Pharmaceutical Research Scientist",
+            "jd_filename": "pharmaceutical_research_scientist_1.json",
+            "category": "Research & Development",
+            "final_score": 42.7,
+            "breakdown": {
+                "skill": 0.39,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.22
+            },
+            "insights": [
+                "Strong skill match (2 matched).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Drug Safety Associate",
+            "jd_filename": "drug_safety_associate.json",
+            "category": "Pharmacy",
+            "final_score": 42.56,
+            "breakdown": {
+                "skill": 0.39,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.22
+            },
+            "insights": [
+                "Strong skill match (2 matched).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Pharmacovigilance Officer",
+            "jd_filename": "pharmacovigilance_officer.json",
+            "category": "Pharmacy",
+            "final_score": 41.99,
+            "breakdown": {
+                "skill": 0.39,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.21
+            },
+            "insights": [
+                "Strong skill match (2 matched).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Pharmaceutical Warehouse Manager",
+            "jd_filename": "pharmaceutical_warehouse_manager.json",
+            "category": "Pharmacy",
+            "final_score": 40.19,
+            "breakdown": {
+                "skill": 0.16,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.31
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Strong skill match (1 matched).",
+                "Exceeds expected experience (11.0 vs 3.5 years)."
+            ]
+        },
+        {
+            "job_title": "Pharmaceutical Marketing Manager",
+            "jd_filename": "pharmaceutical_marketing_manager.json",
+            "category": "Pharmacy",
+            "final_score": 40.08,
+            "breakdown": {
+                "skill": 0.16,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.3
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Strong skill match (1 matched).",
+                "Exceeds expected experience (11.0 vs 3.5 years)."
+            ]
+        },
+        {
+            "job_title": "Drug Development Scientist",
+            "jd_filename": "drug_development_scientist.json",
+            "category": "Research & Development",
+            "final_score": 39.91,
+            "breakdown": {
+                "skill": 0.39,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.17
+            },
+            "insights": [
+                "Strong skill match (2 matched).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Inventory Control Pharmacist",
+            "jd_filename": "inventory_control_pharmacist.json",
+            "category": "Pharmacy",
+            "final_score": 39.37,
+            "breakdown": {
+                "skill": 0.16,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.29
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Strong skill match (1 matched).",
+                "Exceeds expected experience (11.0 vs 3.5 years)."
+            ]
+        },
+        {
+            "job_title": "Process Development Scientist",
+            "jd_filename": "process_development_scientist.json",
+            "category": "Research & Development",
+            "final_score": 38.7,
+            "breakdown": {
+                "skill": 0.16,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.28
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Strong skill match (1 matched).",
+                "Exceeds expected experience (11.0 vs 3.5 years)."
+            ]
+        },
+        {
+            "job_title": "Clinical Research Scientist",
+            "jd_filename": "clinical_research_scientist.json",
+            "category": "Clinical/Hospital Pharmacy",
+            "final_score": 38.14,
+            "breakdown": {
+                "skill": 0.39,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.13
+            },
+            "insights": [
+                "Strong skill match (2 matched).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Clinical Research Associate",
+            "jd_filename": "clinical_research_associate.json",
+            "category": "Clinical/Hospital Pharmacy",
+            "final_score": 38.09,
+            "breakdown": {
+                "skill": 0.39,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.13
+            },
+            "insights": [
+                "Strong skill match (2 matched).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Pharmaceutical Supply Chain Manager",
+            "jd_filename": "pharmaceutical_supply_chain_manager.json",
+            "category": "Pharmacy",
+            "final_score": 37.65,
+            "breakdown": {
+                "skill": 0.16,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.26
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Strong skill match (1 matched).",
+                "Exceeds expected experience (11.0 vs 3.5 years)."
+            ]
+        },
+        {
+            "job_title": "Digital Health Pharmacist",
+            "jd_filename": "digital_health_pharmacist.json",
+            "category": "Pharmacy",
+            "final_score": 37.3,
+            "breakdown": {
+                "skill": 0.0,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.35
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Consultant Pharmacist",
+            "jd_filename": "consultant_pharmacist.json",
+            "category": "Pharmacy",
+            "final_score": 34.38,
+            "breakdown": {
+                "skill": 0.16,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.19
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Strong skill match (1 matched).",
+                "Exceeds expected experience (11.0 vs 3.5 years)."
+            ]
+        },
+        {
+            "job_title": "Cosmetic Formulation Scientist",
+            "jd_filename": "cosmetic_formulation_scientist.json",
+            "category": "Research & Development",
+            "final_score": 34.15,
+            "breakdown": {
+                "skill": 0.17,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.18
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Strong skill match (1 matched).",
+                "Exceeds expected experience (11.0 vs 3.5 years)."
+            ]
+        },
+        {
+            "job_title": "Ambulatory Care Pharmacist",
+            "jd_filename": "ambulatory_care_pharmacist.json",
+            "category": "Clinical/Hospital Pharmacy",
+            "final_score": 34.14,
+            "breakdown": {
+                "skill": 0.16,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.19
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Strong skill match (1 matched).",
+                "Exceeds expected experience (11.0 vs 3.5 years)."
+            ]
+        },
+        {
+            "job_title": "Pharmacy Supervisor",
+            "jd_filename": "pharmacy_supervisor.json",
+            "category": "Pharmacy",
+            "final_score": 33.12,
+            "breakdown": {
+                "skill": 0.0,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.26
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Formulation Development Scientist",
+            "jd_filename": "formulation_development_scientist.json",
+            "category": "Research & Development",
+            "final_score": 33.11,
+            "breakdown": {
+                "skill": 0.17,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.16
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Strong skill match (1 matched).",
+                "Exceeds expected experience (11.0 vs 3.5 years)."
+            ]
+        },
+        {
+            "job_title": "Ngo Pharmaceutical Specialist",
+            "jd_filename": "ngo_pharmaceutical_specialist.json",
+            "category": "Pharmacy",
+            "final_score": 33.09,
+            "breakdown": {
+                "skill": 0.16,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.16
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Strong skill match (1 matched).",
+                "Exceeds expected experience (11.0 vs 3.5 years)."
+            ]
+        },
+        {
+            "job_title": "Assistant Professor (Pharmacy)",
+            "jd_filename": "assistant_professor_pharmacy.json",
+            "category": "Pharmacy",
+            "final_score": 33.07,
+            "breakdown": {
+                "skill": 0.0,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.26
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Manufacturing Pharmacist",
+            "jd_filename": "manufacturing_pharmacist.json",
+            "category": "Industrial/Manufacturing Pharmacy",
+            "final_score": 32.81,
+            "breakdown": {
+                "skill": 0.0,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.26
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Clinical Trial Pharmacist",
+            "jd_filename": "clinical_trial_pharmacist.json",
+            "category": "Clinical/Hospital Pharmacy",
+            "final_score": 32.8,
+            "breakdown": {
+                "skill": 0.16,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.16
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Strong skill match (1 matched).",
+                "Exceeds expected experience (11.0 vs 3.5 years)."
+            ]
+        },
+        {
+            "job_title": "Telepharmacy Consultant",
+            "jd_filename": "telepharmacy_consultant.json",
+            "category": "Pharmacy",
+            "final_score": 32.35,
+            "breakdown": {
+                "skill": 0.0,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.25
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Humanitarian Pharmacist",
+            "jd_filename": "humanitarian_pharmacist.json",
+            "category": "Pharmacy",
+            "final_score": 32.26,
+            "breakdown": {
+                "skill": 0.16,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.15
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Strong skill match (1 matched).",
+                "Exceeds expected experience (11.0 vs 3.5 years)."
+            ]
+        },
+        {
+            "job_title": "Drug Inspector",
+            "jd_filename": "drug_inspector.json",
+            "category": "Pharmacy",
+            "final_score": 31.42,
+            "breakdown": {
+                "skill": 0.0,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.23
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Production Pharmacist",
+            "jd_filename": "production_pharmacist.json",
+            "category": "Industrial/Manufacturing Pharmacy",
+            "final_score": 30.91,
+            "breakdown": {
+                "skill": 0.0,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.22
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Quality Assurance (Qa) Pharmacist",
+            "jd_filename": "quality_assurance_qa_pharmacist.json",
+            "category": "Pharmacy",
+            "final_score": 30.85,
+            "breakdown": {
+                "skill": 0.0,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.22
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Associate Professor (Pharmacy)",
+            "jd_filename": "associate_professor_pharmacy.json",
+            "category": "Pharmacy",
+            "final_score": 30.57,
+            "breakdown": {
+                "skill": 0.0,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.21
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Drug Distribution Manager",
+            "jd_filename": "drug_distribution_manager.json",
+            "category": "Pharmacy",
+            "final_score": 30.16,
+            "breakdown": {
+                "skill": 0.0,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.2
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Pharmacy Professor",
+            "jd_filename": "pharmacy_professor.json",
+            "category": "Pharmacy",
+            "final_score": 30.09,
+            "breakdown": {
+                "skill": 0.0,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.2
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Cruise Ship Pharmacist",
+            "jd_filename": "cruise_ship_pharmacist.json",
+            "category": "Pharmacy",
+            "final_score": 30.05,
+            "breakdown": {
+                "skill": 0.0,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.2
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Procurement Pharmacist",
+            "jd_filename": "procurement_pharmacist.json",
+            "category": "Pharmacy",
+            "final_score": 29.75,
+            "breakdown": {
+                "skill": 0.0,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.2
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Technology Transfer Specialist",
+            "jd_filename": "technology_transfer_specialist.json",
+            "category": "Pharmacy",
+            "final_score": 29.72,
+            "breakdown": {
+                "skill": 0.0,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.19
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Drug Control Officer",
+            "jd_filename": "drug_control_officer.json",
+            "category": "Pharmacy",
+            "final_score": 29.45,
+            "breakdown": {
+                "skill": 0.0,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.19
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Industrial Pharmacist",
+            "jd_filename": "industrial_pharmacist.json",
+            "category": "Industrial/Manufacturing Pharmacy",
+            "final_score": 29.32,
+            "breakdown": {
+                "skill": 0.0,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.19
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Validation Pharmacist",
+            "jd_filename": "validation_pharmacist.json",
+            "category": "Pharmacy",
+            "final_score": 29.1,
+            "breakdown": {
+                "skill": 0.0,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.18
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Pain Management Pharmacist",
+            "jd_filename": "pain_management_pharmacist.json",
+            "category": "Pharmacy",
+            "final_score": 29.07,
+            "breakdown": {
+                "skill": 0.16,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.08
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Strong skill match (1 matched).",
+                "Exceeds expected experience (11.0 vs 3.5 years)."
+            ]
+        },
+        {
+            "job_title": "Pharmacology Researcher",
+            "jd_filename": "pharmacology_researcher.json",
+            "category": "Research & Development",
+            "final_score": 28.85,
+            "breakdown": {
+                "skill": 0.0,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.18
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Quality Control (Qc) Pharmacist",
+            "jd_filename": "quality_control_qc_pharmacist.json",
+            "category": "Pharmacy",
+            "final_score": 28.85,
+            "breakdown": {
+                "skill": 0.0,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.18
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Veterinary Pharmacist",
+            "jd_filename": "veterinary_pharmacist.json",
+            "category": "Pharmacy",
+            "final_score": 28.81,
+            "breakdown": {
+                "skill": 0.0,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.18
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Clinical Pharmacist",
+            "jd_filename": "clinical_pharmacist.json",
+            "category": "Clinical/Hospital Pharmacy",
+            "final_score": 28.62,
+            "breakdown": {
+                "skill": 0.0,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.17
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Public Health Pharmacist",
+            "jd_filename": "public_health_pharmacist.json",
+            "category": "Pharmacy",
+            "final_score": 28.54,
+            "breakdown": {
+                "skill": 0.0,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.17
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Clinical Research Coordinator",
+            "jd_filename": "clinical_research_coordinator.json",
+            "category": "Clinical/Hospital Pharmacy",
+            "final_score": 28.06,
+            "breakdown": {
+                "skill": 0.0,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.16
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Infectious Disease Pharmacist",
+            "jd_filename": "infectious_disease_pharmacist.json",
+            "category": "Pharmacy",
+            "final_score": 27.99,
+            "breakdown": {
+                "skill": 0.0,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.16
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Dispensing Pharmacist",
+            "jd_filename": "dispensing_pharmacist.json",
+            "category": "Pharmacy",
+            "final_score": 27.98,
+            "breakdown": {
+                "skill": 0.0,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.16
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Clinical Quality Specialist",
+            "jd_filename": "clinical_quality_specialist.json",
+            "category": "Clinical/Hospital Pharmacy",
+            "final_score": 27.76,
+            "breakdown": {
+                "skill": 0.16,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.06
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Strong skill match (1 matched).",
+                "Exceeds expected experience (11.0 vs 3.5 years)."
+            ]
+        },
+        {
+            "job_title": "Packaging Development Scientist",
+            "jd_filename": "packaging_development_scientist.json",
+            "category": "Research & Development",
+            "final_score": 27.59,
+            "breakdown": {
+                "skill": 0.0,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.15
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Regulatory Affairs Pharmacist",
+            "jd_filename": "regulatory_affairs_pharmacist.json",
+            "category": "Pharmacy",
+            "final_score": 27.59,
+            "breakdown": {
+                "skill": 0.0,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.15
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Psychiatric Pharmacist",
+            "jd_filename": "psychiatric_pharmacist.json",
+            "category": "Pharmacy",
+            "final_score": 27.54,
+            "breakdown": {
+                "skill": 0.0,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.15
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Medical Writer",
+            "jd_filename": "medical_writer.json",
+            "category": "Pharmacy",
+            "final_score": 27.26,
+            "breakdown": {
+                "skill": 0.0,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.15
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Medical Advisor",
+            "jd_filename": "medical_advisor.json",
+            "category": "Pharmacy",
+            "final_score": 27.25,
+            "breakdown": {
+                "skill": 0.0,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.15
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Oncology Pharmacist",
+            "jd_filename": "oncology_pharmacist.json",
+            "category": "Pharmacy",
+            "final_score": 27.01,
+            "breakdown": {
+                "skill": 0.0,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.14
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Community Pharmacist",
+            "jd_filename": "community_pharmacist.json",
+            "category": "Retail/Community Pharmacy",
+            "final_score": 26.9,
+            "breakdown": {
+                "skill": 0.0,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.14
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Emergency Medicine Pharmacist",
+            "jd_filename": "emergency_medicine_pharmacist.json",
+            "category": "Pharmacy",
+            "final_score": 26.89,
+            "breakdown": {
+                "skill": 0.0,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.14
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Nutrition Support Pharmacist",
+            "jd_filename": "nutrition_support_pharmacist.json",
+            "category": "Pharmacy",
+            "final_score": 26.49,
+            "breakdown": {
+                "skill": 0.0,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.13
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Government Pharmacist",
+            "jd_filename": "government_pharmacist.json",
+            "category": "Pharmacy",
+            "final_score": 26.45,
+            "breakdown": {
+                "skill": 0.0,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.13
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Military Pharmacist",
+            "jd_filename": "military_pharmacist.json",
+            "category": "Pharmacy",
+            "final_score": 26.14,
+            "breakdown": {
+                "skill": 0.0,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.12
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Compounding Pharmacist",
+            "jd_filename": "compounding_pharmacist.json",
+            "category": "Pharmacy",
+            "final_score": 26.13,
+            "breakdown": {
+                "skill": 0.0,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.12
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Aviation Medical Supply Pharmacist",
+            "jd_filename": "aviation_medical_supply_pharmacist.json",
+            "category": "Pharmacy",
+            "final_score": 26.04,
+            "breakdown": {
+                "skill": 0.0,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.12
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Cardiology Pharmacist",
+            "jd_filename": "cardiology_pharmacist.json",
+            "category": "Pharmacy",
+            "final_score": 25.78,
+            "breakdown": {
+                "skill": 0.0,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.12
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Geriatric Pharmacist",
+            "jd_filename": "geriatric_pharmacist.json",
+            "category": "Pharmacy",
+            "final_score": 25.43,
+            "breakdown": {
+                "skill": 0.0,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.11
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Nuclear Pharmacy Specialist",
+            "jd_filename": "nuclear_pharmacy_specialist.json",
+            "category": "Pharmacy",
+            "final_score": 25.24,
+            "breakdown": {
+                "skill": 0.0,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.1
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Toxicology Specialist",
+            "jd_filename": "toxicology_specialist.json",
+            "category": "Pharmacy",
+            "final_score": 25.22,
+            "breakdown": {
+                "skill": 0.0,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.1
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Pediatric Pharmacist",
+            "jd_filename": "pediatric_pharmacist.json",
+            "category": "Pharmacy",
+            "final_score": 25.11,
+            "breakdown": {
+                "skill": 0.0,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.1
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Critical Care Pharmacist",
+            "jd_filename": "critical_care_pharmacist.json",
+            "category": "Clinical/Hospital Pharmacy",
+            "final_score": 24.74,
+            "breakdown": {
+                "skill": 0.0,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.09
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Transplant Pharmacist",
+            "jd_filename": "transplant_pharmacist.json",
+            "category": "Pharmacy",
+            "final_score": 24.61,
+            "breakdown": {
+                "skill": 0.0,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.09
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Principal Investigator (Clinical Trials)",
+            "jd_filename": "principal_investigator_clinical_trials.json",
+            "category": "Clinical/Hospital Pharmacy",
+            "final_score": 24.56,
+            "breakdown": {
+                "skill": 0.0,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.09
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        },
+        {
+            "job_title": "Nuclear Pharmacist",
+            "jd_filename": "nuclear_pharmacist.json",
+            "category": "Pharmacy",
+            "final_score": 24.48,
+            "breakdown": {
+                "skill": 0.0,
+                "experience": 1.0,
+                "education": 0.7,
+                "semantic": 0.09
+            },
+            "insights": [
+                "Missing critical skills penalty applied (-15%).",
+                "Exceeds expected experience (11.0 vs 3.5 years).",
+                "Good education match (Related Field -> 0.7)."
+            ]
+        }
+    ]
+}

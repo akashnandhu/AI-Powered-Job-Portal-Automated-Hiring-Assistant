@@ -1,28 +1,27 @@
 # 📄 AI Candidate Evaluation Report
 **Candidate ID:** `cv 121`  
-**Role:** Process Development Scientist  
-**Date Generated:** 2026-05-31 21:01:38  
+**Role:** Pharmacy Manager  
+**Date Generated:** 2026-05-31 22:18:14  
 
 ---
 
-## 🎯 Final Recommendation: Rejected
-- **Confidence Level:** 99.0%
+## 🎯 Final Recommendation: Selected
+- **Confidence Level:** 82.14%
 - **Readiness Band:** Calculated Dynamically
-- **Overall Score:** 25.72 / 100
+- **Overall Score:** 72.14 / 100
 
 ### Executive Summary
-- Unified score (25.72%) falls below the minimum viable requirement of 60.0%.
-- Significant poor performance observed in: Ats, Screening, Hr Interview, Technical Interview.
+- Strong overall performance with a unified score of 72.14%, exceeding the selection threshold of 70.0%.
 
 ---
 
 ## 📊 Performance Breakdown
 **Evaluation Profile:** Standard Role
 
-- **Ats:** 27.72% *(Weight: 20%)*
-- **Screening:** 17.72% *(Weight: 20%)*
-- **Hr Interview:** 27.72% *(Weight: 25%)*
-- **Technical Interview:** 27.72% *(Weight: 35%)*
+- **Ats:** 69.14% *(Weight: 20%)*
+- **Screening:** 74.14% *(Weight: 20%)*
+- **Hr Interview:** 77.14% *(Weight: 25%)*
+- **Technical Interview:** 69.14% *(Weight: 35%)*
 
 ---
 
@@ -31,10 +30,7 @@
 - Meets baseline expectations for the role.
 
 ### ⚠️ Areas for Improvement (Weaknesses)
-- Below average performance in Ats (27.72%).
-- Below average performance in Screening (17.72%).
-- Below average performance in Hr Interview (27.72%).
-- Below average performance in Technical Interview (27.72%).
+- No significant weaknesses identified across standard evaluation metrics.
 
 ---
 
