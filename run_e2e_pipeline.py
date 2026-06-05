@@ -6,6 +6,7 @@ from scoring.unified_candidate_score import UnifiedCandidateScore, RoundContribu
 from scoring.cross_round_engine import CrossRoundEngine
 from scoring.decision_engine import DecisionEngine
 from reports.comprehensive_report_generator import ComprehensiveReportGenerator
+from utils.logger import obs
 
 def main():
     print("==================================================")
@@ -73,6 +74,7 @@ def main():
     results_summary = []
     
     for c in candidates:
+        candidate_start = time.time()
         print(f"\n[+] Processing Candidate: {c['name']} ({c['id']})")
         
         # Step A: Cross-Round Aggregation
@@ -116,6 +118,16 @@ def main():
             "human_decision": human_decision,
             "alignment": match
         })
+        
+        # [AI Observability]: Track API Pipeline and End-to-End Latency
+        latency_ms = round((time.time() - candidate_start) * 1000, 2)
+        obs.log_api_request(
+            endpoint=f"/api/v1/hiring/evaluate/{c['id']}",
+            method="POST",
+            response_time_ms=latency_ms,
+            status_code=200
+        )
+        
         time.sleep(0.5)
 
     print("\n==================================================")

@@ -11,6 +11,7 @@ from scoring.weights_config import get_weights_for_category
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 sys.path.append(BASE_DIR)
 from config import CANDIDATE_ID
+from utils.logger import obs
 
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -272,10 +273,20 @@ class ATSScorer:
             try:
                 with open(jd_file, "r") as f:
                     jd_data = json.load(f)
-            except Exception:
+            except Exception as e:
+                obs.log_error("ATSScorer", f"Failed to load JD file {filename}: {str(e)}")
                 continue
                 
-            results.append(self.score_single_jd(jd_data, filename))
+            res = self.score_single_jd(jd_data, filename)
+            results.append(res)
+            
+            obs.log_model_inference(
+                model_name="ATSScorer",
+                candidate_id=self.candidate_id,
+                output_score=res["final_score"],
+                latency_ms=round((time.time() - start_time) * 1000, 2),
+                metadata={"job_title": res["job_title"], "jd_filename": res["jd_filename"]}
+            )
             
         latency = time.time() - start_time
         print(f"[API Optimization] Batch Processing Latency: {round(latency * 1000, 2)} ms for {len(results)} jobs.")

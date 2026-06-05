@@ -3,7 +3,7 @@ from dataclasses import dataclass
 import time
 from functools import lru_cache
 from scoring.unified_candidate_score import UnifiedCandidateScore
-from compliance.audit_logger import audit_logger
+from utils.logger import obs
 
 @dataclass
 class HiringDecision:
@@ -108,15 +108,25 @@ class DecisionEngine:
                 else:
                     reasoning.append(f"Areas of concern identified requiring further evaluation: {', '.join(weak_rounds)}.")
                     
-        # Secure Audit Logging
-        audit_logger.log_decision(
+        latency = time.time() - start_time
+        
+        # [AI Observability]: Log Audit Trial for HR/Legal tracking
+        obs.log_decision_audit(
             candidate_id=candidate_score.candidate_id,
-            decision=decision,
-            confidence=confidence_score,
-            reasoning=reasoning
+            final_decision=decision,
+            confidence_score=confidence_score,
+            mechanisms=reasoning
         )
         
-        latency = time.time() - start_time
+        # [AI Observability]: Track latency and throughput
+        obs.log_model_inference(
+            model_name="DecisionEngine",
+            candidate_id=candidate_score.candidate_id,
+            output_score=score,
+            latency_ms=round(latency * 1000, 2),
+            metadata={"decision": decision, "confidence": confidence_score}
+        )
+        
         print(f"[API Optimization] DecisionEngine Fast Decision Latency: {round(latency * 1000, 2)} ms")
                     
         return HiringDecision(
