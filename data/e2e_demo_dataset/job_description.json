@@ -1,0 +1,11 @@
+{
+  "job_id": "JD_BE_101",
+  "job_title": "Senior Backend Engineer",
+  "department": "Engineering",
+  "experience_required": "4 - 7 years",
+  "skills_required": ["Python", "FastAPI", "SQL", "Database Design", "System Architecture", "Docker", "AWS"],
+  "education_required": ["B.Tech Computer Science", "M.Sc Software Engineering"],
+  "cultural_values": ["Accountability", "Continuous Learning", "Team Collaboration"],
+  "technical_pass_mark": 75.0,
+  "behavioral_pass_mark": 70.0
+}

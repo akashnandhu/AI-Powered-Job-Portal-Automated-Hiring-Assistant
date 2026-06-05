@@ -1,0 +1,44 @@
+{
+    "metadata": {
+        "candidate_id": "DEMO-002",
+        "role": "Senior Backend Engineer",
+        "generated_at": "2026-06-05 20:56:51"
+    },
+    "final_recommendation": {
+        "decision": "Rejected",
+        "confidence_score": 95.0,
+        "readiness_band": "Calculated Dynamically",
+        "reasoning": [
+            "Candidate automatically rejected due to severe integrity/behavioral violations (Risk Tag: RED).",
+            "Significant poor performance observed in: Technical Interview."
+        ]
+    },
+    "performance_summary": {
+        "overall_score": 50.658340359757666,
+        "weight_system_used": "Senior Engineering Standard",
+        "round_breakdown": {
+            "ats_round": 99.0,
+            "screening_round": 60.0,
+            "hr_interview_round": 55.0,
+            "technical_interview_round": 30.0
+        }
+    },
+    "highlights": {
+        "strengths": [
+            "Exceptional performance in Ats (99.0%)."
+        ],
+        "weaknesses": [
+            "Below average performance in Hr Interview (55.0%).",
+            "Below average performance in Technical Interview (30.0%)."
+        ]
+    },
+    "behavioral_and_integrity": {
+        "risk_tag": "RED",
+        "flags": [
+            "Critical: High Integrity Risk Detected",
+            "Eye tracking deviation > 40%",
+            "Detected multiple background tab switches during technical test",
+            "Code similarity matches LeetCode Top Solutions 100%"
+        ]
+    }
+}

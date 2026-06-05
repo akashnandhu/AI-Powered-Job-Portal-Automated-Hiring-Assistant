@@ -1,0 +1,68 @@
+[
+  {
+    "id": "DEMO-001",
+    "name": "Sarah Architect",
+    "role": "Senior Backend Engineer",
+    "resume_summary": "Ex-Amazon SDE with 6 years experience building distributed microservices using Python, FastAPI, and Postgres. Strong AWS background.",
+    "human_judgment": "Strong Hire",
+    "scores": {
+      "ats_round": 96.5,
+      "screening_round": 90.0,
+      "hr_interview_round": 88.0,
+      "technical_interview_round": 98.0
+    },
+    "integrity_flags": [],
+    "risk_tag": "GREEN",
+    "interview_transcripts": {
+      "technical": [
+        {"q": "Design a scalable rate limiter.", "a": "I'd use Redis with a sliding log algorithm, falling back to basic token bucket if latency constraints are sub-5ms..."}
+      ],
+      "hr": [
+        {"q": "Describe a time you failed.", "a": "In 2021, I deployed a flawed DB migration that locked the users table. I rolled it back within 2 minutes, led the post-mortem, and implemented CI/CD checks to prevent schema locks."}
+      ]
+    }
+  },
+  {
+    "id": "DEMO-002",
+    "name": "Michael CopyPaster",
+    "role": "Senior Backend Engineer",
+    "resume_summary": "Extensive experience claiming 15 years in Python, Java, C++, Kubernetes, AWS, GCP, Azure, AI, ML, Data Science, and Blockchain.",
+    "human_judgment": "Reject (Cheating Suspected)",
+    "scores": {
+      "ats_round": 99.0,
+      "screening_round": 60.0,
+      "hr_interview_round": 55.0,
+      "technical_interview_round": 30.0
+    },
+    "integrity_flags": ["Eye tracking deviation > 40%", "Detected multiple background tab switches during technical test", "Code similarity matches LeetCode Top Solutions 100%"],
+    "risk_tag": "RED",
+    "interview_transcripts": {
+      "technical": [
+        {"q": "How does python manage memory?", "a": "Python uses a private heap containing all python objects. The python memory manager ensures allocation."}
+      ]
+    }
+  },
+  {
+    "id": "DEMO-003",
+    "name": "David Dependable",
+    "role": "Senior Backend Engineer",
+    "resume_summary": "Solid 4 years experience at a mid-cap firm. Strong Python skills but lacks direct AWS experience (used on-premise servers).",
+    "human_judgment": "Borderline / Hold",
+    "scores": {
+      "ats_round": 72.0,
+      "screening_round": 85.0,
+      "hr_interview_round": 92.0,
+      "technical_interview_round": 68.0
+    },
+    "integrity_flags": [],
+    "risk_tag": "GREEN",
+    "interview_transcripts": {
+      "technical": [
+        {"q": "How do you scale a database?", "a": "I would start with vertical scaling, adding more RAM. If that fails, I would look into Read Replicas. I haven't implemented sharding before."}
+      ],
+      "hr": [
+        {"q": "How do you handle conflict?", "a": "I prefer to set up a quick 1-on-1 call to clear out any textual misunderstandings on Slack."}
+      ]
+    }
+  }
+]

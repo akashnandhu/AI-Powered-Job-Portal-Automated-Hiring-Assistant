@@ -1,0 +1,41 @@
+{
+    "metadata": {
+        "candidate_id": "DEMO-003",
+        "role": "Senior Backend Engineer",
+        "generated_at": "2026-06-05 20:56:52"
+    },
+    "final_recommendation": {
+        "decision": "Selected",
+        "confidence_score": 83.0,
+        "readiness_band": "Calculated Dynamically",
+        "reasoning": [
+            "Strong overall performance with a unified score of 78.00%, exceeding the selection threshold of 75.0%.",
+            "Demonstrated exceptional performance in: Screening, Hr Interview."
+        ]
+    },
+    "performance_summary": {
+        "overall_score": 78.0,
+        "weight_system_used": "Senior Engineering Standard",
+        "round_breakdown": {
+            "ats_round": 72.0,
+            "screening_round": 85.0,
+            "hr_interview_round": 92.0,
+            "technical_interview_round": 68.0
+        }
+    },
+    "highlights": {
+        "strengths": [
+            "Exceptional performance in Screening (85.0%).",
+            "Exceptional performance in Hr Interview (92.0%)."
+        ],
+        "weaknesses": [
+            "No significant weaknesses identified across standard evaluation metrics."
+        ]
+    },
+    "behavioral_and_integrity": {
+        "risk_tag": "GREEN",
+        "flags": [
+            "No significant behavioral or integrity risks detected."
+        ]
+    }
+}
