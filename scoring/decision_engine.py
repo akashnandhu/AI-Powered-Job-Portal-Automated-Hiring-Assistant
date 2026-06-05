@@ -1,5 +1,7 @@
 from typing import Dict, Any, List
 from dataclasses import dataclass
+import time
+from functools import lru_cache
 from scoring.unified_candidate_score import UnifiedCandidateScore
 from compliance.audit_logger import audit_logger
 
@@ -39,6 +41,8 @@ class DecisionEngine:
         Evaluates a candidate based on their unified score and risk factors
         to produce a final hiring decision.
         """
+        start_time = time.time()
+        
         decision = "Hold / Review"
         confidence_score = 0.0
         reasoning = []
@@ -111,6 +115,9 @@ class DecisionEngine:
             confidence=confidence_score,
             reasoning=reasoning
         )
+        
+        latency = time.time() - start_time
+        print(f"[API Optimization] DecisionEngine Fast Decision Latency: {round(latency * 1000, 2)} ms")
                     
         return HiringDecision(
             candidate_id=candidate_score.candidate_id,

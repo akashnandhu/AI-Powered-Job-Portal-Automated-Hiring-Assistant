@@ -4,6 +4,8 @@ import json
 import glob
 import re
 import math
+import time
+from functools import lru_cache
 from scoring.weights_config import get_weights_for_category
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -190,6 +192,7 @@ class ATSScorer:
 
         return score, insights
 
+    @lru_cache(maxsize=1000)
     def compute_semantic_score(self, jd_filename):
         # Ensure we check the filename mapping
         # E.g. ai_in_drug_discovery_researcher.json vs ai_in_drug_discovery_researcher
@@ -259,6 +262,7 @@ class ATSScorer:
         }
 
     def score_all_jobs(self):
+        start_time = time.time()
         results = []
         
         jd_files = glob.glob(os.path.join(JD_DIR, "*.json"))
@@ -273,6 +277,9 @@ class ATSScorer:
                 
             results.append(self.score_single_jd(jd_data, filename))
             
+        latency = time.time() - start_time
+        print(f"[API Optimization] Batch Processing Latency: {round(latency * 1000, 2)} ms for {len(results)} jobs.")
+        
         return results
 
 if __name__ == "__main__":

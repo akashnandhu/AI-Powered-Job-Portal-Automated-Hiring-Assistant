@@ -83,15 +83,34 @@ def main():
     # 3. Batch Encode JDs
     jd_ids = [jd.get("job_id", "") for jd in all_jds]
     
-    print("Precomputing all JD sections in batch...")
+    print("Precomputing or Loading JD sections from cache...")
+    cache_path = os.path.join(BASE_DIR, "data", "jd_embeddings_cache.pt")
+    
     jd_overviews = [" ".join(jd.get("overview", [])) for jd in all_jds]
     jd_resps = [" ".join(jd.get("responsibilities", [])) for jd in all_jds]
     jd_quals = [" ".join(jd.get("qualifications", [])) for jd in all_jds]
 
-    with torch.no_grad():
-        emb_j_overviews = model.encode(jd_overviews, convert_to_tensor=True, show_progress_bar=True)
-        emb_j_resps = model.encode(jd_resps, convert_to_tensor=True, show_progress_bar=True)
-        emb_j_quals = model.encode(jd_quals, convert_to_tensor=True, show_progress_bar=True)
+    # Caching Mechanism to Optimize Inference Time
+    if os.path.exists(cache_path):
+        print("Loading embeddings from cache...")
+        cached_embs = torch.load(cache_path, weights_only=True)
+        emb_j_overviews = cached_embs["overviews"]
+        emb_j_resps = cached_embs["resps"]
+        emb_j_quals = cached_embs["quals"]
+    else:
+        with torch.no_grad():
+            emb_j_overviews = model.encode(jd_overviews, convert_to_tensor=True, show_progress_bar=True)
+            emb_j_resps = model.encode(jd_resps, convert_to_tensor=True, show_progress_bar=True)
+            emb_j_quals = model.encode(jd_quals, convert_to_tensor=True, show_progress_bar=True)
+            
+            # Save to cache
+            os.makedirs(os.path.dirname(cache_path), exist_ok=True)
+            torch.save({
+                "overviews": emb_j_overviews,
+                "resps": emb_j_resps,
+                "quals": emb_j_quals
+            }, cache_path)
+            print("Embeddings saved to cache.")
 
     ranked_jobs = []
 
