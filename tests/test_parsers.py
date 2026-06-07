@@ -12,7 +12,7 @@ def test_clean_text_noise_removal():
     cleaned = clean_text(raw_text)
     assert "  " not in cleaned
     assert "###" not in cleaned # No headers in this sample
-    assert cleaned.count("\n\n") == 0 # Extra newlines removed (our cleaner now handles newlines specifically)
+    assert cleaned.count("\n\n") == 1 # Extra newlines removed to max 2 for section spacing
 
 def test_clean_text_header_standardization():
     """

@@ -12,7 +12,7 @@ class HiringDecision:
     Represents the final hiring outcome and the explanation behind it.
     """
     candidate_id: str
-    decision: str  # Categories: "Selected", "Hold / Review", "Rejected"
+    decision: str  # Categories: "Selected", "Hold / Review", "Rejected", "Quarantined"
     confidence_score: float  # Scale from 0.0 to 100.0
     reasoning: List[str]
     risk_factors: List[str]
@@ -60,11 +60,11 @@ class DecisionEngine:
         # 2. Rule + Score Hybrid Logic
         score = candidate_score.final_hiring_fit_score
         
-        # Rule 1: Severe Risk override (Hard Rule)
+        # Rule 1: Severe Risk override (Hard Rule -> Compliance Friendly)
         if candidate_score.risk_tag == "RED":
-            decision = "Rejected"
-            reasoning.append(f"Candidate automatically rejected due to severe integrity/behavioral violations (Risk Tag: RED).")
-            confidence_score = 95.0 # High confidence due to explicit severe violation
+            decision = "Quarantined"
+            reasoning.append(f"Candidate placed under Quarantine due to severe integrity/behavioral violations (Risk Tag: RED). Requires human audit.")
+            confidence_score = 95.0 # High confidence of anomaly
             
         # Rule 2: Strong Performers (Score Threshold)
         elif score >= self.selected_threshold:

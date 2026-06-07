@@ -1,56 +1,65 @@
-# AI System Repository
+# Zecpath AI - Automated Hiring Assistant
 
-This repository is designed as a professional and scalable AI development environment. It includes a structured layout, integrated logging, and a robust testing suite. 
+An end-to-end AI-powered hiring pipeline designed to automate candidate ingestion, ATS matching, interview evaluation, and unbiased shortlisting. 
 
-## Project Structure
+Built as a highly scalable Python backend, this system strips away the friction of manual screening and replaces it with an objective, data-driven *Cross-Round Aggregation Engine*.
 
-The codebase is organized into modular components to ensure separation of concerns:
+## 🚀 Key Features
+- **Intelligent Ingestion:** Modular parsing engine (PyMuPDF & pdfplumber) to extract and clean unstructured text from messy Resume PDFs and DOCXs.
+- **Dynamic Skill Extraction:** Uses NLP techniques to normalize text, standardize headings, and classify candidates into structured JSON schemas.
+- **ATS Matching Capability:** Algorithmically compares extracted profiles against active Job Descriptions to generate a baseline strength score.
+- **Cross-Round AI Engine:** Simulates Screening, HR, and Technical interviews, assigning discrete scores for behavioral and technical competencies.
+- **Bias Mitigation (Smoothing Algorithm):** Dynamically penalizes candidates with high score variance across rounds to prevent "paper tigers" from passing technical evaluations.
+- **Unbiased Output:** Outputs a final decision (`Selected`, `Hold / Review`, `Rejected`) with full text-based explainability and confidence metrics.
 
-- **`data/`**: Stores raw data, cleaned datasets, models, and system logs.
-- **`parsers/`**: Contains scripts to parse varying input formats (e.g., resumes, documents, API responses).
-- **`ats_engine/`**: Core engine for parsing and handling resumes and applications.
-- **`screening_ai/`**: Implementation of AI algorithms to process and screen candidate profiles.
-- **`interview_ai/`**: AI modules for generating and evaluating candidate interview questions.
-- **`scoring/`**: Machine Learning tools and metrics used for calculating and assigning standard scores.
-- **`utils/`**: Shared utilities, database handlers, and logging configurations.
-- **`tests/`**: Unit and integration test suite.
+## 📂 Repository Structure
 
-## Setup Instructions
+```text
+zecpath_ai/
+├── ats_engine/           # Core ATS scoring and heuristic matching algorithm
+├── data/                 # Local data storage for PDFs, processed TXTs, and system logs
+├── docs/                 # Internal architecture documentation
+├── parsers/              # Multi-format parsing scripts (PDF, DOCX) and ingestion modules
+├── reports/              # Generation endpoints for Shortlisting JSON and txt reports
+├── scoring/              # The mathematical core: DecisionEngine and CrossRoundEngine
+├── screening_ai/         # Simulation modules for screening and behavioral interviews
+├── tests/                # PyTest suite guaranteeing parser robustness and edge-case handling
+├── utils/                # Text cleaners, logging configuration, and file handlers
+├── main.py               # Core utility tests
+└── run_batch_pipeline.py # End-to-End Execution Script
+```
 
-1. **Setup Python Environment**
-   Ensure Python 3.8+ is installed. Create and activate a virtual environment:
+## ⚙️ Setup & Installation
+
+1. **Clone the Repository** (or extract the package).
+2. **Create a Virtual Environment:**
    ```bash
-   # Create a virtual environment
    python -m venv venv
-
-   # Activate on Windows:
+   # Execute on Windows:
    .\venv\Scripts\activate
-   
-   # Activate on Unix/MacOS:
+   # Execute on Unix/MacOS:
    source venv/bin/activate
    ```
-
-2. **Install Dependencies**
-   Install the necessary libraries via `requirements.txt`:
+3. **Install Dependencies:**
    ```bash
    pip install -r requirements.txt
    ```
 
-## Development Workflow
+## 🧪 Usage & Execution
 
-### Testing
-To run the full test suite and verify the environment:
+**1. Running the Automated Pipeline:**
+Ensure raw resumes are located in `/data/resumes/` as `.pdf` files.
+Execute the batch processor to watch the AI ingest, score, and rank candidates live.
 ```bash
-python -m unittest discover tests/
+python run_batch_pipeline.py
+```
+> Outputs will automatically generate in the `/outputs/` directory as structured JSON and TXT reports.
+
+**2. Running the Test Suite:**
+Ensure your parser logic and edge cases are protected using the standard testing framework.
+```bash
+pytest tests/ -v
 ```
 
-### Logging
-The AI modules uniformly use the configured logger to track activities and errors. 
-Logs are stored in `data/logs/ai_activities.log` and are limited to 5MB, maintaining up to 3 backups (rolling window).
-
-## Code Standards & Documentation
-
-1. **Formatting**: Follow PEP 8 style guidelines for all Python code. Black or Ruff is recommended for automated formatting.
-2. **Docstrings**: Provide clear Google-style or Numpy-style docstrings for all modules, classes, and substantive functions. 
-3. **Type Hinting**: Use Python type hints (PEP 484) to improve code clarity and support static analysis.
-4. **Testing**: Every major logic component must have a corresponding unit test residing in the `tests/` directory. Target a test coverage of at least 80%.
+## 🔐 Observability & Auditing
+All system commands execute logs into `data/logs/` and explicitly track ML latency, throughput, and risk anomalies. The Decision Engine logs every `Decision` and its underlying `reasoning` securely to ensure HR Compliance audibility.

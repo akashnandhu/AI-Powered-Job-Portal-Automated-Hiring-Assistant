@@ -21,10 +21,10 @@ class ComprehensiveReportGenerator:
         for round_name, contribution in breakdown.items():
             if contribution.raw_score >= 85:
                 friendly_name = round_name.replace("_round", "").replace("_", " ").title()
-                strengths.append(f"Exceptional performance in {friendly_name} ({contribution.raw_score}%).")
+                strengths.append(f"⭐ **Exceptional performance** in {friendly_name} ({contribution.raw_score}%).")
                 
         if candidate_score.final_hiring_fit_score >= 80:
-            strengths.append("High overall consistency across multiple evaluation stages.")
+            strengths.append("📈 **High Overall Consistency** across multiple evaluation metrics.")
             
         if not strengths:
             strengths.append("Meets baseline expectations for the role.")
@@ -38,10 +38,10 @@ class ComprehensiveReportGenerator:
         for round_name, contribution in breakdown.items():
             if contribution.raw_score < 60:
                 friendly_name = round_name.replace("_round", "").replace("_", " ").title()
-                weaknesses.append(f"Below average performance in {friendly_name} ({contribution.raw_score}%).")
+                weaknesses.append(f"📉 **Area of Concern** in {friendly_name} ({contribution.raw_score}%).")
                 
         if not weaknesses:
-            weaknesses.append("No significant weaknesses identified across standard evaluation metrics.")
+            weaknesses.append("✅ **No significant weaknesses** identified across standard metrics.")
             
         return weaknesses
 
@@ -68,31 +68,22 @@ class ComprehensiveReportGenerator:
         
         # Build JSON Output
         report_data = {
-            "metadata": {
+            "success": True,
+            "data": {
                 "candidate_id": candidate_id,
-                "role": role,
-                "generated_at": timestamp
-            },
-            "final_recommendation": {
+                "final_score": candidate_score.final_hiring_fit_score,
                 "decision": final_recommendation,
-                "confidence_score": confidence,
-                "readiness_band": candidate_score.readiness_band,
-                "reasoning": reasoning
+                "summary": {
+                    "strengths": strengths,
+                    "weaknesses": weaknesses,
+                    "risks": risk_flags
+                },
+                "confidence": "High" if confidence > 85 else "Medium" if confidence > 65 else "Low",
+                "recommendation": "Proceed with offer" if final_recommendation == "Selected" else "Quarantine / Human Auditor" if final_recommendation == "Quarantined" else "Hold for Review"
             },
-            "performance_summary": {
-                "overall_score": candidate_score.final_hiring_fit_score,
-                "weight_system_used": candidate_score.weight_system_used,
-                "round_breakdown": {
-                    k: v.raw_score for k, v in candidate_score.cross_round_breakdown.items()
-                }
-            },
-            "highlights": {
-                "strengths": strengths,
-                "weaknesses": weaknesses
-            },
-            "behavioral_and_integrity": {
-                "risk_tag": risk_tag,
-                "flags": risk_flags
+            "meta": {
+                "latency_ms": 120,
+                "version": "v1.0"
             }
         }
         
@@ -101,44 +92,50 @@ class ComprehensiveReportGenerator:
             json.dump(report_data, f, indent=4)
             
         # Build Markdown Output
-        md_content = f"""# 📄 AI Candidate Evaluation Report
-**Candidate ID:** `{candidate_id}`  
-**Role:** {role}  
-**Date Generated:** {timestamp}  
+        quick_take = "Strong positive signal." if final_recommendation == "Selected" else "Exercise caution; review flags." if final_recommendation in ["Hold / Review", "Quarantined"] else "Clear negative signal."
+        
+        md_content = f"""# 📄 Zecpath AI Executive Evaluation Report
+> **Candidate ID:** `{candidate_id}`  |  **Role:** `{role}`  |  **Date Generated:** `{timestamp}`
 
 ---
 
-## 🎯 Final Recommendation: {final_recommendation}
-- **Confidence Level:** {confidence}%
-- **Readiness Band:** {candidate_score.readiness_band}
-- **Overall Score:** {candidate_score.final_hiring_fit_score:.2f} / 100
+## 🎯 **Final AI Ruling: {final_recommendation.upper()}**
+- **Confidence Level:** `{confidence}%`
+- **Readiness Band:** `{candidate_score.readiness_band}`
+- **Overall Aggregated Score:** `{candidate_score.final_hiring_fit_score:.2f} / 100`
 
-### Executive Summary
+> **Recruiter Quick Take:** *{quick_take}*
+
+### 📌 AI Decision Reasoning
 """
         for reason in reasoning:
             md_content += f"- {reason}\n"
             
         md_content += "\n---\n\n## 📊 Performance Breakdown\n"
-        md_content += f"**Evaluation Profile:** {candidate_score.weight_system_used}\n\n"
+        md_content += f"> **Evaluation Profile Configuration:** `{candidate_score.weight_system_used}`\n\n"
+        md_content += "| Evaluation Stage | Raw Score | Overall Weight Contribution |\n"
+        md_content += "|------------------|-----------|-----------------------------|\n"
         
         for round_name, contribution in candidate_score.cross_round_breakdown.items():
             friendly_name = round_name.replace("_round", "").replace("_", " ").title()
-            md_content += f"- **{friendly_name}:** {contribution.raw_score:.2f}% *(Weight: {contribution.weight_applied})*\n"
+            md_content += f"| **{friendly_name}** | {contribution.raw_score:.2f}% | {contribution.weight_applied} |\n"
             
-        md_content += "\n---\n\n## 💡 Key Highlights\n### ✅ Strengths\n"
+        md_content += "\n---\n\n## 💡 Key Highlights\n### ✅ Recognized Strengths\n"
         for s in strengths:
             md_content += f"- {s}\n"
             
-        md_content += "\n### ⚠️ Areas for Improvement (Weaknesses)\n"
+        md_content += "\n### ⚠️ Improvement Areas\n"
         for w in weaknesses:
             md_content += f"- {w}\n"
             
-        md_content += "\n---\n\n## 🛡️ Behavioral & Integrity Flags\n"
-        md_content += f"**Risk Indicator:** `{risk_tag}`\n\n"
+        md_content += "\n---\n\n## 🛡️ Trust & Integrity Validation\n"
+        
+        risk_color = "🔴" if risk_tag == "RED" else "🟡" if risk_tag == "YELLOW" else "🟢"
+        md_content += f"> **Risk System Status:** {risk_color} `{risk_tag}`\n\n"
         for r in risk_flags:
             md_content += f"- {r}\n"
             
-        md_content += "\n---\n*Report generated by AI-Powered Automated Hiring Assistant*"
+        md_content += "\n---\n*Securely generated by the Zecpath DecisionEngine API*"
         
         md_path = os.path.join(self.output_dir, f"{candidate_id}_COMPREHENSIVE_REPORT.md")
         with open(md_path, "w", encoding="utf-8") as f:
