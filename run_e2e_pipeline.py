@@ -25,7 +25,7 @@ def main():
     decision_engine = DecisionEngine(selected_threshold=78.0, reject_threshold=60.0)
     report_gen = ComprehensiveReportGenerator(output_dir="reports/e2e_validation")
     
-    # 2. Define Mock Candidates (AI vs Human Judgment Comparison)
+    # 2. Define Mock Candidates ( AI vs Human Judgment Comparison )
     candidates = [
         {
             "id": "E2E-001",
